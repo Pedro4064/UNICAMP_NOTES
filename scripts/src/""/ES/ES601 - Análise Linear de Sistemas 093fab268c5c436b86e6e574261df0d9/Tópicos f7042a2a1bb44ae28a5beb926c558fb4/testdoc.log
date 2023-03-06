@@ -1,0 +1,1867 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 FEB 2023 16:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex"
+(/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box45
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen147
+\pgf@y=\dimen148
+\pgf@xa=\dimen149
+\pgf@ya=\dimen150
+\pgf@xb=\dimen151
+\pgf@yb=\dimen152
+\pgf@xc=\dimen153
+\pgf@yc=\dimen154
+\pgf@xd=\dimen155
+\pgf@yd=\dimen156
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count178
+\c@pgf@countb=\count179
+\c@pgf@countc=\count180
+\c@pgf@countd=\count181
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count182
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count183
+\pgfsyssoftpath@bigbuffer@items=\count184
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count185
+\pgfmath@box=\box46
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count186
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen158
+\pgf@picmaxx=\dimen159
+\pgf@picminy=\dimen160
+\pgf@picmaxy=\dimen161
+\pgf@pathminx=\dimen162
+\pgf@pathmaxx=\dimen163
+\pgf@pathminy=\dimen164
+\pgf@pathmaxy=\dimen165
+\pgf@xx=\dimen166
+\pgf@xy=\dimen167
+\pgf@yx=\dimen168
+\pgf@yy=\dimen169
+\pgf@zx=\dimen170
+\pgf@zy=\dimen171
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen172
+\pgf@path@lasty=\dimen173
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen174
+\pgf@shorten@start@additional=\dimen175
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count187
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen176
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen177
+\pgf@pt@y=\dimen178
+\pgf@pt@temp=\dimen179
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen180
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count188
+\pgf@shadingcount=\count189
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box50
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box51
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks29
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count190
+)
+\tcb@titlebox=\box52
+\tcb@upperbox=\box53
+\tcb@lowerbox=\box54
+\tcb@phantombox=\box55
+\c@tcbbreakpart=\count191
+\c@tcblayer=\count192
+\tcolorbox@number=\count193
+\tcb@temp=\box56
+\tcb@temp=\box57
+\tcb@temp=\box58
+\tcb@temp=\box59
+\tcb@out=\write4
+\tcb@record@out=\write5
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen184
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen185
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen186
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks31
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks32
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks33
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count274
+Package hyperref Info: Option `unicode' set `true' on input line 4421.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count275
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen194
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count276
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip61
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count282
+\l__pdf_internal_box=\box62
+) (/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.aux)
+\openout1 = `testdoc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count283
+\scratchdimen=\dimen197
+\scratchbox=\box63
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen198
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks38
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 94.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count289
+)
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
+\@outlinefile=\write6
+\openout6 = `testdoc.out'.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 97.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 97.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 97.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 97.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 97.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 97.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 97.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\tf@toc=\write7
+\openout7 = `testdoc.toc'.
+
+ [2]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 110.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 110.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 110.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 159.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: Command \' invalid in math mode on input line 162.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 166.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 166.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 170.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 170.
+
+[3]
+
+LaTeX Warning: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-18_at_5.03.46_PM.png' not found on input line 230.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:230: Package pdftex.def Error: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-18_at_5.03.46_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 ...Screen_Shot_2022-08-18_at_5.03.46_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 230.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:237: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237   \begin{align}v_E = v_R + v_c\end{align}
+                                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:245: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 ...}i_c(t) = C \frac{d}{dt}v_c(t)\end{align}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:253: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 ...lign}(RC)\dot{v_c} + v_c = v_E\end{align}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4]
+
+LaTeX Warning: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-23_at_10.52.57_AM.png' not found on input line 296.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:296: Package pdftex.def Error: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-23_at_10.52.57_AM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 ...creen_Shot_2022-08-23_at_10.52.57_AM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.25.01_PM.png' not found on input line 475.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:475: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.25.01_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.475 ...Screen_Shot_2022-08-25_at_4.25.01_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:508: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.508       \end{align}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.37.07_PM.png' not found on input line 517.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:517: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.37.07_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.517 ...Screen_Shot_2022-08-25_at_4.37.07_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:545: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.545       \end{align}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.51.46_PM.png' not found on input line 561.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:561: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.51.46_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.561 ...Screen_Shot_2022-08-25_at_4.51.46_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:578: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.578       \end{align}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7]
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.19.08_PM.png' not found on input line 594.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:594: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.19.08_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.594 ...Screen_Shot_2022-08-25_at_5.19.08_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.21.28_PM.png' not found on input line 602.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:602: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.21.28_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.602 ...Screen_Shot_2022-08-25_at_5.21.28_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:627: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.627   \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:636: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636   \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[8]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:652: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.652   \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-31_at_4.34.35_PM.png' not found on input line 665.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:665: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-31_at_4.34.35_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 ...Screen_Shot_2022-08-31_at_4.34.35_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:690: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.690   \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:701: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.701   \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[9]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:832: Package amsmath Error: \ddot allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.832   \ddot x
+               (t) + 2\zeta \omega \_n\dot x(t) + \omega\^{}2\_nx(t) = 0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:832: Missing $ inserted.
+<inserted text> 
+                $
+l.832   \ddot x(t) + 2\zeta
+                            \omega \_n\dot x(t) + \omega\^{}2\_nx(t) = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 832.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:832: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.832 ...+ 2\zeta \omega \_n\dot x(t) + \omega\^{}
+                                                  2\_nx(t) = 0
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:832: Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.832 ...+ 2\zeta \omega \_n\dot x(t) + \omega\^{}
+                                                  2\_nx(t) = 0
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:832: You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.832 ...+ 2\zeta \omega \_n\dot x(t) + \omega\^{}
+                                                  2\_nx(t) = 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:833: Missing $ inserted.
+<inserted text> 
+                $
+l.833 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:833: Missing } inserted.
+<inserted text> 
+                }
+l.833 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no � in font lmex10!
+[10]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:920: Missing $ inserted.
+<inserted text> 
+                $
+l.920       \begin{cases}
+                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:923: Missing $ inserted.
+<inserted text> 
+                $
+l.923         \end{cases}
+                          \Rightarrow
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:923: Missing $ inserted.
+<inserted text> 
+                $
+l.923         \end{cases} \Rightarrow
+                                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:924: Missing $ inserted.
+<inserted text> 
+                $
+l.924 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:924: Missing } inserted.
+<inserted text> 
+                }
+l.924 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:924: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.924 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:925: Missing $ inserted.
+<inserted text> 
+                $
+l.925       \begin{bmatrix}
+                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[11]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:928: Missing $ inserted.
+<inserted text> 
+                $
+l.928         \end{bmatrix}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:932: Missing $ inserted.
+<inserted text> 
+                $
+l.932       \begin{bmatrix}
+                           1 & 1 \\ \lambda _1 & \lambda _2\end{bmatrix} \be...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:932: Missing $ inserted.
+<inserted text> 
+                $
+l.932 ...1 \\ \lambda _1 & \lambda _2\end{bmatrix}
+                                                   \begin{bmatrix}A \\ B\end...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:932: Missing $ inserted.
+<inserted text> 
+                $
+l.932 ...& \lambda _2\end{bmatrix} \begin{bmatrix}
+                                                  A \\ B\end{bmatrix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:932: Missing $ inserted.
+<inserted text> 
+                $
+l.932 ...atrix} \begin{bmatrix}A \\ B\end{bmatrix}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[12]
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-09-01_at_4.15.29_PM.png' not found on input line 1066.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1066: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-09-01_at_4.15.29_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 ...creen_Shot_2022-09-01_at_4.15.29_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1089: Undefined control sequence.
+l.1089   reais \(\R
+                   \) para o domínio dos números complexos, que pode ser
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1106: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1106   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1114: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1114   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1114.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1138: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1138   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1181: LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1181     \mathcal
+                    L\{f(t)\} =
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1182: Missing $ inserted.
+<inserted text> 
+                $
+l.1182     \int
+               \_\{0\textsuperscript{-\}}\{\infty\}Ae\textsuperscript{\{-\al...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1182: Missing $ inserted.
+<inserted text> 
+                $
+l.1182 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1182: Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.1182 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1182: Extra }, or forgotten $.
+<argument> ...ize \z@ \selectfont \{-\alpha t\}e}}
+                                                  
+l.1182 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1182: Extra }, or forgotten $.
+\@textsuperscript ...\fontsize \sf@size \z@ #1}}}}
+                                                  
+l.1182 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1183: Missing $ inserted.
+<inserted text> 
+                $
+l.1183 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1183: Missing } inserted.
+<inserted text> 
+                }
+l.1183 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1185: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1185   \item
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1186: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1186     A
+             partir de agora precisamos, antes de dar continuidade e resolver a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1186: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1186     A
+             partir de agora precisamos, antes de dar continuidade e resolver a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1187.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 1187.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1187.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1188: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1188     um \(
+                \sigma\) tal que
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1188: Missing } inserted.
+<inserted text> 
+                }
+l.1188     um \(\sigma\)
+                         tal que
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1188: Missing } inserted.
+<inserted text> 
+                }
+l.1188     um \(\sigma\)
+                         tal que
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (157.93422pt too wide) in paragraph at lines 1181--1190
+[]\T1/lmr/m/n/10 L{f(t)} = $[] []\OMS/lmsy/m/n/10 f\OT1/lmr/m/n/10 0[]\OMS/lmsy/m/n/10 f1g\OML/lmm/m/it/10 Ae[]$
+ []
+
+[14]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1219: Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1219       \mathcal
+                      L\{f(t)\} &= \int_{0^-}^{\infty}Ae^{-\alpha t}e^{-st}d...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1219: Missing $ inserted.
+<inserted text> 
+                $
+l.1219       \mathcal
+                      L\{f(t)\} &= \int_{0^-}^{\infty}Ae^{-\alpha t}e^{-st}d...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing $ inserted.
+<inserted text> 
+                $
+l.1222 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing } inserted.
+<inserted text> 
+                }
+l.1222 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing } inserted.
+<inserted text> 
+                }
+l.1222 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing } inserted.
+<inserted text> 
+                }
+l.1222 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.1222 
+       
+I'm guessing that you meant to end an alignment here.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing { inserted.
+<inserted text> 
+                {
+l.1222 
+       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1222: Missing $ inserted.
+<inserted text> 
+                $
+l.1222 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1223: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.1223       \end{aligned}
+                          
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1223: Extra }, or forgotten $.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.1223       \end{aligned}
+                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1223: Extra }, or forgotten $.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.1223       \end{aligned}
+                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1223: Missing $ inserted.
+<inserted text> 
+                $
+l.1223       \end{aligned}
+                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1237: Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1237       \lim
+                 _{t\rightarrow \infty} (e^{-t(\alpha + s)}) &= \lim_{t\righ...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1237: Missing $ inserted.
+<inserted text> 
+                $
+l.1237       \lim
+                 _{t\rightarrow \infty} (e^{-t(\alpha + s)}) &= \lim_{t\righ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing $ inserted.
+<inserted text> 
+                $
+l.1239 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing } inserted.
+<inserted text> 
+                }
+l.1239 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing } inserted.
+<inserted text> 
+                }
+l.1239 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing } inserted.
+<inserted text> 
+                }
+l.1239 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.1239 
+       
+I'm guessing that you meant to end an alignment here.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing { inserted.
+<inserted text> 
+                {
+l.1239 
+       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1239: Missing $ inserted.
+<inserted text> 
+                $
+l.1239 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1240: Misplaced alignment tab character &.
+l.1240       &
+              = \lim_{t\rightarrow \infty} (e^{-t(\alpha + \sigma)} \cdot e^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1241: Missing $ inserted.
+<inserted text> 
+                $
+l.1241 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1241: Missing } inserted.
+<inserted text> 
+                }
+l.1241 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1241: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.1241 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1242: Misplaced alignment tab character &.
+l.1242       &
+              = \lim_{t\rightarrow \infty} (\underbrace{e^{-t(\alpha + \sigm...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1242: Missing $ inserted.
+<inserted text> 
+                $
+l.1242       &= \lim
+                    _{t\rightarrow \infty} (\underbrace{e^{-t(\alpha + \sigm...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1243: Missing $ inserted.
+<inserted text> 
+                $
+l.1243 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1243: Missing } inserted.
+<inserted text> 
+                }
+l.1243 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1243: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.1243 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1244: Misplaced alignment tab character &.
+l.1244       &
+              = 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1245: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.1245       \end{aligned}
+                          
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1245: Extra }, or forgotten \endgroup.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.1245       \end{aligned}
+                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1245: Extra }, or forgotten \endgroup.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.1245       \end{aligned}
+                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[15]
+
+LaTeX Warning: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.33.13_PM.png' not found on input line 1366.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1366: Package pdftex.def Error: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.33.13_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1366 ...creen_Shot_2022-10-05_at_4.33.13_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]
+
+LaTeX Warning: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.34.22_PM.png' not found on input line 1382.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1382: Package pdftex.def Error: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.34.22_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1382 ...creen_Shot_2022-10-05_at_4.34.22_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1390: Undefined control sequence.
+l.1390   x(k) = a^k,  \ \ a\in \R
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.36.55_PM.png' not found on input line 1395.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1395: Package pdftex.def Error: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.36.55_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1395 ...creen_Shot_2022-10-05_at_4.36.55_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[17]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1518: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1518   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[18]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1563: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1563   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1572: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1572   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1609: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1609   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1621: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1621   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1630: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1630   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[19]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1672: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1672   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.tex:1682: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1682   \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1700.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1700.
+ (/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1700.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1700.
+
+
+Package rerunfilecheck Warning: File `testdoc.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `testdoc.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  3AA76E1E070151787C9C75BA81C6515B;10042.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 20639 strings out of 480608
+ 382255 string characters out of 5903631
+ 590243 words of memory out of 5000000
+ 35966 multiletter control sequences out of 15000+600000
+ 588551 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,14n,75p,997b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/Tópicos f7042a2a1bb44ae28a5beb926c558fb4/testdoc.pdf" (20 pages, 335445 bytes).
+PDF statistics:
+ 352 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

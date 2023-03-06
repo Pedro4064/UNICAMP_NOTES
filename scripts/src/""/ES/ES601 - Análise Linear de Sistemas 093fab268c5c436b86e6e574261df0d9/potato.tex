@@ -1,0 +1,1626 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{Trabalho Final - ES101}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+
+\begin{document}
+\section{Introdução}\label{introduuxe7uxe3o}
+
+
+
+
+\begin{itemize}
+
+\hypertarget{sistemas-lineares}{%
+\section{Sistemas Lineares}\label{sistemas-lineares}}
+
+Estudamos sistemas lineares pois eles aparecem em
+diversos sistemas físicos (como circuitos, sistemas mecânicos,
+processamento de sinais, etc).
+
+ Além disso, muitos sistemas, mesmo que não lineares,
+podem, em uma pequena faixa, serem tratados como lineares, para então
+aplicarmos as ferramentas/técnicas que serão abordadas nesse curso.
+
+\(\hookrightarrow\) No primeiro momento, a principal ferramenta que
+iremos utilizar para modelar tais sistemas do mundo real são Equações
+Diferenciais, que vimos em calculo 3.
+
+\hypertarget{relembrando-equauxe7uxf5es-diferenciais-ordinuxe1rias}{%
+\section{Relembrando Equações Diferenciais
+Ordinárias}\label{relembrando-equauxe7uxf5es-diferenciais-ordinuxe1rias}}
+
+\(\hookrightarrow\) Podemos interpretar equações diferencias como sendo
+equações onde, como resultado, teremos uma função, que descreve certo
+comportamento do sistema.
+
+\(\hookrightarrow\) Para facilitar o nosso estudo, nós categorizamos as
+equações diferenciais de acordo com certos parâmetros.
+
+\hypertarget{linearidade}{%
+\subsection{Linearidade}\label{linearidade}}
+
+\(\hookrightarrow\) Uma equação Diferencial pode ser Linear se e somente
+si:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A variável dependente e suas derivadas estiverem elevadas somente a
+  \(1\).
+\item
+  Os coeficientes (que multiplicam a variável dependente e suas
+  derivadas) forem compostos apenas da variável independente.
+\end{enumerate}
+
+\textbf{\emph{E o que é Variável dependente e Independente?}} Uma
+\textbf{variável dependente}, como o nome sugere, é aquela que está em
+função de outra variável, aqui no nosso caso, normalmente teremos sempre
+variáveis dependentes em \textbf{função do tempo}, que por sua vez é
+chamada de variável independente.
+
+\begin{itemize}
+\item
+  \textbf{Exemplos}
+
+  \[
+    x^5 \frac{d^5 y}{dx^5} + x^3 \frac{d^3 y}{dx^3}  \rightarrow É \ Linear
+    \]
+
+  \[
+    \boxed{y\frac{dy}{dx}} + \frac{dy}{dx} \rightarrow Não \ é \ Linear
+    \]
+
+  \[
+    \frac{d^2 \theta}{dt^2} + \frac{g}{L} \boxed{\sin \theta} = 0 \rightarrow Não \ é \ Linear
+    \]
+\end{itemize}
+
+\hypertarget{homogeneidade}{%
+\subsection{Homogeneidade}\label{homogeneidade}}
+
+\(\hookrightarrow\) No geral, EDOs tem a seguinte estrutura:
+
+$$
+q(x)\frac{dy}{dx} + r(x)y = g(x)
+$$
+
+\(\hookrightarrow\) Dizemos que a EDO é homogênea si e somente si
+\(g(x) = 0\), i.e se \textbf{não} houver componente sem a variável
+dependente.
+
+\hypertarget{em-suma}{%
+\section{Em Suma}\label{em-suma}}
+
+\(\hookrightarrow\) Após termo definido que, para o estudo de sistemas,
+iremos utilizar equações diferenciais, e suas diferentes categorizações,
+iremos introduzir diversos modelos de sistemas do mundo real e os
+diferentes tipos de EDO que são utilizados para descreve-los, além de
+técnicas para sua solução.
+
+\hypertarget{sistemas-de-primeira-ordem}{%
+\section{Sistemas de Primeira Ordem}\label{sistemas-de-primeira-ordem}}
+
+Created: August 18, 2022 4:17 PM
+
+\href{Sistemas\%20de\%20Primeira\%20Ordem\%204a92bccb8ec04b64bc28465836935415/Anotac\%CC\%A7o\%CC\%83es\%20de\%20Aula\%20ae75928b9b3641cf8b22e4fdb1b6b467.md}{Anotações
+de Aula}
+
+\begin{itemize}
+\tightlist
+\item
+  SUMMARY
+\end{itemize}
+
+\hypertarget{introduuxe7uxe3o-1}{%
+\section{Introdução}\label{introduuxe7uxe3o-1}}
+
+\(\hookrightarrow\) O primeiro tipo de sistema que iremos modelar são os
+chamados sistemas de primeira ordem, que nada mais são que sistemas que
+são descritos por equações diferencias ordinárias (EDO\(_s\)) de
+primeira ordem (como o próprio nome sugere), isso é, que a maior
+derivada presente (da variável dependente) é de primeira ordem.
+
+\hypertarget{sistema-de-primeira-ordem---resistor-e-capacitor}{%
+\section{Sistema de Primeira Ordem - Resistor e
+Capacitor}\label{sistema-de-primeira-ordem---resistor-e-capacitor}}
+
+\(\hookrightarrow\) O exemplo clássico de um sistema de primeira ordem é
+um circuito elétrico composto de fonte, resistor e capacitor, como
+mostrado na figura ao lado, em que queremos descrever o comportamento da
+tensão no capacitor \((v_c)\) ao longo do tempo.
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-18_at_5.03.46_PM.png}
+\caption{Screen Shot 2022-08-18 at 5.03.46 PM.png}
+\end{figure}
+
+\(\hookrightarrow\) Ao fazermos a análise de malha, temos que:
+
+\[
+\begin{align}v_E = v_R + v_c\end{align}
+\]
+
+\(\hookrightarrow\) Além disso, como não temos divisão de nós, temos que
+há somente uma corrente no circuito como um todo, levando isso em
+consideração, mais o fato de que a corrente de um capacitor é dado por:
+
+\[
+\begin{align}i_c(t) = C \frac{d}{dt}v_c(t)\end{align}
+\]
+
+\(\hookrightarrow\) Com isso, juntamente com a lei de ohm, podemos botar
+a equação de número \(1\) em função de \(v_c\), o que queremos achar.
+Resultando em:
+
+\[
+\begin{align}(RC)\dot{v_c} + v_c = v_E\end{align}
+\]
+
+\(\hookrightarrow\) Resultando em uma EDO Linear de primeira ordem
+\textbf{não homogênea}, devido a componente \(v_E\), que é chamada de
+\textbf{termo forçante}, ou também de \textbf{excitação} ou
+\textbf{entrada}.
+
+\hypertarget{soluuxe7uxe3o-de-sistemas-de-primeira-ordem}{%
+\section{Solução de Sistemas de Primeira
+Ordem}\label{soluuxe7uxe3o-de-sistemas-de-primeira-ordem}}
+
+\hypertarget{soluuxe7uxe3o-homoguxeanea}{%
+\subsection{Solução Homogênea}\label{soluuxe7uxe3o-homoguxeanea}}
+
+\(\hookrightarrow\) Uma das formas mais básicas de resolução de EDOs
+homogêneas é usando o o método onde se assume o formato da solução, e
+posteriormente substituímos na EDO para calcularmos os coeficientes.
+
+\(\hookrightarrow\) Sabemos que, no geral, a solução de uma EDO de
+primeiro grau padrão, dada por \(\dot y + a_1y = 0\) tem o seguinte
+forma:
+
+\[
+y(x) = Ae^{\lambda x}
+\]
+
+\(\hookrightarrow\) Ao substituir na EDO original, como mostrado no
+exemplo abaixo, encontramos a Solução Geral. Posteriormente nós
+substituímos (na solução proposta, no nosso caso na eq de y(x) e NÃO na
+EDO novamente) os valores da condição inicial para acharmos os valores
+de \(A\) e \(\lambda\), encontrando finalmente a solução da EDO.
+
+IMPORTANTE: É de suma importância deixarmos o termo \(\dot y\) com
+coeficiente \(1\). Se houver algo multiplicando ele basta multiplicarmos
+toda a EDO pelo seu inverso.
+
+\begin{itemize}
+\item
+  \textbf{Exemplo}
+
+  \begin{figure}
+  \centering
+  \includegraphics{Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-23_at_10.52.57_AM.png}
+  \caption{Screen Shot 2022-08-23 at 10.52.57 AM.png}
+  \end{figure}
+\end{itemize}
+
+\hypertarget{soluuxe7uxe3o-nuxe3o-homoguxeanea}{%
+\subsection{Solução Não
+Homogênea}\label{soluuxe7uxe3o-nuxe3o-homoguxeanea}}
+
+\(\hookrightarrow\) Há diferentes formas de solucionar EDOs de primeira
+ordem não homogêneas, mas em Análise Linear de Sistemas, nesse primeiro
+momento, vamos ver as seguintes:
+
+\hypertarget{muxe9todo-do-fator-integrante}{%
+\subsubsection{Método do Fator
+Integrante}\label{muxe9todo-do-fator-integrante}}
+
+\begin{itemize}
+\tightlist
+\item
+  Nesse método nós temos, na EDO, nenhum coeficiente (i.e nada
+  multiplicando) para a derivada da variável dependente, mais a soma de
+  um fator dependente da variável dependente, como mostrado abaixo:
+\end{itemize}
+
+\[
+\frac{dy}{dx} + ay = g(x)
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  A partir disso, temos que seguir os seguintes passos:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item
+    Encontrar o Fator Integrante: Que é denotado por \(\mu(x)\) e que é
+    encontrado por:
+
+    \[
+     \mu(x) = \exp \int a \  dx
+     \]
+  \item
+    Multiplicar Ambos os lados pelo fator integrante: Após
+    multiplicarmos ambos os lados pelo nosso fator integrante temos,
+    como resultado:
+
+    \[
+     \frac{d}{dx}\big(\mu(x)\cdot y(x)\big) = \mu(x) \big(g(x)\big)
+     \]
+  \item
+    Integrar: A partir daqui podemos integrar de ambos os lados, que
+    resultaria em:
+
+    \[
+     \mu(x)\cdot y(x) \big |^{x_f}_{x_i} = \int^{x_f}_{x_i}\mu(x)g(x) \ dx
+     \]
+  \item
+    Agora basta Isolar \(y(x)\) no lado esquerdo, sendo que o lado
+    direito vai depender do valor inicial de \(y(0)\).
+  \end{enumerate}
+\end{itemize}
+
+\hypertarget{muxe9todo-de-suposiuxe7uxe3o}{%
+\subsubsection{Método de Suposição}\label{muxe9todo-de-suposiuxe7uxe3o}}
+
+\begin{itemize}
+\item
+  Outro método bastante útil separa a solução de uma EDO não homogênea
+  em duas partes:
+
+  \[
+    y(t) = y_h(t) + y_p(t)
+    \]
+\item
+  Onde:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(y_h(t)\) → Tem o formato da solução da EDO homogênea
+  \item
+    \(y_p(t)\) → Pode assumir o formato de qualquer combinação linear da
+    solução homogênea e o fator forçante (que é o que chamamos o termo
+    não zero do lado direito da equação). Normalmente utilizamos o mesmo
+    formato do fator forçante (e.g se for uma constante nós usamos uma
+    constante, se for \(\sin\) nós usamos \(\sin\), etc).
+  \end{itemize}
+\item
+  Assim que determinamos a forma de cada componente nós substituímos,
+  uma de cada vez, na EDO para acharmos alguns dos coeficientes.
+\item
+  Após isso, nós substituímos a condição inicial dada na fórmula de
+  \(y(t) = y_h(t) + y_p(t)\) para acharmos os restantes dos coeficientes
+  que não foram achados acima.
+\end{itemize}
+
+Nós usamos somente o FORMATO da solução homogênea, e não os valores que
+iríamos encontrar se desenvolver a EDO na sua forma homogênea.
+
+\hypertarget{interpretauxe7uxe3o-de-sistemas-de-primeira-ordem}{%
+\section{Interpretação de Sistemas de Primeira
+Ordem}\label{interpretauxe7uxe3o-de-sistemas-de-primeira-ordem}}
+
+\(\hookrightarrow\) Assim que resolvermos nossa EDO de primeiro grau nós
+teremos duas partes:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Resposta Homogênea do Sistema} → Parte que depende da condição
+  inicial do nosso problema.
+\item
+  \textbf{Resposta Forçada do Sistema} → Parte que não depende dos
+  nossos valores iniciais.
+\end{itemize}
+
+\(\hookrightarrow\) Além disso, poderemos analizar a resposta do nosso
+sistema no que tange seu comportamento no tempo:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Parte Transiente} → Dependente do tempo
+\item
+  \textbf{Parte Permanente} → Não depende do tempo \(\therefore\) se
+  \(t \rightarrow \infty\) a parte permanente vai representar nosso
+  sistema
+\end{itemize}
+
+\hypertarget{sistemas-de-segunda-ordem}{%
+\section{Sistemas de Segunda Ordem}\label{sistemas-de-segunda-ordem}}
+
+Created: August 25, 2022 4:10 PM
+
+\href{Sistemas\%20de\%20Segunda\%20Ordem\%207cce407b38fb4322a04efbceb4baea55/Anotac\%CC\%A7o\%CC\%83es\%20de\%20Aula\%20f1f42d977d6e4b859d420fff2fed867d.md}{Anotações
+de Aula}
+
+\begin{itemize}
+\tightlist
+\item
+  SUMMARY
+\end{itemize}
+
+\hypertarget{introduuxe7uxe3o-2}{%
+\section{Introdução}\label{introduuxe7uxe3o-2}}
+
+\(\hookrightarrow\) Vimos anteriormente sistemas físicos os quais eram
+modelados por equações diferenciais ordinárias de primeira ordem (os
+mais notórios circuitos elétricos \(RC\)).
+
+\(\hookrightarrow\) Iremos analizar, agora, sistemas físicos que
+necessitam de EDO\(_s\) de \textbf{segunda ordem} para serem modelados,
+além de algumas técnicas para sua resolução e análise.
+
+\(\hookrightarrow\) Algo importante de ser dito é que iremos utilizar
+sistemas mecânicos como uma forma de exemplificação e motivação para
+sistemas de segunda ordem, mas que tais sistemas são estudados mais a
+fundo em outras matérias (principalmente Dinâmica e Sistemas de
+Vibrações).
+
+\hypertarget{sistema-de-segunda-ordem---sistemas-mecuxe2nicos-translacionais}{%
+\section{Sistema de Segunda Ordem - Sistemas Mecânicos
+Translacionais}\label{sistema-de-segunda-ordem---sistemas-mecuxe2nicos-translacionais}}
+
+\hypertarget{componentes-mecuxe2nicos-e-suas-modelagens}{%
+\subsection{Componentes Mecânicos e suas
+Modelagens}\label{componentes-mecuxe2nicos-e-suas-modelagens}}
+
+\(\hookrightarrow\) Antes de entrarmos na modelagem de sistemas como um
+todo, é de suma importância nos familiarizarmos com os principais
+componentes/modelos matemáticos utilizados em sistemas mecânicos.
+
+\hypertarget{molas}{%
+\subsubsection{Molas}\label{molas}}
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.25.01_PM.png}
+\caption{Sistema de Mola Ideal}
+\end{figure}
+
+Sistema de Mola Ideal
+
+\begin{itemize}
+\item
+  O primeiro componente de um sistema mecânico que vamos analizar é a
+  mola.
+\item
+  A mola apresenta duas principais características que precisam ser
+  levadas em consideração quando a analisamos, sendo elas:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    \textbf{Rigidez \(k\)} → É uma característica Física da mola.
+  \item
+    \textbf{Posição da Mola sem carga} → O tamanho, a partir da ponta da
+    mola (mas que também pode ser a partir de outro referencial) em que
+    a mola está sem nenhuma deformação.
+  \end{enumerate}
+\item
+  A partir da lei de Hooke sabemos que a \textbf{forçada de
+  restauração}, i.e a força de reação a uma certa deformação, é
+  proporcional ao deslocamento de tal deformação \(x\) e a rigidez da
+  mola em análise \(k\), resultando em:
+
+  \[
+    \begin{align}
+    F = kx
+    \end{align}
+    \]
+\end{itemize}
+
+\hypertarget{amortecedores-viscosos}{%
+\subsubsection{Amortecedores Viscosos}\label{amortecedores-viscosos}}
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.37.07_PM.png}
+\caption{Amortecedor Ideal}
+\end{figure}
+
+Amortecedor Ideal
+
+\begin{itemize}
+\item
+  O segundo mecanismos que iremos analizar é o amortecedor viscoso.
+\item
+  Análogo à mola, o amortecedor possui algumas propriedades que são
+  importantes durante sua análise:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    \textbf{Coeficiente de Amortecimento \(c\)} → Característica física
+    do amortecedor.
+  \end{enumerate}
+\item
+  Além do coeficiente de amortecimento, a força de resistência aplicada
+  pelo amortecedor também é dependente da velocidade da massa,
+  resultando na seguinte fórmula:
+
+  \[
+    \begin{align}
+    F = c\dot x
+    \end{align}
+    \]
+\end{itemize}
+
+\textbf{IMPORTANTE}: A velocidade que precisa ser levada em consideração
+é a velocidade relativa entre o ``êmbolo'' e o ``corpo'' do amortecedor,
+no nosso exemplo acima como o corpo do amortecedor está ligado a parede
+\(\therefore\) ele está parado, com velocidade 0. Se possuísse uma
+velocidade \(v\), e o êmbolo tivesse uma velocidade \(V\), com \(V > v\)
+temos que ficaria \(F = c(V-v)\)
+
+\hypertarget{massas}{%
+\subsubsection{Massas}\label{massas}}
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.51.46_PM.png}
+\caption{Princípio Fundamental da Dinâmica}
+\end{figure}
+
+Princípio Fundamental da Dinâmica
+
+\begin{itemize}
+\item
+  A última coisa que é importante de ser revisada é a massa, juntamente
+  com a segunda lei de Newton, que nos diz que a força resultante \(F\)
+  em um corpo de massa \(m\) (que podemos interpretar como sendo a
+  \textbf{inércia do corpo}) irá resultar em uma aceleração \(a\). Dada
+  pela seguinte equação:
+
+  \[
+    \begin{align}
+    F = ma
+    \end{align}
+    \]
+\end{itemize}
+
+\hypertarget{sistema-massa-mola}{%
+\subsection{Sistema Massa Mola}\label{sistema-massa-mola}}
+
+\(\hookrightarrow\) Supondo um sistema simples composto por uma massa
+pendurada a uma mola, como mostrado na imagem ao lado.
+
+\(\hookrightarrow\) Onde \(k\) representa a rigidez da mola e \(\Delta\)
+representa o deslocamento em um certo momento \(t\) tendo como
+referência a posição natural da mola sem carga.
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.19.08_PM.png}
+\caption{Sistema Massa Mola em um estante \(t\)}
+\end{figure}
+
+Sistema Massa Mola em um estante \(t\)
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.21.28_PM.png}
+\caption{\(DCL\) do corpo em análise}
+\end{figure}
+
+\(DCL\) do corpo em análise
+
+\(\hookrightarrow\) O primeiro passo para qualquer análise mecânica é a
+realização do \(DCL\) (i.e diagrama de corpo livre), onde é feito um
+diagrama somente com os corpos de interesse, que em questão é a massa
+\(m\). Além disso é incluindo no nosso diagrama todas as forças externas
+que são aplicadas (no nosso caso a força peso \(F_p\) e a força de
+restauração elástica \(F_e\)).
+
+\(\hookrightarrow\) Algo que é de suma importância de ser estabelecido,
+ao se fazer um \(DCL\) é o / os referenciais que são utilizados. Não há
+somente um referencial possível de ser escolhido, mas é imprescindível
+que tal referencial seja respeitado durante toda a análise.
+
+\(\hookrightarrow\) A partir do \(DCL\), e do fato de que o corpo está
+em movimento com uma aceleração \(\ddot\Delta\) , temos pela 2º Lei de
+Newton:
+
+\[
+\begin{align}
+mg - k\Delta = m\ddot\Delta
+\end{align}
+\]
+
+\(\hookrightarrow\) Rearranjando a equação acima para facilitar nossa
+análise, temos:
+
+\[
+\begin{align}
+\ddot\Delta + \frac{k}{m}\Delta = g
+\end{align}
+\]
+
+\(\hookrightarrow\) Que é uma Equação Diferencial Ordinária Linear de
+Segundo Grau Não Homogênea.
+
+\(\hookrightarrow\) Além disso, em matérias de mecânica nós chamamos
+\(\sqrt{k/x}\) de frequência natural do sistema, denotado pela letra
+\(\omega_n\), a qual representa a frequência de oscilação do sistema
+naturalmente (i.e caso não haja nenhuma força de
+dissipação/amortecimento ). Com isso podemos reescrever a equação acima
+em função da frequência natural:
+
+\[
+\begin{align}
+\ddot \Delta  + \omega_n^2 \Delta = g
+\end{align}
+\]
+
+\(\hookrightarrow\) Com a modelagem do sistema feita, basta resolvermos
+a equação diferencial ordinária de segunda ordem, que veremos mais
+adiante.
+
+\hypertarget{sistema-massa-mola-amortecedor}{%
+\subsection{Sistema Massa Mola
+Amortecedor}\label{sistema-massa-mola-amortecedor}}
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-31_at_4.34.35_PM.png}
+\caption{Screen Shot 2022-08-31 at 4.34.35 PM.png}
+\end{figure}
+
+\(\hookrightarrow\) Para um sistema massa mola amortecedor, como o
+mostrado a cima, temos:
+
+\begin{itemize}
+\tightlist
+\item
+  Mola → Com força elástica de restauração proporcional ao deslocamento
+  \(x\).
+\item
+  Amortecedor → Com força contrária ao movimento proporcional à derivada
+  no tempo do deslocamento (i.e a velocidade) \(\dot x\).
+\end{itemize}
+
+\(\hookrightarrow\) Ao fazermos o DCL, considerando, pela lei de Newton,
+que a força resultante é igual à massa (\(m\)) vezes a aceleração
+resultante do sistema (\(\ddot x\)) temos a equação diferencial não
+homogênea que rege o comportamento do sistema:
+
+\[
+\begin{align}
+m\ddot x + c\dot x + kx = p(t)
+\end{align}
+\]
+
+\(\hookrightarrow\) Essa equação, entretanto, pode ser reescrita na
+forma padrão de uma equação diferencial de segundo grau, que nos
+proporcionará uma análise sobre o comportamento do sistema de forma mais
+direta:
+
+\[
+\begin{align}
+\ddot x(t) + 2\zeta \omega _n\dot x(t) + \omega^2_nx(t) = g(t)
+\end{align}
+\]
+
+\(\hookrightarrow\) Onde:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\zeta = c/(2\sqrt{ km})\) → Chamado de ``Fator de Amortecimento''
+  (ou damping factor).
+\item
+  \(\omega_n = \sqrt{k/m}\) → Chamado de ``Frequência Natural''
+\item
+  \(g(t) = p(t) /m\) → Chamado de Fator Excitante/ Fator Forçante
+\end{itemize}
+
+\hypertarget{soluuxe7uxe3o-de-sistemas-de-segunda-ordem}{%
+\section{Solução de Sistemas de Segunda
+Ordem}\label{soluuxe7uxe3o-de-sistemas-de-segunda-ordem}}
+
+\(\hookrightarrow\) A forma mais fácil de solucionar sistemas de segunda
+ordem é, analogamente ao de primeira ordem, partindo de um formato da
+solução desejada.
+
+\(\hookrightarrow\) Vimos que para sistemas de primeira ordem a forma
+desejada, para a homogênea, era:
+
+\[
+y_h(x) = Ae^{\lambda t}
+\]
+
+\(\hookrightarrow\) E a forma para não homogênea era:
+
+\[
+y = y_h + y_p
+\]
+
+\(\hookrightarrow\) Onde \(y_p\) é uma solução particular da mesma forma
+do fator excitante.
+
+\(\hookrightarrow\) Já para sistemas de segunda ordem teremos, até mesmo
+para de equações homogêneas, duas possíveis formas para nossa solução.
+Isso se deve ao fato de que, para cada caso, uma forma é mais útil para
+a análise linear da resposta do sistema.
+
+\(\hookrightarrow\) As formas depende se o fator de primeira ordem da
+EDO (i.e o valor de primeira derivada \(\dot x\)) é nulo ou não (se está
+presente ou não na EDO).
+
+\hypertarget{soluuxe7uxe3o-homoguxeanea-1}{%
+\subsection{Solução Homogênea}\label{soluuxe7uxe3o-homoguxeanea-1}}
+
+\hypertarget{termo-de-primeira-ordem-nulo}{%
+\subsubsection{Termo de Primeira Ordem
+Nulo}\label{termo-de-primeira-ordem-nulo}}
+
+\(\hookrightarrow\) Considerando uma equação diferencial de segunda
+ordem homogênea (homogênea pois o fator forçante é nulo), mas com o
+fator de primeira ordem (i.e \(\dot x\) ) não presente na EDO, da forma:
+
+\[
+\ddot x + \omega^2_nx = 0
+\]
+
+\(\hookrightarrow\) E com as condições iniciais:
+
+\[
+x(0) = x_0 \ \ \ e \ \ \ \dot x(0) = \dot x_0
+\]
+
+\(\hookrightarrow\) Vamos resolver analogamente a como resolvemos
+problemas homogêneos de sistemas de primeira ordem, assumindo um formato
+para a solução.
+
+\(\hookrightarrow\) No caso de sistemas homogêneos de segunda ordem,
+entretanto, assumimos a solução como tendo o formato:
+
+\[
+x(t) = Z \cos(\omega_n t + \phi)
+\]
+
+\(\hookrightarrow\) Onde:
+
+\begin{itemize}
+\tightlist
+\item
+  \(Z\) → Amplitude das oscilações
+\item
+  \(\omega_n\) → Frequência natural
+\item
+  \(\phi\) → Ângulo de fase
+\end{itemize}
+
+\(\hookrightarrow\) Sabendo o formato geral da solução nós:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Substituímos na EDO}: Ao substituir na EDO nós vamos achar
+  alguns dos fatores listados acima, resultando na Solução Geral da EDO
+  (que será útil caso venhamos resolver a mesma EDO mas não homogênea).
+\item
+  \textbf{Substituímos os Valores Iniciais}: Sobrarão ainda duas
+  variáveis não descobertas, para tal usamos as duas condições iniciais.
+  No caso de sistemas de segunda ordem, ao utilizar os valores inicias,
+  é muito comum precisar da identidade \(\cos ^2 + \sin^2 = 1\) para
+  isolar as variáveis, então é importante lembrar.
+\end{enumerate}
+
+Observação: Nós utilizamos o formato como sendo coseno, mas na realidade
+poderíamos resolver tomando como formato a exponencial (mas seria mais
+difícil pois envolveria números imaginários), levando em consideração a
+identidade de Euler.
+
+\begin{itemize}
+\tightlist
+\item
+  Exemplo
+\end{itemize}
+
+\hypertarget{termo-de-primeira-ordem-nuxe3o-nulo}{%
+\subsubsection{Termo de Primeira Ordem Não
+Nulo}\label{termo-de-primeira-ordem-nuxe3o-nulo}}
+
+\(\hookrightarrow\) Para casos onde o termo de primeira ordem não é
+nulo, a primeira coisa que precisamos fazer é \textbf{botá-la no formato
+padrão}:
+
+\$\$
+
+\ddot x(t) + 2\zeta \omega \_n\dot x(t) + \omega\^{}2\_nx(t) = 0
+
+\$\$
+
+\(\hookrightarrow\) Precisamos, então, \textbf{supor} que o
+\textbf{resultado da nossa} \textbf{EDO tem o formato}:
+
+\[
+x(t) = e^{\lambda t}
+\]
+
+\(\hookrightarrow\) Ao \textbf{substituirmos} tal valor na nossa EDO
+encontraremos:
+
+\[
+(\lambda^2)e^{\lambda t} + (2\zeta \omega_n \lambda )e^{\lambda t} + (\omega_n^2) e^{\lambda t} = 0
+\]
+
+\(\hookrightarrow\) Para facilitar nossa análise, isolamos e agrupamos
+\(e^{\lambda t}\), resultando em:
+
+\[
+(\lambda^2 + 2\zeta \omega_n \lambda + \omega_n^2) e^{\lambda t} = 0
+\]
+
+\(\hookrightarrow\) Como \(e^{\lambda t}\) é uma exponencial e nunca
+pode ser zero, temos então que:
+
+\[
+\lambda^2 + 2\zeta \omega_n \lambda + \omega_n^2= 0
+\]
+
+\(\hookrightarrow\) Que nada mais é que uma equação de segundo grau, a
+qual, através de Bhaskara, teremos os \textbf{possíveis valores de
+lambda}:
+
+\[
+\lambda_1 = -\zeta\omega_n +\omega_n\sqrt{\zeta^2 - 1} \ \ \ \ \ \lambda_2 = -\zeta\omega_n -\omega_n\sqrt{\zeta^2 - 1}
+\]
+
+\(\hookrightarrow\) A partir disso, podemos classificar nosso sistema a
+partir do valor do fator de amortecimento (damping factor) \(\zeta\),
+pois é o termo que rege o comportamento das raizes da equação de segundo
+grau vista acima:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\zeta < 1\) → Sistema sub-amortecido, com 2 raizes imaginárias
+\item
+  \(\zeta > 1\) → Sistema Super-amortecido, com 2 raizes reais
+\item
+  \(\zeta = 1\) → Sistema Criticamente Amortecido, com 1 raiz real
+\end{itemize}
+
+\(\hookrightarrow\) E para cada casos acima teremos uma forma para a
+nossa EDO.
+
+\textbf{Observação}: Na próxima parte iremos interpretar mais
+detalhadamente o comportamento do sistema para cada tipo de categoria do
+fator de amortecimento através de gráficos, etc. Então não se preocupe
+muito, no momento o importante é botar a EDO no formato descrito acima
+para podermos resolve-la.
+
+\textbf{Observação}: Até agora, a substituição pelo formato geral
+\(e^{\lambda t}\) é para acharmos os \(\lambda\), é a partir de agora
+que iremos substituir novamente a função, que dependera do fator de
+amortecimento, na nossa EDO para acharmos finalmente a solução.
+
+\begin{itemize}
+\item
+  \textbf{Sistema Super-Amortecido} \(\zeta > 1\)
+
+  \begin{itemize}
+  \item
+    A partir do calculo de \(\lambda_1\) e \(\lambda_2\), iremos assumir
+    o formato da solução da nossa EDO como sendo:
+
+    \[
+      x(t) = Ae^{\lambda_1t} + Be^{\lambda_2t}
+      \]
+  \item
+    Substituímos então tal forma, com os valores de \(\lambda_1\) e
+    \(\lambda_2\) calculados anteriormente, nos valores da condição
+    inicial, que resultará em um sistema:
+
+    \$\$
+
+    \begin{cases}
+      x(0) &\rightarrow x_0 = A + B \\ 
+      \dot x(0) &\rightarrow \dot x_0 = A\lambda_1  + B\lambda_2
+      \end{cases} \Rightarrow
+
+    \begin{bmatrix}
+      x_0 \\
+       \dot x_0
+      \end{bmatrix}
+
+    =
+
+    \begin{bmatrix}1 & 1 \\ \lambda _1 & \lambda _2\end{bmatrix} \begin{bmatrix}A \\ B\end{bmatrix}
+
+    \$\$
+  \item
+    Utilizando a propriedade de matriz inversa \(A^{-1} A = I\) na
+    matriz que contem \(\lambda_1\) e \(\lambda_2\) (e no outro lado da
+    equação para mater a igualdade), conseguimos isolar a matriz que
+    contem \(A\) e \(B\), que é o que queremos, resultando em:
+
+    \[
+      \begin{bmatrix}
+      A \\
+      B
+      \end{bmatrix} = \frac{1}{\lambda_2 - \lambda_1}\begin{bmatrix}\lambda_2  & -1 \\ -\lambda_1 & 1\end{bmatrix}\begin{bmatrix}x_0 \\ \dot x_0\end{bmatrix}
+      \]
+  \item
+    Resultando em:
+
+    \[
+      A = \frac{\dot x_0 - \lambda_2 x_0}{\lambda_1 - \lambda_2} \ \ \ e \ \ \ B = \frac{- \dot x_0 - \lambda_1 x_0}{\lambda_1 - \lambda_2}
+      \]
+  \end{itemize}
+\item
+  \textbf{Sistema Sub-Amortecido} \(\zeta < 1\)
+
+  \begin{itemize}
+  \item
+    Como dito anteriormente, para \(\zeta < 1\) teremos duas raizes
+    imaginárias.
+  \item
+    Para esse caso, temos que a solução terá o mesmo formato da solução
+    para o sistema super-amortecido:
+
+    \[
+      x(t) = Ae^{\lambda_1t} + Be^{\lambda_2t}
+      \]
+  \item
+    Com:\$\textbackslash begin\{aligned\}
+  \end{itemize}
+
+  \textbackslash end\{aligned\}\$
+
+  \[
+    \begin{aligned}
+    A &= \frac{\dot x_0 + (\zeta \omega _n + j \omega_d)x_0}{2j\omega_d} \\
+    B &= \frac{-\dot x_0 + (\zeta \omega _d - j \omega_n)x_0}{2j\omega_d}
+    \end{aligned}
+    \]
+
+  \begin{itemize}
+  \item
+    Onde:
+
+    \[
+      \omega_d = \omega_n\sqrt{1-\zeta^2}
+      \]
+  \item
+    Chamada de Frequência Natural Amortecida
+  \end{itemize}
+\item
+  \textbf{Sistema Criticamente-Amortecido} \(\zeta = 1\)
+
+  \begin{itemize}
+  \item
+    Para esse caso, as duas raizes são iguais, i.e:
+
+    \[
+      \lambda_1 = \lambda_2 = -\omega_n
+      \]
+  \item
+    Tendo então, como solução geral:
+
+    \[
+      x(t) = Ae^{\lambda t} + Bte^{\lambda t}
+      \]
+  \item
+    Com:
+
+    \[
+      \begin{aligned}
+      A &= x_0 \\ 
+      B &= \dot x_0 + \omega_n x_0
+      \end{aligned}
+      \]
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{soluuxe7uxe3o-nuxe3o-homoguxeanea-1}{%
+\subsection{Solução Não
+Homogênea}\label{soluuxe7uxe3o-nuxe3o-homoguxeanea-1}}
+
+\(\hookrightarrow\) O procedimento para achar a solução de equações não
+homogêneas de segundo grau é o mesmo de primeiro grau, onde nós supomos
+que a solução é a soma da solução particular e homogênea:
+
+\[
+x(t) = x_h(t) + x_p(t)
+\]
+
+\(\hookrightarrow\) Onde a forma homogênea foi dada na parte anterior, e
+a solução particular nós supomos o mesmo formato do termo
+excitante/forçante.
+
+IMPORTANTE: É de suma importância lembrar que, ao calcular a homogênea,
+nós usamos a mesma forma geral da homogênea (até o ponto onde se calcula
+as raízes \(\lambda_1\) e \(\lambda_2\), mas não até onde se calcula
+\(A\) e \(B\), pois eles serão calculados em conjunto com a solução
+particular, ao se substituir os valores inicias)
+
+\hypertarget{interpretauxe7uxe3o-de-sistemas-de-segunda-ordem}{%
+\section{Interpretação de Sistemas de Segunda
+Ordem}\label{interpretauxe7uxe3o-de-sistemas-de-segunda-ordem}}
+
+\(\hookrightarrow\) A forma mais direta de interpretarmos sistemas de
+segunda ordem é pelo valor de seu \(\zeta\), chamado de fator de
+amortecimento ou ainda damping factor.
+
+\(\hookrightarrow\) Ele nos permite analizar o comportamento do sistema
+na fase transiente até atingir o estado permanente.
+
+\(\hookrightarrow\) Quando um sistema é sub-amortecido, com
+\(\zeta < 1\) ele demora a convergir a um valor por ter um overshoot
+muito grande, sendo que com \(\zeta = 0\) ele tende a ficar oscilante
+indefinidamente.
+
+\(\hookrightarrow\) Já para sistemas super-amortecidos, com
+\(\zeta > 1\), ele tende a um número sem ``overshoot''.
+
+\(\hookrightarrow\) Em contra partida, sistemas criticamente
+amortecidos, com \(\zeta = 1\), há a presença de overshoting, mas não
+tanto quanto um sistema sub-amortecido.
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-09-01_at_4.15.29_PM.png}
+\caption{Screen Shot 2022-09-01 at 4.15.29 PM.png}
+\end{figure}
+
+\hypertarget{transformada-de-laplace}{%
+\section{Transformada de Laplace}\label{transformada-de-laplace}}
+
+Created: September 8, 2022 3:41 PM
+
+\href{Transformada\%20de\%20Laplace\%203ba1dd06d6854aaea26b6356883badd6/Anotac\%CC\%A7o\%CC\%83es\%20de\%20Aula\%20449f385a0f564b3a95858cc2a4879d34.md}{Anotações
+de Aula}
+
+\begin{itemize}
+\tightlist
+\item
+  SUMMARY
+\end{itemize}
+
+\hypertarget{introduuxe7uxe3o-3}{%
+\section{Introdução}\label{introduuxe7uxe3o-3}}
+
+\(\hookrightarrow\) A transformada de Laplace é uma ferramenta muito
+importante pois passa nossa função em análise do domínio dos números
+reais \(\R\) para o domínio dos números complexos, que pode ser
+interpretado como como a mudança do domínio do tempo \(t\) para o
+domínio da frequência.
+
+\(\hookrightarrow\) Além desse novo domínio de análise, as equações
+diferenciais se tornam problemas meramente algébricos e polinomiais, o
+que facilita a sua solução. Ademais, ao descrevermos nosso sistema no
+domínio de Laplace (denominado domínio \(s\)) seremos capazes de
+descrever nosso sistema através de Funções de Transferência (que são
+muito úteis na análise da resposta do nosso sistema para diferentes
+formas de entradas/termos forçantes).
+
+\(\hookrightarrow\) A transformada é dada pela seguinte integral:
+
+\[
+\begin{align}
+\mathcal L\{f(t)\}  = F(s) = \int_{0^-}^{\infty}f(t)e^{-st}dt
+\end{align}
+\]
+
+\(\hookrightarrow\) Em que:
+
+\[
+\begin{align}
+s = \underbrace{\sigma}_{real} + \overbrace{j\omega}^{Imaginário}
+\end{align}
+\]
+
+\(\hookrightarrow\) Onde é importante salientar que a transformada acima
+é chamada de ``transformada unilateral de Laplace'', pois vai, nos
+limites de integração, de \(0^- \rightarrow \infty\) , e não de
+\(-\infty \rightarrow \infty\).
+
+\hypertarget{requisito-de-existuxeancia}{%
+\section{Requisito de Existência}\label{requisito-de-existuxeancia}}
+
+\(\hookrightarrow\) O principal requisito de existência para a
+transformada de Laplace de uma função \(f(t)\) é que haja uma
+\textbf{\emph{abcissa de convergência}}, i.e um ponto no plano \(s\)
+onde a integral que define a transformada converge, e não vá para
+infinito.
+
+\(\hookrightarrow\) Tal abcissa de convergência existe sempre que houver
+um \(\sigma\) que, para \(t\) tendendo a \(\infty\), a função abaixo
+tende a ir para zero, e não a infinito:
+
+\[
+\begin{align}
+\lim_{t\rightarrow \infty}|f(t)|e^{\sigma t} = 0
+\end{align}
+\]
+
+Em suma, antes de aplicar a transformada de Laplace é necessário
+averiguar se há um \(\sigma\) tal que o limite descrito acima tenda a
+zero, e não a infinito. Caso não houver a transformada de Laplace não
+pode ser aplicada.
+
+\hypertarget{transformadas-das-principais-funuxe7uxf5es}{%
+\section{Transformadas das Principais
+Funções}\label{transformadas-das-principais-funuxe7uxf5es}}
+
+\(\hookrightarrow\) Nos problemas que iremos analisar, encontraremos, de
+forma recorrente, algumas funções que por sua vez possuem transformadas
+de Laplace bem conhecidas.
+
+\(\hookrightarrow\) Iremos, nessa parte do Capítulo, derivar a partir
+das funções comuns suas Transformadas.
+
+\hypertarget{funuxe7uxe3o-exponencial}{%
+\subsection{Função Exponencial}\label{funuxe7uxe3o-exponencial}}
+
+\begin{itemize}
+\tightlist
+\item
+  Seja a função exponencial dada por:
+\end{itemize}
+
+\[
+f(t) = \begin{cases}
+Ae^{-\alpha t} & , t\ge0 \\ 
+0 & , t<0
+\end{cases}
+\]
+
+\begin{itemize}
+\item
+  Ao aplicarmos a definição da transformada de Laplace, como estamos
+  calculando a Laplace Unilateral, logo só iremos analizar a partir de
+  \(t\ge0\) temos:
+
+  \$\$
+
+  \mathcal L\{f(t)\} =
+  \int\_\{0\textsuperscript{-\}}\{\infty\}Ae\textsuperscript{\{-\alpha t\}e}\{-st\}dt
+
+  \$\$
+\item
+  A partir de agora precisamos, antes de dar continuidade e resolver a
+  integral, verificar se há a abcissa de convergência, isso é, se existe
+  um \(\sigma\) tal que
+  \(\lim_{t\rightarrow \infty Ae^{-\alpha t} e^{-\sigma t}} = 0\):
+
+  \[
+    \begin{aligned}
+    \lim_{t\rightarrow\infty}\left(Ae^{-\alpha t} e^{-\sigma t}\right) &= \lim_{t\rightarrow\infty}\left(Ae^{-\alpha t +(-\sigma t)}\right)  \\ 
+    &= \lim_{t\rightarrow\infty}\left(Ae^{-t (\alpha + \sigma)}\right)  
+    \end{aligned}
+    \]
+\item
+  Onde:
+
+  \[
+    \begin{aligned}
+    \lim_{t\rightarrow\infty}\left(Ae^{-t (\alpha + \sigma)}\right)    = 0&\iff (\alpha + \sigma) > 0 \\ &\therefore \sigma = -\alpha
+    \end{aligned}
+    \]
+\item
+  Pois, caso o parênteses que está presente na exponencial de negativo,
+  juntamente com o sinal de negativo do \(t\), ao invés de termos o
+  \(t\), que tende ao infinito, no denominador (e por conseguinte
+  levando a zero o limite), teremos ele no numerador (o que resultará em
+  uma indeterminação pois vai a \(\infty\)).
+\item
+  A partir desse ponto, provamos que existe a abcissa de convergência
+  \(\therefore\) a existência da transformada de Laplace para a função
+  em questão, podemos resolver a integral:
+
+  \$\$
+
+  \begin{aligned}
+    \mathcal L\{f(t)\} &= \int_{0^-}^{\infty}Ae^{-\alpha t}e^{-st}dt \\ 
+    &= \int_{0^-}^{\infty}Ae^{-t(\alpha +s)}dt \\ 
+    &= A\frac{-1}{(\alpha + s) }\left[\lim _{t\rightarrow\infty} (e^{-t(\alpha + s)}) - e^0\right]
+
+    \end{aligned}
+
+  \$\$
+\item
+  No que tange o limite acima, como, ao provar a existência da abcissa
+  de convergência, averiguamos a existência de um \(\sigma\) tal que
+  \(f(t) e^{-t\sigma} \rightarrow 0\) quando \(t \rightarrow \infty\) e
+  que, por definição, \(s= \sigma + j\omega\), podemos decompor o limite
+  acima deixando explicito o \(\sigma\), e decompondo a parte imaginaria
+  pela identidade de Euler em seno e cosseno, resultando em:
+
+  \$\$
+
+  \begin{aligned}
+    \lim_{t\rightarrow \infty} (e^{-t(\alpha + s)}) &= \lim_{t\rightarrow \infty} (e^{-t(\alpha + \sigma + j\omega)}) \\ 
+    &= \lim_{t\rightarrow \infty} (e^{-t(\alpha + \sigma)} \cdot e^{ j\omega}) \\ 
+
+    &= \lim_{t\rightarrow \infty} (e^{-t(\alpha + \sigma)} \cdot e^{ j\omega t}) \\ 
+
+    &= \lim_{t\rightarrow \infty} (\underbrace{e^{-t(\alpha + \sigma)}}_{0} \cdot (\cos (\omega t) - j\sin (\omega t))) \\ 
+
+    &= 0
+    \end{aligned}
+
+  \$\$
+\item
+  A partir desse ponto, provamos que o limite tende a zero logo temos:
+
+  \[
+    \mathcal L \{A e^{-\alpha t }\} = +A\frac{1}{(\alpha + s)}
+    \]
+\item
+  Por fim, é importante introduzir o conceito de Polo de uma função no
+  plano \(S\), que representa o valor de \(s\) para o qual a função vai
+  para infinito, nesse caso temos um polo em \(s = -\alpha\).
+\end{itemize}
+
+IMPORTANTE: Uma função de ordem \(n\) terá \(n\) polos, mesmo se forem
+repetidos é importante falar o valor do polo e ressaltar a
+multiplicidade (quantidade de vezes que o valor é polo)
+
+\hypertarget{funuxe7uxe3o-degrau}{%
+\subsection{Função Degrau}\label{funuxe7uxe3o-degrau}}
+
+\begin{itemize}
+\item
+  Para a função degrau (também chamada de Heaviside Function), que é
+  dada por:
+
+  \[
+    f(t) = \begin{cases}
+    1 & , t \ge 0 \\ 
+    0 & , t < 0
+    \end{cases}
+    \]
+\item
+\end{itemize}
+
+\hypertarget{funuxe7uxe3o-rampa}{%
+\subsection{Função Rampa}\label{funuxe7uxe3o-rampa}}
+
+\hypertarget{funuxe7uxe3o-impulso-delta-de-dirac}{%
+\subsection{Função Impulso (Delta de
+Dirac)}\label{funuxe7uxe3o-impulso-delta-de-dirac}}
+
+\hypertarget{sistemas-e-sinais-discretos}{%
+\section{Sistemas e Sinais
+Discretos}\label{sistemas-e-sinais-discretos}}
+
+Created: October 5, 2022 4:18 PM
+
+\href{Sistemas\%20e\%20Sinais\%20Discretos\%20c31f42a2f7bb4ad2ab76f18a4d431de6/Anotac\%CC\%A7o\%CC\%83es\%20de\%20Aula\%20e5585af81899476781609c4216a9b8b4.md}{Anotações
+de Aula}
+
+\begin{itemize}
+\tightlist
+\item
+  SUMMARY
+\end{itemize}
+
+\hypertarget{introduuxe7uxe3o-4}{%
+\section{Introdução}\label{introduuxe7uxe3o-4}}
+
+\(\hookrightarrow\) Basicamente tudo hoje em dia gira em torno de
+sistemas digitais.
+
+\(\hookrightarrow\) Tais sistemas, entretanto, não intrinsecamente
+discretos, pois trabalham, em seus níveis mais fundamentais, com valores
+discretos (bits).
+
+\(\hookrightarrow\) Por isso é de suma importância conseguirmos analizar
+sistemas que são descritos por dados discretos.
+
+\hypertarget{definiuxe7uxe3o-de-sinais-discretos}{%
+\section{Definição de Sinais
+Discretos}\label{definiuxe7uxe3o-de-sinais-discretos}}
+
+\(\hookrightarrow\) É de suma importância saber que, no que tange sinais
+discretos, há majoritariamente dois tipos:
+
+\begin{itemize}
+\tightlist
+\item
+  Sinais Naturalmente Discretos
+\item
+  Sinais contínuos Discretizados
+\end{itemize}
+
+\textbf{Sinais Naturalmente Discretos}
+
+\(\hookrightarrow\) Um exemplo de algo naturalmente discreto é o número
+de recém-nascidos, valor diário de determinada bolsa de valores, etc.
+
+\textbf{Sinais Contínuos Discretizados}
+
+\(\hookrightarrow\) Na maioria das vezes, entretanto, estamos tentando
+medir/representar um fenômeno que é naturalmente contínuo em sistemas
+digitais (e.g um computador) em que ter infinitos pontos/medições
+continuamente (i.e sem um intervalo) é inviável.
+
+\(\hookrightarrow\) Nesses casos, onde temos um sinal contínuo \(x(t)\),
+teremos uma taxa de amostragem \(t = KT\), onde \(T\) é o tempo e \(K\)
+é um número real.
+
+\(\hookrightarrow\) Podemos, ainda, representar o sinal discreto como
+sendo \(x(k)\), onde \(k\) representa o número da amostra (ou seja do
+dado coletado).
+
+\hypertarget{principais-sinais}{%
+\subsection{Principais Sinais}\label{principais-sinais}}
+
+\hypertarget{impulso-unituxe1rio}{%
+\subsubsection{Impulso Unitário}\label{impulso-unituxe1rio}}
+
+\[
+\delta (k) = \begin{cases}
+1 & ,se \ k =0 \\ 
+0 & ,se \ k \ne0 \\ 
+\end{cases}
+\]
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.33.13_PM.png}
+\caption{Screen Shot 2022-10-05 at 4.33.13 PM.png}
+\end{figure}
+
+\hypertarget{degrau-unituxe1rio}{%
+\subsubsection{Degrau Unitário}\label{degrau-unituxe1rio}}
+
+\[
+\mu (k) = \begin{cases}
+1 & ,se \ k \ge0 \\ 
+0 & ,se \ k <0 \\ 
+\end{cases}
+\]
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.34.22_PM.png}
+\caption{Screen Shot 2022-10-05 at 4.34.22 PM.png}
+\end{figure}
+
+\hypertarget{sequuxeancia-exponencial}{%
+\subsubsection{Sequência Exponencial}\label{sequuxeancia-exponencial}}
+
+\[
+x(k) = a^k,  \ \ a\in \R
+\]
+
+\begin{figure}
+\centering
+\includegraphics{Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.36.55_PM.png}
+\caption{Screen Shot 2022-10-05 at 4.36.55 PM.png}
+\end{figure}
+
+\(\hookrightarrow\) É importante ressaltar duas coisas:
+
+\begin{itemize}
+\tightlist
+\item
+  Diferentemente de sistemas contínuos, a sequência exponencial tem por
+  base qualquer valor \(a\), e não somente \(e\).
+\item
+  Além disso, podemos ver que a sequência pode tanto convergir (como a
+  em azul, para \(a = 0.6\)) como pode divergir (como a em vermelho,
+  para \(a = -1.1\)). A partir disso podemos dizer que, para \(**a<0\) a
+  exponencial DIVERGE**.
+\end{itemize}
+
+\hypertarget{sequuxeancia-periuxf3dica}{%
+\subsubsection{Sequência Periódica}\label{sequuxeancia-periuxf3dica}}
+
+\[
+x(k) = x(k + P),  \ \ P\in \mathbb{Z}
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Dos sinais supracitados, as sequências periódicas são as mais
+  peculiares em sinais discretos. Isso se dá pois não necessariamente
+  todos os sinais contínuos periódicos continuam periódicos após a
+  discretização, a depender da frequência e da taxa de amostragem (que
+  não é objetivo dos nosso estudos para essa matéria).
+\end{itemize}
+
+\hypertarget{propriedades-de-sinais-discretos}{%
+\section{Propriedades de Sinais
+Discretos}\label{propriedades-de-sinais-discretos}}
+
+\(\hookrightarrow\) Analogamente ao que foi visto durante os estudos de
+sinais contínuos, os sinais discretos também apresentam certas
+propriedades.
+
+\hypertarget{convoluuxe7uxe3o}{%
+\subsection{Convolução}\label{convoluuxe7uxe3o}}
+
+\begin{itemize}
+\tightlist
+\item
+  A convolução entre dois sinais, \(x(k)\) e \(y(k)\) é dada por:
+\end{itemize}
+
+\[
+y(k) *x(k) = \sum^{\infty}_{n = -\infty} y(k - n)x(n)=\sum^{\infty}_{n = -\infty} x(k - n)y(n)
+\]
+
+\hypertarget{convoluuxe7uxe3o-com-o-impulso}{%
+\subsection{Convolução com o
+Impulso}\label{convoluuxe7uxe3o-com-o-impulso}}
+
+\begin{itemize}
+\tightlist
+\item
+  A partir da definição de convolução acima, podemos dizer que um sinal
+  \(x(k)\) pode sempre ser reescrito como sendo sua convolução com o
+  impulso, ou seja:
+\end{itemize}
+
+\[
+x(k) = \sum^{\infty}_{n = -\infty} x(n) \delta(k-n)
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Ao analisarmos o impulso, podemos ver que ele é
+  \(\delta (k - n) = 1 \iff k = n \therefore x(k)*\delta(k) = x(k)\)
+\end{itemize}
+
+\hypertarget{energia-de-uma-sequuxeancia}{%
+\subsection{Energia de uma
+Sequência}\label{energia-de-uma-sequuxeancia}}
+
+\begin{itemize}
+\tightlist
+\item
+  A energia de uma sequência é definida como sendo:
+\end{itemize}
+
+\[
+E = \sum^{\infty}_{k=-\infty} x(k)x^* (k) = \sum^{\infty}_{k=-\infty} |x(k)|^2
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Onde \(x^*(k)\) é o complexo conjugado de \(x(k)\)
+\end{itemize}
+
+\hypertarget{equauxe7uxf5es-de-diferenuxe7as}{%
+\section{Equações de Diferenças}\label{equauxe7uxf5es-de-diferenuxe7as}}
+
+Created: October 6, 2022 3:55 PM
+
+\href{Equac\%CC\%A7o\%CC\%83es\%20de\%20Diferenc\%CC\%A7as\%20dade9854b424474788d76d451ec8302f/Anotac\%CC\%A7o\%CC\%83es\%20de\%20Aula\%20ce10f190576744fca8e314d3558b930f.md}{Anotações
+de Aula}
+
+\begin{itemize}
+\tightlist
+\item
+  SUMMARY
+\end{itemize}
+
+\hypertarget{introduuxe7uxe3o-5}{%
+\section{Introdução}\label{introduuxe7uxe3o-5}}
+
+\(\hookrightarrow\) Analogamente aos sistemas contínuos, os quais podiam
+ser modelados matematicamente por equações diferenciais, os sistemas
+discretos também podem ser modelados, mas pelas chamadas equações de
+diferenças, que possuem o seguinte formato.
+
+\[
+\begin{align}y(k + 1) = f(k, y(k)), \ \ \ y(0) = y_0,  \ \ \ k = 0, 1, 2, ...
+\end{align}
+\]
+
+\hypertarget{classificauxe7uxe3o-de-equauxe7uxf5es-de-diferenuxe7a}{%
+\section{Classificação de equações de
+Diferença}\label{classificauxe7uxe3o-de-equauxe7uxf5es-de-diferenuxe7a}}
+
+\(\hookrightarrow\) Assim como as equações diferenciais (para os
+sistemas discretos) eram classificadas de acordo com o grau da derivada
+presente (e.g primeiro grau, segundo grau, etc) as equações de diferença
+também tem essa classificação. Elas, entretanto, são caracterizadas não
+pela ordem da derivada (já que não possuem derivada por ser discreto, e
+não contínua), mas sim pelo maior \(\alpha\) presente em
+\(y(k+\lambda)\).
+
+\(\hookrightarrow\) Na equação de número \(1\) podemos ver que
+\(\lambda = 1\) logo dizemos que ela é uma equação de diferença de
+primeira ordem.
+
+\(\hookrightarrow\) Além disso, um problema de valor inicial necessita,
+para uma equação de ordem \(n\), \(n\) valores iniciais.
+
+\(\hookrightarrow\) Podemos, ainda, classificar uma equação de diferença
+a partir do fato dela ser igual, ou não, a zero, isso é, se há ou não um
+termo forçante (análogo ao caso contínuo).
+
+\hypertarget{equauxe7uxf5es-de-diferenuxe7a-de-primeira-ordem}{%
+\section{Equações de Diferença de Primeira
+Ordem}\label{equauxe7uxf5es-de-diferenuxe7a-de-primeira-ordem}}
+
+\hypertarget{equauxe7uxf5es-homoguxeaneas}{%
+\subsection{Equações Homogêneas}\label{equauxe7uxf5es-homoguxeaneas}}
+
+\(\hookrightarrow\) Considerando a seguinte equação:
+
+\[
+y(k+1) = a y(k), \ \ y(0) = y_0
+\]
+
+\(\hookrightarrow\) \textbf{Primeiramente} nós re-arranjamos a equação
+acima para igualar a zero, resultando em:
+
+\[
+\begin{align}
+y(k+1) - ay(k) = 0
+\end{align}
+\]
+
+\(\hookrightarrow\) Em \textbf{seguindo lugar}, supomos que a solução é
+dada por:
+
+\[
+\begin{align}
+y(k) = C a^k
+\end{align}
+\]
+
+\(\hookrightarrow\) Onde \(C\) é uma constante arbitrária a ser
+determinada, no \textbf{terceiro passo}, ao substituir os valores
+iniciais na solução proposta.
+
+\(\hookrightarrow\) Podemos ainda analizar a equação de diferença no que
+tange sua característica de convergência, que depende de \(a\), como
+mostrado abaixo:
+
+\[
+\lim_{k \rightarrow \infty} y(k) = \begin{cases}
+0 & , se \ |a| < 1  \\ 
+y_0 &, se \ \ a \ = 1 \\ 
+\nexists & , se \ |a| > 1 \ ou \ a=-1
+\end{cases}
+\]
+
+\(\hookrightarrow\) A partir disso vemos que é assintoticamente estável
+\(\iff\) \(|a| < 0\).
+
+\(\hookrightarrow\) Podemos ver também que para \(a = -1\) a solução
+dará \(y(k) = \{y_0, -y_0, y_0, -y_0, ...\}\), que possui duas
+subsequências convergentes, uma para \(y_0\) e outra para \(-y_0\) (a
+depender da taxa de amostragem).
+
+\hypertarget{equauxe7uxf5es-nuxe3o-homoguxeaneas}{%
+\subsection{Equações Não
+Homogêneas}\label{equauxe7uxf5es-nuxe3o-homoguxeaneas}}
+
+\(\hookrightarrow\) Considerando a seguinte equação não homogênea de
+primeira ordem:
+
+\[
+\begin{align}
+y(k+1) = ay(k) + x(k),  \ \ y(0)=y_0,  \ \ k \ge 0
+\end{align}
+\]
+
+\(\hookrightarrow\) E supondo que temos como o termo forçante (i.e a
+entrada) um degrau:
+
+\[
+\begin{align}
+x(k) = \begin{cases}
+b,& k \ge 0 \\ 
+0, & k<0
+\end{cases}
+\end{align}
+\]
+
+\(\hookrightarrow\) Temos, análogo aos sistemas contínuos, que a solução
+final \(y(k)\) será composta por duas partes:
+
+\[
+\begin{align}
+y(k) = y_h + y_p
+\end{align}
+\]
+
+\(\hookrightarrow\) Onde:
+
+\begin{itemize}
+\tightlist
+\item
+  \(y_h\) → Solução no mesmo \textbf{formato} da homogênea associada
+\item
+  \(y_p\) → Solução particular
+\end{itemize}
+
+IMPORTANTE Ressaltar que \(y_h\) tem o mesmo formato, mas não podemos
+substituir os valores das condições iniciais para achar \(C\), é somente
+o formato \(Ca^k\).
+
+\(\hookrightarrow\) Como já temos o formato da homogênea, o
+\textbf{primeiro passo} é achar um formato da particular. Como temos que
+a entrada, para \(k \ge 0\) é uma constate, iremos supor que nossa
+resposta forçada \(y_p\) também é uma constante \(\beta\), que
+precisamos achar:
+
+\[
+y_p = \beta
+\]
+
+\(\hookrightarrow\) O \textbf{segundo passo}, então, é substituir na EDO
+para achar o \(\beta\), resultando em:
+
+\[
+\begin{aligned}
+y(k+1) &= ay(k) + x(k) \\ 
+\beta &= a \beta + b  \\ 
+\beta - a \beta &= b \\ 
+\beta(1 - a) &= b \\ 
+\end{aligned}
+\]
+
+\[
+\begin{align}
+\beta&= \frac{b}{1-a}
+\end{align}
+\]
+
+\(\hookrightarrow\) Se observarmos, entretanto, tal valor de \(\beta\)
+não é valido para \(a = 1\). Para tais casos precisamos supor que um
+formato diferente para a resposta forçada:
+
+\[
+\begin{align}
+y_p(k) = k\beta
+\end{align}
+\]
+
+\(\hookrightarrow\) Substituindo na EDO, então, \(y_p\) tendo o formato
+acima para os casos em que \(a = 1\) temos:
+
+\[
+y_p(k) = kb
+\]
+
+\(\hookrightarrow\) Sendo o \(b\) da entrada degrau.
+
+\(\hookrightarrow\) A partir disso o \textbf{terceiro passo} é montar a
+equação de \(y\) completa (tanto parte homogênea quanto parte forçada) e
+substituir os valores iniciais, a fim de achar os coeficientes restante
+(nesse caso específico o único que falta é \(C\) da parte homogênea, o
+que bate com o fato de termos somente uma condição inicial)
+
+\end{document}

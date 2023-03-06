@@ -1,0 +1,138 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{Trabalho Final - ES101}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+% Begin the Document 
+\begin{document}
+
+    \maketitle
+    \thispagestyle{empty}
+
+    % Add the image inside a figure in as the first page
+    \begin{figure}[h]
+        \begin{center}
+            \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+        \end{center}
+    \end{figure}
+
+    % Change to the Next page 
+    \newpage
+
+    \section[Rev. Dinâmica]{Revisão de Dinâmica}
+
+        \subsection{Cinética Plana de Corpos Rígidos}
+
+            \subsubsection[Intro]{Introdução}
+                A cinética de corpos rígidos trata das relações entre as forças externas sobre um corpo e seu movimento resultante (que é composto pela rotação e translação). Para a abordagem a seguir, o
+                corpo apresenta um \textbf{CG} (Centro de Massa / Centro de gravidade), de maneira que todas as forças que atuam sobre o corpo atuam sobre ele.
+
+                No Total, para caracterizar totalmente o movimento de um corpo em um plano são necessárias 3 equações, sendo elas:
+                \begin{enumerate}
+                    \item Somatório de Forças no Eixo $X$
+                    \item Somatório de Forças no Eixo $Y$
+                    \item Somatório de Momentos Gerais
+                \end{enumerate}
+
+                Além disso, para analisarmos as formas e momentos supracitados, também é necessário (em primeiro lugar) a análise de \emph{DCL} (Diagrama de Corpo Livre).
+
+            \subsubsection[Eq. Gerais do Mov.]{Equações Gerais do Movimento}
+
+                Como havia sido dito anteriormente, para descrevermos por completo o movimento de um corpo em um plano é necessário 3 equações, sendo duas de forças e uma de momento. Sendo elas:
+                \begin{align}
+                    \sum \vec F = m \cdot \vec{\bar a} = \dot{\vec{G}}_{CG} \label{eq: soma_das_forcas_cg} \\
+                    \sum \vec M_G =  I \cdot \vec{\bar\alpha} = \dot{\vec{H}}_{CG} \label{eq: soma_dos_momentos_cg}
+                \end{align}
+
+                Explorando mais as equações acima, temos que:
+                \begin{itemize}
+                    \item $\bar a$: Aceleração linear do centro de massa;
+                    \item $\alpha$: Aceleração nagular do centro de massa;
+                    \item $\bar I$: Momento de inércia do corpo (i.e a medida de resistência à variação na velocidade de rotação devido à distribuição de massa em torno do CG)
+                    \item $\dot{\vec{G}}$: A variação no tempo da \emph{Quantidade de Movimento Linear} no \emph{CG}
+                    \item $\dot{\vec{H}}$: A variação no tempo da \emph{Quantidade de Movimento Angular} no \emph{CG}
+                \end{itemize}
+
+                É válido ressaltar, ainda, que a \emph{Quantidade de Movimento Linear} e a \emph{Quantidade de Movimento Angular} são grandezas vetoriais que é definida pelo produto entre a velocidade (linear e angular)
+                com a inércia (i.e a massa e a momento de inércia). E são de suma importância pois tem relação direta com força e momento (como visto anteriormente).
+
+
+            \subsubsection[Eq. Alternativa do Momento]{Equação Alternativa do Momento}
+
+                A fórmula \ref{eq: soma_dos_momentos_cg} modela a soma de momentos somente quando estamos analisando o sistema tomando como referencial o centro de gravidade \emph{CG}. Isso,
+                entretanto, nem sempre é possível, tendo em vista a complexidade que algumas topologias assumem, o que tornaria inviável fazer sua análise. Há, todavia, uma forma alternativa de
+                modelarmos o sistema, considerando um ponto $P$ arbitrário, a uma distância $d$ conhecida:
+                \begin{align}
+                    \sum \vec M_P = \bar I \cdot \alpha + m \bar a d \label{eq: soma_dos_momentos_ponto_p}
+                \end{align}
+
+                Onde $a$ é a aceleração linear no centro de gravidade. 
+                
+                Ao analisarmos bem a equação, podemos observar que ela nada mais é do que o momento no próprio centro de gravidade, dado pela parcela $\bar I \alpha$, somado ao momento (também
+                chamado de torque) que a força resultante ($\sum F = m \bar a$) gera no ponto $P$ a uma distância $d$ do CG em análise.
+
+            \subsubsection[Sis. de Corps. Interligados]{Sistemas de Corpos Interligados}
+                
+                Em casos mais complexos, a principal topologia que encontramos é a de corpos extensos interligados. Um clássico exemplo disso é o problema do carro com pêndulo, onde temos um carro
+                (primeiro corpo) conectado a uma mola e a uma parede, que possui um pêndulo (segundo corpo) com seu  pivô de rotação localizado no \emph{CG} do carrinho.
+
+                Para problemas assim, temos a generalização das fórmulas, como sendo:
+
+                \begin{align}
+                    \sum \vec F = \sum m \vec{\bar a} \label{eq: soma_das_forcas_corps_interligados} \\
+                    \sum \vec{M}_P = \sum \bar I  \alpha + \sum m \vec{\bar a} d \label{eq: soma_dos_momentos_corps_interloigados}
+                \end{align}
+
+                A equação \ref{eq: soma_dos_momentos_corps_interloigados} pode, ainda, ser reescrita considerando a notação da \emph{Teoria dos Eixos Paralelos}, que é dada por:
+                
+                \begin{align}
+                    \begin{cases}
+                        \sum \vec{M}_P &= I_P \alpha \\ 
+                        I_P &= \bar I + m \bar r^2
+                    \end{cases}
+            \end{align}
+
+            Isso é verdade pois $m \alpha \bar r^2 = m (\alpha \bar r) \bar r = m \bar a \bar r $, que podemos ver ser igual à equação \ref{eq: soma_dos_momentos_ponto_p}
+
+        \subsubsection[Aplicação]{Aplicação}
+
+            \textbf{EXEMPLO 1 - } O exemplo mais clássico para a aplicação de todos os conceitos vistos é o problema do carro com pêndulo, que é o que veremos agora:
+
+
+            No geral, iremos seguir os seguintes passos:
+            \begin{enumerate}
+                \item Diagrama de corpo livre: A primeira coisa que devemos fazer em qualquer problema de dinâmica e Vibrações é desenhar o \emph{DCL}(Diagrama de corpo livre).
+                \item Listagem dos Dados conhecidos: Em seguida, é de suma importância listarmos todos os dados que possuímos sobre o problema.
+                \item Equações do Movimento: Nesse passo precisamos primeiramente identificar se estamos lidando com corpos interligados (e por conseguinte utilizaremos as equação \ref{eq:
+                soma_das_forcas_corps_interligados} e \ref{eq: soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações \ref{eq:
+                soma_das_forcas_cg}, \ref{eq: soma_dos_momentos_cg} e \ref{eq: soma_dos_momentos_ponto_p})
+            \end{enumerate}
+
+
+
+
+
+
+
+
+            
+\end{document}

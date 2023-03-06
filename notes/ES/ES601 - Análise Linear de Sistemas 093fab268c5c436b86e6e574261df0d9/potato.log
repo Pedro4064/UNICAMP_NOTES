@@ -1,0 +1,2724 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 FEB 2023 15:32
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex"
+(/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box45
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen147
+\pgf@y=\dimen148
+\pgf@xa=\dimen149
+\pgf@ya=\dimen150
+\pgf@xb=\dimen151
+\pgf@yb=\dimen152
+\pgf@xc=\dimen153
+\pgf@yc=\dimen154
+\pgf@xd=\dimen155
+\pgf@yd=\dimen156
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count178
+\c@pgf@countb=\count179
+\c@pgf@countc=\count180
+\c@pgf@countd=\count181
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count182
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count183
+\pgfsyssoftpath@bigbuffer@items=\count184
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count185
+\pgfmath@box=\box46
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count186
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen158
+\pgf@picmaxx=\dimen159
+\pgf@picminy=\dimen160
+\pgf@picmaxy=\dimen161
+\pgf@pathminx=\dimen162
+\pgf@pathmaxx=\dimen163
+\pgf@pathminy=\dimen164
+\pgf@pathmaxy=\dimen165
+\pgf@xx=\dimen166
+\pgf@xy=\dimen167
+\pgf@yx=\dimen168
+\pgf@yy=\dimen169
+\pgf@zx=\dimen170
+\pgf@zy=\dimen171
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen172
+\pgf@path@lasty=\dimen173
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen174
+\pgf@shorten@start@additional=\dimen175
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count187
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen176
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen177
+\pgf@pt@y=\dimen178
+\pgf@pt@temp=\dimen179
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen180
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count188
+\pgf@shadingcount=\count189
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box50
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box51
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks29
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count190
+)
+\tcb@titlebox=\box52
+\tcb@upperbox=\box53
+\tcb@lowerbox=\box54
+\tcb@phantombox=\box55
+\c@tcbbreakpart=\count191
+\c@tcblayer=\count192
+\tcolorbox@number=\count193
+\tcb@temp=\box56
+\tcb@temp=\box57
+\tcb@temp=\box58
+\tcb@temp=\box59
+\tcb@out=\write4
+\tcb@record@out=\write5
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen184
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen185
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen186
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks31
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks32
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks33
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count272
+\l__pdf_internal_box=\box62
+) (/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.aux)
+\openout1 = `potato.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count273
+\scratchdimen=\dimen193
+\scratchbox=\box63
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen194
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks36
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:33: Undefined control sequence.
+l.33 \tightlist
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:38: Undefined control sequence.
+l.38 \hypertarget
+                 {sistemas-lineares}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:53: Undefined control sequence.
+l.53 \hypertarget
+                 {relembrando-equauxe7uxf5es-diferenciais-ordinuxe1rias}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:64: Undefined control sequence.
+l.64 \hypertarget
+                 {linearidade}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:72: Undefined control sequence.
+l.72 \tightlist
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 92.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:92: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.92 ...} + x^3 \frac{d^3 y}{dx^3}  \rightarrow É
+                                                   \ Linear
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:92: You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.92 ...} + x^3 \frac{d^3 y}{dx^3}  \rightarrow É
+                                                   \ Linear
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \~ invalid in math mode on input line 96.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:96: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.96 ...c{dy}{dx}} + \frac{dy}{dx} \rightarrow Nã
+                                                  o \ é \ Linear
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:96: You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.96 ...c{dy}{dx}} + \frac{dy}{dx} \rightarrow Nã
+                                                  o \ é \ Linear
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 96.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:96: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.96 ...dx}} + \frac{dy}{dx} \rightarrow Não \ é
+                                                   \ Linear
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:96: You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.96 ...dx}} + \frac{dy}{dx} \rightarrow Não \ é
+                                                   \ Linear
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \~ invalid in math mode on input line 100.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:100: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.100 ...} \boxed{\sin \theta} = 0 \rightarrow Nã
+                                                  o \ é \ Linear
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:100: You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.100 ...} \boxed{\sin \theta} = 0 \rightarrow Nã
+                                                  o \ é \ Linear
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 100.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:100: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.100 ...ed{\sin \theta} = 0 \rightarrow Não \ é
+                                                   \ Linear
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:100: You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.100 ...ed{\sin \theta} = 0 \rightarrow Não \ é
+                                                   \ Linear
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:104: Undefined control sequence.
+l.104 \hypertarget
+                  {homogeneidade}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:117: Undefined control sequence.
+l.117 \hypertarget
+                  {em-suma}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:126: Undefined control sequence.
+l.126 \hypertarget
+                  {sistemas-de-primeira-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:131: Undefined control sequence.
+l.131 \href
+           {Sistemas\%20de\%20Primeira\%20Ordem\%204a92bccb8ec04b64bc2846583...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (305.67276pt too wide) in paragraph at lines 131--133
+[]\OT1/cmr/m/n/10 Sistemas%20de%20Primeira%20Ordem%204a92bccb8ec04b64bc28465836935415/Anotac%CC%A7o%CC%83es%20de%20Aula%20ae75928b9b3641cf8b22e4fdb1b6b467.mdAnota^^Xc~oes
+ []
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:135: Undefined control sequence.
+l.135 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:140: Undefined control sequence.
+l.140 \hypertarget
+                  {introduuxe7uxe3o-1}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:149: Undefined control sequence.
+l.149 \hypertarget
+                  {sistema-de-primeira-ordem---resistor-e-capacitor}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-18_at_5.03.46_PM.png' not found on input line 160.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:160: Package pdftex.def Error: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-18_at_5.03.46_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...Screen_Shot_2022-08-18_at_5.03.46_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:167: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 \begin{align}v_E = v_R + v_c\end{align}
+                                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:175: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 ...}i_c(t) = C \frac{d}{dt}v_c(t)\end{align}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:183: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...lign}(RC)\dot{v_c} + v_c = v_E\end{align}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:191: Undefined control sequence.
+l.191 \hypertarget
+                  {soluuxe7uxe3o-de-sistemas-de-primeira-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:195: Undefined control sequence.
+l.195 \hypertarget
+                  {soluuxe7uxe3o-homoguxeanea}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2]
+
+LaTeX Warning: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-23_at_10.52.57_AM.png' not found on input line 226.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:226: Package pdftex.def Error: File `Sistemas de Primeira Ordem 4a92bccb8ec04b64bc28465836935415/Screen_Shot_2022-08-23_at_10.52.57_AM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...creen_Shot_2022-08-23_at_10.52.57_AM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:231: Undefined control sequence.
+l.231 \hypertarget
+                  {soluuxe7uxe3o-nuxe3o-homoguxeanea}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:239: Undefined control sequence.
+l.239 \hypertarget
+                  {muxe9todo-do-fator-integrante}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:244: Undefined control sequence.
+l.244 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:256: Undefined control sequence.
+l.256 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:290: Undefined control sequence.
+l.290 \hypertarget
+                  {muxe9todo-de-suposiuxe7uxe3o}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:305: Undefined control sequence.
+l.305   \tightlist
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:327: Undefined control sequence.
+l.327 \hypertarget
+                  {interpretauxe7uxe3o-de-sistemas-de-primeira-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:335: Undefined control sequence.
+l.335 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:348: Undefined control sequence.
+l.348 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:352: Undefined control sequence.
+l.352 ...e} → Não depende do tempo \(\therefore
+                                                  \) se
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:357: Undefined control sequence.
+l.357 \hypertarget
+                  {sistemas-de-segunda-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:362: Undefined control sequence.
+l.362 \href
+           {Sistemas\%20de\%20Segunda\%20Ordem\%207cce407b38fb4322a04efbceb4...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (291.58942pt too wide) in paragraph at lines 362--364
+[]\OT1/cmr/m/n/10 Sistemas%20de%20Segunda%20Ordem%207cce407b38fb4322a04efbceb4baea55/Anotac%CC%A7o%CC%83es%20de%20Aula%20f1f42d977d6e4b859d420fff2fed867d.mdAnota^^Xc~oes
+ []
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:366: Undefined control sequence.
+l.366 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:371: Undefined control sequence.
+l.371 \hypertarget
+                  {introduuxe7uxe3o-2}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:388: Undefined control sequence.
+l.388 \hypertarget
+                  {sistema-de-segunda-ordem---sistemas-mecuxe2nicos-translac...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:392: Undefined control sequence.
+l.392 \hypertarget
+                  {componentes-mecuxe2nicos-e-suas-modelagens}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:400: Undefined control sequence.
+l.400 \hypertarget
+                  {molas}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.25.01_PM.png' not found on input line 405.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:405: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.25.01_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 ...Screen_Shot_2022-08-25_at_4.25.01_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:421: Undefined control sequence.
+l.421   \tightlist
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:438: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.438     \end{align}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:442: Undefined control sequence.
+l.442 \hypertarget
+                  {amortecedores-viscosos}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.37.07_PM.png' not found on input line 447.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:447: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.37.07_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...Screen_Shot_2022-08-25_at_4.37.07_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:462: Undefined control sequence.
+l.462   \tightlist
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:475: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.475     \end{align}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:482: Undefined control sequence.
+l.482 \(\therefore
+                  \) ele está parado, com velocidade 0. Se possuísse uma
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:486: Undefined control sequence.
+l.486 \hypertarget
+                  {massas}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.51.46_PM.png' not found on input line 491.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:491: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_4.51.46_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.491 ...Screen_Shot_2022-08-25_at_4.51.46_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:508: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.508     \end{align}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:512: Undefined control sequence.
+l.512 \hypertarget
+                  {sistema-massa-mola}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.19.08_PM.png' not found on input line 524.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:524: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.19.08_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 ...Screen_Shot_2022-08-25_at_5.19.08_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.21.28_PM.png' not found on input line 532.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:532: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-25_at_5.21.28_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 ...Screen_Shot_2022-08-25_at_5.21.28_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:557: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.557 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:566: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.566 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:582: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.582 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:589: Undefined control sequence.
+l.589 \hypertarget
+                  {sistema-massa-mola-amortecedor}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-31_at_4.34.35_PM.png' not found on input line 595.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:595: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-08-31_at_4.34.35_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.595 ...Screen_Shot_2022-08-31_at_4.34.35_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:603: Undefined control sequence.
+l.603 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:620: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.620 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:631: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.631 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:637: Undefined control sequence.
+l.637 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:647: Undefined control sequence.
+l.647 \hypertarget
+                  {soluuxe7uxe3o-de-sistemas-de-segunda-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:680: Undefined control sequence.
+l.680 \hypertarget
+                  {soluuxe7uxe3o-homoguxeanea-1}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:683: Undefined control sequence.
+l.683 \hypertarget
+                  {termo-de-primeira-ordem-nulo}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:715: Undefined control sequence.
+l.715 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:728: Undefined control sequence.
+l.728 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:747: Undefined control sequence.
+l.747 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:752: Undefined control sequence.
+l.752 \hypertarget
+                  {termo-de-primeira-ordem-nuxe3o-nulo}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:762: Package amsmath Error: \ddot allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.762 \ddot x
+             (t) + 2\zeta \omega \_n\dot x(t) + \omega\^{}2\_nx(t) = 0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:762: Missing $ inserted.
+<inserted text> 
+                $
+l.762 \ddot x(t) + 2\zeta
+                          \omega \_n\dot x(t) + \omega\^{}2\_nx(t) = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 762.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:762: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.762 ...+ 2\zeta \omega \_n\dot x(t) + \omega\^{}
+                                                  2\_nx(t) = 0
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:762: Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.762 ...+ 2\zeta \omega \_n\dot x(t) + \omega\^{}
+                                                  2\_nx(t) = 0
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:762: You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.762 ...+ 2\zeta \omega \_n\dot x(t) + \omega\^{}
+                                                  2\_nx(t) = 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:763: Missing $ inserted.
+<inserted text> 
+                $
+l.763 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:763: Missing } inserted.
+<inserted text> 
+                }
+l.763 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no � in font cmex10!
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:808: Undefined control sequence.
+l.808 \tightlist
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:850: Missing $ inserted.
+<inserted text> 
+                $
+l.850     \begin{cases}
+                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:853: Missing $ inserted.
+<inserted text> 
+                $
+l.853       \end{cases}
+                        \Rightarrow
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:853: Missing $ inserted.
+<inserted text> 
+                $
+l.853       \end{cases} \Rightarrow
+                                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:854: Missing $ inserted.
+<inserted text> 
+                $
+l.854 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:854: Missing } inserted.
+<inserted text> 
+                }
+l.854 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:854: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.854 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:855: Missing $ inserted.
+<inserted text> 
+                $
+l.855     \begin{bmatrix}
+                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:858: Missing $ inserted.
+<inserted text> 
+                $
+l.858       \end{bmatrix}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[9]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:862: Missing $ inserted.
+<inserted text> 
+                $
+l.862     \begin{bmatrix}
+                         1 & 1 \\ \lambda _1 & \lambda _2\end{bmatrix} \begi...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:862: Missing $ inserted.
+<inserted text> 
+                $
+l.862 ...1 \\ \lambda _1 & \lambda _2\end{bmatrix}
+                                                   \begin{bmatrix}A \\ B\end...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:862: Missing $ inserted.
+<inserted text> 
+                $
+l.862 ...& \lambda _2\end{bmatrix} \begin{bmatrix}
+                                                  A \\ B\end{bmatrix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:862: Missing $ inserted.
+<inserted text> 
+                $
+l.862 ...atrix} \begin{bmatrix}A \\ B\end{bmatrix}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 899.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 899.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:949: Undefined control sequence.
+l.949 \hypertarget
+                  {soluuxe7uxe3o-nuxe3o-homoguxeanea-1}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:971: Undefined control sequence.
+l.971 \hypertarget
+                  {interpretauxe7uxe3o-de-sistemas-de-segunda-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-09-01_at_4.15.29_PM.png' not found on input line 996.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:996: Package pdftex.def Error: File `Sistemas de Segunda Ordem 7cce407b38fb4322a04efbceb4baea55/Screen_Shot_2022-09-01_at_4.15.29_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.996 ...Screen_Shot_2022-09-01_at_4.15.29_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1000: Undefined control sequence.
+l.1000 \hypertarget
+                   {transformada-de-laplace}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1005: Undefined control sequence.
+l.1005 \href
+            {Transformada\%20de\%20Laplace\%203ba1dd06d6854aaea26b6356883bad...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (277.25609pt too wide) in paragraph at lines 1005--1007
+[]\OT1/cmr/m/n/10 Transformada%20de%20Laplace%203ba1dd06d6854aaea26b6356883badd6/Anotac%CC%A7o%CC%83es%20de%20Aula%20449f385a0f564b3a95858cc2a4879d34.mdAnota^^Xc~oes
+ []
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1009: Undefined control sequence.
+l.1009 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1014: Undefined control sequence.
+l.1014 \hypertarget
+                   {introduuxe7uxe3o-3}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1019: Undefined control sequence.
+l.1019 reais \(\R
+                 \) para o domínio dos números complexos, que pode ser
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1036: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1036 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1044: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1044 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1044.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1044: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.1044 \end{align}
+                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1044: You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.1044 \end{align}
+                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex7!
+[11]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1052: Undefined control sequence.
+l.1052 \hypertarget
+                   {requisito-de-existuxeancia}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1068: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1076: Undefined control sequence.
+l.1076 \hypertarget
+                   {transformadas-das-principais-funuxe7uxf5es}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1087: Undefined control sequence.
+l.1087 \hypertarget
+                   {funuxe7uxe3o-exponencial}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1091: Undefined control sequence.
+l.1091 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1111: LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1111   \mathcal
+                  L\{f(t)\} =
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1112: Missing $ inserted.
+<inserted text> 
+                $
+l.1112   \int
+             \_\{0\textsuperscript{-\}}\{\infty\}Ae\textsuperscript{\{-\alph...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1112.
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1112: Missing $ inserted.
+<inserted text> 
+                $
+l.1112 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1112: Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.1112 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1112: Extra }, or forgotten $.
+<argument> ...ize \z@ \selectfont \{-\alpha t\}e}}
+                                                  
+l.1112 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1112: Extra }, or forgotten $.
+\@textsuperscript ...\fontsize \sf@size \z@ #1}}}}
+                                                  
+l.1112 ...nfty\}Ae\textsuperscript{\{-\alpha t\}e}
+                                                  \{-st\}dt
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1113: Missing $ inserted.
+<inserted text> 
+                $
+l.1113 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1113: Missing } inserted.
+<inserted text> 
+                }
+l.1113 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1115: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1115 \item
+            
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1116: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1116   A
+           partir de agora precisamos, antes de dar continuidade e resolver a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1116: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1116   A
+           partir de agora precisamos, antes de dar continuidade e resolver a
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1117.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1117: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.1117   integral, verificar se há
+                                    a abcissa de convergência, isso é, se ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1117: You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.1117   integral, verificar se há
+                                    a abcissa de convergência, isso é, se ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 1117.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1117: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.1117 ... verificar se há a abcissa de convergê
+                                                  ncia, isso é, se existe
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1117: You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.1117 ... verificar se há a abcissa de convergê
+                                                  ncia, isso é, se existe
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1117.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1117: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.1117 ... há a abcissa de convergência, isso é
+                                                  , se existe
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1117: You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.1117 ... há a abcissa de convergência, isso é
+                                                  , se existe
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1118: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1118   um \(
+              \sigma\) tal que
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1118: Missing } inserted.
+<inserted text> 
+                }
+l.1118   um \(\sigma\)
+                       tal que
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1118: Missing } inserted.
+<inserted text> 
+                }
+l.1118   um \(\sigma\)
+                       tal que
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no � in font cmex7!
+Missing character: There is no � in font cmex7!
+Missing character: There is no � in font cmex7!
+
+Overfull \hbox (154.84712pt too wide) in paragraph at lines 1111--1120
+[]\OT1/cmr/m/n/10 L\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 f(t)\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 = $[] []\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0[]\OMS/cmsy/m/n/10 f1g\OML/cmm/m/it/10 Ae[]$
+ []
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1132: Undefined control sequence.
+l.1132 ...iff (\alpha + \sigma) > 0 \\ &\therefore
+                                                   \sigma = -\alpha
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1143: Undefined control sequence.
+l.1143   \(\therefore
+                     \) a existência da transformada de Laplace para a fun�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1149: Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1149     \mathcal
+                    L\{f(t)\} &= \int_{0^-}^{\infty}Ae^{-\alpha t}e^{-st}dt \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1149: Missing $ inserted.
+<inserted text> 
+                $
+l.1149     \mathcal
+                    L\{f(t)\} &= \int_{0^-}^{\infty}Ae^{-\alpha t}e^{-st}dt \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[12]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing $ inserted.
+<inserted text> 
+                $
+l.1152 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing } inserted.
+<inserted text> 
+                }
+l.1152 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing } inserted.
+<inserted text> 
+                }
+l.1152 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing } inserted.
+<inserted text> 
+                }
+l.1152 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.1152 
+       
+I'm guessing that you meant to end an alignment here.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing { inserted.
+<inserted text> 
+                {
+l.1152 
+       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1152: Missing $ inserted.
+<inserted text> 
+                $
+l.1152 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1153: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.1153     \end{aligned}
+                        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1153: Extra }, or forgotten $.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.1153     \end{aligned}
+                        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1153: Extra }, or forgotten $.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.1153     \end{aligned}
+                        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1153: Missing $ inserted.
+<inserted text> 
+                $
+l.1153     \end{aligned}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1167: Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1167     \lim
+               _{t\rightarrow \infty} (e^{-t(\alpha + s)}) &= \lim_{t\righta...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1167: Missing $ inserted.
+<inserted text> 
+                $
+l.1167     \lim
+               _{t\rightarrow \infty} (e^{-t(\alpha + s)}) &= \lim_{t\righta...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing $ inserted.
+<inserted text> 
+                $
+l.1169 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing } inserted.
+<inserted text> 
+                }
+l.1169 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing } inserted.
+<inserted text> 
+                }
+l.1169 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing } inserted.
+<inserted text> 
+                }
+l.1169 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.1169 
+       
+I'm guessing that you meant to end an alignment here.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing { inserted.
+<inserted text> 
+                {
+l.1169 
+       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1169: Missing $ inserted.
+<inserted text> 
+                $
+l.1169 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1170: Misplaced alignment tab character &.
+l.1170     &
+            = \lim_{t\rightarrow \infty} (e^{-t(\alpha + \sigma)} \cdot e^{ ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1171: Missing $ inserted.
+<inserted text> 
+                $
+l.1171 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1171: Missing } inserted.
+<inserted text> 
+                }
+l.1171 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1171: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.1171 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1172: Misplaced alignment tab character &.
+l.1172     &
+            = \lim_{t\rightarrow \infty} (\underbrace{e^{-t(\alpha + \sigma)...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1172: Missing $ inserted.
+<inserted text> 
+                $
+l.1172     &= \lim
+                  _{t\rightarrow \infty} (\underbrace{e^{-t(\alpha + \sigma)...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1173: Missing $ inserted.
+<inserted text> 
+                $
+l.1173 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1173: Missing } inserted.
+<inserted text> 
+                }
+l.1173 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1173: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.1173 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1174: Misplaced alignment tab character &.
+l.1174     &
+            = 0
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1175: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.1175     \end{aligned}
+                        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1175: Extra }, or forgotten \endgroup.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.1175     \end{aligned}
+                        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1175: Extra }, or forgotten \endgroup.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.1175     \end{aligned}
+                        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1194: Undefined control sequence.
+l.1194 \hypertarget
+                   {funuxe7uxe3o-degrau}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1211: Undefined control sequence.
+l.1211 \hypertarget
+                   {funuxe7uxe3o-rampa}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1214: Undefined control sequence.
+l.1214 \hypertarget
+                   {funuxe7uxe3o-impulso-delta-de-dirac}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1218: Undefined control sequence.
+l.1218 \hypertarget
+                   {sistemas-e-sinais-discretos}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1224: Undefined control sequence.
+l.1224 \href
+            {Sistemas\%20e\%20Sinais\%20Discretos\%20c31f42a2f7bb4ad2ab76f18...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13]
+Overfull \hbox (293.83942pt too wide) in paragraph at lines 1224--1226
+[]\OT1/cmr/m/n/10 Sistemas%20e%20Sinais%20Discretos%20c31f42a2f7bb4ad2ab76f18a4d431de6/Anotac%CC%A7o%CC%83es%20de%20Aula%20e5585af81899476781609c4216a9b8b4.mdAnota^^Xc~oes
+ []
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1228: Undefined control sequence.
+l.1228 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1233: Undefined control sequence.
+l.1233 \hypertarget
+                   {introduuxe7uxe3o-4}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1246: Undefined control sequence.
+l.1246 \hypertarget
+                   {definiuxe7uxe3o-de-sinais-discretos}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1254: Undefined control sequence.
+l.1254 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1281: Undefined control sequence.
+l.1281 \hypertarget
+                   {principais-sinais}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1284: Undefined control sequence.
+l.1284 \hypertarget
+                   {impulso-unituxe1rio}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.33.13_PM.png' not found on input line 1296.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1296: Package pdftex.def Error: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.33.13_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1296 ...creen_Shot_2022-10-05_at_4.33.13_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1300: Undefined control sequence.
+l.1300 \hypertarget
+                   {degrau-unituxe1rio}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.34.22_PM.png' not found on input line 1312.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1312: Package pdftex.def Error: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.34.22_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1312 ...creen_Shot_2022-10-05_at_4.34.22_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1316: Undefined control sequence.
+l.1316 \hypertarget
+                   {sequuxeancia-exponencial}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1320: Undefined control sequence.
+l.1320 x(k) = a^k,  \ \ a\in \R
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[14]
+
+LaTeX Warning: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.36.55_PM.png' not found on input line 1325.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1325: Package pdftex.def Error: File `Sistemas e Sinais Discretos c31f42a2f7bb4ad2ab76f18a4d431de6/Screen_Shot_2022-10-05_at_4.36.55_PM.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1325 ...creen_Shot_2022-10-05_at_4.36.55_PM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1332: Undefined control sequence.
+l.1332 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1343: Undefined control sequence.
+l.1343 \hypertarget
+                   {sequuxeancia-periuxf3dica}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1347: Undefined control sequence.
+l.1347 x(k) = x(k + P),  \ \ P\in \mathbb
+                                         {Z}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1351: Undefined control sequence.
+l.1351 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1360: Undefined control sequence.
+l.1360 \hypertarget
+                   {propriedades-de-sinais-discretos}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1368: Undefined control sequence.
+l.1368 \hypertarget
+                   {convoluuxe7uxe3o}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1372: Undefined control sequence.
+l.1372 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1381: Undefined control sequence.
+l.1381 \hypertarget
+                   {convoluuxe7uxe3o-com-o-impulso}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1386: Undefined control sequence.
+l.1386 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1398: Undefined control sequence.
+l.1398 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1401: Undefined control sequence.
+l.1401 ...\delta (k - n) = 1 \iff k = n \therefore
+                                                   x(k)*\delta(k) = x(k)\)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1404: Undefined control sequence.
+l.1404 \hypertarget
+                   {energia-de-uma-sequuxeancia}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1409: Undefined control sequence.
+l.1409 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1419: Undefined control sequence.
+l.1419 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1424: Undefined control sequence.
+l.1424 \hypertarget
+                   {equauxe7uxf5es-de-diferenuxe7as}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1429: Undefined control sequence.
+l.1429 \href
+            {Equac\%CC\%A7o\%CC\%83es\%20de\%20Diferenc\%CC\%A7as\%20dade985...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (389.36734pt too wide) in paragraph at lines 1429--1431
+[]\OT1/cmr/m/n/10 Equac%CC%A7o%CC%83es%20de%20Diferenc%CC%A7as%20dade9854b424474788d76d451ec8302f/Anotac%CC%A7o%CC%83es%20de%20Aula%20ce10f190576744fca8e314d3558b930f.mdAnota^^Xc~oes
+ []
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1433: Undefined control sequence.
+l.1433 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1438: Undefined control sequence.
+l.1438 \hypertarget
+                   {introduuxe7uxe3o-5}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1448: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1448 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1451: Undefined control sequence.
+l.1451 \hypertarget
+                   {classificauxe7uxe3o-de-equauxe7uxf5es-de-diferenuxe7a}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16]
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1474: Undefined control sequence.
+l.1474 \hypertarget
+                   {equauxe7uxf5es-de-diferenuxe7a-de-primeira-ordem}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1478: Undefined control sequence.
+l.1478 \hypertarget
+                   {equauxe7uxf5es-homoguxeaneas}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1493: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1493 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1502: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1502 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1517: Undefined control sequence.
+l.1517 \nexists
+                & , se \ |a| > 1 \ ou \ a=-1
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1529: Undefined control sequence.
+l.1529 \hypertarget
+                   {equauxe7uxf5es-nuxe3o-homoguxeaneas}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1539: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1539 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1551: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1551 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1560: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1560 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1566: Undefined control sequence.
+l.1566 \tightlist
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17]
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1602: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1602 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.tex:1612: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1612 \end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[18] (/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12963 strings out of 480608
+ 272573 string characters out of 5903631
+ 487088 words of memory out of 5000000
+ 28591 multiletter control sequences out of 15000+600000
+ 535172 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,14n,75p,954b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/ES/ES601 - Análise Linear de Sistemas 093fab268c5c436b86e6e574261df0d9/potato.pdf" (18 pages, 233991 bytes).
+PDF statistics:
+ 126 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

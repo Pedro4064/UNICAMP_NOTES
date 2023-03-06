@@ -1,0 +1,56 @@
+\contentsline {section}{Introdução}{3}{section*.2}%
+\contentsline {subsection}{Sistemas Lineares}{3}{section*.3}%
+\contentsline {subsection}{Relembrando Equações Diferenciais Ordinárias}{3}{section*.4}%
+\contentsline {subsection}{Linearidade}{3}{section*.5}%
+\contentsline {subsection}{Homogeneidade}{3}{section*.6}%
+\contentsline {section}{Em Suma}{3}{section*.7}%
+\contentsline {section}{Sistemas de Primeira Ordem}{4}{section*.8}%
+\contentsline {section}{Introdução}{4}{section*.9}%
+\contentsline {section}{Sistema de Primeira Ordem - Resistor e Capacitor}{4}{section*.10}%
+\contentsline {section}{Solução de Sistemas de Primeira Ordem}{4}{section*.11}%
+\contentsline {subsection}{Solução Homogênea}{4}{section*.12}%
+\contentsline {subsection}{Solução Não Homogênea}{5}{section*.13}%
+\contentsline {subsubsection}{Método do Fator Integrante}{5}{section*.14}%
+\contentsline {subsubsection}{Método de Suposição}{5}{section*.15}%
+\contentsline {section}{Interpretação de Sistemas de Primeira Ordem}{6}{section*.16}%
+\contentsline {section}{Sistemas de Segunda Ordem}{6}{section*.17}%
+\contentsline {section}{Introdução}{6}{section*.18}%
+\contentsline {section}{Sistema de Segunda Ordem - Sistemas Mecânicos Translacionais}{6}{section*.19}%
+\contentsline {subsection}{Componentes Mecânicos e suas Modelagens}{6}{section*.20}%
+\contentsline {subsubsection}{Molas}{6}{section*.21}%
+\contentsline {subsubsection}{Amortecedores Viscosos}{7}{section*.22}%
+\contentsline {subsubsection}{Massas}{7}{section*.23}%
+\contentsline {subsection}{Sistema Massa Mola}{8}{section*.24}%
+\contentsline {subsection}{Sistema Massa Mola Amortecedor}{9}{section*.25}%
+\contentsline {section}{Solução de Sistemas de Segunda Ordem}{9}{section*.26}%
+\contentsline {subsection}{Solução Homogênea}{10}{section*.27}%
+\contentsline {subsubsection}{Termo de Primeira Ordem Nulo}{10}{section*.28}%
+\contentsline {subsubsection}{Termo de Primeira Ordem Não Nulo}{11}{section*.29}%
+\contentsline {subsection}{Solução Não Homogênea}{13}{section*.30}%
+\contentsline {section}{Interpretação de Sistemas de Segunda Ordem}{13}{section*.31}%
+\contentsline {section}{Transformada de Laplace}{13}{section*.32}%
+\contentsline {section}{Introdução}{13}{section*.33}%
+\contentsline {section}{Requisito de Existência}{14}{section*.34}%
+\contentsline {section}{Transformadas das Principais Funções}{14}{section*.35}%
+\contentsline {subsection}{Função Exponencial}{14}{section*.36}%
+\contentsline {subsection}{Função Degrau}{16}{section*.37}%
+\contentsline {subsection}{Função Rampa}{16}{section*.38}%
+\contentsline {subsection}{Função Impulso (Delta de Dirac)}{16}{section*.39}%
+\contentsline {section}{Sistemas e Sinais Discretos}{16}{section*.40}%
+\contentsline {section}{Introdução}{16}{section*.41}%
+\contentsline {section}{Definição de Sinais Discretos}{16}{section*.42}%
+\contentsline {subsection}{Principais Sinais}{16}{section*.43}%
+\contentsline {subsubsection}{Impulso Unitário}{16}{section*.44}%
+\contentsline {subsubsection}{Degrau Unitário}{17}{section*.45}%
+\contentsline {subsubsection}{Sequência Exponencial}{17}{section*.46}%
+\contentsline {subsubsection}{Sequência Periódica}{17}{section*.47}%
+\contentsline {section}{Propriedades de Sinais Discretos}{18}{section*.48}%
+\contentsline {subsection}{Convolução}{18}{section*.49}%
+\contentsline {subsection}{Convolução com o Impulso}{18}{section*.50}%
+\contentsline {subsection}{Energia de uma Sequência}{18}{section*.51}%
+\contentsline {section}{Equações de Diferenças}{18}{section*.52}%
+\contentsline {section}{Introdução}{18}{section*.53}%
+\contentsline {section}{Classificação de equações de Diferença}{18}{section*.54}%
+\contentsline {section}{Equações de Diferença de Primeira Ordem}{19}{section*.55}%
+\contentsline {subsection}{Equações Homogêneas}{19}{section*.56}%
+\contentsline {subsection}{Equações Não Homogêneas}{19}{section*.57}%

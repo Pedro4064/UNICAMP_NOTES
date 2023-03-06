@@ -1,0 +1,36 @@
+﻿Name,Aula,Created,Prova
+Representação Numérica,Aula 01,"August 9, 2021 9:28 PM",P1
+Erros de Aproximação,Aula 02,"August 9, 2021 9:28 PM",
+"Zeros da Função → Método Bissecção ",Aula 03,"August 17, 2021 7:04 PM",
+Zeros da Função → Falsa Posição,Aula 04,"August 19, 2021 9:01 PM",
+Zeros da Função → Ponto Fixo,Aula 04,"August 19, 2021 9:23 PM",
+Zeros da Função → Método de Newton,Aula 05,"August 24, 2021 7:01 PM",P1
+Sistema Linear - Introdução,Aula 06,"September 27, 2021 11:55 AM",
+"Sistema Linear - Triangular Superior ",Aula 06,"September 27, 2021 12:34 PM",
+Sistema Linear - Eliminação de Gauss,Aula 07,"August 31, 2021 7:01 PM",P1
+Sistema Linear - Fatoração L.U.,Aula 08,"September 27, 2021 4:27 PM",
+Sistema Linear - Método Gauss-Jacobi,Aula 09,"September 27, 2021 5:22 PM",P1
+Sistema Linear - Método Gauss-Seidel,Aula 10,"September 28, 2021 8:20 AM",P1
+Sistemas Não Lineares,Aula 11,"September 28, 2021 9:42 AM",P1
+Equações Diferenciais - Solução Numérica,Aula 16,"October 5, 2021 5:49 PM",P2
+Equações Diferenciais - Método de Euler,Aula 16,"November 9, 2021 9:34 PM",P2
+Equações Diferenciais - Runge-Kutta,Aula 17,"November 9, 2021 11:14 PM",P2
+Equações Diferenciais - Métodos de Passo Múltiplo e Equações de Ordem Superior,Aula 18,"November 10, 2021 9:50 PM",P2
+Equações Diferenciais - Equações de Ordem Superior,Aula 18,"November 10, 2021 10:18 PM",P2
+Equações Diferenciais - Problemas de Valor de Contorno,Aula 19,"November 17, 2021 10:16 PM",P2
+Equações Diferenciais - Equação do Calor [Método Explícito],Aula 20,"November 22, 2021 12:58 PM",P2
+Equações Diferenciais - Equação do Calor [Método Implícito],Aula 20,"November 22, 2021 3:02 PM",P2
+Ajuste de Curvas por Mínimos Quadrados: Caso Discreto,Aula 21,"November 22, 2021 3:27 PM",P2
+Ajuste de Curvas por Mínimos Quadrados: Caso Linear,Aula 22,"November 24, 2021 9:23 PM",P2
+Ajuste de Curvas por Mínimos Quadrados: Linearização,Aula 22,"November 24, 2021 9:53 PM",P2
+Ajuste de Curvas por Mínimos Quadrados: Múltiplas Variáveis,Aula 23,"November 24, 2021 10:32 PM",P2
+Ajuste de Curvas por Mínimos Quadrados: Caso Contínuo,Aula 23,"November 25, 2021 8:58 AM",P2
+Interpolação Polinomial: Forma de Vandermonde,Aula 24,"November 25, 2021 9:27 AM",P2
+Interpolação Polinomial: Forma de Lagrange,Aula 24,"November 25, 2021 10:07 AM",P2
+"Interpolação Polinomial: Forma de Newton ",Aula 25,"November 25, 2021 7:11 PM",P2
+Interpolação Polinomial:  Erro da Interpolação → Função Contínua,Aula 25,"November 25, 2021 8:21 PM",P2
+"Interpolação Polinomial:  Erro da Interpolação → Dados Discretos ",Aula 26,"November 28, 2021 11:01 AM",P2
+Interpolação Polinomial: Interpolação Inversa,Aula 26,"November 28, 2021 11:17 AM",P2
+Integração Numérica: Regra dos Trapézios,Aula 27,"November 28, 2021 1:29 PM",P2
+Integração Numérica: Regra de Simpson,Aula 28,"November 28, 2021 5:20 PM",P2
+Integração Numérica: Quadratura Gaussiana,Aula 29,"November 28, 2021 5:48 PM",P2

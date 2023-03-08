@@ -129,7 +129,99 @@
 
 
 
+    \section{Introdução à Vibrações}
 
+            Vibração é o movimento repetitivo, que pode ser:
+            \begin{itemize}
+                \item Desejado
+                \item Não Desejado
+            \end{itemize}
+
+            Além disso, a vibração pode ser vista não somente como um movimento, mas também como a troca entre \emph{energia potencial} (e.g potencial elástico, potencial gravitacional, etc) e
+            \emph{energia mecânica}.
+
+    \section{Vibrações livres não Amortecidas - 1 DOF}
+
+            Primeiramente, é importante entendermos que definimos os tipos de vibrações de acordo com certas características, sendo elas:
+            \begin{enumerate}
+                \item Graus de Liberdade: A depender do número de coordenadas que são necessários para a modelagem completa do movimento.
+                \item Amortecimento: A depender se há o amortecimento, i.e a dissipação de energia de alguma forma (e.g um amortecedor de fluidos, atrito, ...). E pode ser classificado como:
+                    \subitem Amortecido: Quando ocorre a dissipação de energia;
+                    \subitem Não-Amortecido: Quando não ocorre a dissipação de energia e, por conseguinte, o movimento não para.
+
+                \item Liberdade de Vibração: Que se refere à presença ou não de forças externas atuando no \emph{sistema} \footnote{Importante ressaltar que a definição do sistema implica na sua classificação}.
+                    \subitem Vibração Livre: Não há forças externas atuando no sistema;
+                    \subitem Vibrações Não-Livres: Há forças externas.
+
+                \item Parâmetros Concentrados: Um sistema é dito de parâmetros concentrados quando os corpos que o integra são representados por corpos concentrados, e.g massas e molas.
+            \end{enumerate}
+
+
+            \subsection{Sistema Massa-Mola}
+
+                Um sistema massa mola, como descrito na imagem abaixo, assim como o nome sugere, é composto por:
+                \begin{itemize}
+                    \item Massa  de valor $m$
+                    \item Mola de rigidez $k$
+                    \item Gravidade \footnote{Importante ressaltar que nesse sistema estamos incluindo a terra (e por conseguinte suas ações na massa, e por isso continua sendo um problema de
+                    \emph{Vibração Livre})} $g$
+                \end{itemize}
+
+                Agora, para realizarmos a análise de vibrações desse problema, iremos seguir as seguintes etapas:
+                \begin{enumerate}
+                    \item Definição de Coordenadas
+                    \item Diagrama de Corpo Livre
+                    \item Equações de Movimento
+                \end{enumerate}
+
+                \subsubsection*{1º Passo - Definição de Coordenadas}
+
+                    Algo muito importante de se perceber quando estamos lidando com problemas com molas (principalmente aqueles de massa-mola na vertical) é que existem dois principais pontos de
+                    interesse de serem definidos no espaço, sendo eles:
+                    \begin{itemize}
+                        \item Posição sem deformação da mola: Isso é, posição no espaço onde a mola não exerce força alguma, devido ao fato de que a força elástica $F_e$ é dada por $F_e = k \delta$
+                        \item Posição onde há equilíbrio entre a força elástica e as demais (principalmente força peso $F_p$)
+                    \end{itemize}
+
+                    Levando isso em consideração, o jeito mais fácil de lidar com esse dois pontos é criando dois eixos de coordenadas, cada um contendo seus respective zeros nesses ponto. 
+                    Portanto, o primeiro passo que precisamos fazer é definir uma coordenada $y$ a qual possui zero zero no ponto onde a mola
+                    \textbf{NÃO} está deformada, \emph{i.e} ela está com seu tamanho normal.
+                    Em seguida, definimos nosso segundo eixo de coordenadas $x$ contendo seu $x_0$ no ponto onde as forças peso e elástica se anulam.
+
+                    \begin{figure}[h]
+                        \centering
+                        \includegraphics[width=.7\linewidth]{imgs/sis_mass_mola_1.png}
+                        \caption{Coordenadas para o Problema Massa-Mola na Vertical}
+                    \end{figure}
+
+                    Esses dois eixos de coordenadas distintos, como veremos mais para frente, facilitam bastante os nosso cálculos de equação de movimento.
+                    A partir disso, já temos definidos todos os pontos de interesse, e podemos prosseguir para o diagrama de corpo livre \emph{DCL}.
+
+                \subsubsection*{2º Passo - Diagrama de Corpo Livre \emph{(DCL)}}
+
+                    Para fazermos o DLC, precisamos primeiro considerar o bloco em uma posição arbitrária. Como já definimos os dois eixos de referência para baixo, iremos considerar o bloco em um
+                    ponto tal que $x,y>0$, para facilitar os cálculos.
+
+                    \begin{figure}[h]
+                        \centering
+                        \includegraphics[width=.3\linewidth]{imgs/sis_mass_mola_1_dcl.png}
+                        \caption{\emph{DCL} básico do sistema massa-mola}
+                    \end{figure}
+
+                    A partir disso, podemos fazer o DCL, que possui algumas características, que possuem o acronym (em inglês) \emph{B.R.E.A.D}:
+                    \begin{itemize}
+                        \item \emph{Body} : Precisa representar o corpo que está sendo estudado, sem nenhuma outra coisa a sua volta (e.g sem paredes, pilastra, etc).
+                        \item \emph{Reações}: A segunda etapa de um DCL é a representação das forças de reação (como no nossa caso a força elástica)
+                        \item \emph{External / Body Forces}: A terceira etapa é a representação das forças externas ou do próprio corpo (como no nosso caso a força peso $F_p$).
+                        \item \emph{Axis}: A quarta coisa que seu $D.C.L$ precisa ter são os eixos de coordenadas.
+                        \item \emph{Dimension}: A útlima coisa que precisa ser colocada é, quando de interesse, as dimensões do do corpo.
+                    \end{itemize}
+
+                    É importante ressaltar que a força elástica $F_e$ é dada por $k\cdot y$, tendo em vista que o eixo de coordenadas $\vec y$ tem
+                    seu zero (i.e sua origem) no ponto em que a mola não possui deformação. Poderíamos ficar escrevendo que a mola está com uma deformação $y_\alpha$ ou qualquer outro nome, mas para
+                    termos menos trabalho usamos $y$ como sendo o ponto na coordenada $\vec y$, e usaremos ainda mais para frente $x$ para um ponto qualquer no eixo $\vec x$.
+
+                    
 
 
 

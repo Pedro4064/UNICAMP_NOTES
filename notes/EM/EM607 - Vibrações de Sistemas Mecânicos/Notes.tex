@@ -9,6 +9,7 @@
 \usepackage{tcolorbox}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -59,14 +60,14 @@
 
                 Como havia sido dito anteriormente, para descrevermos por completo o movimento de um corpo em um plano é necessário 3 equações, sendo duas de forças e uma de momento. Sendo elas:
                 \begin{align}
-                    \sum \vec F = m \cdot \vec{\bar a} = \dot{\vec{G}}_{CG} \label{eq: soma_das_forcas_cg} \\
-                    \sum \vec M_G =  I \cdot \vec{\bar\alpha} = \dot{\vec{H}}_{CG} \label{eq: soma_dos_momentos_cg}
+                    \sum \vec F = m \cdot \vec{\bar a} = \dot{\vec{G}}_{CG} \label{eq:SomaDasForcasCg} \\
+                    \sum \vec M_G =  I \cdot \vec{\bar\alpha} = \dot{\vec{H}}_{CG} \label{eq:soma_dos_momentos_cg}
                 \end{align}
 
                 Explorando mais as equações acima, temos que:
                 \begin{itemize}
                     \item $\bar a$: Aceleração linear do centro de massa;
-                    \item $\alpha$: Aceleração nagular do centro de massa;
+                    \item $\alpha$: Aceleração angular do centro de massa;
                     \item $\bar I$: Momento de inércia do corpo (i.e a medida de resistência à variação na velocidade de rotação devido à distribuição de massa em torno do CG)
                     \item $\dot{\vec{G}}$: A variação no tempo da \emph{Quantidade de Movimento Linear} no \emph{CG}
                     \item $\dot{\vec{H}}$: A variação no tempo da \emph{Quantidade de Movimento Angular} no \emph{CG}
@@ -78,11 +79,11 @@
 
             \subsubsection[Eq. Alternativa do Momento]{Equação Alternativa do Momento}
 
-                A fórmula \ref{eq: soma_dos_momentos_cg} modela a soma de momentos somente quando estamos analisando o sistema tomando como referencial o centro de gravidade \emph{CG}. Isso,
+                A fórmula \ref{eq:SomaDasForcasCg} modela a soma de momentos somente quando estamos analisando o sistema tomando como referencial o centro de gravidade \emph{CG}. Isso,
                 entretanto, nem sempre é possível, tendo em vista a complexidade que algumas topologias assumem, o que tornaria inviável fazer sua análise. Há, todavia, uma forma alternativa de
                 modelarmos o sistema, considerando um ponto $P$ arbitrário, a uma distância $d$ conhecida:
                 \begin{align}
-                    \sum \vec M_P = \bar I \cdot \alpha + m \bar a d \label{eq: soma_dos_momentos_ponto_p}
+                    \sum \vec M_P = \bar I \cdot \alpha + m \bar a d \label{eq:soma_dos_momentos_ponto_p}
                 \end{align}
 
                 Onde $a$ é a aceleração linear no centro de gravidade. 
@@ -98,11 +99,11 @@
                 Para problemas assim, temos a generalização das fórmulas, como sendo:
 
                 \begin{align}
-                    \sum \vec F = \sum m \vec{\bar a} \label{eq: soma_das_forcas_corps_interligados} \\
-                    \sum \vec{M}_P = \sum \bar I  \alpha + \sum m \vec{\bar a} d \label{eq: soma_dos_momentos_corps_interloigados}
+                    \sum \vec F = \sum m \vec{\bar a} \label{eq:soma_das_forcas_corps_interligados} \\
+                    \sum \vec{M}_P = \sum \bar I  \alpha + \sum m \vec{\bar a} d \label{eq:soma_dos_momentos_corps_interloigados}
                 \end{align}
 
-                A equação \ref{eq: soma_dos_momentos_corps_interloigados} pode, ainda, ser reescrita considerando a notação da \emph{Teoria dos Eixos Paralelos}, que é dada por:
+                A equação \ref{eq:soma_dos_momentos_corps_interloigados} pode, ainda, ser reescrita considerando a notação da \emph{Teoria dos Eixos Paralelos}, que é dada por:
                 
                 \begin{align}
                     \begin{cases}
@@ -111,7 +112,7 @@
                     \end{cases}
             \end{align}
 
-            Isso é verdade pois $m \alpha \bar r^2 = m (\alpha \bar r) \bar r = m \bar a \bar r $, que podemos ver ser igual à equação \ref{eq: soma_dos_momentos_ponto_p}
+            Isso é verdade pois $m \alpha \bar r^2 = m (\alpha \bar r) \bar r = m \bar a \bar r $, que podemos ver ser igual à equação \ref{eq:soma_dos_momentos_ponto_p}
 
         \subsubsection[Aplicação]{Aplicação}
 
@@ -123,8 +124,8 @@
                 \item Diagrama de corpo livre: A primeira coisa que devemos fazer em qualquer problema de dinâmica e Vibrações é desenhar o \emph{DCL}(Diagrama de corpo livre).
                 \item Listagem dos Dados conhecidos: Em seguida, é de suma importância listarmos todos os dados que possuímos sobre o problema.
                 \item Equações do Movimento: Nesse passo precisamos primeiramente identificar se estamos lidando com corpos interligados (e por conseguinte utilizaremos as equação \ref{eq:
-                soma_das_forcas_corps_interligados} e \ref{eq: soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações \ref{eq:
-                soma_das_forcas_cg}, \ref{eq: soma_dos_momentos_cg} e \ref{eq: soma_dos_momentos_ponto_p})
+                soma_das_forcas_corps_interligados} e \ref{eq:soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações \ref{eq:
+                soma_das_forcas_cg}, \ref{eq:soma_dos_momentos_cg} e \ref{eq:soma_dos_momentos_ponto_p})
             \end{enumerate}
 
 
@@ -220,6 +221,36 @@
                     É importante ressaltar que a força elástica $F_e$ é dada por $k\cdot y$, tendo em vista que o eixo de coordenadas $\vec y$ tem
                     seu zero (i.e sua origem) no ponto em que a mola não possui deformação. Poderíamos ficar escrevendo que a mola está com uma deformação $y_\alpha$ ou qualquer outro nome, mas para
                     termos menos trabalho usamos $y$ como sendo o ponto na coordenada $\vec y$, e usaremos ainda mais para frente $x$ para um ponto qualquer no eixo $\vec x$.
+
+                \subsubsection*{3º Passo - Equações de Movimento}
+
+                    Como já temos o diagrama de corpo livre, podemos modelar o movimento do bloco a partir das equações de movimento que vimos em dinâmica (eqs. \ref{eq:SomaDasForcasCg}, 
+                    \ref{eq:soma_dos_momentos_cg}).
+                    Como o corpo não apresenta rotação (e nem momentos) iremos descrever somente a soma de forças do problema:
+
+                    \begin{align}
+                        \sum \vec F &= m \cdot \vec a \n
+                        mg - k y    &= m \cdot \ddot y \n
+                        0 &= m \ddot y + ky - mg \label{eq:mov_massa_mola_temp}
+                    \end{align}
+
+                    Com isso temos a equação \ref{eq:mov_massa_mola_temp}, que descreve o movimento da massa como uma Equação Diferencial Ordinária de Segundo grau Ordinária de Segundo grau.
+                    podemos, entretanto, simplificar essa equação considerando a relação entre a coordenada $x$, a coordenada $y$ e a deformação da mola, como mostramos abaixo: 
+
+                    \begin{align}
+                        k \Delta &= m g\\
+                        y &= \Delta + x \therefore \dot y = \dot x, \ddot y = \ddot x
+                    \end{align}
+
+                    Substituindo as equações acima na equação \ref{eq:mov_massa_mola_temp} temos:
+
+                    \begin{align}
+                        m\ddot x + kx = 0
+                    \end{align}
+
+                    E isso facilita as contas pois torna uma equação diferencial não homogênea em uma homogênea. 
+                    Além disso, podemos verificar que o \textbf{peso oscila em torno do ponto de equilíbrio estático}. Ao sabermos disso, nós temos então a possibilidade de, nos próximos exercícios,
+                    partimos dessa última equação, considerando como nosso eixo de coordenadas tendo início no ponto de equilíbrio estático.
 
                     
 

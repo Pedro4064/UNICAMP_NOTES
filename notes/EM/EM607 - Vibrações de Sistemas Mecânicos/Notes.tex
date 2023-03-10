@@ -123,9 +123,9 @@
             \begin{enumerate}
                 \item Diagrama de corpo livre: A primeira coisa que devemos fazer em qualquer problema de dinâmica e Vibrações é desenhar o \emph{DCL}(Diagrama de corpo livre).
                 \item Listagem dos Dados conhecidos: Em seguida, é de suma importância listarmos todos os dados que possuímos sobre o problema.
-                \item Equações do Movimento: Nesse passo precisamos primeiramente identificar se estamos lidando com corpos interligados (e por conseguinte utilizaremos as equação \ref{eq:
-                soma_das_forcas_corps_interligados} e \ref{eq:soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações \ref{eq:
-                soma_das_forcas_cg}, \ref{eq:soma_dos_momentos_cg} e \ref{eq:soma_dos_momentos_ponto_p})
+                \item Equações do Movimento: Nesse passo precisamos primeiramente identificar se estamos lidando com corpos interligados (e por conseguinte utilizaremos as equação 
+                \ref{eq:soma_das_forcas_corps_interligados} e \ref{eq:soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações 
+                \ref{eq:SomaDasForcasCg}, \ref{eq:soma_dos_momentos_cg} e \ref{eq:soma_dos_momentos_ponto_p})
             \end{enumerate}
 
 
@@ -251,6 +251,54 @@
                     E isso facilita as contas pois torna uma equação diferencial não homogênea em uma homogênea. 
                     Além disso, podemos verificar que o \textbf{peso oscila em torno do ponto de equilíbrio estático}. Ao sabermos disso, nós temos então a possibilidade de, nos próximos exercícios,
                     partimos dessa última equação, considerando como nosso eixo de coordenadas tendo início no ponto de equilíbrio estático.
+
+            \subsection{Molas Equivalentes}
+
+                O exemplo da massa mola acima pode parecer irrealista, mas na realidade nós podemos simplificar diversos problemas do mundo real descrevendo certas estruturas através de sistemas de
+                molas, como veremos a seguir.
+
+                \begin{table}[h]
+                    \centering
+                    \begin{tabular}{|c|c|c|c|}
+                        \hline
+                        Sistema & Diagrama & Deformação & $k$ Equivalente \\ \hline
+                        Viga Engastada &
+                        \begin{minipage}{.5\textwidth}
+                                \includegraphics[width=\linewidth]{imgs/mola_eq_1.png}
+                        \end{minipage}
+                        &
+                        $    \Delta = \frac{Pl^3}{3EI}$ 
+                        &
+                        $   k = \frac{P}{\Delta} = \frac{3EI}{l^3}$ \\ \hline
+                        Viga Bi-Apoiada & 
+                        \begin{minipage}{.5\textwidth}
+                            \includegraphics[width=\linewidth]{imgs/mola_eq_2.png}
+                        \end{minipage}
+                        &
+                        $\Delta = \frac{Pl^3}{48EI}$
+                        &
+                        $k = \frac{P}{\Delta} = \frac{48EI}{l^3}$ \\ \hline 
+                        Barra em Solicitação Axial & 
+                        \begin{minipage}{.5\textwidth}
+                            \centering
+                            \includegraphics[width=.5\linewidth]{imgs/mola_eq_3.png}
+                        \end{minipage}
+                        &
+                        $\Delta = \frac{Pl}{AE}$
+                        &
+                        $k = \frac{P}{\Delta} = \frac{AE}{l}$ \\ \hline
+                    \end{tabular}
+                    \label{tab:molas_equivalentes}
+                    \caption{Molas Equivalentes}
+                \end{table}
+
+                Onde: 
+                \begin{itemize}
+                    \item $P$: Força peso, $P = m\cdot g$
+                    \item $\Delta$: Deflexão
+                    \item $E$: Módulo de Elasticidade
+                    \item $I$: Inércia da seção transversal
+                \end{itemize}
 
                     
 

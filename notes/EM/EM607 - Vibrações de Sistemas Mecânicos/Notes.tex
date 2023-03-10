@@ -263,7 +263,7 @@
                         \hline
                         Sistema & Diagrama & Deformação & $k$ Equivalente \\ \hline
                         Viga Engastada &
-                        \begin{minipage}{.5\textwidth}
+                        \begin{minipage}{.45\textwidth}
                                 \includegraphics[width=\linewidth]{imgs/mola_eq_1.png}
                         \end{minipage}
                         &
@@ -271,7 +271,7 @@
                         &
                         $   k = \frac{P}{\Delta} = \frac{3EI}{l^3}$ \\ \hline
                         Viga Bi-Apoiada & 
-                        \begin{minipage}{.5\textwidth}
+                        \begin{minipage}{.45\textwidth}
                             \includegraphics[width=\linewidth]{imgs/mola_eq_2.png}
                         \end{minipage}
                         &
@@ -279,7 +279,7 @@
                         &
                         $k = \frac{P}{\Delta} = \frac{48EI}{l^3}$ \\ \hline 
                         Barra em Solicitação Axial & 
-                        \begin{minipage}{.5\textwidth}
+                        \begin{minipage}{.45\textwidth}
                             \centering
                             \includegraphics[width=.5\linewidth]{imgs/mola_eq_3.png}
                         \end{minipage}
@@ -299,6 +299,42 @@
                     \item $E$: Módulo de Elasticidade
                     \item $I$: Inércia da seção transversal
                 \end{itemize}
+
+                \newpage
+
+                Além disso podemos, ainda, ter a associação de molas:
+                \begin{table}[h]
+                    \centering
+                    \begin{tabular}{|c|c|c|c|}
+                        \hline
+                        Topologia & Diagrama & Equação & Observação \\ \hline
+                        Molas em Paralelos
+                        &
+                        \begin{minipage}{.3\textwidth}
+                            \centering
+                            \includegraphics[width=.8\textwidth]{imgs/mola_eq_5.png}
+                        \end{minipage}
+                        &
+                        $k = \sum_{i = 1}^n k_i$
+                        &
+                        \begin{minipage}{.3\columnwidth}
+                            Temos que para molas em paralelo, todas tem o mesmo deslocamento%
+                        \end{minipage} \\ \hline
+
+                        Molas Em Série &
+                        \begin{minipage}{.3\linewidth}
+                            \centering
+                            \includegraphics[width=.2\linewidth]{imgs/mola_eq_6.png}
+                        \end{minipage}
+                        &
+                        $k^{-1} = \sum_{i = 1}^n \frac{1}{k_i}$
+                        &
+                        \begin{minipage}{0.3\columnwidth}
+                        Temos que para molas em série, cada uma delas sofre a mesma força. 
+                        \end{minipage}\\ \hline
+                    \end{tabular}
+                    \caption{$k$ Resultante de associação de molas}
+                \end{table}
 
                     
 

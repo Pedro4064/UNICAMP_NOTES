@@ -84,8 +84,8 @@
             A planta de medição possui:
             \begin{itemize}
                 \item \textbf{Sinais}: Valores Transmitidos entre os estágios do sistema;
-                \item \textbf{Sensor}: Converte o fenômeno físico em uma variável medida;
-                \item \textbf{Transdutor}: Converte o sinal do sensor em uma saída mensurável (elétrica, mec, ...);
+                \item \textbf{Sensor}: Converte o fenômeno físico em uma variável medida - Detecta mudança de quantidades físicas;
+                \item \textbf{Transdutor}: Converte o sinal do sensor em uma saída mensurável (elétrica, mec, ...) - Transforma uma forma de Energia em Outra;
                 \item \textbf{Condicionamento de Sinais}: Amplificação, Filtragem, ...
                 \item \textbf{Saída}: Indica ou armazena a variável medida;
                 \item \textbf{Controle}: Retifica o sistema para minimizar o erro de medição.
@@ -109,7 +109,7 @@
                     \caption{Exemplo de Curve Fit}
                 \end{figure}
 
-                A calibração dinâmica é a mais simples, pois se aplica uma entrada estática conhecida, espera-se o sistema convergir e então mede a sua resposta.
+                A calibração estática é a mais simples, pois se aplica uma entrada conhecida, espera-se o sistema convergir (a extinção da parte transiente do sinal) e então mede a sua resposta.
                 Ao final, teremos uma série de pontos e função de entradas definidas ($y = f(x)$), e ao final podemos usar diferentes métodos de \emph{curve-fitting} para modelarmos o comportamento do
                 sistema (como exemplificado pela imagem acima), ou ainda interpolar para valores de entradas novos.
 

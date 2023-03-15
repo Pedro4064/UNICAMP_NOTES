@@ -337,6 +337,33 @@
                 \end{table}
 
                     
+            \subsection{Sistema Torcional}
+
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.5\textwidth]{imgs/sis_torcional.png}
+                    \caption{Sistema Torcional e $DCL$}
+                \end{figure}
+
+                Para introduzirmos um sistema torcinal de vibrações, iremos considerando um sistema de um disco, com um momento de inércia $J$, conectado a um eixo engastado (fixo e sem rotação livre) em uma das suas extremidades, com uma rigidez torcional
+                \footnote{Similar à propriedade $k$ de molas normais, mas representa a resistência à torção da mola equivalente, que nesse caso refere-se à viga engastada}
+                $k_t$, como mostrado pela figura acima. 
+
+                Quando lidamos com problemas relacionados com rotação, a maioria esmagadora de vezes iremos usar o momento para equacionar o movimento vibracional. Após a análise de corpo livre e
+                determinação da coordenada $\theta$ (necessária somente uma pois sistema apresenta somente um grau de liberdade), podemos aplicar a Lei de Newton no que tange momento e temos:
+
+                \begin{align*}
+                    \sum M = J \ddot \theta \Rightarrow -k_t\theta = J \ddot \theta
+                \end{align*}
+
+                Que pode ser escrita da seguinte forma:
+
+                \begin{align}
+                    \ddot\theta + \frac{k_t}{J}\theta = 0 \label{eq:som_moments_sis_torcional}
+                \end{align}
+
+                Podemos, então, verificar que, mesmo com uma topologia diferente, o sistema apresenta o mesmo comportamento (e mesma modelagem) do sistema massa mola, com a frequência natura sendo 
+                $\omega_n = \sqrt{k_t/J}$
 
 
 

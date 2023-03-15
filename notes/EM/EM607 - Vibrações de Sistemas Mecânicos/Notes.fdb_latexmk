@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1678472280 "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.pdf" "Notes" 1678472282
-  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.aux" 1678472282 2143 5b5557df002a61178bb448ef1e51dd74 ""
-  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" 1678472280 20284 c7217885344bb98bd8b662a86b87b06e ""
+["pdflatex"] 1678815311 "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.pdf" "Notes" 1678815313
+  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.aux" 1678815313 2426 b94417c0ee281dbc97befd1f696bf3eb ""
+  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" 1678815310 22052 c01c7ee8af364711e3c80276efef9691 ""
   "/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png" 1595278198 467268 6bff11785fa206724212b2cc78e70926 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -38,6 +38,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -144,8 +145,8 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Notes.aux" 1678472282 2143 5b5557df002a61178bb448ef1e51dd74 "pdflatex"
-  "Notes.tex" 1678472280 20284 c7217885344bb98bd8b662a86b87b06e ""
+  "Notes.aux" 1678815313 2426 b94417c0ee281dbc97befd1f696bf3eb "pdflatex"
+  "Notes.tex" 1678815310 22052 c01c7ee8af364711e3c80276efef9691 ""
   "imgs/mola_eq_1.png" 1678387641 17583 988d6865415bc81b074aed613f8e9a87 ""
   "imgs/mola_eq_2.png" 1678450611 24859 198f375f383032fa8ec6c600265e1805 ""
   "imgs/mola_eq_3.png" 1678450818 18749 4ca49b8985b5c31cfa61c7bdeadd2914 ""
@@ -153,9 +154,10 @@
   "imgs/mola_eq_6.png" 1678470013 21211 93dcd1697173e6cf465d0eb9029c2671 ""
   "imgs/sis_mass_mola_1.png" 1678304949 49246 a6daf0fc8cf6851829ab5bb474cb9284 ""
   "imgs/sis_mass_mola_1_dcl.png" 1678305720 13839 a5e9ab9a65a059b11fce430846f5d4ad ""
+  "imgs/sis_torcional.png" 1678815041 31174 f2c6aeb064351004250d89c6f979001b ""
   (generated)
   "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.pdf"
-  "Notes.pdf"
   "Notes.aux"
-  "Notes.log"
   "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.log"
+  "Notes.pdf"
+  "Notes.log"

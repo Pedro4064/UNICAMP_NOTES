@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{EM461 - Mecânica dos Fluidos I}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+% Begin the Document 
+\begin{document}
+
+    \maketitle
+    \thispagestyle{empty}
+
+    % Add the image inside a figure in as the first page
+    \begin{figure}[h]
+        \begin{center}
+            \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+        \end{center}
+    \end{figure}
+
+    % Change to the Next page 
+    \newpage
+    \tableofcontents
+    \newpage
+
+    \section{Estática dos Fluidos}
+        Antes de começarmos nossos estudos sobre a mecânica dos fluidos em movimento, iremos revisar (ou para alguns introduzir) a estática de fluidos. 
+
+        \subsection{Equação Base - Estática de Fluidos}
+            A equação mais básica da estática de fluidos é aquela que modela o campo de pressão em um fluido estático. A partir das experiências do dia-a-dia podemos verificar o principal aspecto
+            sobre a pressão em uma coluna de fluido estático: 
+
+            \begin{center}
+                \textbf{A pressão Aumenta com a Profundidade}
+            \end{center}
+
+            A partir disso, e com a intenção de modelarmos matematicamente o sistema, fazemos a análise mais básica de mecânica estática, a lei de Newton. Para esse caso, entretanto, como estamos
+            falando de um fluido e não de um corpo concentrado, iremos aplicar a lei de newton em um cenário diferencial, para lidarmos com pequenos volumes do fluido, como mostra a equação \ref{eq:newton_diff_base}:
+            \begin{align}
+                d\vec{F}_{resultante}= \vec a dm \label{eq:newton_diff_base}
+            \end{align}
+
+            A partir disso, como temos nossa lei de newton básica (mas agora aplicada para o problemas diferencial de fluidos), podemos prosseguir e identificar as forças envolvidas.
+
+            A primeira força de campo que iremos ver e que atua nos problemas de estática de fluidos é a força oriunda da \emph{gravidade}, quando analisamos um pequeno volume diferencial do fluido, dada por:
+            \begin{align}
+                d\vec{F}_B = \vec{g}\rho d \forall \label{eq:forca_peso}
+            \end{align}
+
+            Onde:
+            \begin{itemize}
+                \item $\rho$: Massa específica. Para problemas que estaremos analisando é constante em função tanto do tempo quanto posição.
+                \item $\forall$: Volume do elemento, dada em coordenadas cartesianas tal que $d\forall = dx \ dy \ dz$
+                \item $g$: Aceleração da gravidade.
+            \end{itemize}
+
+            A segunda força que iremos analisar agora é a \textbf{única força de superfície} presente, tendo em vista que estamos abordado a estática de fluidos e, por conseguinte, não há a presença
+            de tensão de cisalhamento, é a força de pressão de superfície $p = p(x, y, z)$, que varia conforme a posição dentro do fluido. Podemos entender essa pressão de superfície como sendo a 
+            \textbf{Pressão exercida pela coluna de fluido ao redor do volume diferencial sendo estudado}.
+
+            A partir disso, temos a Lei de Newton que governa o problema diferencial do fluido (dado pela equação \ref{eq:newton_diff_base}) e temos que as únicas forças que atua no nosso problema são a
+            força de pressão $p(x, y, z)$ e a força peso do volume diferencial sob análise. Como estamos lidando com um problema de estática a somatória de todas as forças precisa ser zero, temos:
+
+
+    
+\end{document}

@@ -52,7 +52,7 @@
             \end{center}
 
             A partir disso, e com a intenção de modelarmos matematicamente o sistema, fazemos a análise mais básica de mecânica estática, a lei de Newton. Para esse caso, entretanto, como estamos
-            falando de um fluido e não de um corpo concentrado, iremos aplicar a lei de newton em um cenário diferencial, para lidarmos com pequenos volumes do fluido, como mostra a equação \ref{eq:newton_diff_base}:
+            falando de um fluido e não de um corpo concentrado, iremos aplicar a lei de newton em um cenário diferencial, para lidarmos com pequenas massas (ou pequenos volumes) do fluido, como mostra a equação \ref{eq:newton_diff_base}:
             \begin{align}
                 d\vec{F}_{resultante}= \vec a dm \label{eq:newton_diff_base}
             \end{align}
@@ -72,11 +72,57 @@
             \end{itemize}
 
             A segunda força que iremos analisar agora é a \textbf{única força de superfície} presente, tendo em vista que estamos abordado a estática de fluidos e, por conseguinte, não há a presença
-            de tensão de cisalhamento, é a força de pressão de superfície $p = p(x, y, z)$, que varia conforme a posição dentro do fluido. Podemos entender essa pressão de superfície como sendo a 
+            de tensão de cisalhamento, é a \textbf{força de pressão de superfície} $p = p(x, y, z)$ (um vetor com três componentes), que varia conforme a posição dentro do fluido. Podemos entender essa pressão de superfície como sendo a 
             \textbf{Pressão exercida pela coluna de fluido ao redor do volume diferencial sendo estudado}.
 
             A partir disso, temos a Lei de Newton que governa o problema diferencial do fluido (dado pela equação \ref{eq:newton_diff_base}) e temos que as únicas forças que atua no nosso problema são a
             força de pressão $p(x, y, z)$ e a força peso do volume diferencial sob análise. Como estamos lidando com um problema de estática a somatória de todas as forças precisa ser zero, temos:
+
+            \begin{align}
+                d\vec{F} = (-\nabla p + \rho \vec{g}) d\forall \Rightarrow \frac{d\vec{F}}{d\forall} = -\nabla p + \rho \vec g \label{eq:newton_estatica_de_fluidos}
+            \end{align}
+
+            Onde temos então a equação final \ref{eq:newton_estatica_de_fluidos}, que representa a força resultante por unidade de volume, que ao igualarmos a zero resulta em:
+
+            \begin{align}
+                -\nabla p &+ \rho \vec g = 0\label{eq:newton_resultante_estatica_de_fluidos}
+            \end{align}
+
+            Onde:
+            \begin{itemize}
+                \item $-\nabla p$: Força de pressão resultante por unidade de volume em um ponto. Representado pelo vetor gradiente com uma componente $x$ uma $y$ e uma $z$
+                \item $\rho \vec g$: Força de campo (gravitacional) por unidade de volume em um ponto
+            \end{itemize}
+
+        \subsection{Variação de Pressão em um Fluido Estático}
+            A seção anterior foi de suma importância por introduzir a modelagem amtemática básica para a estática de fluidos, com a equação \ref{eq:newton_resultante_estatica_de_fluidos}. A partir
+            disso, podemos dissecar tal equação e relacionarmos o que sabemos na prática (que a pressão aumenta com a profundidade) com a modelagem.
+
+            Para tal, precisamos primeiro considerar que estamos lidando com um \textbf{líquido incompressível}, de tal forma que $\rho=const$ e também que a gravidade é uma constante e aponta na
+            direção $z$ somente. A partir disso, precisamos analisar a equação \ref{eq:newton_resultante_estatica_de_fluidos} somente no eixo $z$ , resultando em:
+
+            \begin{align}
+                -\nabla p + \rho \vec g &= 0 \n
+                -\frac{\partial p}{\partial z} + \rho (-g_z) &= 0 \n
+                -\frac{dp}{d z} + \rho (-g_z) &= 0 \label{eq:diff_inicial_pressao} \\
+                dp &= +\rho g_z dz \n
+                \int^p_{p_0} dp &= \int^z_{z_0} \rho g_z dz \n
+                p - p_0 &= \rho g_z (z- z_0) \n 
+                \Delta p &= \rho g h  \label{eq:final_delta_p_estatica_de_fluidos}
+            \end{align}
+
+            É importante ressaltar que, a equação \ref{eq:final_delta_p_estatica_de_fluidos} só é valida para:
+            \begin{itemize}
+                \item Fluido Estático
+                \item A gravidade é a única força de campo
+                \item O eixo $z$ é vertical voltado para cima
+            \end{itemize}
+
+            Além disso, a equação \ref{eq:diff_inicial_pressao} é importante para os casos em que o fluido não é incompressível (e por conseguinte a massa específica $\rho$ pode variar com a pressão
+            $p$). Para esses casos, devemos partir nossas contas dessa equação e fazer a integral para o devido $\rho = f(p)$, como é nos casos dos gases ideais. Importante ressaltar que o sinal da
+            gravidade é negativo pois o eixo $z$ é positivo para cima, \textbf{se o eixo $z$ for positivo para baixo o sinal da gravidade na equação \ref{eq:diff_inicial_pressao} seria positivo}.
+
+        \subsection{Variação de Pressão Em um Gás Ideal}
 
 
     

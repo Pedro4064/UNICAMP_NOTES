@@ -1,2 +1,4 @@
 \contentsline {section}{\numberline {1}Estática dos Fluidos}{3}%
 \contentsline {subsection}{\numberline {1.1}Equação Base - Estática de Fluidos}{3}%
+\contentsline {subsection}{\numberline {1.2}Variação de Pressão em um Fluido Estático}{4}%
+\contentsline {subsection}{\numberline {1.3}Variação de Pressão Em um Gás Ideal}{4}%

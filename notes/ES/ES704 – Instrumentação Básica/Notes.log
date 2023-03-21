@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 MAR 2023 22:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 MAR 2023 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,28 +548,34 @@ File: imgs/curve_fitting_est.png Graphic file (type png)
 <use imgs/curve_fitting_est.png>
 Package pdftex.def Info: imgs/curve_fitting_est.png  used on input line 108.
 (pdftex.def)             Requested size: 249.33128pt x 190.5607pt.
- [4 </Users/pedrocruz/Documents/Develop/notion_backup/notes/ES/ES704 – Instrumentação Básica/imgs/curve_fitting_est.png>] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ [4 </Users/pedrocruz/Documents/Develop/notion_backup/notes/ES/ES704 – Instrumentação Básica/imgs/curve_fitting_est.png>]
+<imgs/bode_plot.png, id=83, 577.15625pt x 513.92pt>
+File: imgs/bode_plot.png Graphic file (type png)
+<use imgs/bode_plot.png>
+Package pdftex.def Info: imgs/bode_plot.png  used on input line 141.
+(pdftex.def)             Requested size: 249.33128pt x 222.0164pt.
+ [5 </Users/pedrocruz/Documents/Develop/notion_backup/notes/ES/ES704 – Instrumentação Básica/imgs/bode_plot.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (/Users/pedrocruz/Documents/Develop/notion_backup/notes/ES/ES704 – Instrumentação Básica/Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: 841759679817B3EA260234C0CF6CEF71;426.
  ) 
 Here is how much of TeX's memory you used:
- 16718 strings out of 480608
- 312395 string characters out of 5903631
+ 16726 strings out of 480608
+ 312533 string characters out of 5903631
  563577 words of memory out of 5000000
- 32260 multiletter control sequences out of 15000+600000
+ 32266 multiletter control sequences out of 15000+600000
  540882 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,75p,924b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/ES/ES704 – Instrumentação Básica/Notes.pdf" (5 pages, 659509 bytes).
+Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/ES/ES704 – Instrumentação Básica/Notes.pdf" (5 pages, 730118 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

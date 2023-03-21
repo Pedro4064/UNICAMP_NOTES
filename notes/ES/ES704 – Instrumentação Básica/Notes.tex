@@ -129,6 +129,25 @@
                 chamado de \textbf{Threshold}) do sensor, que é o valor mínimo de estimulo necessário para que o sistema gere incremento em sua resposta.
 
             \subsubsection{Calibração Dinâmica}
+                Diferente da calibração estática, a calibração dinâmica visa entender e modelar a resposta transiente do sistema ao estimulo externo. Algo importante de apontar é que a resposta segue
+                o mesmo formato de onda da entrada, então se a entrada for um degrau, a saída também será um degrau, mas pode sofrer certas alterações (delay da mudança, ganho, ...) e essa deformação
+                também é necessária e interessante de ser estudada, e para tal a ferramente mais útil é a resposta em frequência e \emph{bode plots}.
+
+                \textbf{Resposta em Frequência:} A principal ferramenta que usamos para analisar a resposta em frequência (além das transformadas de Laplace durante a modelagem do sistema) é o
+                \emph{Bode Plot}, que nada mais é que dois gráficos, um que relaciona o ganho (em $dB$) e outro o \emph{phase-shift} da saída em função da frequência de entrada, como mostra a imagem
+                abaixo:
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.5\textwidth]{imgs/bode_plot.png}
+                    \caption{Bode Plot - Resposta em Frequência}
+                \end{figure}
+
+                Do qual tiramos conceitos importantes:
+                \begin{itemize}
+                    \item \textbf{Banda de Transmissão:} Faixa de frequência na qual o ganho é basicamente unitário e não há defasagem de sinal.
+                    \item \textbf{Banda de Filtragem:} Faixa na qual há um grande atenuamento.
+                    \item \textbf{Bandwidth:} Faixa na qual o ganho é até 3 $dB$ abaixo do valor máximo de ganho.
+                \end{itemize}
 
 
 

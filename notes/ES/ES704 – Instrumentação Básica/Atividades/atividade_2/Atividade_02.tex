@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{Trabalho Final - ES101}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+% Begin the Document 
+\begin{document}
+
+    \maketitle
+    \thispagestyle{empty}
+
+    % Add the image inside a figure in as the first page
+    \begin{figure}[h]
+        \begin{center}
+            \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+        \end{center}
+    \end{figure}
+
+    % Change to the Next page 
+    \newpage
+
+
+    
+\end{document}

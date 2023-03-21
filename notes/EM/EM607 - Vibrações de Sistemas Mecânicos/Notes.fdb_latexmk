@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1679435978 "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.pdf" "Notes" 1679436154
-  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.aux" 1679435981 5194 6b58841d3b30556480e39e2d5a6c4d98 ""
-  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" 1679436153 28622 af23706ebafdc7e09b9a686404e5624f ""
+["pdflatex"] 1679441852 "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.pdf" "Notes" 1679441855
+  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.aux" 1679441854 5998 932be2b76746d7bb489b3fa1d5701448 ""
+  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.tex" 1679441851 32786 a1ab35cacf7a9309cecba584a4bc94b7 ""
   "/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png" 1595278198 467268 6bff11785fa206724212b2cc78e70926 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -171,9 +171,9 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Notes.aux" 1679435981 5194 6b58841d3b30556480e39e2d5a6c4d98 "pdflatex"
-  "Notes.out" 1679435981 1396 e33f5e465029e22392adc1357675b4cd "pdflatex"
-  "Notes.tex" 1679436153 28622 af23706ebafdc7e09b9a686404e5624f ""
+  "Notes.aux" 1679441854 5998 932be2b76746d7bb489b3fa1d5701448 "pdflatex"
+  "Notes.out" 1679441854 1692 6d684870f181584f1fa627b4555aa957 "pdflatex"
+  "Notes.tex" 1679441851 32786 a1ab35cacf7a9309cecba584a4bc94b7 ""
   "imgs/mola_eq_1.png" 1678387641 17583 988d6865415bc81b074aed613f8e9a87 ""
   "imgs/mola_eq_2.png" 1678450611 24859 198f375f383032fa8ec6c600265e1805 ""
   "imgs/mola_eq_3.png" 1678450818 18749 4ca49b8985b5c31cfa61c7bdeadd2914 ""
@@ -184,9 +184,9 @@
   "imgs/sis_massa_mola_amortecedor.png" 1679426689 24413 2622154ba5e10fc09bbacd0bd43b48c7 ""
   "imgs/sis_torcional.png" 1678815041 31174 f2c6aeb064351004250d89c6f979001b ""
   (generated)
-  "Notes.out"
-  "Notes.aux"
-  "Notes.pdf"
-  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.log"
   "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.pdf"
+  "Notes.pdf"
+  "Notes.aux"
   "Notes.log"
+  "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM607 - Vibrações de Sistemas Mecânicos/Notes.log"
+  "Notes.out"

@@ -476,6 +476,61 @@
                         x(t) = A_1e^{\frac{-t}{\tau_1}} + A_2e^{\frac{-t}{\tau_2}}
                      \end{align}
 
+        \section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} sem Amortecimento}
+        \section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} com Amortecimento - Excitação Harmônica}
+            Vimos, anteriormente, a resposta de um sistema sem amortecimento para uma entrada forçada (\emph{i.e} que possui uma força externa agindo sobre o sistema). Iremos, agora, verificar a modelagem
+            da resposta de um sistema que também possui \textbf{amortecimento viscoso}, dada por:
+            \begin{align}
+                m\ddot x + c\dot x + kx = F_0\sin(\Omega t) \Rightarrow \ddot x + 2 \zeta \omega_n \dot x + \omega_n^2 x = f_0 \sin(\Omega t) \label{eq:vib_forcada_amortecida_1dof}
+            \end{align}
+
+            Onde:
+            \begin{itemize}
+                \item $\omega_n = \sqrt{k/m}$
+                \item $\zeta = c/(2m\omega_n)$
+                \item $f_0=F_0/m$
+            \end{itemize}
+
+            Como estamos lidando com uma \emph{equação diferencial não homogene} por ter o termo forçante. Para esse caso, temos que a resposta do sistema $x = x_p + x_h$, \emph{i.e} ela divida em solução
+            homogênea (também chamada de resposta não forçada do sistema) e da solução particular (também chamada de resposta forçada), que são dadas por:
+            \begin{align}
+                x = x_h + x_p\begin{cases}x_h(t) = Ae^{-\zeta \omega_n t} \sin(\omega_d t + \phi) \\ x_p(t) = M\sin(\Omega t) + N \cos{(\Omega t)}\end{cases}
+            \end{align}
+
+            A partir disso, para descobrirmos os valores de $M$ e $N$ basta nós substituirmos $x_p$ na equação diferencial dada pela equação \ref{eq:vib_forcada_amortecida_1dof} resultando em:
+            \begin{align}
+                M &= \frac{(\omega_n^2 - \Omega^2)f_0}{(\omega_n^2 - \Omega^2)^2 + (2\zeta \omega_n\Omega)^2} = \frac{(1 - r^2) f_0/\omega_n^2}{(1 - r^2)^2 + (2 \zeta r)^2} \n
+                N &= \frac{-2\zeta \omega_n \Omega f_0}{(\omega_n^2 - \omega^2)^2 + (2\zeta\omega_n\Omega)^2} = \frac{-2\zeta r f_0/\omega_n^2}{(1 - r^2)^2 + (2\zeta r)^2}
+            \end{align}
+
+            Onde temos que $r$ é chamado de razão das frequências.
+
+            A partir disso, podemos, ainda, reescrever a resposta forçada ($x_p$) como sendo:
+            \begin{align}
+                x_p(t) = X\sin(\Omega t - \theta)
+            \end{align}
+
+            Tal que:
+            \begin{itemize}
+                \item $X = \sqrt{M^2 + N^2}$
+                \item $\tan{\theta} = (2\zeta r)/(1-r^2)$
+            \end{itemize}
+
+            Fizemos essa re-escrita tal que possamos analizar algo chamado de \emph{Fator de Amplificação}, denotado por \textbf{$MF$}, que é dado por\footnote{É importante apontar que $MF$ é
+            adimensional propositalmente, pois facilita a análize. A partir disso, se houver um outro sistema o qual você queira identificar o $MF$ nós pegamos a equação que define $X$ (a amplitude da
+            resposta) e tentamos isolar (em função de $X$ e outras coisas) o resto da função que dependa somente de $r$ e $\zeta$, que interferem na amplitude da oscilação e que também são adimencionais.}:
+            \begin{align}
+                MF = \frac{Xk}{F_0} = \frac{X\omega_n^2}{f_0} = \frac{1}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}}\label{eq:fator_de_amplificacao}
+            \end{align}
+
+            De tal forma que nós conseguimos analisar e determinar a razão entre a amplitude de entrada e saída e ainda, por conseguinte, o pico de resposta em frequência (dada pelo valor máximo de $MF$) que corresponde a \textbf{Resonância de um Sistema Forçado de 1DOF
+            Amortecido}. Tal ponto de resonância pode ser obtido via experimentação ou ainda analiticamente, se tivermos o modelo matemático que rege nosso sistema, de tal forma que é obtido pela análise
+            dos pontos críticos da função $MF$, dada pelos pontos onde a sua derivada é zero. Ao aplicarmos isso no exemplo em questão temos que:
+            \begin{align}
+                MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}
+            \end{align}
+
+        \section{Desbalanceamento Rotativo}
 
 
 

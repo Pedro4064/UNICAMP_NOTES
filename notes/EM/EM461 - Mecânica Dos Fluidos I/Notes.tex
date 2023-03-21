@@ -9,6 +9,7 @@
 \usepackage{tcolorbox}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -122,7 +123,25 @@
             $p$). Para esses casos, devemos partir nossas contas dessa equação e fazer a integral para o devido $\rho = f(p)$, como é nos casos dos gases ideais. Importante ressaltar que o sinal da
             gravidade é negativo pois o eixo $z$ é positivo para cima, \textbf{se o eixo $z$ for positivo para baixo o sinal da gravidade na equação \ref{eq:diff_inicial_pressao} seria positivo}.
 
+
         \subsection{Variação de Pressão Em um Gás Ideal}
+            Como dito na parte anterior, há casos que lidaremos com fluidos compressíveis, sendo o mais notório deles os chamados \textbf{gases ideais}, onde:
+            \begin{align}
+                p &= \rho RT \therefore \rho = \frac{P}{RT} \label{eq:gases_ideais}
+            \end{align}
+
+            Onde: 
+            \begin{itemize}
+                \item $T$: Temperatura em Kelvin
+                \item $P$: Pressão
+                \item $\rho$: Massa Específica
+                \item $R$: Constante universal dos gases (tabelada)
+            \end{itemize}
+
+            A partir disso, e da equação \ref{eq:diff_inicial_pressao}, somos capazes de determinar uma expressão para a pressão em um gás ideal.
+
+        \newpage
+            
 
 
     

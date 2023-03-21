@@ -23,6 +23,14 @@
 \lhead{\inserttitle}
 \rfoot{Page \thepage}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+}
+
 % Begin the Document 
 \begin{document}
 
@@ -364,6 +372,103 @@
 
                 Podemos, então, verificar que, mesmo com uma topologia diferente, o sistema apresenta o mesmo comportamento (e mesma modelagem) do sistema massa mola, com a frequência natura sendo 
                 $\omega_n = \sqrt{k_t/J}$
+
+        \section{Vibrações Livres de Sistemas de 1 \emph{DOF} com Amortecimento}
+
+            \subsection{Introdução}
+                Até o momento nós vimos situações onde não haviam forças dissipativas atuando sobre o sistema e, por conseguinte, o movimento de vibração continuava eternamente. Isso, entretanto, não
+                condiz com a realidade, levando em consideração que há inúmeros mecanismos pelos quais um sistema perde energia. Vários deles, entretanto, podem ser modelados por um 
+                \textbf{amortecedor viscoso}, que é regido pela seguinte equação:
+
+                \begin{align}
+                    f_d = -c \dot x \label{eq:forca_amortecedor_viscoso}
+                \end{align}
+
+                Onde:
+                \begin{itemize}
+                    \item $c$: Constante do amortecedor
+                    \item $\dot x$: A velocidade
+                \end{itemize}
+
+                O exemplo mais comum disso é uma massa-mola-amortecedor, como mostrado na figura abaixo:
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.4\textwidth]{imgs/sis_massa_mola_amortecedor.png}
+                    \caption{Sistema Massa-Mola-Amortecedor}
+                \end{figure}
+
+                Aplicando a Lei de Newton chegamos em:
+
+                \begin{align}
+                    \ddot x + \frac{c}{m}\dot x + \frac{k}{m}x = 0 \label{eq:massa_mola_amortecedor_base}
+                \end{align}
+
+                Rotineiramente, entretanto, quando temos um problema com amortecimento nós utilizamos a equação diferencial (que no nosso caso é a equação \ref{eq:massa_mola_amortecedor_base}) da seguinte
+                forma:
+                \begin{align}
+                    \ddot x + 2\zeta \omega_n\dot x + \omega_n^2 x = 0 \label{eq:massa_mola_amortecedor_classica}
+                \end{align}
+
+                Onde:
+                \begin{itemize}
+                    \item $\zeta$: \textbf{Fator de Amortecimento}, parâmetro adimencional que fornece uma medida do amortecimento do sistema (que veremos de forma mais detalhada mais para frente) 
+                    \item $\omega_n$: Frequência Natural do sistema, dada por $\sqrt{k/m}$
+                \end{itemize}
+
+                \textbf{IMPORTANTE:} Em um sistema amortecido, o sistema \textbf{\emph{NÃO}} oscila com a frequência natural $\omega_n$, mas sim com uma frequência amortecida (também chamada de
+                \emph{damped frequency} $\omega_d$, que iremos averiguar mais para frente como é calculada).
+                \newpage
+
+            \subsection{Classificação de Sistemas Amortecidos}
+                Como vimos anteriormente, podemos modelar um sistema de 1 grau de liberdade amortecido pela equação \ref{eq:massa_mola_amortecedor_classica}, que tem como principal componente que
+                descreve o seu amortecimento como sendo o $\zeta$, chamado de fator de amortecimento.
+                
+                Somos capazes de ver e entender a influência do fator de amortecimento ao analisarmos a equação diferencial característica \ref{eq:massa_mola_amortecedor_classica}, onde, 
+                durante a sua resolução (para o qual supomos o sistema com uma resposta $x=Ae^{\lambda t}$), seu polinômio característico\footnote{Importante rever essa parte de Calc III ou Anal, mas o
+                polinômio característico é usado para achar o $\lambda$ da exponencial que supomos ser a resposta do sistema} e suas raízes (que regem o comportamento exponencial da resposta) são dadas por:
+
+                \begin{align*}
+                    \lambda^2 + 2\zeta \omega_n \lambda + \omega_n^2 = 0 \Rightarrow
+                    \lambda_{1,2} = -\zeta \omega_n \pm \omega_n \sqrt{\zeta^2 - 1}
+                \end{align*}
+
+                A depender do valor de $\zeta$ temos que o sistema pode ser:
+                \begin{itemize}
+                    \item $\zeta < 1$: Sub-amortecido
+                    \item $\zeta=1$: Criticamente amortecido
+                    \item $\zeta > 1$: Super-amortecido
+                \end{itemize}
+
+                \subsubsection{Sistema Sub-Amortecido}
+                    Dizemos que um sistema é sub-amortecido quando $\zeta < 1$, o que resulta na equação característica ter duas raízes imaginárias tal que:
+                    \begin{align}
+                        \lambda_{1,2} = \sigma \pm  j \omega_d \Rightarrow \begin{cases}\sigma = -\zeta \omega_n \\ \omega_d = \omega_n \sqrt{1 - \zeta^2}\end{cases}\label{eq:raizes_caso_sub_amortecido}
+                    \end{align}
+                    
+                    Onde a parte imaginária da raiz é chamada de \emph{frequência amortecida} $\omega_d$. 
+
+                    Por fim, teremos como resposta do sistema:
+                    \begin{align}
+                        x(t) = A_1 e^{\lambda_1 t} + A_2 e^{\lambda_2 t} = e^{-\zeta \omega_n t}(A_1e^{j\omega_dt} + A_2^{-j\omega_d t}) \label{eq:resp_sis_sub_amortecido}
+                    \end{align}
+
+                    Onde $A_{1,2}$ são constantes que somos capazes de achar a partir das duas condições iniciais.
+
+                \subsubsection{Sistema Criticamente-Amortecido}
+                    Já para quando $\zeta=1$, nós chamamos o sistema de criticamente amortecido, e sua equação característica tem duas raízes reais iguais:
+                    \begin{align}
+                        \lambda_1 = \lambda_2 = -\zeta \omega_n = -\omega_n \label{eq:raizes_caso_criticamente_amortecido}
+                    \end{align}
+
+                     Resultando em uma resposta que \textbf{não oscila} e que é descrita por:
+                     \begin{align}
+                        x(t) = A_1 e^{-\omega_n t}  + A_2 e^{-\omega_n t}
+                     \end{align}
+
+                \subsubsection{Sistema Super-Amortecido}
+                     E para o último caso, chamamos de super-amortecido quando $\zeta > 1$, resultando em:
+
+
 
 
 

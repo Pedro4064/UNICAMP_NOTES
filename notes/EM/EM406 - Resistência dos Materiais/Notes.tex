@@ -162,18 +162,12 @@
                 \caption{Principais Suportes e Vínculos - 2D}
             \end{table}
 
-        \subsection{Cargas Combinadas}
-
-            Pela tabela acima temos os principais suportes e suas característica. Quando estamos analisando problemas complexos (com diversas forças), entretanto, os modelos acima podem
-            \textbf{não serem suficientes para modelarmos todas forças e momentos presentes ao mesmo tempo}. Nesses casos, é encessário escolher o tipo certo de suporte e vínculo para a força que está sendo
-            analisada no momento (e por conseguinte várias análises serão necessárias).
-
-            Tenso isso em vista, é importante entender o processo de escolha de vínculos durante análise de uma força. Para tal, podemos nos perguntar:
+            Tendo em vista que há diferentes suportes e vínculos, é importante entender o processo de escolha de vínculos durante análise de uma força/momento. Para tal, podemos nos perguntar:
             \begin{enumerate}
                 \item \textbf{O apoio/vínculo impede algum movimento que será resultante da força sob análise?} Se a resposta for \emph{não}, podemos simplesmente desconsiderar o vinculo na nossa
                 modelagem. Se a resposta for \emph{sim}, ele impede um movimento, podemos prosseguir para outras perguntas.
                 \item \textbf{O apoio/vínculo impede que a peça "gire" como resultado da força?} Se a resposta for \emph{sim} isso significa que o suporte restringe tanto forças quanto
-                \emph{momentos}. Como temos somente um vínculo (o engaste) que tem essa característica, podemos usa-lo durante nossa modelagem. Se a resposta for não, fiamos entre um rolete e um pino.
+                \emph{momentos}. Como temos somente um vínculo (o engaste) que tem essa característica, podemos usa-lo durante nossa modelagem. Se a resposta for não, ficamos entre um rolete e um pino.
                 \item \textbf{O apoio/vínculo impede a movimentação, que seria resultante da força, em mais de um eixo?} Se \emph{sim}, temos um pino. Caso contrário teremos um rolete.
             \end{enumerate}
 
@@ -231,6 +225,81 @@
                 \item \textbf{Sistema Hiperestático}: As vinculações são em excesso para satisfazer o equilíbrio estático, número de incógnitas maior ao numero de equações.
                 \item \textbf{Sistema Hipostático}: As vinculações não são suficientes para satisfazer o equilíbrio estático, número de incógnitas menor ao numero de equações.
             \end{itemize}
+
+        \newpage
+        \subsection{Carregamentos Combinados}
+            Já vimos anteriormente no caso de cargas combinadas que, a depender das forças que o corpo sofre (e resiste) nós iremos representar os suportes e vínculos de uma forma específica. 
+            Agora, nós iremos expandir esse assunto e descrever de forma detalhada os diferentes modelos que nós usamos para os corpos que sofrem essas forças e reações e descrever suas prioridades.
+
+            A parte mais fundamental para entender o porque há diferentes modelos para descrever os corpos que \textbf{são esbeltos} (\emph{i.e} possuem comprimento muito maior que sua largura e
+            altura) é:
+
+            $$\\$$
+            \begin{center}
+                \textbf{Problemas de carregamento transversal, longitudinal e torsional são independentes}
+            \end{center}
+            $$\\$$
+
+            Isso nos diz que podem haver problemas de carregamentos combinados que sejam necessários 3 modelos distintos para serem modelados, cada um com um modelo específico para o corpo, como
+            podemos ver abaixo:
+
+            \begin{table}[h]
+                \centering
+                \begin{tabular}{|l|c|l|c|}\hline
+                    \textbf{Nome} & \textbf{Exemplo} & \textbf{Descrição} & \textbf{Equação} \\ \hline
+                    Barra
+                        &
+                        \begin{minipage}{.4\textwidth}
+                            \includegraphics[width=\textwidth]{imgs/barra_eg.png}
+                        \end{minipage}
+                        &
+                        \begin{minipage}{.3\textwidth}
+                            Corpos sujeitos \textbf{somente a cargas logitudinais/axiais}
+                        \end{minipage}
+                        &
+                        $\sum F_x = 0$ \\ \hline
+
+                    Eixo 
+                        &
+                        \begin{minipage}{.4\textwidth}
+                            \vspace{10px}
+                            \includegraphics[width=.9\textwidth]{imgs/eixo_eg.png}
+                        \end{minipage}
+                        &
+                        \begin{minipage}{.3\textwidth}
+                            Corpos sujeitos \textbf{somente a cargas torcionais}
+                        \end{minipage}
+                        &
+                        $\sum M_x = 0$ \\ \hline
+                    Viga 
+                        &
+                        \begin{minipage}{.4\textwidth}
+                            \vspace{10px}
+                            \includegraphics[width=.9\textwidth]{imgs/viga_eg.png}
+                        \end{minipage}
+                        &
+                        \begin{minipage}{.3\textwidth}
+                            Corpos sujeitos \textbf{somente a cargas transversais e/ou momentos fletores}
+                        \end{minipage}
+                        &
+                        $\sum M_z,F_y = 0$ \\ \hline
+
+                \end{tabular}
+                \caption{Tabela de Modelos para Corpos Esbeltos}
+            \end{table}
+
+        \subsection{Equilíbrio Interno de Corpos}
+            Para começarmos a entrar no assunto de deformação dos corpos, é primeiro necessário entender que quando há o \textbf{equilíbrio estático de um corpo}, há também um \textbf{equilíbrio entre quaisquer duas
+            partes internas} do corpo, que \textbf{sofrem esforços internos}, sendo eles:
+            \begin{itemize}
+                \item Esforços Axial $N_x(x)$
+                \item Esforço Cortante $V_y(x)$
+                \item Momento fletor $M_z(x)$
+                \item Momento Torsor $M_x(x)$
+            \end{itemize}
+
+            \subsubsection{Convensão de Sinais}
+                Quando estivermos lidando com a análise de esforços internos e deformações de corpos, nós iremos seguir a seguinte convenção de sinais:
 
 
     

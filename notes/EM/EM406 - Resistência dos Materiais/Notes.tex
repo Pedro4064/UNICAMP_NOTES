@@ -288,18 +288,77 @@
                 \caption{Tabela de Modelos para Corpos Esbeltos}
             \end{table}
 
+        \newpage
         \subsection{Equilíbrio Interno de Corpos}
             Para começarmos a entrar no assunto de deformação dos corpos, é primeiro necessário entender que quando há o \textbf{equilíbrio estático de um corpo}, há também um \textbf{equilíbrio entre quaisquer duas
             partes internas} do corpo, que \textbf{sofrem esforços internos}, sendo eles:
             \begin{itemize}
                 \item Esforços Axial $N_x(x)$
                 \item Esforço Cortante $V_y(x)$
-                \item Momento fletor $M_z(x)$
+                \item Momento Fletor $M_z(x)$
                 \item Momento Torsor $M_x(x)$
             \end{itemize}
 
-            \subsubsection{Convensão de Sinais}
+            \subsubsection{Convenção de Sinais}
                 Quando estivermos lidando com a análise de esforços internos e deformações de corpos, nós iremos seguir a seguinte convenção de sinais:
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.3\textwidth]{imgs/conv_sinais.png}
+                    \caption{Convenção de Sinais para Esforços Internos}
+                \end{figure}
+
+
+                A partir dessa convenção e da análise dos momentos fletores $M_z$ e esforços cortantes $V_x$ conhecidos nós somos capazes de analisar a deformação de um corpo esbelto (\emph{e.g} uma viga),
+                como mostrado abaixo:
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.55\textwidth]{imgs/conv_sinais_eg.png}
+                    \caption{Exemplo de Análise de Forças Internas e Deformação}
+                \end{figure}
+
+        \section{Método das Equações Diferenciais de Equilíbrio}
+            \subsection{Introdução e Equações Diferenciais}
+                Até o momento nós vimos que se tivermos o esforço cortante e o momento fletor para um corpo nós somos capazes de deduzir a deformação. Agora, entretanto, iremos ver como que nós calculamos
+                esses valores para um corpo sofrendo carregamento. O nome do método para tal é o \textbf{Método das Equações Diferenciais}, onde nós relacionamos cada tipo de load externo (para barras,
+                vigas e eixos) com as respectivas reações internas, em um cenário diferencial (para uma parte infinitesimal do corpo de cada vez, para todo o corpo), como mostrado na tabela abaixo:
+
+                \begin{table}[h]
+                    \centering
+                    \begin{tabular}{|l|c|l|}\hline
+                        \textbf{Cenário} & \textbf{Equação} & \textbf{Descrição}\\ \hline
+                        \rule{0pt}{4ex} Barras & $\frac{d}{dx}N_x(x) = -p(x)$ & Onde $-p(x)$ é o carregamento longitudinal sendo sofrido \\[2ex]  \hline
+                        \rule{0pt}{4ex} Eixos  & $\frac{d}{dx}M_x(x) = -t(x)$ & Onde $-t(x)$ é o momento axial sofrido \\[2ex]\hline
+                        \rule{0pt}{4ex} Vigas: Cortante & $\frac{d}{dx}V_x(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
+                        \rule{0pt}{4ex} Vigas: Momento Fletor & $\frac{d^2}{dx^2}M_z = \frac{d}{dx}V_y(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
+                        
+                    \end{tabular}
+                    \caption{EDOs para principais modelos de corpos esbeltos}
+                \end{table}
+
+                Relembrando, onde:
+                \begin{itemize}
+                    \item Esforços Axial $N_x(x)$
+                    \item Esforço Cortante $V_y(x)$
+                    \item Momento Fletor $M_z(x)$
+                    \item Momento Torsor $M_x(x)$
+                \end{itemize}
+
+            \subsection{Condições de Contorno}
+                Se lembrarmos bem de calculo 3 e de equações diferenciais, todas as EDOs de grau $n$ precisam de $n$ pontos conhecidos para possam ser resolvidos, onde eles podem ser Pontos de
+                Contorno ou Condições Iniciais. Para o nosso caso, iremos estudar problemas com condições de contorno.
+
+                Para ser considerado uma condição de contorno é necessário:
+                \begin{enumerate}
+                    \item Estar Definida no Contorno do modelo 
+                    \item Ser Conhecida a Priori
+                    \item Ser Relevante para o Problema
+                \end{enumerate}
+
+                Indo além, para os nosso problemas, 99\% das vezes as condições de contorno estarão nas extremidades do corpo sendo estudado (\emph{e.g} em uma ponta de uma viga). Iremos abaixo
+                \textbf{descrever as condições de contorno para os principais vínculos/apoios QUANDO PRESENTES NAS EXTREMIDADES DO CORPO}.
+
+
+
 
 
     

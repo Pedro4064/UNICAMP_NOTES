@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  22 MAR 2023 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 MAR 2023 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -503,7 +503,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 \@outlinefile=\write6
 \openout6 = `Notes.out'.
 
-</Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png, id=31, 2482.27374pt x 2609.75pt>
+</Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png, id=43, 2482.27374pt x 2609.75pt>
 File: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png Graphic file (type png)
 <use /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png>
 Package pdftex.def Info: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png  used on input line 42.
@@ -515,17 +515,17 @@ Package pdftex.def Info: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Roboti
 \openout7 = `Notes.toc'.
 
  [2]
-<imgs/rolete_eg.png, id=55, 292.09125pt x 166.6225pt>
+<imgs/rolete_eg.png, id=70, 292.09125pt x 166.6225pt>
 File: imgs/rolete_eg.png Graphic file (type png)
 <use imgs/rolete_eg.png>
 Package pdftex.def Info: imgs/rolete_eg.png  used on input line 73.
 (pdftex.def)             Requested size: 99.73099pt x 56.88988pt.
-<imgs/rolete_rep.png, id=56, 272.01625pt x 106.3975pt>
+<imgs/rolete_rep.png, id=71, 272.01625pt x 106.3975pt>
 File: imgs/rolete_rep.png Graphic file (type png)
 <use imgs/rolete_rep.png>
 Package pdftex.def Info: imgs/rolete_rep.png  used on input line 78.
 (pdftex.def)             Requested size: 99.73099pt x 39.00928pt.
-<imgs/rolete_dcl.png, id=57, 282.05376pt x 139.52126pt>
+<imgs/rolete_dcl.png, id=72, 282.05376pt x 139.52126pt>
 File: imgs/rolete_dcl.png Graphic file (type png)
 <use imgs/rolete_dcl.png>
 Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 83.
@@ -580,17 +580,17 @@ Underfull \hbox (badness 4805) in paragraph at lines 96--98
 \OT1/cmr/m/n/5 tais abaixo do
  []
 
-<imgs/pino_eg.png, id=58, 412.54124pt x 206.7725pt>
+<imgs/pino_eg.png, id=73, 412.54124pt x 206.7725pt>
 File: imgs/pino_eg.png Graphic file (type png)
 <use imgs/pino_eg.png>
 Package pdftex.def Info: imgs/pino_eg.png  used on input line 104.
 (pdftex.def)             Requested size: 99.73099pt x 49.98608pt.
-<imgs/pino_rep.png, id=59, 257.96375pt x 96.36pt>
+<imgs/pino_rep.png, id=74, 257.96375pt x 96.36pt>
 File: imgs/pino_rep.png Graphic file (type png)
 <use imgs/pino_rep.png>
 Package pdftex.def Info: imgs/pino_rep.png  used on input line 109.
 (pdftex.def)             Requested size: 99.73099pt x 37.25381pt.
-<imgs/pino_dcl.png, id=60, 310.15875pt x 140.525pt>
+<imgs/pino_dcl.png, id=75, 310.15875pt x 140.525pt>
 File: imgs/pino_dcl.png Graphic file (type png)
 <use imgs/pino_dcl.png>
 Package pdftex.def Info: imgs/pino_dcl.png  used on input line 114.
@@ -640,7 +640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--129
 \OT1/cmr/bx/n/5 UMA \OT1/cmr/m/n/5 linha
  []
 
-<imgs/engaste_rep.png, id=61, 263.98625pt x 122.4575pt>
+<imgs/engaste_rep.png, id=76, 263.98625pt x 122.4575pt>
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
 Package pdftex.def Info: imgs/engaste_rep.png  used on input line 136.
@@ -649,7 +649,7 @@ File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
 Package pdftex.def Info: imgs/engaste_rep.png  used on input line 141.
 (pdftex.def)             Requested size: 99.73099pt x 46.2615pt.
-<imgs/engaste_dcl.png, id=62, 340.27126pt x 173.64874pt>
+<imgs/engaste_dcl.png, id=77, 340.27126pt x 173.64874pt>
 File: imgs/engaste_dcl.png Graphic file (type png)
 <use imgs/engaste_dcl.png>
 Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 146.
@@ -675,7 +675,7 @@ Overfull \hbox (14.99998pt too wide) in paragraph at lines 184--202
  []
 
 [3 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_dcl.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_dcl.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/engaste_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/engaste_dcl.png>]
-<imgs/sis_plano.png, id=85, 264.99pt x 212.795pt>
+<imgs/sis_plano.png, id=100, 264.99pt x 212.795pt>
 File: imgs/sis_plano.png Graphic file (type png)
 <use imgs/sis_plano.png>
 Package pdftex.def Info: imgs/sis_plano.png  used on input line 212.
@@ -686,43 +686,59 @@ Overfull \hbox (14.99998pt too wide) in paragraph at lines 210--221
  []
 
 [4 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/sis_plano.png>]
-<imgs/barra_eg.png, id=95, 508.90125pt x 123.46124pt>
+<imgs/barra_eg.png, id=110, 508.90125pt x 123.46124pt>
 File: imgs/barra_eg.png Graphic file (type png)
 <use imgs/barra_eg.png>
 Package pdftex.def Info: imgs/barra_eg.png  used on input line 253.
 (pdftex.def)             Requested size: 199.46198pt x 48.39081pt.
-<imgs/eixo_eg.png, id=96, 460.72125pt x 120.45pt>
+<imgs/eixo_eg.png, id=111, 460.72125pt x 120.45pt>
 File: imgs/eixo_eg.png Graphic file (type png)
 <use imgs/eixo_eg.png>
 Package pdftex.def Info: imgs/eixo_eg.png  used on input line 266.
 (pdftex.def)             Requested size: 179.51456pt x 46.93118pt.
-<imgs/viga_eg.png, id=97, 452.69125pt x 132.495pt>
+<imgs/viga_eg.png, id=112, 452.69125pt x 132.495pt>
 File: imgs/viga_eg.png Graphic file (type png)
 <use imgs/viga_eg.png>
 Package pdftex.def Info: imgs/viga_eg.png  used on input line 278.
 (pdftex.def)             Requested size: 179.51456pt x 52.54015pt.
  [5 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/barra_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/eixo_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/viga_eg.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 306.
+<imgs/conv_sinais.png, id=121, 355.3275pt x 210.7875pt>
+File: imgs/conv_sinais.png Graphic file (type png)
+<use imgs/conv_sinais.png>
+Package pdftex.def Info: imgs/conv_sinais.png  used on input line 306.
+(pdftex.def)             Requested size: 149.6003pt x 88.74886pt.
+<imgs/conv_sinais_eg.png, id=122, 625.33624pt x 635.37375pt>
+File: imgs/conv_sinais_eg.png Graphic file (type png)
+<use imgs/conv_sinais_eg.png>
+Package pdftex.def Info: imgs/conv_sinais_eg.png  used on input line 315.
+(pdftex.def)             Requested size: 274.26593pt x 278.67337pt.
+ [6 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/conv_sinais.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/conv_sinais_eg.png>]
+Overfull \hbox (7.46848pt too wide) in paragraph at lines 327--335
+ [][] 
+ []
+
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
  (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 9C51880C541B2CC5A9693D6A1B35DC56;459.
+(rerunfilecheck)             Checksum: BD5F1831FE43BD8105FAFE986FAFCE4F;726.
  ) 
 Here is how much of TeX's memory you used:
- 16270 strings out of 480608
- 307981 string characters out of 5903631
+ 16296 strings out of 480608
+ 308400 string characters out of 5903631
  567977 words of memory out of 5000000
- 31820 multiletter control sequences out of 15000+600000
+ 31833 multiletter control sequences out of 15000+600000
  539399 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,16n,75p,924b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.pdf" (5 pages, 677088 bytes).
+Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.pdf" (7 pages, 788554 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

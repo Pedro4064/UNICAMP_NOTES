@@ -503,7 +503,7 @@
                 N &= \frac{-2\zeta \omega_n \Omega f_0}{(\omega_n^2 - \omega^2)^2 + (2\zeta\omega_n\Omega)^2} = \frac{-2\zeta r f_0/\omega_n^2}{(1 - r^2)^2 + (2\zeta r)^2}
             \end{align}
 
-            Onde temos que $r$ é chamado de razão das frequências.
+            Onde temos que $r = \Omega / \omega_n$ é chamado de razão das frequências.
 
             A partir disso, podemos, ainda, reescrever a resposta forçada ($x_p$) como sendo:
             \begin{align}
@@ -531,6 +531,64 @@
             \end{align}
 
         \section{Desbalanceamento Rotativo}
+            Como um exemplo de vibração forçada com amortecimento viscoso ecxitação harmônica  é um problema de desbalanceamento rotativo, como exemplificado pelo sistema abaixo:
+
+            INSERIR IMAGEM 
+
+            Esse sistema nós temos a seguinte modelagem:
+
+            \begin{align}
+                M\ddot x + c \dot x + kx = me\Omega^2 \sin(\Omega t)
+            \end{align}
+
+            Onde teremos uma resposta senoidal para a solução particular também como sendo $X \sin{(\Omega t - \alpha)}$ com a amplitude $X$ dada por:
+            \begin{align}
+                X = \frac{(me/M) r^2}{\sqrt{(1-r^2)^2 + (2\zeta r)^2}}
+            \end{align}
+
+            E o ângulo de fase sendo:
+            \begin{align}
+                \tan{(\theta)} = \frac{2\zeta r}{ 1 - r^2}
+            \end{align}
+
+        \section{Transmissibilidade}
+            Considerando o sistema descrito abaixo, nosso objeto de estudo agora será determinar a força que chega ao suporte do sistema.
+
+            Ao fazermos o DCL e  a soma das forças em $x$ vemos que a força $F$ aplicada sobre o suporte é:
+            \begin{align}
+                F = kx + x\dot x
+            \end{align}
+
+            Analisando em regime permanente (e por conseguinte analisando a resposta forçada do sistema) teremos:
+            \begin{align}
+                F = xK\sin(\Omega t - \theta) + c \Omega X \cos(\Omega t - \theta) ,   x(t) = X\sin(\Omega t -\theta)
+            \end{align}
+
+            Como estamos lidando com soma de cossenos e senos, podemos representar como sendo somente um seno e uma amplitude, o que facilitará nossas contas e nossas análises (principalmente de
+            amplitude). Reescrevendo a função acima temos:
+            \begin{align}
+                F &= \sqrt{(kX)^2 + (x\Omega X)^2} \sin(\Omega t - \theta - \beta) \n
+                  &= \sqrt{(kX)^2 + (x\Omega X)^2}  X \sin(\Omega t = \sigma)
+            \end{align}
+
+            A partir disso, podemos analisar que a amplitude máxima (e por conseguinte a força máxima) sofrida pelo suporte do sistema é:
+            \begin{align}
+                F_T = X\sqrt{k^2 + (c \Omega)^2}
+            \end{align}
+
+            Com isso, somos capazes de introduzir o conceito de \textbf{TRANSMISSIBILIDADE} $TR$, que é uma relação entre a força máxima que chega no suporte do sistema e da força aplicada no sistema
+            como um todo:
+            \begin{align}
+                TR = \frac{F_T}{F_0} = \frac{\sqrt{1 + (2 \zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2 \zeta r)^2}}
+            \end{align}
+
+            Podemos, por fim, analisar o impacto da constante de amortecimento $\zeta$ e da razão das frequências $r$, como mostrado na imagem abaixo:
+
+            INSERIR IMAGEM 
+
+            E podemos, então, observar que quanto menos amortecido, mais força chega no suporte pois gera uma \textbf{amplificação} da força de entrada, podendo quebrar o suporte se não projetado propriamente.
+
+
 
 
 

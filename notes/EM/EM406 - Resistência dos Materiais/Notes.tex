@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \author{Pedro Henrique Limeira da Cruz}
-\title{Trabalho Final - ES101}
+\title{Resistência dos Materiais - I}
 
 \usepackage[margin=0.8in]{geometry}
 \usepackage{indentfirst}
@@ -333,6 +333,7 @@
                         
                     \end{tabular}
                     \caption{EDOs para principais modelos de corpos esbeltos}
+                    \label{tb:edo_esf_internos}
                 \end{table}
 
                 Relembrando, onde:
@@ -343,6 +344,7 @@
                     \item Momento Torsor $M_x(x)$
                 \end{itemize}
 
+            \newpage
             \subsection{Condições de Contorno}
                 Se lembrarmos bem de calculo 3 e de equações diferenciais, todas as EDOs de grau $n$ precisam de $n$ pontos conhecidos para possam ser resolvidos, onde eles podem ser Pontos de
                 Contorno ou Condições Iniciais. Para o nosso caso, iremos estudar problemas com condições de contorno.
@@ -354,11 +356,134 @@
                     \item Ser Relevante para o Problema
                 \end{enumerate}
 
-                Indo além, para os nosso problemas, 99\% das vezes as condições de contorno estarão nas extremidades do corpo sendo estudado (\emph{e.g} em uma ponta de uma viga). Iremos abaixo
-                \textbf{descrever as condições de contorno para os principais vínculos/apoios QUANDO PRESENTES NAS EXTREMIDADES DO CORPO}.
+                Indo além, para os nosso problemas, 99\% das vezes as condições de contorno estarão em vínculos localizados nas extremidades do corpo sendo estudado (\emph{e.g} em uma ponta de uma viga). Iremos abaixo
+                \textbf{descrever as condições de contorno para os principais vínculos/apoios QUANDO PRESENTES NAS EXTREMIDADES DO CORPO}\footnote{Como estamos lidando com análise no eixo $x$, somente
+                os vínculos que estão localizados nas extremidades (em $x=0$ ou $x=L$) são possíveis condições de contorno}.
 
+                \begin{table}[h]
+                    \centering
+                    \begin{tabular}{|l|c|l|}\hline
+                        \textbf{Vínculo} & \textbf{Equações} & \textbf{Observações} \\ \hline
+                        Extremidade Livre  & 
+                            \begin{minipage}{.4\textwidth}
+                                \begin{align*}
+                                    \sum M = 0 \\ 
+                                    \sum F = 0
+                                \end{align*}
+                            \end{minipage} &
+                            
+                            \begin{minipage}{.4\textwidth}
+                                \vspace{5px}
+                                Como uma extremidade livre não apresenta reação a força nem momento, \textbf{se não for dito que há um valor diferente} para tais, na extremidade em questão os valores serão zero.
+                            \end{minipage} \\ \hline
 
+                        Rolete & 
+                            \begin{minipage}{.4\textwidth}
+                                \begin{align*}
+                                    \sum M = 0
+                                \end{align*}
+                            \end{minipage} &
+                            
+                            \begin{minipage}{.4\textwidth}
+                                \vspace{5px}
+                                Como um rolete não apresenta reação a momento, \textbf{se não for dito que há um valor diferente}, na extremidade em questão  o momento é zero (condição de contorno).
+                            \end{minipage} \\ \hline                       
 
+                        Pino & 
+                            \begin{minipage}{.4\textwidth}
+                                \begin{align*}
+                                    \sum M = 0
+                                \end{align*}
+                            \end{minipage} &
+                            
+                            \begin{minipage}{.4\textwidth}
+                                \vspace{5px}
+                                Como um rolete não apresenta reação a momento, \textbf{se não for dito que há um valor diferente}, na extremidade em questão o momento é zero (condição de contorno).
+                            \end{minipage} \\ \hline    
+                    \end{tabular}
+                    \caption{Condições de Contorno para cada Vínculo}
+                    \label{tb:cond_contorno}
+                \end{table}
+
+            \newpage
+            \subsection{Função de Singularidade}
+                Até o momento vimos que podemos modelar os esforços e momentos interno de um corpo por equações diferenciais (como visto na tabela \ref{tb:edo_esf_internos}), e que para resolve-las
+                nós precisamos de condições de contorno (como visto na tabela \ref{tb:cond_contorno}). Antes de podermos resolver tais EDOs, entretanto, nós precisamos descrever os carregamentos
+                externos que o corpo está sofrendo (que seriam os membros do lado direito das EDOs).
+
+                Para casos em que os carregamentos são contínuos tal tarefa é extremamente fácil, só igualar a EDO ao valor (ou equação contínua) para todo $x$. Para os casos em que os carregamentos não são contínuos, entretanto, isso não é tão simples.
+
+                Para casos onde o carregamento não é contínuo, nós usaremos uma notação que simplifica toda a matemática complexa chamada de \textbf{Função de Singularidade}, onde:
+
+                \begin{align}
+                    \langle x - a\rangle^m = \begin{cases}
+                        0          & x<a \\ 
+                        (x-a)^m    & x \ge a
+                    \end{cases}
+                    \label{eq:func_singularidade}
+                \end{align}
+
+                Onde a porção $\langle x - a \rangle$ rege a partir de qual ponto para de ser zero e o expoente $m$ rege o comportamento da curva a partir desse ponto, como mostra a figura abaixo:
+
+                \begin{table}[h]
+                    \centering
+                    \begin{tabular}{|c|c|l|} \hline
+                        \textbf{F. de Singularidade} & \textbf{Gráfico} & \textbf{Use Cases} \\ \hline
+                        $\langle x - a\rangle^0$ & 
+                            \begin{minipage}{.3\textwidth}
+                                \centering
+                                \includegraphics[width=.8\textwidth]{imgs/func_singul_0.jpeg}
+                            \end{minipage}&
+                            \begin{minipage}{.4\textwidth}
+                                Usado mais durante análise de Vigas, quando há um carregamento de forças transversais para somente um intervalo da viga (\emph{e.g} de $L/2 \le x \le L$). Podemos,
+                                ainda, subtrair dois com um shift para ter um intervalo entre $a$ e $b$, como: $\langle x - a\rangle^0 - \langle x - b\rangle^0$ 
+                            \end{minipage}  \\ \hline
+
+                        $\langle x - a\rangle^1$ & 
+                            \begin{minipage}{.3\textwidth}
+                                \centering
+                                \includegraphics[width=.7\textwidth]{imgs/func_singul_1.jpeg}
+                            \end{minipage}&
+                            \begin{minipage}{.4\textwidth}
+                                Também usado mais para análise de carregamento de vigas, mas nesse caso a força é zero até certo ponto $a$ e depois segue uma distribuição linear.
+                            \end{minipage}  \\ \hline
+
+                        $\langle x - a\rangle^2$ & 
+                            \begin{minipage}{.3\textwidth}
+                                \centering
+                                \includegraphics[width=.7\textwidth]{imgs/func_singul_2.jpeg}
+                            \end{minipage}&
+                            \begin{minipage}{.4\textwidth}
+                                Também usado mais para análise de carregamento de vigas, mas nesse caso a força é zero até certo ponto $a$ e depois segue uma distribuição quadrática.
+                            \end{minipage}  \\ \hline
+                        
+                        $\langle x - a\rangle^{-1}$ & 
+                            \begin{minipage}{.3\textwidth}
+                                \centering
+                                \includegraphics[width=.7\textwidth]{imgs/func_singul_-1.jpeg}
+                            \end{minipage}&
+                            \begin{minipage}{.4\textwidth}
+                                Usando bastante para representar forças pontuais durante análise de vigas, mas também usada para representar momentos durante análise de eixos.
+                            \end{minipage}  \\ \hline
+
+                        $\langle x - a\rangle^{-2}$ & 
+                            \begin{minipage}{.3\textwidth}
+                                \centering
+                                \includegraphics[width=.7\textwidth]{imgs/func_singul_-2.jpeg}
+                            \end{minipage}&
+                            \begin{minipage}{.4\textwidth}
+                                Usado bastante durante análise de vigas para representar momentos fletores.
+                            \end{minipage}  \\ \hline
+
+                    \end{tabular}
+                \end{table}
+
+                Além disso, é importante entendermos o comportamento das funções de singularidade em relação a integração:
+                \begin{align*}
+                    \int \langle x-a\rangle^m dx &= \frac{\langle x - a \rangle ^{m+1}}{m + 1}, m \ge 0 \\ 
+                    \int \langle x-a\rangle^{-1} dx &= \langle x - a \rangle^0 \\ 
+                    \int \langle x-a\rangle^{-2} dx &= \langle x - a \rangle^{-1} \\ 
+                \end{align*}
 
 
     

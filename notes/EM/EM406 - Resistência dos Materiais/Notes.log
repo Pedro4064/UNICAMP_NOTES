@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 MAR 2023 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  27 MAR 2023 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -312,7 +312,45 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen193
+\enit@toks=\toks35
+\enit@inbox=\box62
+\enit@count@id=\count272
+\enitdp@description=\count273
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen194
+\ar@mcellbox=\box63
+\extrarowheight=\dimen195
+\NC@list=\toks36
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box64
+)
+\TX@col@width=\dimen196
+\TX@old@table=\dimen197
+\TX@old@col=\dimen198
+\TX@target=\dimen199
+\TX@delta=\dimen256
+\TX@cols=\count274
+\TX@ftn=\toks37
+)
+\enitdp@todolist=\count275
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
  (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
@@ -339,9 +377,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen193
-\Hy@linkcounter=\count272
-\Hy@pagecounter=\count273
+\@linkdim=\dimen257
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -351,7 +389,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count274
+\Hy@SavedSpaceFactor=\count278
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -359,21 +397,21 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count275
+\c@Hy@tempcnt=\count279
  (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen194
+\XeTeXLinkMargin=\dimen258
  (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count276
-\Field@Width=\dimen195
-\Fld@charsize=\dimen196
+\Fld@menulength=\count280
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -386,9 +424,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
  (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count277
-\c@Item=\count278
-\c@Hfootnote=\count279
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -396,8 +434,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
  (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count280
-\c@bookmark@seq@number=\count281
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
  (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -405,32 +443,32 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip64
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count282
-\l__pdf_internal_box=\box62
+\l__kernel_color_stack_int=\count286
+\l__pdf_internal_box=\box65
 ) (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -468,25 +506,25 @@ LaTeX Font Info:    ... okay on input line 34.
 
 ABD: EveryShipout initializing macros (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen197
-\scratchbox=\box63
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen198
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count287
+\scratchdimen=\dimen261
+\scratchbox=\box66
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen262
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 34.
+\AtBeginShipoutBox=\box67
+Package hyperref Info: Link coloring ON on input line 43.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -494,19 +532,27 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
  (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.out) (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.out)
 \@outlinefile=\write6
 \openout6 = `Notes.out'.
 
-</Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png, id=47, 2482.27374pt x 2609.75pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+</Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png, id=55, 2482.27374pt x 2609.75pt>
 File: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png Graphic file (type png)
 <use /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png>
-Package pdftex.def Info: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png  used on input line 42.
+Package pdftex.def Info: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png  used on input line 51.
 (pdftex.def)             Requested size: 372.325pt x 391.44562pt.
  [1
 
@@ -515,266 +561,317 @@ Package pdftex.def Info: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Roboti
 \openout7 = `Notes.toc'.
 
  [2]
-<imgs/rolete_eg.png, id=75, 292.09125pt x 166.6225pt>
+<imgs/rolete_eg.png, id=85, 292.09125pt x 166.6225pt>
 File: imgs/rolete_eg.png Graphic file (type png)
 <use imgs/rolete_eg.png>
-Package pdftex.def Info: imgs/rolete_eg.png  used on input line 73.
+Package pdftex.def Info: imgs/rolete_eg.png  used on input line 82.
 (pdftex.def)             Requested size: 99.73099pt x 56.88988pt.
-<imgs/rolete_rep.png, id=76, 272.01625pt x 106.3975pt>
+<imgs/rolete_rep.png, id=86, 272.01625pt x 106.3975pt>
 File: imgs/rolete_rep.png Graphic file (type png)
 <use imgs/rolete_rep.png>
-Package pdftex.def Info: imgs/rolete_rep.png  used on input line 78.
+Package pdftex.def Info: imgs/rolete_rep.png  used on input line 87.
 (pdftex.def)             Requested size: 99.73099pt x 39.00928pt.
-<imgs/rolete_dcl.png, id=77, 282.05376pt x 139.52126pt>
+<imgs/rolete_dcl.png, id=87, 282.05376pt x 139.52126pt>
 File: imgs/rolete_dcl.png Graphic file (type png)
 <use imgs/rolete_dcl.png>
-Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 83.
+Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 92.
 (pdftex.def)             Requested size: 84.77194pt x 41.93333pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Resistente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \OT1/cmr/m/n/5 a for^^Xcas em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Rea^^Xc~ao de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 \OT1/cmr/m/n/5 apoio: 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 []\OT1/cmr/m/n/5 Importante
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 96--98
+Underfull \hbox (badness 2837) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 ob-ser-var que a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 rep-re-senta^^Xc~ao
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 pos-sui \OT1/cmr/bx/n/5 DUAS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 lin-has hor-zon-
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 96--98
+Underfull \hbox (badness 4805) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 tais abaixo do
  []
 
-<imgs/pino_eg.png, id=78, 412.54124pt x 206.7725pt>
+<imgs/pino_eg.png, id=88, 412.54124pt x 206.7725pt>
 File: imgs/pino_eg.png Graphic file (type png)
 <use imgs/pino_eg.png>
-Package pdftex.def Info: imgs/pino_eg.png  used on input line 104.
+Package pdftex.def Info: imgs/pino_eg.png  used on input line 113.
 (pdftex.def)             Requested size: 99.73099pt x 49.98608pt.
-<imgs/pino_rep.png, id=79, 257.96375pt x 96.36pt>
+<imgs/pino_rep.png, id=89, 257.96375pt x 96.36pt>
 File: imgs/pino_rep.png Graphic file (type png)
 <use imgs/pino_rep.png>
-Package pdftex.def Info: imgs/pino_rep.png  used on input line 109.
+Package pdftex.def Info: imgs/pino_rep.png  used on input line 118.
 (pdftex.def)             Requested size: 99.73099pt x 37.25381pt.
-<imgs/pino_dcl.png, id=80, 310.15875pt x 140.525pt>
+<imgs/pino_dcl.png, id=90, 310.15875pt x 140.525pt>
 File: imgs/pino_dcl.png Graphic file (type png)
 <use imgs/pino_dcl.png>
-Package pdftex.def Info: imgs/pino_dcl.png  used on input line 114.
+Package pdftex.def Info: imgs/pino_dcl.png  used on input line 123.
 (pdftex.def)             Requested size: 99.73099pt x 45.18547pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Resistente a
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 119--120
+Underfull \hbox (badness 4621) in paragraph at lines 128--129
 \OT1/cmr/m/n/5 for^^Xcas em \OT1/cmr/m/it/5 duas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Rea^^Xc~ao de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 \OT1/cmr/m/n/5 apoio: 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 []\OT1/cmr/m/n/5 Importante
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 127--129
+Underfull \hbox (badness 2837) in paragraph at lines 136--138
 \OT1/cmr/m/n/5 ob-ser-var que a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmr/m/n/5 rep-re-senta^^Xc~ao
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmr/m/n/5 pos-sui so-mente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmr/bx/n/5 UMA \OT1/cmr/m/n/5 linha
  []
 
-<imgs/engaste_rep.png, id=81, 263.98625pt x 122.4575pt>
+<imgs/engaste_rep.png, id=91, 263.98625pt x 122.4575pt>
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
-Package pdftex.def Info: imgs/engaste_rep.png  used on input line 136.
+Package pdftex.def Info: imgs/engaste_rep.png  used on input line 145.
 (pdftex.def)             Requested size: 99.73099pt x 46.2615pt.
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
-Package pdftex.def Info: imgs/engaste_rep.png  used on input line 141.
+Package pdftex.def Info: imgs/engaste_rep.png  used on input line 150.
 (pdftex.def)             Requested size: 99.73099pt x 46.2615pt.
-<imgs/engaste_dcl.png, id=82, 340.27126pt x 173.64874pt>
+<imgs/engaste_dcl.png, id=92, 340.27126pt x 173.64874pt>
 File: imgs/engaste_dcl.png Graphic file (type png)
 <use imgs/engaste_dcl.png>
-Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 146.
+Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 155.
 (pdftex.def)             Requested size: 99.73099pt x 50.89471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 []\TS1/cmr/m/n/5 � \OT1/cmr/m/n/5 Re-siste
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \OT1/cmr/m/n/5 a \OT1/cmr/bx/n/5 For^^Xcas \OT1/cmr/m/n/5 e
  []
 
 
-Overfull \hbox (9.69122pt too wide) in paragraph at lines 66--162
+Overfull \hbox (12.49118pt too wide) in paragraph at lines 75--171
 [][] 
  []
 
 
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 184--202
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 193--211
 []$[]$$[]$ 
  []
 
 [3 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_dcl.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_dcl.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/engaste_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/engaste_dcl.png>]
-<imgs/sis_plano.png, id=105, 264.99pt x 212.795pt>
+<imgs/sis_plano.png, id=115, 264.99pt x 212.795pt>
 File: imgs/sis_plano.png Graphic file (type png)
 <use imgs/sis_plano.png>
-Package pdftex.def Info: imgs/sis_plano.png  used on input line 212.
+Package pdftex.def Info: imgs/sis_plano.png  used on input line 221.
 (pdftex.def)             Requested size: 124.66563pt x 100.11105pt.
 
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 210--221
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 219--230
 []$[]$$[]$ 
  []
 
 [4 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/sis_plano.png>]
-<imgs/barra_eg.png, id=115, 508.90125pt x 123.46124pt>
+<imgs/barra_eg.png, id=125, 508.90125pt x 123.46124pt>
 File: imgs/barra_eg.png Graphic file (type png)
 <use imgs/barra_eg.png>
-Package pdftex.def Info: imgs/barra_eg.png  used on input line 253.
+Package pdftex.def Info: imgs/barra_eg.png  used on input line 262.
 (pdftex.def)             Requested size: 199.46198pt x 48.39081pt.
-<imgs/eixo_eg.png, id=116, 460.72125pt x 120.45pt>
+<imgs/eixo_eg.png, id=126, 460.72125pt x 120.45pt>
 File: imgs/eixo_eg.png Graphic file (type png)
 <use imgs/eixo_eg.png>
-Package pdftex.def Info: imgs/eixo_eg.png  used on input line 266.
+Package pdftex.def Info: imgs/eixo_eg.png  used on input line 275.
 (pdftex.def)             Requested size: 179.51456pt x 46.93118pt.
-<imgs/viga_eg.png, id=117, 452.69125pt x 132.495pt>
+<imgs/viga_eg.png, id=127, 452.69125pt x 132.495pt>
 File: imgs/viga_eg.png Graphic file (type png)
 <use imgs/viga_eg.png>
-Package pdftex.def Info: imgs/viga_eg.png  used on input line 278.
+Package pdftex.def Info: imgs/viga_eg.png  used on input line 287.
 (pdftex.def)             Requested size: 179.51456pt x 52.54015pt.
  [5 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/barra_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/eixo_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/viga_eg.png>]
-<imgs/conv_sinais.png, id=126, 355.3275pt x 210.7875pt>
+<imgs/conv_sinais.png, id=136, 355.3275pt x 210.7875pt>
 File: imgs/conv_sinais.png Graphic file (type png)
 <use imgs/conv_sinais.png>
-Package pdftex.def Info: imgs/conv_sinais.png  used on input line 306.
+Package pdftex.def Info: imgs/conv_sinais.png  used on input line 315.
 (pdftex.def)             Requested size: 149.6003pt x 88.74886pt.
-<imgs/conv_sinais_eg.png, id=127, 625.33624pt x 635.37375pt>
+<imgs/conv_sinais_eg.png, id=137, 625.33624pt x 635.37375pt>
 File: imgs/conv_sinais_eg.png Graphic file (type png)
 <use imgs/conv_sinais_eg.png>
-Package pdftex.def Info: imgs/conv_sinais_eg.png  used on input line 315.
+Package pdftex.def Info: imgs/conv_sinais_eg.png  used on input line 325.
 (pdftex.def)             Requested size: 274.26593pt x 278.67337pt.
  [6 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/conv_sinais.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/conv_sinais_eg.png>]
-Overfull \hbox (7.46848pt too wide) in paragraph at lines 327--335
+Overfull \hbox (9.06845pt too wide) in paragraph at lines 337--345
  [][] 
  []
 
 [7]
-Overfull \hbox (18.2616pt too wide) in paragraph at lines 365--404
+Overfull \hbox (19.86157pt too wide) in paragraph at lines 375--414
  [][] 
  []
 
 [8]
-<imgs/func_singul_0.jpeg, id=158, 905.3825pt x 619.31375pt>
+<imgs/func_singul_0.jpeg, id=168, 905.3825pt x 619.31375pt>
 File: imgs/func_singul_0.jpeg Graphic file (type jpg)
 <use imgs/func_singul_0.jpeg>
-Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 435.
+Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 445.
 (pdftex.def)             Requested size: 119.68068pt x 81.86494pt.
-<imgs/func_singul_1.jpeg, id=159, 1279.78125pt x 714.67pt>
+<imgs/func_singul_1.jpeg, id=169, 1279.78125pt x 714.67pt>
 File: imgs/func_singul_1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_1.jpeg>
-Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 445.
+Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 455.
 (pdftex.def)             Requested size: 104.71974pt x 58.47246pt.
-<imgs/func_singul_2.jpeg, id=160, 1257.69875pt x 758.835pt>
+<imgs/func_singul_2.jpeg, id=170, 1257.69875pt x 758.835pt>
 File: imgs/func_singul_2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_2.jpeg>
-Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 454.
+Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 464.
 (pdftex.def)             Requested size: 104.71974pt x 63.17433pt.
-<imgs/func_singul_-1.jpeg, id=161, 1076.02pt x 608.2725pt>
+<imgs/func_singul_-1.jpeg, id=171, 1076.02pt x 608.2725pt>
 File: imgs/func_singul_-1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-1.jpeg>
-Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 463.
+Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 473.
 (pdftex.def)             Requested size: 104.71974pt x 59.19727pt.
 
-Underfull \hbox (badness 1132) in paragraph at lines 466--467
+Underfull \hbox (badness 1132) in paragraph at lines 476--477
 \OT1/cmr/m/n/10 us-ada para rep-re-sen-tar mo-men-tos du-rante
  []
 
-<imgs/func_singul_-2.jpeg, id=162, 1239.63126pt x 762.85pt>
+<imgs/func_singul_-2.jpeg, id=172, 1239.63126pt x 762.85pt>
 File: imgs/func_singul_-2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-2.jpeg>
-Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 472.
+Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 482.
 (pdftex.def)             Requested size: 104.71974pt x 64.4398pt.
-[9 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_0.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_1.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_2.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_-1.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_-2.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 490.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 490.
+[9 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_0.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_1.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_2.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_-1.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_-2.jpeg>] [10]
+File: imgs/func_singul_0.jpeg Graphic file (type jpg)
+<use imgs/func_singul_0.jpeg>
+Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 638.
+(pdftex.def)             Requested size: 44.88054pt x 30.69345pt.
+
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 638--638
+[]|$[]$| 
+ []
+
+File: imgs/func_singul_1.jpeg Graphic file (type jpg)
+<use imgs/func_singul_1.jpeg>
+Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 638.
+(pdftex.def)             Requested size: 44.88054pt x 25.05962pt.
+
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 638--638
+[]|$[]$| 
+ []
+
+File: imgs/func_singul_2.jpeg Graphic file (type jpg)
+<use imgs/func_singul_2.jpeg>
+Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 638.
+(pdftex.def)             Requested size: 44.88054pt x 27.0714pt.
+
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 638--638
+[]|$[]$| 
+ []
+
+File: imgs/func_singul_-1.jpeg Graphic file (type jpg)
+<use imgs/func_singul_-1.jpeg>
+Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 638.
+(pdftex.def)             Requested size: 44.88054pt x 25.36627pt.
+
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 638--638
+[]|$[]$| 
+ []
+
+File: imgs/func_singul_-2.jpeg Graphic file (type jpg)
+<use imgs/func_singul_-2.jpeg>
+Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 638.
+(pdftex.def)             Requested size: 44.88054pt x 27.6104pt.
+
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 638--638
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 643--650
+[]$[]$ 
+ []
+
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 665.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 665.
  (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 490.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 490.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 665.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 665.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 9067EB0FEC181B1B9CBDF9240DB9AA30;805.
+(rerunfilecheck)             Checksum: F0FCE0D2CA7C801BA51BD20CC5A034C3;989.
  ) 
 Here is how much of TeX's memory you used:
- 16337 strings out of 480608
- 309306 string characters out of 5903631
- 568167 words of memory out of 5000000
- 31862 multiletter control sequences out of 15000+600000
- 539399 words of font info for 48 fonts, out of 8000000 for 9000
+ 17289 strings out of 480608
+ 321606 string characters out of 5903631
+ 583785 words of memory out of 5000000
+ 32771 multiletter control sequences out of 15000+600000
+ 541879 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,18n,75p,924b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.pdf" (9 pages, 1130402 bytes).
+ 59i,20n,75p,924b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.pdf" (11 pages, 1180001 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

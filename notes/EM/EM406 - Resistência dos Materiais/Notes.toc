@@ -8,3 +8,5 @@
 \contentsline {subsection}{\numberline {2.1}Introdução e Equações Diferenciais}{7}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Condições de Contorno}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Função de Singularidade}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Método de Resolução - Equações Diferenciais de Equilíbrio}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}One Pager}{11}{subsection.2.5}%

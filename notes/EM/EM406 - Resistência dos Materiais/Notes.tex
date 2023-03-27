@@ -9,6 +9,15 @@
 \usepackage{tcolorbox}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{tabularx} % in the preamble
+
+
+% Create a Todo list
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -305,6 +314,7 @@
                     \centering
                     \includegraphics[width=.3\textwidth]{imgs/conv_sinais.png}
                     \caption{Convenção de Sinais para Esforços Internos}
+                    \label{fig:conv_de_sinais_esf_intern}
                 \end{figure}
 
 
@@ -328,7 +338,7 @@
                         \textbf{Cenário} & \textbf{Equação} & \textbf{Descrição}\\ \hline
                         \rule{0pt}{4ex} Barras & $\frac{d}{dx}N_x(x) = -p(x)$ & Onde $-p(x)$ é o carregamento longitudinal sendo sofrido \\[2ex]  \hline
                         \rule{0pt}{4ex} Eixos  & $\frac{d}{dx}M_x(x) = -t(x)$ & Onde $-t(x)$ é o momento axial sofrido \\[2ex]\hline
-                        \rule{0pt}{4ex} Vigas: Cortante & $\frac{d}{dx}V_x(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
+                        \rule{0pt}{4ex} Vigas: Cortante & $\frac{d}{dx}V_y(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
                         \rule{0pt}{4ex} Vigas: Momento Fletor & $\frac{d^2}{dx^2}M_z = \frac{d}{dx}V_y(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
                         
                     \end{tabular}
@@ -484,6 +494,171 @@
                     \int \langle x-a\rangle^{-1} dx &= \langle x - a \rangle^0 \\ 
                     \int \langle x-a\rangle^{-2} dx &= \langle x - a \rangle^{-1} \\ 
                 \end{align*}
+
+            \subsection{Método de Resolução - Equações Diferenciais de Equilíbrio}
+                Já vimos quais EDOs são aplicáveis para cada modelo, os possíveis valores de contorno e também como modelar as cargas externas sendo aplicadas, o que nos resta agora é saber como
+                juntar todos esses dados em um problema para resolve-lo. Para isso, nós vamos seguir 7 passos, como mostrado abaixo:
+                \begin{enumerate}\addtocounter{enumi}{-1}%
+                    \item Separar Carregamentos externos que são separáveis em seus respectivos modelos (barra, eixo, viga).
+                    \item Estabelecer uma convenção de sinais: A fim de padronizar, seguir a convenção da figura \ref{fig:conv_de_sinais_esf_intern}
+                    \item Estabelecer uma equação diferencial: A partir da tabela \ref{tb:edo_esf_internos}
+                    \item Descrever condições de Contorno: Bom indicativo é começar pelos da tabela \ref{tb:cond_contorno}
+                    \item Integrar a equação diferencial: Como mostrado na subsection anterior
+                    \item Determinar Constantes de Integração: Substituindo os valores de contorno (já que são os únicos pontos conhecidos)
+                \end{enumerate}
+
+                Temos, ainda, algumas observações que podem ajudar a fazer os exercícios:
+                \begin{itemize}
+                    \item Se há uma carga distribuída que é aplicada sobre um possível ponto de contorno (\emph{e.g} como uma extremidade livre de um eixo engastado) por ela ser DISTRIBUÍDA, em um só
+                    ponto ela é igual a zero logo A CONDIÇÃO DE CONTORNO AINDA É VÁLIDA. Então se for uma extremidade livre, mesmo com um momento torsor distribuído sendo aplicado, no ponto ele é zero.
+                \end{itemize}
+
+                \newpage
+            \subsection{One Pager}
+
+            Equações Diferenciais por Modelo de Corpo Esbelto:
+
+            \begin{table}[h]\tiny
+                
+            \begin{tabularx}{\textwidth}{|X|X|X|}\hline
+                    \textbf{Cenário} & \textbf{Equação} & \textbf{Descrição}\\ \hline
+                    \rule{0pt}{4ex} Barras - Esforço Axial & $\frac{d}{dx}N_x(x) = -p(x)$ & Onde $-p(x)$ é o carregamento longitudinal sendo sofrido \\[2ex]  \hline
+                    \rule{0pt}{4ex} Eixos - Momento Torsor   & $\frac{d}{dx}M_x(x) = -t(x)$ & Onde $-t(x)$ é o momento axial sofrido \\[2ex]\hline
+                    \rule{0pt}{4ex} Vigaa - Esforço Cortante & $\frac{d}{dx}V_y(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
+                    \rule{0pt}{4ex} Vigas - Momento Fletor & $\frac{d^2}{dx^2}M_z = \frac{d}{dx}V_y(x) = +q(x)$ & Onde $+q(x)$ é o carregamento transversal sofrido \\[2ex] \hline
+            \end{tabularx}
+
+            \end{table}
+            Condição de Contorno:
+
+            
+
+            \begin{table}[h]
+                \tiny
+                \centering
+            \begin{tabularx}{\textwidth}{|X|X|X|}\hline
+                    \textbf{Vínculo} & \textbf{Equações} & \textbf{Observações} \\ \hline
+                    Extremidade Livre  & 
+                        \begin{minipage}{.3\textwidth}
+                            \begin{align*}
+                                \sum M = 0 \\ 
+                                \sum F = 0
+                            \end{align*}
+                        \end{minipage} &
+                        
+                        \begin{minipage}{.3\textwidth}
+                            \vspace{5px}
+                            Como uma extremidade livre não apresenta reação a força nem momento, \textbf{se não for dito que há um valor diferente} para tais, na extremidade em questão os valores serão zero.
+                        \end{minipage} \\ \hline
+
+                    Rolete & 
+                        \begin{minipage}{.3\textwidth}
+                            \begin{align*}
+                                \sum M = 0
+                            \end{align*}
+                        \end{minipage} &
+                        
+                        \begin{minipage}{.3\textwidth}
+                            \vspace{5px}
+                            Como um rolete não apresenta reação a momento, \textbf{se não for dito que há um valor diferente}, na extremidade em questão  o momento é zero (condição de contorno).
+                        \end{minipage} \\ \hline                       
+
+                    Pino & 
+                        \begin{minipage}{.3\textwidth}
+                            \begin{align*}
+                                \sum M = 0
+                            \end{align*}
+                        \end{minipage} &
+                        
+                        \begin{minipage}{.3\textwidth}
+                            \vspace{5px}
+                            Como um rolete não apresenta reação a momento, \textbf{se não for dito que há um valor diferente}, na extremidade em questão o momento é zero (condição de contorno).
+                        \end{minipage} \\ \hline    
+                \end{tabularx}
+            \end{table}
+
+            \begin{todolist}\tiny
+                \item Estar Definida no Contorno do modelo 
+                \item Ser Conhecida a Priori
+                \item Ser Relevante para o Problema
+            \end{todolist}
+
+            Definição de Função de Singularidade:
+            \begin{table}[h]
+                \tiny
+                \centering
+                \begin{tabularx}{\textwidth}{|X|X|l|}\hline
+                    \textbf{F. de Singularidade} & \textbf{Gráfico} & \textbf{Use Cases} \\ \hline
+                    $\langle x - a\rangle^0$ & 
+                        \begin{minipage}{.3\textwidth}
+                            \centering
+                            \includegraphics[width=.3\textwidth]{imgs/func_singul_0.jpeg}
+                        \end{minipage}&
+                        \begin{minipage}{.4\textwidth}
+                            Usado mais durante análise de Vigas, quando há um carregamento de forças transversais para somente um intervalo da viga (\emph{e.g} de $L/2 \le x \le L$). Podemos,
+                            ainda, subtrair dois com um shift para ter um intervalo entre $a$ e $b$, como: $\langle x - a\rangle^0 - \langle x - b\rangle^0$ 
+                        \end{minipage}  \\ \hline
+
+                    $\langle x - a\rangle^1$ & 
+                        \begin{minipage}{.3\textwidth}
+                            \centering
+                            \includegraphics[width=.3\textwidth]{imgs/func_singul_1.jpeg}
+                        \end{minipage}&
+                        \begin{minipage}{.4\textwidth}
+                            Também usado mais para análise de carregamento de vigas, mas nesse caso a força é zero até certo ponto $a$ e depois segue uma distribuição linear.
+                        \end{minipage}  \\ \hline
+
+                    $\langle x - a\rangle^2$ & 
+                        \begin{minipage}{.3\textwidth}
+                            \centering
+                            \includegraphics[width=.3\textwidth]{imgs/func_singul_2.jpeg}
+                        \end{minipage}&
+                        \begin{minipage}{.4\textwidth}
+                            Também usado mais para análise de carregamento de vigas, mas nesse caso a força é zero até certo ponto $a$ e depois segue uma distribuição quadrática.
+                        \end{minipage}  \\ \hline
+                    
+                    $\langle x - a\rangle^{-1}$ & 
+                        \begin{minipage}{.3\textwidth}
+                            \centering
+                            \includegraphics[width=.3\textwidth]{imgs/func_singul_-1.jpeg}
+                        \end{minipage}&
+                        \begin{minipage}{.4\textwidth}
+                            Usando bastante para representar forças pontuais durante análise de vigas, mas também usada para representar momentos durante análise de eixos.
+                        \end{minipage}  \\ \hline
+
+                    $\langle x - a\rangle^{-2}$ & 
+                        \begin{minipage}{.3\textwidth}
+                            \centering
+                            \includegraphics[width=.3\textwidth]{imgs/func_singul_-2.jpeg}
+                        \end{minipage}&
+                        \begin{minipage}{.4\textwidth}
+                            Usado bastante durante análise de vigas para representar momentos fletores.
+                        \end{minipage}  \\ \hline
+
+                \end{tabularx}
+            \end{table}
+
+            Integração de Função de Singularidade:
+
+            \begin{minipage}{\textwidth}\tiny
+                \begin{align*}
+                    \int \langle x-a\rangle^m dx &= \frac{\langle x - a \rangle ^{m+1}}{m + 1}, m \ge 0 \\ 
+                    \int \langle x-a\rangle^{-1} dx &= \langle x - a \rangle^0 \\ 
+                    \int \langle x-a\rangle^{-2} dx &= \langle x - a \rangle^{-1} \\ 
+                \end{align*}
+            \end{minipage}
+
+            Passo a Passo:
+            \begin{enumerate}\addtocounter{enumi}{-1}\tiny
+                \item Separar Carregamentos externos que são separáveis em seus respectivos modelos (barra, eixo, viga).
+                \item Estabelecer uma convenção de sinais: A fim de padronizar, seguir a convenção da figura \ref{fig:conv_de_sinais_esf_intern}
+                \item Estabelecer uma equação diferencial: A partir da tabela \ref{tb:edo_esf_internos}
+                \item Descrever condições de Contorno: Bom indicativo é começar pelos da tabela \ref{tb:cond_contorno}
+                \item Integrar a equação diferencial: Como mostrado na subsection anterior
+                \item Determinar Constantes de Integração: Substituindo os valores de contorno (já que são os únicos pontos conhecidos)
+            \end{enumerate}
+
+
 
 
     

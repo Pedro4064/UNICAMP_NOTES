@@ -326,7 +326,7 @@
                     \caption{Exemplo de Análise de Forças Internas e Deformação}
                 \end{figure}
 
-        \subsection{One Pager - Introdução de Definições}
+        \subsection{One Pager - Introdução e Definições}
                 Modelo de Suportes:
                 \begin{table}[h]\tiny
                     \begin{tabularx}{\textwidth}{|l|X|X|X|l|l|}\hline
@@ -566,10 +566,10 @@
                     \textbf{Vínculo} & \textbf{Equações} & \textbf{Observações} \\ \hline
                     Extremidade Livre  & 
                         \begin{minipage}{.4\textwidth}
-                            \begin{align*}
-                                \sum M = 0 \\ 
-                                \sum F = 0
-                            \end{align*}
+                            {\begin{align*}
+                                &\sum M_x, M_z = 0 \\ 
+                                &\sum N_x, V_y = 0
+                            \end{align*}}
                         \end{minipage} &
                         
                         \begin{minipage}{.4\textwidth}
@@ -579,9 +579,10 @@
 
                     Rolete & 
                         \begin{minipage}{.4\textwidth}
-                            \begin{align*}
-                                \sum M = 0
-                            \end{align*}
+                            {\begin{align*}
+                                &\sum M_x, M_z = 0 \\
+                                &\sum N_x = 0
+                            \end{align*}}
                         \end{minipage} &
                         
                         \begin{minipage}{.4\textwidth}
@@ -591,9 +592,9 @@
 
                     Pino & 
                         \begin{minipage}{.4\textwidth}
-                            \begin{align*}
-                                \sum M = 0
-                            \end{align*}
+                            {\begin{align*}
+                                &\sum M_z = 0
+                            \end{align*}}
                         \end{minipage} &
                         
                         \begin{minipage}{.4\textwidth}
@@ -701,6 +702,13 @@
             \begin{itemize}
                 \item Se há uma carga distribuída que é aplicada sobre um possível ponto de contorno (\emph{e.g} como uma extremidade livre de um eixo engastado) por ela ser DISTRIBUÍDA, em um só
                 ponto ela é igual a zero logo A CONDIÇÃO DE CONTORNO AINDA É VÁLIDA. Então se for uma extremidade livre, mesmo com um momento torsor distribuído sendo aplicado, no ponto ele é zero.
+                \item Durante a modelagem dos valores de contorno, é importante ressaltar que eles seguem as convenções de sinais da figura \ref{fig:conv_de_sinais_esf_intern}, já para a modelagem da
+                carga externa de momento fletor (não localizada nas extremidades) é positivo no sentido horário (como mostrado na imagem representativo da tabela das funções de singularidade).
+                \item NÃO se bota no equacionamento de cargas os valores dos pontos de contorno.
+                \item Quando for esboçar o gráfico lembraer que:
+                    \subitem $\square$ Quando for esboçar um intervalo, lembre de literalmente riscar partes que não são aplicáveis (para evitar que você calcule);
+                    \subitem $\square$ Antes de tentar esboçar um intervalo, simplifique o máximo possível (em função de $x$ mesmo, é mais fácil);
+                    \subitem $\square$ Substitua o valor inicial do intervalo somente no final da análise da seção, para saber a partir de qual ponto a seção começa, mas simplifique a equação SEM substituir valores.
             \end{itemize}
 
             \newpage
@@ -730,10 +738,10 @@
                 \textbf{Vínculo} & \textbf{Equações} & \textbf{Observações} \\ \hline
                 Extremidade Livre  & 
                     \begin{minipage}{.3\textwidth}
-                        \begin{align*}
-                            \sum M = 0 \\ 
-                            \sum F = 0
-                        \end{align*}
+                        {\begin{align*}
+                            &\sum M_x, M_z = 0 \\ 
+                            &\sum N_x, V_y = 0
+                        \end{align*}}
                     \end{minipage} &
                     
                     \begin{minipage}{.3\textwidth}
@@ -743,9 +751,10 @@
 
                 Rolete & 
                     \begin{minipage}{.3\textwidth}
-                        \begin{align*}
-                            \sum M = 0
-                        \end{align*}
+                        {\begin{align*}
+                            &\sum M_x, M_z = 0 \\ 
+                            &\sum N_x = 0
+                        \end{align*}}
                     \end{minipage} &
                     
                     \begin{minipage}{.3\textwidth}
@@ -755,9 +764,9 @@
 
                 Pino & 
                     \begin{minipage}{.3\textwidth}
-                        \begin{align*}
-                            \sum M = 0
-                        \end{align*}
+                        {\begin{align*}
+                            \sum M_z = 0
+                        \end{align*}}
                     \end{minipage} &
                     
                     \begin{minipage}{.3\textwidth}
@@ -838,15 +847,27 @@
             \end{align*}
         \end{minipage}
 
-        Passo a Passo:
-        \begin{enumerate}\addtocounter{enumi}{-1}\tiny
-            \item Separar Carregamentos externos que são separáveis em seus respectivos modelos (barra, eixo, viga).
-            \item Estabelecer uma convenção de sinais: A fim de padronizar, seguir a convenção da figura \ref{fig:conv_de_sinais_esf_intern}
-            \item Estabelecer uma equação diferencial: A partir da tabela \ref{tb:edo_esf_internos}
-            \item Descrever condições de Contorno: Bom indicativo é começar pelos da tabela \ref{tb:cond_contorno}
-            \item Integrar a equação diferencial: Como mostrado na subsection anterior
-            \item Determinar Constantes de Integração: Substituindo os valores de contorno (já que são os únicos pontos conhecidos)
-        \end{enumerate}
+        \begin{minipage}[t]{.7\textwidth}
+            Passo a Passo:
+            \begin{enumerate}\addtocounter{enumi}{-1}\tiny
+                \item Separar Carregamentos externos que são separáveis em seus respectivos modelos (barra, eixo, viga).
+                \item Estabelecer uma convenção de sinais: A fim de padronizar, seguir a convenção da figura \ref{fig:conv_de_sinais_esf_intern}
+                \item Estabelecer uma equação diferencial: A partir da tabela \ref{tb:edo_esf_internos}
+                \item Descrever condições de Contorno: Bom indicativo é começar pelos da tabela \ref{tb:cond_contorno}
+                \item Integrar a equação diferencial: Como mostrado na subsection anterior
+                \item Determinar Constantes de Integração: Substituindo os valores de contorno (já que são os únicos pontos conhecidos)
+            \end{enumerate}
+        \end{minipage}\hfill
+        \begin{minipage}[t]{.3\textwidth}
+            Check list: 
+            \begin{todolist}\tiny
+                \item Não está esquecendo nenhuma força ?
+                \item Modelou correto as forças de reação de cada suporte?
+                \item Separou os tipos de load para cada modelo de corpo correto?
+                \item Não adicionou forças de contorno na modelagem do load externo?
+                \item Determinou as condições de contorno e de restrição necessárias?
+            \end{todolist}
+        \end{minipage}
 
 
 

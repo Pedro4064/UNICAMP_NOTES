@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{subcaption}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -477,16 +478,102 @@
                      \end{align}
 
         \section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} sem Amortecimento - Excitação Harmônica}
-            Até o momento vimos sistemas onde não haviam excitações externas (i.e não havia uma força externa ao sistema agindo sobre ele), o que resultava em uma modelagem por \emph{Equações
-            Diferenciais Homogêneas}. Agora, entretanto, iremos estudar sistemas sem amortecimento que sofrem a ação de uma força periódica, chamada de excitação harmônica, que resultará em uma
-            \emph{Equação Diferencial Não Homogênea}, onde a resposta do sistema será composta por uma parte chamada de \emph{resposta forçada} e outra chamada de \emph{resposta homogênea}.
 
-            Para exemplificarmos, iremos analisar desde o começo o sistema abaixo:
-            \begin{figure}[h]
-                \centering
-                \includegraphics[width=.5\textwidth]{imgs/sis_massa_mola_harmo.png}
-                \caption{Sistema Massa Mola com Excitação Harmônica}
-            \end{figure}
+            \subsection{Equacionamento}
+                Até o momento vimos sistemas onde não haviam excitações externas (i.e não havia uma força externa ao sistema agindo sobre ele), o que resultava em uma modelagem por \emph{Equações
+                Diferenciais Homogêneas}. Agora, entretanto, iremos estudar sistemas sem amortecimento que sofrem a ação de uma força periódica externa, chamada de excitação harmônica, que resultará em uma
+                \emph{Equação Diferencial Não Homogênea}, onde a resposta do sistema será composta por uma parte chamada de \emph{resposta forçada} e outra chamada de \emph{resposta homogênea}.
+
+                Para exemplificarmos, iremos analisar desde o começo o sistema abaixo:
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.5\textwidth]{imgs/sis_massa_mola_harmo.png}
+                    \caption{Sistema Massa Mola com Excitação Harmônica}
+                    \label{fig:sis_massa_mola_exci_armonica}
+                \end{figure}
+
+
+                Como sempre, iremos começar por determinar o sistema de coordenadas mais aplicável nesse problema. Pela figura \ref{fig:sis_massa_mola_exci_armonica} podemos ver que a coordenada maisé
+                aplicávelé a \textbf{Coordenada X}, tendo como origem o \emph{ponto de equilíbrio estático do sistema}. A escolha de tal origem facilita muito nossas contas pois podemos considerar a força
+                elástica como sendo simplesmente $kx$ e desconsiderar a força peso (pois o $\delta$ inicial de deformação serve para anular a força peso).
+
+                Depois disso, precisamos fazer o $DLC$, como mostrado no diagrama da esquerda da figura \ref{fig:sis_massa_mola_exci_armonica}. Ressaltando novamente que a força peso é "accounted
+                for" pela escolha da origem do sistema como sendo o ponto de equilíbrio estático. 
+
+                Agora o que nos resta é fazer a equação de movimento. Como o problema é unidirecional e não apresenta momentos, poderemos usar somente o somatório de forças em $x$ sendo igual a aceleração
+                do corpo, como descrito pela equação abaixo:
+
+                \begin{align*}
+                    \sum F_x = m \cdot \ddot x
+                \end{align*}
+
+                Onde as forças que atuam em $x$ são a força elástica e a força de excitação, resultando em:
+                \begin{align*}
+                    m \ddot x  = + F_0 \cos(\Omega t) - kx \\ 
+                    \ddot x + \frac{k}{m}x = \frac{F_0}{m} \cos (\Omega t) \\ 
+                    \ddot x + \omega_n ^2 x = f_0 \cos (\Omega t) \\ 
+                \end{align*}
+
+                Que é uma equação Diferencial Ordinária não Homogênea, e portanto terá uma solução composta por duas partes:
+                \begin{align*}
+                    x = x_p + x_p
+                \end{align*}
+
+                A partir daqui o objetivo é a solução dessa EDO. Se lembrarmos bem de Calculo 3, o primeiro passo é a solução da parte homogênea, que nada mais é do que pegar a EDO, consiera-lá homogênea
+                (i.e desconsiderar que possui a força externa e iguala-la a zero) e resolver a EDO, supondo primeiramente que $x(t) = A e^{\lambda t}$. 
+
+                Após as contas, veremos que a solução fica sendo: 
+                \begin{align*}
+                    x_h(t) = B_1 \cos(\omega_n t) + B_2 \sin (\omega_n t), \begin{cases}
+                        B_1 = A_1 + A_2 \\ 
+                        B_2 = j(A_1 + A_2)
+                    \end{cases}
+                \end{align*}
+
+                Para facilitarmos a visualização da resposta não forçada, podemos utilsar a lei de seno da soma para botar a solução acima em um formato de seno com um shift :
+                $$X \cdot sin(\omega_n t + \phi)\Rightarrow X\big[\sin(\omega_n t)\cos(\phi) + \cos(\omega_n t)\sin(\phi)\big] \therefore \begin{cases}
+                    B_1 = X\sin(\phi) \\ 
+                    B_2 = X\cos(\phi)
+                \end{cases}$$
+
+                Igual dito anteriormente, isso facilita a visualização e análise da resposta, e a demonstração acima foi para provar matematicamente que se pode representar como sendo um seno com 
+                frequência natural mais shift. Mas \textbf{NÃO} é necessário voltar e achar $B_{1,2}$ nem $A_{1,2}$, se acharmos $X$ e $\phi$ já descrevemos o problema.
+
+
+                Agora, então, só precisamos achar $x_p$, supondo uma solução no formato da entrada (logo iremos supor uma solução $x_p = C \cos(\Omega t)$), onde $C$ é uma constante qualquer. Depois
+                de supor essa solução e botar na EDO, iremos descobrir o valor de $C$ e então o que nos resta é jutar as duas soluções $x_h + x_p$ e utilizar os valores inicias dados para achar as
+                constantes $X$ e $\phi$ (da parte homogênea da resposta).
+            
+            \subsection{Análise da Resposta}
+                Ao analisarmos a resposta, vemos que existem dois cenários importantes de serem ressaltados, sendo eles:
+                \begin{itemize}
+                    \item Fenômeno de Batimento
+                    \item Fenômeno de Ressonância
+                \end{itemize}
+
+
+                \begin{figure}[h]
+                    \begin{subfigure}{0.5\textwidth}
+                        \centering
+                        \includegraphics[width=\textwidth]{imgs/batimento.png}
+                        \caption{Fenômeno de Batimento}
+                    \end{subfigure}% Really important to have this comment here and no black line
+                \begin{subfigure}{0.5\textwidth}
+                    \centering
+                        \includegraphics[width=\textwidth]{imgs/reso.png}
+                        \caption{Fenômeno de Ressonância}
+                    \end{subfigure}
+                    \caption{Fenômenos em Sistemas com Excitações Harmônicas}
+                \end{figure}
+
+                O Fenômeno de Batimento, como ilustrado na imagem acima, ocorre quando $\Omega \approx \omega_n$, \emph{i.e}, quando a frequência da excitação externa é próxima da frequência natural
+                do sistema.
+
+                Já o Fenômeno de Ressonância ocorre quando $\Omega \rightarrow \omega_n$, \emph{i.e}, quando a  frequência da excitação externa tende ao mesmo valor da frequência natural do sistema.
+            
+
+
+
         \section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} com Amortecimento - Excitação Harmônica}
             Vimos, anteriormente, a resposta de um sistema sem amortecimento para uma entrada forçada (\emph{i.e} que possui uma força externa agindo sobre o sistema). Iremos, agora, verificar a modelagem
             da resposta de um sistema que também possui \textbf{amortecimento viscoso}, dada por:
@@ -533,7 +620,7 @@
                 MF = \frac{Xk}{F_0} = \frac{X\omega_n^2}{f_0} = \frac{1}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}}\label{eq:fator_de_amplificacao}
             \end{align}
 
-            De tal forma que nós conseguimos analisar e determinar a razão entre a amplitude de entrada e saída e ainda, por conseguinte, o pico de resposta em frequência (dada pelo valor máximo de $MF$) que corresponde a \textbf{Resonância de um Sistema Forçado de 1DOF
+            De tal forma que nós conseguimos analisar e determinar o comportamento da amplitude de saída em relação à razão entre $\Omega/\omega_n$ e ainda, por conseguinte, o pico de resposta em frequência (dada pelo valor máximo de $MF$) que corresponde a \textbf{Resonância de um Sistema Forçado de 1DOF
             Amortecido}. Tal ponto de resonância pode ser obtido via experimentação ou ainda analiticamente, se tivermos o modelo matemático que rege nosso sistema, de tal forma que é obtido pela análise
             dos pontos críticos da função $MF$, dada pelos pontos onde a sua derivada é zero. Ao aplicarmos isso no exemplo em questão temos que:
             \begin{align}

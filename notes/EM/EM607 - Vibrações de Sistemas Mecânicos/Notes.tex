@@ -574,6 +574,7 @@
 
 
 
+                \newpage
         \section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} com Amortecimento - Excitação Harmônica}
             Vimos, anteriormente, a resposta de um sistema sem amortecimento para uma entrada forçada (\emph{i.e} que possui uma força externa agindo sobre o sistema). Iremos, agora, verificar a modelagem
             da resposta de um sistema que também possui \textbf{amortecimento viscoso}, dada por:
@@ -613,7 +614,10 @@
                 \item $\tan{\theta} = (2\zeta r)/(1-r^2)$
             \end{itemize}
 
-            Fizemos essa re-escrita tal que possamos analizar algo chamado de \emph{Fator de Amplificação}, denotado por \textbf{$MF$}, que é dado por\footnote{É importante apontar que $MF$ é
+            Tal forma é mais intuitiva de ser utilizada para visualizarmos (sem plotar) a resposta forçada do sistema. Ela nada mais é do que uma senoide (com uma certa amplitude $X$), com a mesma
+            frequência $\Omega$ da força harmônica de entrada mas com um delay (\emph{i.e} um shift $\theta$).
+
+            Além disso, essa re-escrita nos ajuda a analisar algo chamado de \textbf{Fator de Amplificação}, denotado por \textbf{$MF$}, que é dado por\footnote{É importante apontar que $MF$ é
             adimensional propositalmente, pois facilita a análize. A partir disso, se houver um outro sistema o qual você queira identificar o $MF$ nós pegamos a equação que define $X$ (a amplitude da
             resposta) e tentamos isolar (em função de $X$ e outras coisas) o resto da função que dependa somente de $r$ e $\zeta$, que interferem na amplitude da oscilação e que também são adimencionais.}:
             \begin{align}
@@ -626,6 +630,16 @@
             \begin{align}
                 MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}
             \end{align}
+
+            Podemos, ainda, estudar graficamente o comportamento do Fator de Amplificação em relação a razão de frequências e coeficiente de amortecimento ao plotarmos a equação \ref{eq:fator_de_amplificacao} em função de $r$, como
+            mostrado na imagem abaixo:
+
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\textwidth]{imgs/fator_ampl.png}
+            \end{figure}
+
+            Onde Observamos que o ponto de máxima ocorre para $r < 1 \Rightarrow \Omega < \omega_n$.
 
         \section{Desbalanceamento Rotativo}
             Como um exemplo de vibração forçada com amortecimento viscoso ecxitação harmônica  é um problema de desbalanceamento rotativo, como exemplificado pelo sistema abaixo:

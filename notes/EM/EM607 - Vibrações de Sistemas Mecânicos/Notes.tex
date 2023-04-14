@@ -628,7 +628,7 @@
             Amortecido}. Tal ponto de resonância pode ser obtido via experimentação ou ainda analiticamente, se tivermos o modelo matemático que rege nosso sistema, de tal forma que é obtido pela análise
             dos pontos críticos da função $MF$, dada pelos pontos onde a sua derivada é zero. Ao aplicarmos isso no exemplo em questão temos que:
             \begin{align}
-                MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}
+                MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}, \ \ \ r_{pico} = \sqrt{1 - 2\zeta^2}
             \end{align}
 
             Podemos, ainda, estudar graficamente o comportamento do Fator de Amplificação em relação a razão de frequências e coeficiente de amortecimento ao plotarmos a equação \ref{eq:fator_de_amplificacao} em função de $r$, como
@@ -641,12 +641,18 @@
 
             Onde Observamos que o ponto de máxima ocorre para $r < 1 \Rightarrow \Omega < \omega_n$.
 
+            \newpage
         \section{Desbalanceamento Rotativo}
-            Como um exemplo de vibração forçada com amortecimento viscoso ecxitação harmônica  é um problema de desbalanceamento rotativo, como exemplificado pelo sistema abaixo:
+            Como um exemplo de vibração forçada com amortecimento viscoso ecxitação harmônica  é um problema de desbalanceamento rotativo, como modelado pelo sistema abaixo:
 
-            INSERIR IMAGEM 
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\textwidth]{imgs/desb_rotativo.png}
+                \caption{Modelagem de um Desbalanceamento Rotativo Com Amortecimento Viscoso}
+            \end{figure}
 
-            Esse sistema nós temos a seguinte modelagem:
+            Esse sistema nós temos a seguinte modelagem\footnote{É importante ressaltar que $m$ é a massa que está desbalanceada, então se tiver 3 massas, mas duas delas estiverem radialmente opostas
+            elas estariam balanceadas e teria somente uma das massas como desbalanceada. Além disso é importante ressaltar que $M$ é a soma de TODAS as massas, menos a desbalanceada}:
 
             \begin{align}
                 M\ddot x + c \dot x + kx = me\Omega^2 \sin(\Omega t)
@@ -662,10 +668,25 @@
                 \tan{(\theta)} = \frac{2\zeta r}{ 1 - r^2}
             \end{align}
 
-        \section{Transmissibilidade}
-            Considerando o sistema descrito abaixo, nosso objeto de estudo agora será determinar a força que chega ao suporte do sistema.
+            Assim como vimos no capítulo anterior, podemos estudar a amplitude da resposta pela análise do \emph{Fator De amplificação}, que para esse caso é dado por:
+            \begin{align}
+                MF = \frac{X}{(me/M)} = \frac{r^2}{\sqrt{(1-r^2)^2 + (2\zeta r )^2}}
+            \end{align}
 
-            Ao fazermos o DCL e  a soma das forças em $x$ vemos que a força $F$ aplicada sobre o suporte é:
+            A partir do qual podemos ver que o ponto máximo do Fator De Amplificação ocorre quando:
+            \begin{align}
+                r = \frac{1}{\sqrt{1 - 2\zeta^2}}
+            \end{align}
+            \newpage
+
+        \section{Transmissibilidade}
+            Considerando o sistema descrito abaixo, nosso objeto de estudo agora será determinar a força que chega ao suporte do sistema no cenário de \textbf{Regime Permanente}.
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.3\textwidth]{imgs/trans.png}
+            \end{figure}
+
+            Ao fazermos o DCL e  a soma das forças em $x$(que tem origem no ponto de eq. estático logo desconsideramos o peso) vemos que a força $F$ aplicada sobre o suporte é:
             \begin{align}
                 F = kx + x\dot x
             \end{align}
@@ -679,7 +700,7 @@
             amplitude). Reescrevendo a função acima temos:
             \begin{align}
                 F &= \sqrt{(kX)^2 + (x\Omega X)^2} \sin(\Omega t - \theta - \beta) \n
-                  &= \sqrt{(kX)^2 + (x\Omega X)^2}  X \sin(\Omega t = \sigma)
+                  &= \sqrt{(kX)^2 + (x\Omega X)^2}  X \sin(\Omega t - \sigma)
             \end{align}
 
             A partir disso, podemos analisar que a amplitude máxima (e por conseguinte a força máxima) sofrida pelo suporte do sistema é:
@@ -693,9 +714,7 @@
                 TR = \frac{F_T}{F_0} = \frac{\sqrt{1 + (2 \zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2 \zeta r)^2}}
             \end{align}
 
-            Podemos, por fim, analisar o impacto da constante de amortecimento $\zeta$ e da razão das frequências $r$, como mostrado na imagem abaixo:
-
-            INSERIR IMAGEM 
+            Podemos, por fim, analisar o impacto da constante de amortecimento $\zeta$ e da razão das frequências $r$.
 
             E podemos, então, observar que quanto menos amortecido, mais força chega no suporte pois gera uma \textbf{amplificação} da força de entrada, podendo quebrar o suporte se não projetado propriamente.
 

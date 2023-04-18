@@ -45,11 +45,11 @@
     \thispagestyle{empty}
 
     % Add the image inside a figure in as the first page
-    \begin{figure}[h]
-        \begin{center}
-            \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
-        \end{center}
-    \end{figure}
+    % \begin{figure}[h]
+    %     \begin{center}
+    %         \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+    %     \end{center}
+    % \end{figure}
 
     % Change to the Next page 
     \newpage
@@ -364,6 +364,71 @@
         Para uma propriedade extensiva\footnote{Extensiva no sentido de depender da quantidade de Matéria sob análise. Em contra partida Intensiva não depende da massa.} qualquer $N$ do sistema
         temos que sua variação temporal, relacionada a variação no volume de controle é dada por:
 
+
+        \begin{align}
+            \underbrace{\frac{dN}{dt}\big{)_{Sistema}}}_{Parte \ I} = \underbrace{\frac{\partial }{\partial t} \int_{VC} n \rho d \forall}_{Parte \ II} + \underbrace{\int_{SC} n \rho \vec V \cdot d \vec A}_{Parte \ III}
+        \end{align}
+
+        Onde:
+        \begin{itemize}
+            \item Parte I - Representa a Taxa de variação da propriedade extensiva $N$ do sistema.
+            \item Parte II - Representa a taxa de variação da propriedade $N$ dentro do volume de controle, com o termo $\int_{VC} n \rho d \forall$ representando o valor instantâneo de $N$.
+            \item Parte III - Taxa na qual a propriedade $N$ está saindo pelas superfícies do volume de controle.
+        \end{itemize}
+
+        Podemos observar que para uma propriedade $N$ extensiva nós usamos para os calculos a propriedade intensiva $n$. Tal relação para cada propriedade de interesse para as nossas análises estão descritas na tabela abaixo:
+
+        \begin{table}[H]
+            \begin{tabularx}{\textwidth}{|l|X|X|} \hline
+                \textbf{Análise} & \textbf{Propriedade Extensiva} & \textbf{Propriedade intensiva} \\ \hline
+                Conservação de Massa & $M \rightarrow$ Massa & $\rho \rightarrow$ Massa Específica \\ \hline
+                Quantidade de Movimento Linear & $H \rightarrow$ Quantidade de Movimento Linear & $\vec V \rightarrow$  Velocidade \\ \hline
+                Quantidade de Movimento Angular & $G \rightarrow$ Quantidade de Movimento Angular & $\vec r \times \vec V \rightarrow$  Braço vezes Velocidade \\ \hline
+            \end{tabularx}
+            \caption{Relação Geral entre Propriedade Extensiva e Propriedade Intensiva}
+        \end{table}
+
+        Agora veremos as diferentes análises que podemos fazer.
+
+    \subsection{Conservação de Massa}
+        Para a conservação de massa temos:
+        \begin{align}
+            \frac{dM}{dt} = \frac{\partial}{\partial t} \int_{VC} \rho d\forall + \int_{SC}\rho \vec V \cdot d \vec A
+        \end{align}
+
+        Podemos, ainda, simplificar drasticamente para casos de \textbf{Regime Permanente}, \textbf{Perfil Linear de Velocidade} e \textbf{número constante de superfícies de controle}. Resultando em:
+        \begin{align}
+            Q =  \sum V A = 0
+        \end{align}
+
+        Introduzimos ainda o conceito de \textbf{Vazão de Volume $Q$}, dado por $m^3/s$, que é \textbf{positivo} se o fluidos estiver saindo e \textbf{negativo} se estiver entrando.
+
+    \subsection{Conservação de Quantidade de Movimento Linear}
+        \subsubsection{Caso sem Velocidade Relativa}
+            Para a conservação de quantidade de movimento linear temos:
+            \begin{align}
+                \frac{d \vec H}{dt} = \vec F = \vec F_S + \vec F_B = \frac{\partial}{\partial t} \int_{VC} \vec V d\forall + \int_{SC}\vec V \rho \vec V \cdot d \vec A
+            \end{align}
+
+            Que pode ser decomposto para as 3 componentes da velocidade $V$, resultando em 3 equações que não são vetoriais (o que facilita bastante):
+            \begin{align}
+                F_x = \vec F_{S_x} + \vec F_{B_x} = \frac{\partial}{\partial t} \int_{VC} \vec u d\forall + \int_{SC}\vec u \rho \vec V \cdot d \vec A \n
+                F_y = \vec F_{S_y} + \vec F_{B_y} = \frac{\partial}{\partial t} \int_{VC} \vec v d\forall + \int_{SC}\vec v \rho \vec V \cdot d \vec A \n
+                F_z = \vec F_{S_z} + \vec F_{B_z} = \frac{\partial}{\partial t} \int_{VC} \vec w d\forall + \int_{SC}\vec w \rho \vec V \cdot d \vec A
+                \label{eq:cons_quan_movi_lin}
+            \end{align}
+
+            Importante ressaltar que cada superfície de controle do nosso volume de controle terá um $\vec V$ e um $\{u, v, w\}$ específico, e que é bom usar um subscrito para identificar (\emph{e.g} $u_1$ e $u_2$).
+
+            Além disso, é de suma importância perceber que as velocidades de entrada \textbf{{u, v, w} possuem um sinal (a depender dos eixos das coordenadas)} e que a expressão \textbf{$\vec V dA$ também possui sinal, sendo ele positivo se o fluido estiver saindo e negativo se estiver entrando}.
+
+        \subsubsection{Caso com Velocidade Relativa Constante}
+            Para o caso em que a volume de controle possui velocidade constante, ocorre a situação em que há uma velocidade relativa entre o jato de água e a superfície de controle, que precisa ser levada em consideração. 
+            
+            Para exemplificar a situação acima, vamos imaginar que um bocal esteja lançando um jato de água com uma velocidade no eixo $x$ de $V_j = V \hat i$. Além disso, um cano em formato de $\supset$ está andando a uma velocidade \textbf{Constante} $U$ (também no eixo $x$). Como estamos lidando
+            com velocidades constantes não há acelerações e, para tal, há a presença de uma força de resistência $R_x$ que impede a aceleração que seria oriunda da força necessária para virar o jato de água.
+
+            Ao analisarmos o volume de controle, há duas superfícies de controle, $1$ e $2$. Que possuem, por conservação de massa, as mesma velocidades de fluido entrando, sendo esse $|V_1| = |V_2| = V - U$. A partir disso somos capazes de aplicar a equação  \ref{eq:cons_quan_movi_lin} para o eixo $x$. Dando ênfase nos sinais tanto das velocidades {u, v, w} de entrada das superfícies de controle quanto no sinal oriundo do fato de estar entrando ou saindo do VC, dado pela parcela $VA$ ou $VdA$.
             
 
 

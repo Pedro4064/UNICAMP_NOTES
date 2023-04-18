@@ -11,6 +11,9 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{tabularx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{array}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -33,6 +36,7 @@
 }
 
 \renewcommand\tabularxcolumn[1]{m{#1}}%
+
 
 % Begin the Document 
 \begin{document}
@@ -164,23 +168,23 @@
 
         \subsection{One Pager - Estática de Fluidos}
 
-        \begin{table}[h]
+        \begin{table}[h]\tiny
             \begin{tabularx}{\textwidth}{|l|c|X|}\hline
                 \textbf{Uso} & \textbf{Equação} & \textbf{Descrição} \\ \hline 
 
-                Estática de Fluidos - Geral & $d\vec{F} = \vec{a} dm$ & A segunda Lei de Newton em um formato infinitesimal, base para a análise de forças em Estática dos Fluidos. \\ \hline 
-                Estática de Fluidos - Geral & $- \nabla p + \rho \vec g = 0$ & A aplicação da segunda lei para um volume infinitesimal de um fluido estático apensa sob pressão e gravidade. OBS: $\nabla p$ representa o vetor
-                gradiente nas três direções da pressão. \\ \hline
+                \rule{0pt}{7ex}Estática de Fluidos - Geral & $d\vec{F} = \vec{a} dm$ & A segunda Lei de Newton em um formato infinitesimal, base para a análise de forças em Estática dos Fluidos. \\[4ex] \hline 
+                \rule{0pt}{7ex}Estática de Fluidos - Geral & $- \nabla p + \rho \vec g = 0$ & A aplicação da segunda lei para um volume infinitesimal de um fluido estático apensa sob pressão e gravidade. OBS: $\nabla p$ representa o vetor
+                gradiente nas três direções da pressão. \\ [4ex]\hline
 
-                Variação de Pressão - Fluido Estático & $dp/dz = -\rho g_z \Rightarrow dp = -\rho g_z dz$ & Aplicação específica da fórmula do volume apensa sob pressão, e gravidade somente no eixo
-                $y$, base para problemas para calcular variação de pressão a depender de $z$ (especialmente se $\rho$ depender de $z$ ou de $p$ como no exemplo de gases ideais) \\ \hline 
+                \rule{0pt}{7ex}Variação de Pressão - Fluido Estático & $dp/dz = -\rho g_z \Rightarrow dp = -\rho g_z dz$ & Aplicação específica da fórmula do volume apensa sob pressão, e gravidade somente no eixo
+                $y$, base para problemas para calcular variação de pressão a depender de $z$ (especialmente se $\rho$ depender de $z$ ou de $p$ como no exemplo de gases ideais) \\ [4ex]\hline 
 
-                Variação de Pressão - Fluido Estático & $\Delta p = \rho g h$ & Variação de pressão para fluidos incompressíveis, estáticos. \\ \hline
+                \rule{0pt}{7ex}Variação de Pressão - Fluido Estático & $\Delta p = \rho g h$ & Variação de pressão para fluidos incompressíveis, estáticos. \\ [4ex]\hline
 
-                Variação de Pressão - Gás Ideal & $p = \rho RT \Rightarrow \rho = p/RT$ & Fórmula que relaciona pressão e massa específica $\rho$ dos gases ideais. \\ \hline
+                \rule{0pt}{7ex}Variação de Pressão - Gás Ideal & $p = \rho RT \Rightarrow \rho = p/RT$ & Fórmula que relaciona pressão e massa específica $\rho$ dos gases ideais. \\ [4ex]\hline
 
-                Variação de Pressão - Gás Ideal & $\ln{(p/p_0)} = -(g/RT)(z - z_0)$ & Fórmula para variação da pressão em gasses ideais, oriundo da integração da equação diferencial geral de variação
-                pressão, em conjunto com a equação que expressa $\rho$ em função de $p$ para gases ideais acima. \\ \hline
+                \rule{0pt}{7ex}Variação de Pressão - Gás Ideal & $\ln{(p/p_0)} = -(g/RT)(z - z_0)$ & Fórmula para variação da pressão em gasses ideais, oriundo da integração da equação diferencial geral de variação
+                pressão, em conjunto com a equação que expressa $\rho$ em função de $p$ para gases ideais acima. \\ [4ex]\hline
 
             \end{tabularx}
         \end{table}
@@ -208,6 +212,144 @@
                     \subitem $\hookrightarrow$\underline{Regime Permanente}: A velocidade nem a massa específica variam com o tempo.
                     \subitem $\hookrightarrow$\underline{Regime Transiente}: As propriedades do fluido podem variar em relação ao tempo.
             \end{itemize}
+
+        \subsection{Linhas de Caracterização}
+            Para estudarmos o comportamento de um fluido, principalmente da sua interação com outros corpos e superfícies, nós usamos diferentes técnicas, chamadas de linhas de caracterização, sendo
+            elas:
+            \begin{itemize}
+                \item \textbf{Linhas de Tempo}: Análise de Várias partículas adjacentes, em um determinado instante. Obtida via experimento.
+                \item \textbf{Linhas de Trajetória}: Análise do caminho traçado por uma partícula em movimento. Obtida via experimento.
+                \item \textbf{Linhas de Emissão}: Linha que traça todos os caminhos que particulas que passaram por um determinado ponto no espaço. Obtida via experimento.
+                \item \textbf{Linhas de Corrente}: Linhas tangente à direção e velocidade de escoamento em cada ponto do campo. Obtida Matematicamente.
+            \end{itemize}
+
+            Sendo que é importante ressaltar que para regime permanente, todas coincidem.
+
+            A que mais vamos ver, por ser obtida matematicamente, é a linha de corrente, que é dada por:
+            \begin{align}
+                \frac{dy}{dx} \big{)}_{linha \ de \ corrente} = \frac{v}{u}, \ \ \begin{cases}
+                    v = v_y \\ 
+                    u = v_x
+                \end{cases}
+            \end{align}
+
+            A partir disso somos capazes de isolar $dx$ com tudo que depende de $x$, e $dy$ com tudo que depende de $y$ e integrar para acharmos uma equação que depende de $x,y$ para a linha de
+            corrente.
+            
+        \subsection{Tensão de Cisalhamento}
+
+            \begin{figure}[H]
+                \begin{subfigure}{0.5\textwidth}
+                    \centering
+                    \includegraphics[width=.6\linewidth]{imgs/tens_cisa.png}
+                    \caption{Modelagem da Tensão de Cisalhamento}\label{img:tens_cis}
+                \end{subfigure}% Really important to have this comment here and no black line
+            \begin{subfigure}{.5\textwidth}
+                \centering
+                    \includegraphics[width=.6\linewidth]{imgs/conv_tens.png}
+                    \caption{Convenção de Sinais de Tensão}\label{img:conv_sinais}
+                \end{subfigure}
+                \caption[]{Modelos para Tensão}
+            \end{figure}
+
+            A tensão de cisalhamento é uma tensão oriunda da movimentação relativa entre as faces externas de um fluido. Tal tensão é de suma importância pois, juntamente com a \textbf{condição de não
+            escorregamento} (\emph{i.e} que o fluido, no ponto de contato com uma superfície, tem a mesma velocidade que tal superfície) nos possibilita calcular a força de resistência que o fluido
+            faz ao deslocamento. 
+            Em primeiro lugar, a tensão de cisalhamento é dada por:
+            \begin{align}
+                \tau_{yx} = \mu \frac{d}{dy} u, \begin{cases}
+                    \mu = Viscosidade \\ 
+                    u = Velocidade \ no \ eixo \ x
+                \end{cases}
+            \end{align}
+
+            A partir disso, sabemos que força nada mais é que:
+            \begin{align}
+                F_{reaction} = \tau_{yx} \cdot A, \ \ A= Contact \ Area
+            \end{align}
+
+
+            Algo importante de elaborarmos é a convenção de sinais para a tensão (e por conseguinte a força de reação). As tensões em um fluido seguem a convenção da imagem \ref{img:conv_sinais}. Isso
+            implica, se estamos observando a tensão da superfície superior do fluido, e ela é positiva, temos que ela aponta para a direita, já se estamos observando a tensão da superfície inferior
+            do fluido  e é positiva, temos que ela aponta para a esquerda.
+
+            \newpage
+        \subsection{One Pager - Conceitos Fundamentais}
+
+            \subsubsection*{Principais Fórmulas}
+
+                \begin{table}[h]\tiny
+                    \begin{tabularx}{\textwidth}{|l|c|X|}\hline
+                        \textbf{Nome} & \textbf{Equação} & \textbf{Descrição} \\ \hline 
+
+                        \rule{0pt}{10ex} Linha de Corrente & \begin{minipage}{0.5\textwidth}
+                                    $$\frac{dy}{dx} \big{)}_{linha \ de \ corrente} = \frac{v}{u}, \ \ \begin{cases}
+                                        v = v_y \\ 
+                                        u = v_x
+                                    \end{cases}$$
+                            \end{minipage}&  Calculo da linha de corrente, que é tangente a velocidade em um ponto $x,y$. Podemos separar o que tem $x$ e $dx$ em um lado, $y$ e $dy$ do outro e integrar para achar
+                            uma função que depende de $xy$ \\[5ex] \hline
+
+                        \rule{0pt}{8ex} Tensão de Cisalhamento & 
+                                    \begin{minipage}{0.5 \textwidth}
+                                    $$\tau_{yx} = \mu \frac{d}{dy} u, \begin{cases}
+                                        \mu = Viscosidade \\ 
+                                        u = Velocidade \ no \ eixo \ x
+                                    \end{cases}$$
+                                \end{minipage}
+                                    
+                            & Calculo da Tensão de cisalhamento, o resultado segue a convenção de sinais da imagem \ref{img:conv_sinais}. \\[5ex] \hline
+
+                        \rule{0pt}{8ex} Força de Resistência & 
+                                \begin{minipage}{0.5 \textwidth}
+                                    $$F_{reaction} = \tau_{yx} \cdot A, \ \ A= Contact \ Area$$
+                                \end{minipage}
+                            & Calculo da força de resistência ao movimento relativo entre duas placas com líquido no meio. \\[5ex] \hline
+            \end{tabularx}
+
+            $\\$
+            $\\$
+
+            \subsubsection*{Principais Conceitos}
+                $\\$
+
+                \begin{minipage}[c]{0.6 \textwidth}\tiny
+                    \begin{itemize}
+                        \item \textbf{Dimensões de Escoamento}:
+                            \subitem $\hookrightarrow$ \underline{ Uni-Dimensional}: A velocidade muda em relação a somente uma coordenada.
+                            \subitem $\hookrightarrow$ \underline{ Bi-Dimensional}: A velocidade muda em relação a  duas coordenadas.
+                            \subitem $\hookrightarrow$ \underline{ Tri-Dimensional}: A velocidade muda em relação a três coordenadas.
+                        \item \textbf{Variação no Tempo}:
+                            \subitem $\hookrightarrow$\underline{Regime Permanente}: A velocidade nem a massa específica variam com o tempo.
+                            \subitem $\hookrightarrow$\underline{Regime Transiente}: As propriedades do fluido podem variar em relação ao tempo.
+                        \item \textbf{Princípio de Não Escorregamento}:O fluido, no ponto de contato com uma superfície, tem a mesma velocidade que tal superfície
+                    \end{itemize}
+                \end{minipage}
+                \begin{minipage}[c]{0.4 \textwidth}\tiny
+                    \begin{align*}
+                        \vec V = \vec V (x, y, z, t) = u \hat i + v \hat j + w \hat k \label{eq:campo_velocidade}
+                    \end{align*}
+                \end{minipage}
+
+            $\\$
+
+            \subsubsection*{Convenções}\begin{figure}[H]
+                \begin{subfigure}{0.5\textwidth}
+                    \centering
+                    \includegraphics[width=.6\linewidth]{imgs/tens_cisa.png}
+                    \caption{Modelagem da Tensão de Cisalhamento}
+                \end{subfigure}% Really important to have this comment here and no black line
+            \begin{subfigure}{.5\textwidth}
+                \centering
+                    \includegraphics[width=.6\linewidth]{imgs/conv_tens.png}
+                    \caption{Convenção de Sinais de Tensão}
+                \end{subfigure}
+            \end{figure}
+
+
+
+        \end{table}
+            
 
 
 

@@ -5,3 +5,6 @@
 \contentsline {subsection}{\numberline {1.4}One Pager - Estática de Fluidos}{6}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Conceitos Fundamentais Dinâmica dos Fluidos}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Campo de Velocidade}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Linhas de Caracterização}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Tensão de Cisalhamento}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}One Pager - Conceitos Fundamentais}{9}{subsection.2.4}%

@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{tabularx}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -22,6 +23,16 @@
 \rhead{Pedro Henrique L. da Cruz}
 \lhead{\inserttitle}
 \rfoot{Page \thepage}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\renewcommand\tabularxcolumn[1]{m{#1}}%
 
 % Begin the Document 
 \begin{document}
@@ -124,6 +135,8 @@
             gravidade é negativo pois o eixo $z$ é positivo para cima, \textbf{se o eixo $z$ for positivo para baixo o sinal da gravidade na equação \ref{eq:diff_inicial_pressao} seria positivo}.
 
 
+            \newpage
+
         \subsection{Variação de Pressão Em um Gás Ideal}
             Como dito na parte anterior, há casos que lidaremos com fluidos compressíveis, sendo o mais notório deles os chamados \textbf{gases ideais}, onde:
             \begin{align}
@@ -138,9 +151,66 @@
                 \item $R$: Constante universal dos gases (tabelada)
             \end{itemize}
 
-            A partir disso, e da equação \ref{eq:diff_inicial_pressao}, somos capazes de determinar uma expressão para a pressão em um gás ideal.
+            A partir da equação \ref{eq:gases_ideais}, e da equação \ref{eq:diff_inicial_pressao}, somos capazes de determinar uma expressão para a pressão em um gás ideal:
+            \begin{align}
+                dp &= - \rho g dz \n
+                dp &= - \frac{p}{RT} g dz \n
+                \frac{1}{p} dp &= -\frac{1}{RT} g dz \n
+                \int^p_{p_0}\frac{1}{p} dp &= -\int^z_{z_0}\frac{1}{RT} g dz \n
+                \ln{(p/p_0)} &= -\frac{g}{RT} (z - z_0)
+            \end{align}
 
         \newpage
+
+        \subsection{One Pager - Estática de Fluidos}
+
+        \begin{table}[h]
+            \begin{tabularx}{\textwidth}{|l|c|X|}\hline
+                \textbf{Uso} & \textbf{Equação} & \textbf{Descrição} \\ \hline 
+
+                Estática de Fluidos - Geral & $d\vec{F} = \vec{a} dm$ & A segunda Lei de Newton em um formato infinitesimal, base para a análise de forças em Estática dos Fluidos. \\ \hline 
+                Estática de Fluidos - Geral & $- \nabla p + \rho \vec g = 0$ & A aplicação da segunda lei para um volume infinitesimal de um fluido estático apensa sob pressão e gravidade. OBS: $\nabla p$ representa o vetor
+                gradiente nas três direções da pressão. \\ \hline
+
+                Variação de Pressão - Fluido Estático & $dp/dz = -\rho g_z \Rightarrow dp = -\rho g_z dz$ & Aplicação específica da fórmula do volume apensa sob pressão, e gravidade somente no eixo
+                $y$, base para problemas para calcular variação de pressão a depender de $z$ (especialmente se $\rho$ depender de $z$ ou de $p$ como no exemplo de gases ideais) \\ \hline 
+
+                Variação de Pressão - Fluido Estático & $\Delta p = \rho g h$ & Variação de pressão para fluidos incompressíveis, estáticos. \\ \hline
+
+                Variação de Pressão - Gás Ideal & $p = \rho RT \Rightarrow \rho = p/RT$ & Fórmula que relaciona pressão e massa específica $\rho$ dos gases ideais. \\ \hline
+
+                Variação de Pressão - Gás Ideal & $\ln{(p/p_0)} = -(g/RT)(z - z_0)$ & Fórmula para variação da pressão em gasses ideais, oriundo da integração da equação diferencial geral de variação
+                pressão, em conjunto com a equação que expressa $\rho$ em função de $p$ para gases ideais acima. \\ \hline
+
+            \end{tabularx}
+        \end{table}
+        \newpage
+
+    \section{Conceitos Fundamentais Dinâmica dos Fluidos} 
+        Agora que revemos os conceitos mais básicos de Estática dos Fluidos, iremos então explorar os principais conceitos de Dinâmica dos Fluidos, sendo o primeiro deles a ideia de 
+        campo de velocidade.
+        
+        \subsection{Campo de Velocidade}
+            Algo muito importante de internalizarmos entes de falarmos sobre a velocidade de um líquido é que ele não é uma partícula, mas sim um conjunto "contínuo" de partículas, por isso chamamos
+            um fluido de um "contínuo". Como resultado direto disso, temos que a velocidade de um certo volume de fluido pode depender não somente do tempo (como estamos mais acostumados com corpos
+            rígidos), mas também pode depender da posição que está sendo analisada dentro de tal fluido, \emph{i.e} a velocidade é um função da posição da partícula de análise como também do tempo:
+            \begin{align}
+                \vec V = \vec V (x, y, z, t) = u \hat i + v \hat j + w \hat k \label{eq:campo_velocidade}
+            \end{align}
+
+            A partir disso, podemos agrupar os diferentes tipo de escoamento de fluidos em relação a:
+            \begin{itemize}
+                \item \textbf{Dimensões de Escoamento}:
+                    \subitem $\hookrightarrow$ \underline{Escoamento Uni-Dimensional}: O campo de velocidade, no que tange posição, muda em relação a somente uma coordenada.
+                    \subitem $\hookrightarrow$ \underline{Escoamento Bi-Dimensional}: O campo de velocidade, no que tange posição, muda em relação a  duas coordenadas.
+                    \subitem $\hookrightarrow$ \underline{Escoamento Tri-Dimensional}: O campo de velocidade, no que tange posição, muda em relação a três coordenadas.
+                \item \textbf{Variação no Tempo}:
+                    \subitem $\hookrightarrow$\underline{Regime Permanente}: A velocidade nem a massa específica variam com o tempo.
+                    \subitem $\hookrightarrow$\underline{Regime Transiente}: As propriedades do fluido podem variar em relação ao tempo.
+            \end{itemize}
+
+
+
             
 
 

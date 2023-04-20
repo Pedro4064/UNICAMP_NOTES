@@ -628,7 +628,7 @@
             Amortecido}. Tal ponto de resonância pode ser obtido via experimentação ou ainda analiticamente, se tivermos o modelo matemático que rege nosso sistema, de tal forma que é obtido pela análise
             dos pontos críticos da função $MF$, dada pelos pontos onde a sua derivada é zero. Ao aplicarmos isso no exemplo em questão temos que:
             \begin{align}
-                MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}, \ \ \ r_{pico} = \sqrt{1 - 2\zeta^2}
+                MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}, \ \ \ r_{pico} = \sqrt{1 - 2\zeta^2} < 1
             \end{align}
 
             Podemos, ainda, estudar graficamente o comportamento do Fator de Amplificação em relação a razão de frequências e coeficiente de amortecimento ao plotarmos a equação \ref{eq:fator_de_amplificacao} em função de $r$, como
@@ -640,6 +640,9 @@
             \end{figure}
 
             Onde Observamos que o ponto de máxima ocorre para $r < 1 \Rightarrow \Omega < \omega_n$.
+            Além disso, em um cenário onde estamos analizando um \emph{Bode Plot} da resposta em frequência é importante ressaltar que o momento onde ocorre a inversão da frequência de resposta,
+            \emph{i.e} ocorre um shift de $90^\circ$ entre a frequência de excitação e de resposta, representa o ponto de $r=1$, ou seja, $\Omega = \omega_n$. Isso nos ajuda a identificar o sistema
+            quando temos somente a resposta em frequência do sistema em questão.
 
             \newpage
         \section{Desbalanceamento Rotativo}
@@ -652,13 +655,14 @@
             \end{figure}
 
             Esse sistema nós temos a seguinte modelagem\footnote{É importante ressaltar que $m$ é a massa que está desbalanceada, então se tiver 3 massas, mas duas delas estiverem radialmente opostas
-            elas estariam balanceadas e teria somente uma das massas como desbalanceada. Além disso é importante ressaltar que $M$ é a soma de TODAS as massas, menos a desbalanceada}:
+            elas estariam balanceadas e teria somente uma das massas como desbalanceada. Além disso é importante ressaltar que $M$ é a soma de TODAS as massas, menos a desbalanceada}, feita a partir
+            do conceito de \emph{Sistemas de Corpos Interligados}:
 
             \begin{align}
-                M\ddot x + c \dot x + kx = me\Omega^2 \sin(\Omega t)
+                \sum F = \sum M \ddot x \Rightarrow M\ddot x + c \dot x + kx = me\Omega^2 \sin(\Omega t)
             \end{align}
 
-            Onde teremos uma resposta senoidal para a solução particular também como sendo $X \sin{(\Omega t - \alpha)}$ com a amplitude $X$ dada por:
+            Onde teremos uma resposta senoidal para a solução particular também como sendo $X \sin{(\Omega t - \theta)}$ com a amplitude $X$ dada por:
             \begin{align}
                 X = \frac{(me/M) r^2}{\sqrt{(1-r^2)^2 + (2\zeta r)^2}}
             \end{align}
@@ -675,25 +679,31 @@
 
             A partir do qual podemos ver que o ponto máximo do Fator De Amplificação ocorre quando:
             \begin{align}
-                r = \frac{1}{\sqrt{1 - 2\zeta^2}}
+                r = r_{pico} = \frac{1}{\sqrt{1 - 2\zeta^2}} > 1
             \end{align}
+
+            O que implica que, diferente do sistema com excitação harmônica amortecido simples visto na seção anterior, quando estamos lidando com um \textbf{desbalanceamento rotativo temos que a frequência da
+            entrada forçante é maior que a frequência natural do sistema no ponto de ressonância}. O que é um indicativo de qual modelo usar quando estamos fazendo a identificação do sistema e temos a sua resposta em
+            frequência (como um Bode Plot).
             \newpage
 
         \section{Transmissibilidade}
             Considerando o sistema descrito abaixo, nosso objeto de estudo agora será determinar a força que chega ao suporte do sistema no cenário de \textbf{Regime Permanente}.
+
             \begin{figure}[h]
                 \centering
-                \includegraphics[width=.3\textwidth]{imgs/trans.png}
+                \includegraphics[width=.2\textwidth]{imgs/trans.png}
             \end{figure}
 
             Ao fazermos o DCL e  a soma das forças em $x$(que tem origem no ponto de eq. estático logo desconsideramos o peso) vemos que a força $F$ aplicada sobre o suporte é:
             \begin{align}
-                F = kx + x\dot x
+                F = \sum F_x = kx + c\dot x
             \end{align}
+
 
             Analisando em regime permanente (e por conseguinte analisando a resposta forçada do sistema) teremos:
             \begin{align}
-                F = xK\sin(\Omega t - \theta) + c \Omega X \cos(\Omega t - \theta) ,   x(t) = X\sin(\Omega t -\theta)
+                F = kX\sin(\Omega t - \theta) + c \Omega X \cos(\Omega t - \theta) ,   x(t) = X\sin(\Omega t -\theta)
             \end{align}
 
             Como estamos lidando com soma de cossenos e senos, podemos representar como sendo somente um seno e uma amplitude, o que facilitará nossas contas e nossas análises (principalmente de
@@ -708,15 +718,65 @@
                 F_T = X\sqrt{k^2 + (c \Omega)^2}
             \end{align}
 
-            Com isso, somos capazes de introduzir o conceito de \textbf{TRANSMISSIBILIDADE} $TR$, que é uma relação entre a força máxima que chega no suporte do sistema e da força aplicada no sistema
+            Com isso, somos capazes de introduzir o conceito de \textbf{TRANSMISSIBILIDADE} $TR$, que é uma relação entre a amplitude da força máxima que chega no suporte do sistema e a amplitude da força aplicada no sistema
             como um todo:
             \begin{align}
                 TR = \frac{F_T}{F_0} = \frac{\sqrt{1 + (2 \zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2 \zeta r)^2}}
             \end{align}
 
-            Podemos, por fim, analisar o impacto da constante de amortecimento $\zeta$ e da razão das frequências $r$.
+            Podemos, por fim, analisar o impacto da constante de amortecimento $\zeta$ e da razão das frequências $r$ tal que, para o caso $r=0$ temos o caso estático.
 
-            E podemos, então, observar que quanto menos amortecido, mais força chega no suporte pois gera uma \textbf{amplificação} da força de entrada, podendo quebrar o suporte se não projetado propriamente.
+            E podemos, então, observar que quanto menos amortecido, mais força chega no suporte pois gera uma \textbf{amplificação} da força de entrada, podendo quebrar o suporte se não projetado
+            propriamente. Além disso, para qualquer configuração há uma frequência de excitação que resultará em uma Transmissiblidade máxima, que ocorre quando:
+            \begin{align}
+                r_{pico} = \frac{\sqrt{-1 + \sqrt{1 + 0 \zeta ^2}}}{2 \zeta} < 1
+            \end{align}
+
+            Uma análise de transmissibilidade também pode ser feita para o caso de um desbalanceamento rotativo, dado por:
+            \begin{align}
+                TR = \frac{F_T}{me\omega_n^2} = \frac{r^2\sqrt{1 + (2\zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}}
+            \end{align}
+
+            Que analogamente ao fator de amplificação,  possui $r_{pico} > 1$, isso é, valor máximo de transmissibilidade rotativa para frequências de rotação maiores que a frequência natural de
+            vibração do sistema.
+            
+        \section{Oscilação do Suporte}
+            Até o momento vimos casos onde há excitação harmônica no formato de uma força sendo aplicada no sistema. Uma forma que também é extremamente comum de gerar vibrações em sistemas é onde
+            ocorre a \textbf{Oscilação} do suporte no qual o sistema está fixado. Para tais casos, modelamos o sistema como demonstrado na figura \ref{fig:osci_suporte}.
+
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\textwidth]{imgs/osci_suporte.png}
+                \caption{Modelo de um sistema com oscilação do suporte}
+                \label{fig:osci_suporte}
+            \end{figure}
+
+
+            Para casos como esse, é mais fácil estabelecermos duas coordenadas distintas, mas modelarmos (como veremos abaixo) com uma cordenada que representa a diferença entre as duas (como se fosse
+            uma "coordenada relativa"). Ao fazermos isso temos:
+            \begin{align}
+                m\ddot x + c \dot x + kx = y_0\sqrt{k^2 + (c\Omega)^2}\sin{(\Omega t - \beta)}, \beta = \tan^{-1}-(c\Omega)/k = -2\zeta r
+            \end{align}
+
+            Cujo possui, como podemos ver acima, uma amplitude da força excitante sendo $F_0 = y_0 \sqrt{k^2 + (c\Omega)^2}$. A partir do que podemos resolver a EDO e achar:
+
+            $ \\ $
+            \textbf{SOLUÇÃO EM REGIME:}
+            \begin{align}
+                x(t) &= X \sin(\Omega t - \gamma) \begin{cases}
+                    X = \frac{y_0\sqrt{1 + (2\zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2 \zeta r)^2}} \\ 
+                    \gamma = \beta + \phi \\ 
+                    \beta = \tan^{-1} (-c\Omega)/k = -2\zeta r \\ 
+                    \phi = \tan^{-1} 2\zeta r / (1 - r^2)
+                \end{cases} \\ 
+                MF &= X / y_0
+            \end{align}
+
+            \textbf{FORÇA TRANSMITIDA}
+            \begin{align}
+                F_T = y_0 k \frac{r^2 \sqrt{1 + (2\zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}} \\ 
+                TR = F_T / y_0 k
+            \end{align}
 
 
 

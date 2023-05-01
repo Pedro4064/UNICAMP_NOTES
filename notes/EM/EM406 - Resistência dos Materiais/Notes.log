@@ -1,53 +1,53 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 MAR 2023 21:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  1 MAY 2023 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.tex"
-(/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+**"/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex"
+(/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+\KV@toks@=\toks16
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count175
-\Gm@cntv=\count176
-\c@Gm@tempcnt=\count177
-\Gm@bindingoffset=\dimen135
-\Gm@wd@mp=\dimen136
-\Gm@odd@mp=\dimen137
-\Gm@even@mp=\dimen138
-\Gm@layoutwidth=\dimen139
-\Gm@layoutheight=\dimen140
-\Gm@layouthoffset=\dimen141
-\Gm@layoutvoffset=\dimen142
-\Gm@dimlist=\toks16
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip49
 \f@nch@O@elh=\skip50
 \f@nch@O@erh=\skip51
@@ -57,388 +57,393 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip55
 \f@nch@O@olf=\skip56
 \f@nch@O@orf=\skip57
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2019/11/15 version 4.22 text color boxes
- (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks17
-\pgfutil@tempdima=\dimen143
-\pgfutil@tempdimb=\dimen144
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box45
- (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box50
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks18
-\pgfkeys@temptoks=\toks19
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks20
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen147
-\pgf@y=\dimen148
-\pgf@xa=\dimen149
-\pgf@ya=\dimen150
-\pgf@xb=\dimen151
-\pgf@yb=\dimen152
-\pgf@xc=\dimen153
-\pgf@yc=\dimen154
-\pgf@xd=\dimen155
-\pgf@yd=\dimen156
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
+\pgf@xd=\dimen159
+\pgf@yd=\dimen160
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count178
-\c@pgf@countb=\count179
-\c@pgf@countc=\count180
-\c@pgf@countd=\count181
-\t@pgf@toka=\toks21
-\t@pgf@tokb=\toks22
-\t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count182
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count266
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count183
-\pgfsyssoftpath@bigbuffer@items=\count184
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen157
-\pgfmath@count=\count185
-\pgfmath@box=\box46
-\pgfmath@toks=\toks24
-\pgfmath@stack@operand=\toks25
-\pgfmath@stack@operation=\toks26
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count186
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen158
-\pgf@picmaxx=\dimen159
-\pgf@picminy=\dimen160
-\pgf@picmaxy=\dimen161
-\pgf@pathminx=\dimen162
-\pgf@pathmaxx=\dimen163
-\pgf@pathminy=\dimen164
-\pgf@pathmaxy=\dimen165
-\pgf@xx=\dimen166
-\pgf@xy=\dimen167
-\pgf@yx=\dimen168
-\pgf@yy=\dimen169
-\pgf@zx=\dimen170
-\pgf@zy=\dimen171
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen172
-\pgf@path@lasty=\dimen173
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen174
-\pgf@shorten@start@additional=\dimen175
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box47
-\pgf@hbox=\box48
-\pgf@layerbox@main=\box49
-\pgf@picture@serial@count=\count187
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen176
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen177
-\pgf@pt@y=\dimen178
-\pgf@pt@temp=\dimen179
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen180
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen181
-\pgf@sys@shading@range@num=\count188
-\pgf@shadingcount=\count189
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box50
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box51
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen182
-\pgf@nodesepend=\dimen183
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks27
-\verbatim@line=\toks28
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count269
+\pgfmath@box=\box51
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count270
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count271
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen180
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen184
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box55
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box56
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
 \verbatim@in@stream=\read3
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks29
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count190
+\@envbody=\toks30
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
 )
-\tcb@titlebox=\box52
-\tcb@upperbox=\box53
-\tcb@lowerbox=\box54
-\tcb@phantombox=\box55
-\c@tcbbreakpart=\count191
-\c@tcblayer=\count192
-\tcolorbox@number=\count193
-\tcb@temp=\box56
-\tcb@temp=\box57
-\tcb@temp=\box58
-\tcb@temp=\box59
-\tcb@out=\write4
-\tcb@record@out=\write5
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+\tcb@titlebox=\box57
+\tcb@upperbox=\box58
+\tcb@lowerbox=\box59
+\tcb@phantombox=\box60
+\c@tcbbreakpart=\count275
+\c@tcblayer=\count276
+\c@tcolorbox@number=\count277
+\tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@temp=\box63
+\tcb@temp=\box64
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
-\ex@=\dimen184
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks31
+\ex@=\dimen188
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen185
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+\pmbraise@=\dimen189
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count194
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count195
-\leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count197
-\DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box60
-\strutbox@=\box61
-\big@size=\dimen186
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count199
-\c@MaxMatrixCols=\count266
+\inf@bad=\count278
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count279
+\leftroot@=\count280
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count281
+\DOTSCASE@=\count282
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen190
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count283
+\c@MaxMatrixCols=\count284
 \dotsspace@=\muskip16
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
-\tag@help=\toks31
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
-\andhelp@=\toks32
-\eqnshift@=\dimen187
-\alignsep@=\dimen188
-\tagshift@=\dimen189
-\tagwidth@=\dimen190
-\totwidth@=\dimen191
-\lineht@=\dimen192
-\@envbody=\toks33
+\c@parentequation=\count285
+\dspbrk@lvl=\count286
+\tag@help=\toks32
+\row@=\count287
+\column@=\count288
+\maxfields@=\count289
+\andhelp@=\toks33
+\eqnshift@=\dimen191
+\alignsep@=\dimen192
+\tagshift@=\dimen193
+\tagwidth@=\dimen194
+\totwidth@=\dimen195
+\lineht@=\dimen196
+\@envbody=\toks34
 \multlinegap=\skip59
 \multlinetaggap=\skip60
-\mathdisplay@stack=\toks34
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip61
-\enit@outerparindent=\dimen193
-\enit@toks=\toks35
-\enit@inbox=\box62
-\enit@count@id=\count272
-\enitdp@description=\count273
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+\enit@outerparindent=\dimen197
+\enit@toks=\toks36
+\enit@inbox=\box67
+\enit@count@id=\count290
+\enitdp@description=\count291
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen194
-\ar@mcellbox=\box63
-\extrarowheight=\dimen195
-\NC@list=\toks36
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen198
+\ar@mcellbox=\box68
+\extrarowheight=\dimen199
+\NC@list=\toks37
 \extratabsurround=\skip62
 \backup@length=\skip63
-\ar@cellbox=\box64
+\ar@cellbox=\box69
 )
-\TX@col@width=\dimen196
-\TX@old@table=\dimen197
-\TX@old@col=\dimen198
-\TX@target=\dimen199
-\TX@delta=\dimen256
-\TX@cols=\count274
-\TX@ftn=\toks37
+\TX@col@width=\dimen256
+\TX@old@table=\dimen257
+\TX@old@col=\dimen258
+\TX@target=\dimen259
+\TX@delta=\dimen260
+\TX@cols=\count292
+\TX@ftn=\toks38
 )
-\enitdp@todolist=\count275
- (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
- (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+\enitdp@todolist=\count293
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen257
-\Hy@linkcounter=\count276
-\Hy@pagecounter=\count277
- (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen261
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count278
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+\Hy@SavedSpaceFactor=\count296
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count279
- (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count297
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen258
- (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen262
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count280
-\Field@Width=\dimen259
-\Fld@charsize=\dimen260
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
- (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+\Fld@menulength=\count298
+\Field@Width=\dimen263
+\Fld@charsize=\dimen264
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count281
-\c@Item=\count282
-\c@Hfootnote=\count283
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
- (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
 )
-\Fld@listcount=\count284
-\c@bookmark@seq@number=\count285
- (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
@@ -446,11 +451,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip64
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 40.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count286
-\l__pdf_internal_box=\box65
-) (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.aux)
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count304
+\l__pdf_internal_box=\box70
+) (./Notes.aux)
 \openout1 = `Notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -468,6 +473,8 @@ LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
@@ -504,74 +511,67 @@ LaTeX Font Info:    ... okay on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-ABD: EveryShipout initializing macros (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen261
-\scratchbox=\box66
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen262
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks39
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count305
+\scratchdimen=\dimen265
+\scratchbox=\box71
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen266
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box67
 Package hyperref Info: Link coloring ON on input line 43.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
- (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count293
+\c@section@level=\count311
 )
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
 LaTeX Info: Redefining \nameref on input line 43.
- (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.out) (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.out)
-\@outlinefile=\write6
-\openout6 = `Notes.out'.
+ (./Notes.out) (./Notes.out)
+\@outlinefile=\write4
+\openout4 = `Notes.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-</Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png, id=59, 2482.27374pt x 2609.75pt>
-File: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png Graphic file (type png)
-<use /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png>
-Package pdftex.def Info: /Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png  used on input line 51.
-(pdftex.def)             Requested size: 372.325pt x 391.44562pt.
- [1
+) [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png>] (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.toc)
-\tf@toc=\write7
-\openout7 = `Notes.toc'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Notes.toc)
+\tf@toc=\write5
+\openout5 = `Notes.toc'.
 
  [2]
-<imgs/rolete_eg.png, id=90, 292.09125pt x 166.6225pt>
+<imgs/rolete_eg.png, id=97, 292.09125pt x 166.6225pt>
 File: imgs/rolete_eg.png Graphic file (type png)
 <use imgs/rolete_eg.png>
 Package pdftex.def Info: imgs/rolete_eg.png  used on input line 82.
 (pdftex.def)             Requested size: 99.73099pt x 56.88988pt.
-<imgs/rolete_rep.png, id=91, 272.01625pt x 106.3975pt>
+<imgs/rolete_rep.png, id=99, 272.01625pt x 106.3975pt>
 File: imgs/rolete_rep.png Graphic file (type png)
 <use imgs/rolete_rep.png>
 Package pdftex.def Info: imgs/rolete_rep.png  used on input line 87.
 (pdftex.def)             Requested size: 99.73099pt x 39.00928pt.
-<imgs/rolete_dcl.png, id=92, 282.05376pt x 139.52126pt>
+<imgs/rolete_dcl.png, id=100, 282.05376pt x 139.52126pt>
 File: imgs/rolete_dcl.png Graphic file (type png)
 <use imgs/rolete_dcl.png>
 Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 92.
@@ -626,17 +626,17 @@ Underfull \hbox (badness 4805) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 tais abaixo do
  []
 
-<imgs/pino_eg.png, id=93, 412.54124pt x 206.7725pt>
+<imgs/pino_eg.png, id=101, 412.54124pt x 206.7725pt>
 File: imgs/pino_eg.png Graphic file (type png)
 <use imgs/pino_eg.png>
 Package pdftex.def Info: imgs/pino_eg.png  used on input line 113.
 (pdftex.def)             Requested size: 99.73099pt x 49.98608pt.
-<imgs/pino_rep.png, id=94, 257.96375pt x 96.36pt>
+<imgs/pino_rep.png, id=102, 257.96375pt x 96.36pt>
 File: imgs/pino_rep.png Graphic file (type png)
 <use imgs/pino_rep.png>
 Package pdftex.def Info: imgs/pino_rep.png  used on input line 118.
 (pdftex.def)             Requested size: 99.73099pt x 37.25381pt.
-<imgs/pino_dcl.png, id=95, 310.15875pt x 140.525pt>
+<imgs/pino_dcl.png, id=103, 310.15875pt x 140.525pt>
 File: imgs/pino_dcl.png Graphic file (type png)
 <use imgs/pino_dcl.png>
 Package pdftex.def Info: imgs/pino_dcl.png  used on input line 123.
@@ -686,7 +686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmr/bx/n/5 UMA \OT1/cmr/m/n/5 linha
  []
 
-<imgs/engaste_rep.png, id=96, 263.98625pt x 122.4575pt>
+<imgs/engaste_rep.png, id=104, 263.98625pt x 122.4575pt>
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
 Package pdftex.def Info: imgs/engaste_rep.png  used on input line 145.
@@ -695,7 +695,7 @@ File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
 Package pdftex.def Info: imgs/engaste_rep.png  used on input line 150.
 (pdftex.def)             Requested size: 99.73099pt x 46.2615pt.
-<imgs/engaste_dcl.png, id=97, 340.27126pt x 173.64874pt>
+<imgs/engaste_dcl.png, id=105, 340.27126pt x 173.64874pt>
 File: imgs/engaste_dcl.png Graphic file (type png)
 <use imgs/engaste_dcl.png>
 Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 155.
@@ -711,359 +711,381 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
  []
 
 
-Overfull \hbox (12.49118pt too wide) in paragraph at lines 75--171
+Overfull \hbox (12.49118pt too wide) in paragraph at lines 75--170
 [][] 
  []
 
 
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 193--211
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 192--210
 []$[]$$[]$ 
  []
 
-[3 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/rolete_dcl.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/pino_dcl.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/engaste_rep.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/engaste_dcl.png>]
-<imgs/sis_plano.png, id=120, 264.99pt x 212.795pt>
+[3 <./imgs/rolete_eg.png> <./imgs/rolete_rep.png> <./imgs/rolete_dcl.png> <./imgs/pino_eg.png> <./imgs/pino_rep.png> <./imgs/pino_dcl.png> <./imgs/engaste_rep.png> <./imgs/engaste_dcl.png>]
+<imgs/sis_plano.png, id=128, 264.99pt x 212.795pt>
 File: imgs/sis_plano.png Graphic file (type png)
 <use imgs/sis_plano.png>
-Package pdftex.def Info: imgs/sis_plano.png  used on input line 221.
+Package pdftex.def Info: imgs/sis_plano.png  used on input line 220.
 (pdftex.def)             Requested size: 124.66563pt x 100.11105pt.
 
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 219--230
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 218--229
 []$[]$$[]$ 
  []
 
-[4 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/sis_plano.png>]
-<imgs/barra_eg.png, id=130, 508.90125pt x 123.46124pt>
+[4 <./imgs/sis_plano.png>]
+<imgs/barra_eg.png, id=138, 508.90125pt x 123.46124pt>
 File: imgs/barra_eg.png Graphic file (type png)
 <use imgs/barra_eg.png>
-Package pdftex.def Info: imgs/barra_eg.png  used on input line 262.
+Package pdftex.def Info: imgs/barra_eg.png  used on input line 261.
 (pdftex.def)             Requested size: 199.46198pt x 48.39081pt.
-<imgs/eixo_eg.png, id=131, 460.72125pt x 120.45pt>
+<imgs/eixo_eg.png, id=139, 460.72125pt x 120.45pt>
 File: imgs/eixo_eg.png Graphic file (type png)
 <use imgs/eixo_eg.png>
-Package pdftex.def Info: imgs/eixo_eg.png  used on input line 275.
+Package pdftex.def Info: imgs/eixo_eg.png  used on input line 274.
 (pdftex.def)             Requested size: 179.51456pt x 46.93118pt.
-<imgs/viga_eg.png, id=132, 452.69125pt x 132.495pt>
+<imgs/viga_eg.png, id=140, 452.69125pt x 132.495pt>
 File: imgs/viga_eg.png Graphic file (type png)
 <use imgs/viga_eg.png>
-Package pdftex.def Info: imgs/viga_eg.png  used on input line 287.
+Package pdftex.def Info: imgs/viga_eg.png  used on input line 286.
 (pdftex.def)             Requested size: 179.51456pt x 52.54015pt.
- [5 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/barra_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/eixo_eg.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/viga_eg.png>]
-<imgs/conv_sinais.png, id=141, 355.3275pt x 210.7875pt>
+ [5 <./imgs/barra_eg.png> <./imgs/eixo_eg.png> <./imgs/viga_eg.png>]
+<imgs/conv_sinais.png, id=149, 355.3275pt x 210.7875pt>
 File: imgs/conv_sinais.png Graphic file (type png)
 <use imgs/conv_sinais.png>
-Package pdftex.def Info: imgs/conv_sinais.png  used on input line 315.
+Package pdftex.def Info: imgs/conv_sinais.png  used on input line 313.
 (pdftex.def)             Requested size: 149.6003pt x 88.74886pt.
-<imgs/conv_sinais_eg.png, id=142, 625.33624pt x 635.37375pt>
+<imgs/conv_sinais_eg.png, id=150, 625.33624pt x 635.37375pt>
 File: imgs/conv_sinais_eg.png Graphic file (type png)
 <use imgs/conv_sinais_eg.png>
-Package pdftex.def Info: imgs/conv_sinais_eg.png  used on input line 325.
+Package pdftex.def Info: imgs/conv_sinais_eg.png  used on input line 323.
 (pdftex.def)             Requested size: 274.26593pt x 278.67337pt.
 File: imgs/rolete_eg.png Graphic file (type png)
 <use imgs/rolete_eg.png>
-Package pdftex.def Info: imgs/rolete_eg.png  used on input line 427.
+Package pdftex.def Info: imgs/rolete_eg.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 45.5124pt.
 File: imgs/rolete_rep.png Graphic file (type png)
 <use imgs/rolete_rep.png>
-Package pdftex.def Info: imgs/rolete_rep.png  used on input line 427.
+Package pdftex.def Info: imgs/rolete_rep.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 31.20677pt.
 File: imgs/rolete_dcl.png Graphic file (type png)
 <use imgs/rolete_dcl.png>
-Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 427.
+Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 39.46591pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Resistente a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 for^^Xcas em \OT1/cmr/m/it/5 so-
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 427--427
+Underfull \hbox (badness 4765) in paragraph at lines 424--424
 \OT1/cmr/m/it/5 mente uma linha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Rea^^Xc~ao de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 apoio: 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\OT1/cmr/m/n/5 Importante ob-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 ser-var que a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 rep-re-senta^^Xc~ao
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 pos-sui \OT1/cmr/bx/n/5 DUAS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 lin-has hor-zon-
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 427--427
+Underfull \hbox (badness 4805) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 tais abaixo do
  []
 
 File: imgs/pino_eg.png Graphic file (type png)
 <use imgs/pino_eg.png>
-Package pdftex.def Info: imgs/pino_eg.png  used on input line 427.
+Package pdftex.def Info: imgs/pino_eg.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 39.98761pt.
 File: imgs/pino_rep.png Graphic file (type png)
 <use imgs/pino_rep.png>
-Package pdftex.def Info: imgs/pino_rep.png  used on input line 427.
+Package pdftex.def Info: imgs/pino_rep.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 29.80217pt.
 File: imgs/pino_dcl.png Graphic file (type png)
 <use imgs/pino_dcl.png>
-Package pdftex.def Info: imgs/pino_dcl.png  used on input line 427.
+Package pdftex.def Info: imgs/pino_dcl.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 36.14752pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Resistente a
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 427--427
+Underfull \hbox (badness 4621) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 for^^Xcas em \OT1/cmr/m/it/5 duas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\TS1/cmr/m/n/5 �\OT1/cmr/m/n/5 Rea^^Xc~ao de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 apoio: 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\OT1/cmr/m/n/5 Importante ob-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 ser-var que a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 rep-re-senta^^Xc~ao
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/5 pos-sui so-mente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/bx/n/5 UMA \OT1/cmr/m/n/5 linha
  []
 
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
-Package pdftex.def Info: imgs/engaste_rep.png  used on input line 427.
+Package pdftex.def Info: imgs/engaste_rep.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 37.01033pt.
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
-Package pdftex.def Info: imgs/engaste_rep.png  used on input line 427.
+Package pdftex.def Info: imgs/engaste_rep.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 37.01033pt.
 File: imgs/engaste_dcl.png Graphic file (type png)
 <use imgs/engaste_dcl.png>
-Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 427.
+Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 424.
 (pdftex.def)             Requested size: 79.78508pt x 40.71472pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\TS1/cmr/m/n/5 � \OT1/cmr/m/n/5 Re-siste a
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 427--427
+Underfull \hbox (badness 4940) in paragraph at lines 424--424
 \OT1/cmr/bx/n/5 For^^Xcas \OT1/cmr/m/n/5 e \OT1/cmr/bx/n/5 Mo-
  []
 
-[6 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/conv_sinais.png> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/conv_sinais_eg.png>]
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 444--458
+[6 <./imgs/conv_sinais.png> <./imgs/conv_sinais_eg.png>]
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 441--455
 []$[]$$[]$ 
  []
 
 File: imgs/barra_eg.png Graphic file (type png)
 <use imgs/barra_eg.png>
-Package pdftex.def Info: imgs/barra_eg.png  used on input line 497.
+Package pdftex.def Info: imgs/barra_eg.png  used on input line 493.
 (pdftex.def)             Requested size: 99.73099pt x 24.19446pt.
 
-Overfull \hbox (98.40364pt too wide) in paragraph at lines 497--497
+Overfull \hbox (98.40364pt too wide) in paragraph at lines 493--493
 []|$[]$| 
  []
 
 File: imgs/eixo_eg.png Graphic file (type png)
 <use imgs/eixo_eg.png>
-Package pdftex.def Info: imgs/eixo_eg.png  used on input line 497.
+Package pdftex.def Info: imgs/eixo_eg.png  used on input line 493.
 (pdftex.def)             Requested size: 99.73099pt x 26.07268pt.
 
-Overfull \hbox (98.40364pt too wide) in paragraph at lines 497--497
+Overfull \hbox (98.40364pt too wide) in paragraph at lines 493--493
 []|$[]$| 
  []
 
 File: imgs/viga_eg.png Graphic file (type png)
 <use imgs/viga_eg.png>
-Package pdftex.def Info: imgs/viga_eg.png  used on input line 497.
+Package pdftex.def Info: imgs/viga_eg.png  used on input line 493.
 (pdftex.def)             Requested size: 99.73099pt x 29.1894pt.
 
-Overfull \hbox (98.40364pt too wide) in paragraph at lines 497--497
+Overfull \hbox (98.40364pt too wide) in paragraph at lines 493--493
 []|$[]$| 
  []
 
 File: imgs/conv_sinais.png Graphic file (type png)
 <use imgs/conv_sinais.png>
-Package pdftex.def Info: imgs/conv_sinais.png  used on input line 506.
+Package pdftex.def Info: imgs/conv_sinais.png  used on input line 502.
 (pdftex.def)             Requested size: 174.53113pt x 103.53764pt.
 
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 504--516
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 500--512
 []$[]$$[]$ 
  []
 
 [7]
-Overfull \hbox (9.06845pt too wide) in paragraph at lines 527--535
+Overfull \hbox (9.06845pt too wide) in paragraph at lines 523--530
  [][] 
  []
 
 [8]
-Overfull \hbox (19.86157pt too wide) in paragraph at lines 565--605
+Overfull \hbox (19.86157pt too wide) in paragraph at lines 560--600
  [][] 
  []
 
 [9]
-<imgs/func_singul_0.jpeg, id=186, 905.3825pt x 619.31375pt>
+<imgs/func_singul_0.jpeg, id=195, 905.3825pt x 619.31375pt>
 File: imgs/func_singul_0.jpeg Graphic file (type jpg)
 <use imgs/func_singul_0.jpeg>
-Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 636.
+Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 631.
 (pdftex.def)             Requested size: 119.68068pt x 81.86494pt.
-<imgs/func_singul_1.jpeg, id=187, 1279.78125pt x 714.67pt>
+<imgs/func_singul_1.jpeg, id=196, 1279.78125pt x 714.67pt>
 File: imgs/func_singul_1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_1.jpeg>
-Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 646.
+Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 641.
 (pdftex.def)             Requested size: 104.71974pt x 58.47246pt.
-<imgs/func_singul_2.jpeg, id=188, 1257.69875pt x 758.835pt>
+<imgs/func_singul_2.jpeg, id=197, 1257.69875pt x 758.835pt>
 File: imgs/func_singul_2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_2.jpeg>
-Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 655.
+Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 650.
 (pdftex.def)             Requested size: 104.71974pt x 63.17433pt.
-<imgs/func_singul_-1.jpeg, id=189, 1076.02pt x 608.2725pt>
+<imgs/func_singul_-1.jpeg, id=198, 1076.02pt x 608.2725pt>
 File: imgs/func_singul_-1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-1.jpeg>
-Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 664.
+Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 659.
 (pdftex.def)             Requested size: 104.71974pt x 59.19727pt.
 
-Underfull \hbox (badness 1132) in paragraph at lines 667--668
+Underfull \hbox (badness 1132) in paragraph at lines 662--663
 \OT1/cmr/m/n/10 us-ada para rep-re-sen-tar mo-men-tos du-rante
  []
 
-<imgs/func_singul_-2.jpeg, id=190, 1239.63126pt x 762.85pt>
+<imgs/func_singul_-2.jpeg, id=199, 1239.63126pt x 762.85pt>
 File: imgs/func_singul_-2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-2.jpeg>
-Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 673.
+Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 668.
 (pdftex.def)             Requested size: 104.71974pt x 64.4398pt.
-[10 </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_0.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_1.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_2.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_-1.jpeg> </Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/imgs/func_singul_-2.jpeg>] [11]
+[10 <./imgs/func_singul_0.jpeg> <./imgs/func_singul_1.jpeg> <./imgs/func_singul_2.jpeg> <./imgs/func_singul_-1.jpeg> <./imgs/func_singul_-2.jpeg>] [11]
 File: imgs/func_singul_0.jpeg Graphic file (type jpg)
 <use imgs/func_singul_0.jpeg>
-Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 837.
+Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 830.
 (pdftex.def)             Requested size: 44.88054pt x 30.69345pt.
 
-Overfull \hbox (18.79999pt too wide) in paragraph at lines 837--837
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 830--830
 []|$[]$| 
  []
 
 File: imgs/func_singul_1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_1.jpeg>
-Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 837.
+Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 830.
 (pdftex.def)             Requested size: 44.88054pt x 25.05962pt.
 
-Overfull \hbox (18.79999pt too wide) in paragraph at lines 837--837
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 830--830
 []|$[]$| 
  []
 
 File: imgs/func_singul_2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_2.jpeg>
-Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 837.
+Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 830.
 (pdftex.def)             Requested size: 44.88054pt x 27.0714pt.
 
-Overfull \hbox (18.79999pt too wide) in paragraph at lines 837--837
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 830--830
 []|$[]$| 
  []
 
 File: imgs/func_singul_-1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-1.jpeg>
-Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 837.
+Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 830.
 (pdftex.def)             Requested size: 44.88054pt x 25.36627pt.
 
-Overfull \hbox (18.79999pt too wide) in paragraph at lines 837--837
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 830--830
 []|$[]$| 
  []
 
 File: imgs/func_singul_-2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-2.jpeg>
-Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 837.
+Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 830.
 (pdftex.def)             Requested size: 44.88054pt x 27.6104pt.
 
-Overfull \hbox (18.79999pt too wide) in paragraph at lines 837--837
+Overfull \hbox (18.79999pt too wide) in paragraph at lines 830--830
 []|$[]$| 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 842--849
+Overfull \hbox (15.0pt too wide) in paragraph at lines 835--842
 []$[]$ 
  []
 
 
-Overfull \hbox (14.99998pt too wide) in paragraph at lines 850--871
+Overfull \hbox (14.99998pt too wide) in paragraph at lines 843--864
 [][] [] 
  []
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 876.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 876.
- (/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 876.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 876.
+<imgs/tensões.png.png, id=237, 417.56pt x 340.27126pt>
+File: imgs/tensões.png.png Graphic file (type png)
+<use imgs/tensões.png.png>
+Package pdftex.def Info: imgs/tensões.png.png  used on input line 886.
+(pdftex.def)             Requested size: 124.66563pt x 101.5889pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 875--888
+$[]$ $[]$ 
+ []
+
+<imgs/2d_tens.png, id=238, 417.56pt x 340.27126pt>
+File: imgs/2d_tens.png Graphic file (type png)
+<use imgs/2d_tens.png>
+Package pdftex.def Info: imgs/2d_tens.png  used on input line 904.
+(pdftex.def)             Requested size: 124.66563pt x 101.5889pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 894--906
+$[]$ $[]$ 
+ []
+
+[13 <./imgs/tensões.png.png> <./imgs/2d_tens.png>]
+<imgs/cir_mohr.png, id=249, 1050.92625pt x 508.90125pt>
+File: imgs/cir_mohr.png Graphic file (type png)
+<use imgs/cir_mohr.png>
+Package pdftex.def Info: imgs/cir_mohr.png  used on input line 922.
+(pdftex.def)             Requested size: 398.93158pt x 193.17482pt.
+ [14 <./imgs/cir_mohr.png>] (./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 5B13C8C03CCCAE334BA96029AF056D83;1145.
+(rerunfilecheck)             Checksum: 28A457DDB8D27F9C5A62DC51D6C79976;3274.
  ) 
 Here is how much of TeX's memory you used:
- 17305 strings out of 480608
- 321760 string characters out of 5903631
- 584786 words of memory out of 5000000
- 32778 multiletter control sequences out of 15000+600000
- 543424 words of font info for 66 fonts, out of 8000000 for 9000
+ 20764 strings out of 478287
+ 382458 string characters out of 5849290
+ 680167 words of memory out of 5000000
+ 38532 multiletter control sequences out of 15000+600000
+ 480697 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,75p,924b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/pedrocruz/Documents/Develop/notion_backup/notes/EM/EM406 - Resistência dos Materiais/Notes.pdf" (12 pages, 1226483 bytes).
+ 99i,20n,104p,823b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Notes.pdf (14 pages, 997179 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

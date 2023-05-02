@@ -863,7 +863,7 @@ Integração de Função de Singularidade:
 \end{minipage}
 
 
-\section{Tensões}
+\section{Tensões e Deformações}
 Veremos agora uma abordagem mais focada no estudo das tensões que certa estrutura está se submento, tendo em vista que durante o dimensionamento e o projeto das estruturas, o principal ponto de estudo são as tensões.
 
 \subsection{Estado de Tensões}
@@ -875,11 +875,11 @@ Vimos que em um corpo, existem dois tipos de tensões, as \textbf{Tensões Norma
 $$$$
 \begin{minipage}{.5\textwidth}
     \begin{align*}
-        \frac{F}{A} = \sigma = \begin{vmatrix}
-                                   \sigma_{XX} & \sigma_{XY} & \sigma_{XZ} \\
-                                   \sigma_{YX} & \sigma_{YY} & \sigma_{YZ} \\
-                                   \sigma_{ZX} & \sigma_{ZY} & \sigma_{ZZ}
-                               \end{vmatrix}
+        \sigma = \begin{vmatrix}
+                     \sigma_{XX} & \sigma_{XY} & \sigma_{XZ} \\
+                     \sigma_{YX} & \sigma_{YY} & \sigma_{YZ} \\
+                     \sigma_{ZX} & \sigma_{ZY} & \sigma_{ZZ}
+                 \end{vmatrix}
     \end{align*}
 \end{minipage}
 \begin{minipage}{.5\textwidth}
@@ -894,10 +894,10 @@ Tal tensor, pode ainda ser simplificado nso casos de \emph{Estado plano de Tens�
 $$$$
 \begin{minipage}{.5\textwidth}
     \begin{align*}
-        \frac{F}{A} = \sigma = \begin{vmatrix}
-                                   \sigma_{XX} & \sigma_{XY} \\
-                                   \sigma_{YX} & \sigma_{YY}
-                               \end{vmatrix}
+        \sigma = \begin{vmatrix}
+                     \sigma_{XX} & \sigma_{XY} \\
+                     \sigma_{YX} & \sigma_{YY}
+                 \end{vmatrix}
     \end{align*}
 \end{minipage}
 \begin{minipage}{.5\textwidth}
@@ -905,7 +905,12 @@ $$$$
 \end{minipage}
 $$$$
 
-Uma observação importante de ser feita é que a tensão é dad apor $F/A$ para os casos onde as forças sendo aplicadas são uniformes, então as tensões de cisalhamento são dadas pelas forças paralela a face da superficie dividada pela área da superfície, e a anlogamenta a tensão normal é a força normal à face sobre a área da face. Como podemos ver na imagem acima.
+Uma observação importante de ser feita é que a tensão é dad apor $F/A$ para os casos onde as forças sendo aplicadas são uniformes, então as tensões de cisalhamento são dadas pelas forças paralela a face da superficie dividada pela área da superfície, e a anlogamenta a tensão normal é a força normal à face sobre a área da face. Como podemos ver na imagem acima e descrito pela equação abaixo:
+\begin{align*}
+    \sigma_{XX} & = F_{N_X} / A_x \\
+    \sigma_{YY} & = F_{N_Y} / A_y \\
+                & .               \\ &. \\ &.
+\end{align*}
 
 \newpage
 \subsubsection*{Círculo de Mohr}
@@ -924,6 +929,73 @@ Nós utilizamos esse circulo para calcular, a partir de uma orientação com as 
 
 Ser capaz de analisar os novos valores das tensões normais e de cisalhamento é importante pois certo materiais não são capazes de sustentar tensões normais de forma eficiente, o que pode levar a sua fadiga. Por isso denominamos a orientação com o maior valor de tensão normal ($ \sigma_{n_{max}} = X_0 + R$) de \textbf{plano principal}. Além disso temos também os \textbf{Planos de Cisalhamento Máximo} que, como a origem do circulo está sempre no eixo $x$ (eixo das tensões normais), possui o valor máximo de tensão de cisalhamento igual a $R$ (igual ao raio do circulo).
 
+Para facilitar a solução de problemas através do circulo de Morh temos o seguinte passo a passo:
+\begin{enumerate}
+    \item \textbf{Montar Tensor de Tensão}: Como dito anteriormente, somos capazes de ver cada componente da tensão a partir da relação $F/A$ a partir das forças e áreas relacionadas.
+    \item \textbf{Calculo de Centro}: Calcular o centro do circulo a partir das tensões normais.
+    \item \textbf{Calculo de Raio}: Calcular o raio do circulo.
+    \item \textbf{Desenhar o Circulo}: Desenhar com os eixos corretos, com o centro e valores máximos e mínimos corretos.
+    \item \textbf{Desenhar Corpo a ser Analisado}: Nós fazemos o circulo a partir de uma posição conhecida (consideramos essa posição $\theta=0$), e é necessário desenhar o corpo na nova posição a ser analisado para facilitar a identificação do ângulo do plano $\theta_{target}$
+    \item \textbf{Análise do Circulo}: Analisar o ponto $\theta_{circ} = -2 \theta_{target}$
+\end{enumerate}
+
+\subsection{Estado de Deformação}
+Deformações sofridas por estruturas podem ser descritas de diferentes formas, considerando somente deformações axiais, contínuas ou ainda angulares. A forma que iremos abordar é a mais generalista, chamada de \textbf{Estado Geral de Deformação}, que assim como o Estado geral de tensões é representado por um \emph{tensor}, mostrado abaixo:
+\begin{align*}
+    \varepsilon =  \begin{bmatrix}
+                       \varepsilon_{XX} & \varepsilon_{XY} & \varepsilon_{XZ} \\
+                       \varepsilon_{YX} & \varepsilon_{YY} & \varepsilon_{YZ} \\
+                       \varepsilon_{ZX} & \varepsilon_{ZY} & \varepsilon_{ZZ}
+                   \end{bmatrix}
+    \Rightarrow \varepsilon_{ij} = \frac{1}{2}\left(\frac{du_i}{dx_j}+\frac{du_j}{dx_i}\right)
+\end{align*}
+
+Onde, utilizando como exemplo $\varepsilon_{XY}$, temos $i=1, j=2$ e $\varepsilon_{XY} = 1/2\left(\frac{du}{dy} + \frac{dv}{dx}\right)$. A partir desse exemplo podemos ver que que estamos compondo o tensor com a soma das derivadas da deformação $\{u, v, w\}$, chamada de \textbf{campo de deslocamento}, em relação as coordenadas $\{x, y, z\}$. Logo quando falamos $u_i$ estamos falando da $i-esima$ componente do campo de deslocamento e quando falamos $x_j$ estamos falando a $j-esima$ coordenada (onde no nosso exemplo se temos $i=1$ estamos falando da primeira componente ($u$) do campo de deslocamento, e com $j=2$ estamos falando da segunda coordenada o ($y$)).
+
+Uma outra forma de calcular o estado de deformação, para o caso específico de \textbf{Deformação Térmica}, é:
+\begin{align*}
+    \varepsilon_T = \alpha \Delta T
+\end{align*}
+
+Onde temos $\alpha$ como o calor específico e $\Delta T$ a variação de temperatura. A partir disso, somos capazes de calcular a deformação total através da seguinte derivada (para o caso 2D de expansão térmica):
+\begin{align*}
+    \delta = \int^L_0 \varepsilon_T dx
+\end{align*}
+
+\subsection{Equação Constitutiva}
+A partir de agora iremos ligar as partes anteriores desse capitulo e investigar a relação entre as tensões sofridas por um corpo e sua deformação.
+
+Tal relação, após inúmeros testes, foi descoberta ser dependente do material. De forma geral, a relação entre tensão e deformação é dada por:
+\begin{align*}
+    \begin{Bmatrix}
+        \sigma_{XX} \\
+        \sigma_{YY} \\
+        \sigma_{ZZ} \\
+        \sigma_{YZ} \\
+        \sigma_{XZ} \\
+        \sigma_{XY} \\
+    \end{Bmatrix} =
+    \begin{bmatrix}
+        c_{11} & c_{12} & c_{13} & c_{14} & c_{15} & c_{16} \\
+        c_{21} & c_{22} & c_{23} & c_{24} & c_{25} & c_{26} \\
+        c_{31} & c_{32} & c_{33} & c_{34} & c_{35} & c_{36} \\
+        c_{41} & c_{42} & c_{43} & c_{44} & c_{45} & c_{46} \\
+        c_{51} & c_{52} & c_{53} & c_{54} & c_{55} & c_{56} \\
+        c_{61} & c_{62} & c_{63} & c_{64} & c_{65} & c_{66}
+    \end{bmatrix}
+    \begin{Bmatrix}
+        \varepsilon_{XX}  \\
+        \varepsilon_{YY}  \\
+        \varepsilon_{ZZ}  \\
+        2\varepsilon_{YZ} \\
+        2\varepsilon_{XZ} \\
+        2\varepsilon_{XY} \\
+    \end{Bmatrix}
+\end{align*}
+
+Onde a matriz $C\Rightarrow c_{ij}$ é composta por 36 propriedades do material em questão. Sendo que a depender do material e do seu tipo esse número pode ser menor devido a simetria entre outras coisas.
+
+A partir disso, podemos classificar os diferentes materiais a depender do seu grau de simetria:
 
 
 

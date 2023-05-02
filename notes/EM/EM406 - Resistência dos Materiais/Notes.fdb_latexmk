@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1682975054 "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" "Notes.pdf" "Notes" 1682975056
+["pdflatex"] 1683059527 "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" "Notes.pdf" "Notes" 1683059529
   "/etc/texmf/web2c/texmf.cnf" 1682823698 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" 1682975052 45518 770be637b57e1a082516270e7be14c67 ""
+  "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" 1683059527 50022 89af49b0cb72c7581a001559e1879862 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -189,10 +189,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1682972014 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1682972112 2801781 a87b432f408234be12d9b414458b7af2 ""
-  "Notes.aux" 1682975055 4056 4c41de045a7c110f291aea736c99d526 "pdflatex"
-  "Notes.out" 1682975055 3274 28a457ddb8d27f9c5a62dc51d6c79976 "pdflatex"
-  "Notes.tex" 1682975052 45518 770be637b57e1a082516270e7be14c67 ""
-  "Notes.toc" 1682975055 1451 cf2f171e1836362cd585ed8952b5703d "pdflatex"
+  "Notes.aux" 1683059529 4332 c0ae828ab9de1560940d374c49a4d88a "pdflatex"
+  "Notes.out" 1683059529 3693 201ed83a7e7ab5a8989a8c1d0b049396 "pdflatex"
+  "Notes.tex" 1683059527 50022 89af49b0cb72c7581a001559e1879862 ""
+  "Notes.toc" 1683059529 1645 8ce01e62d552e571853dc8db6f90ed88 "pdflatex"
   "imgs/2d_tens.png" 1682973606 24469 641f25062e021f408f60992adf946ff7 ""
   "imgs/barra_eg.png" 1682904430 17254 58dc401d97ff60da82cb0f5ae29a0fe8 ""
   "imgs/cir_mohr.png" 1682974850 127605 3fdda2cfa79c1e29017a0b90f7b4c3c1 ""

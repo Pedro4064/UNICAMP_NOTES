@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1683084666 "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" "Notes.pdf" "Notes" 1683084668
+["pdflatex"] 1683129301 "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" "Notes.pdf" "Notes" 1683129303
   "/etc/texmf/web2c/texmf.cnf" 1682823698 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" 1683084667 55841 31abf93704e5690fd4a64475236520ea ""
+  "/home/pedro/Documents/Unicamp/Notes/notes/EM/EM406 - Resistência dos Materiais/Notes.tex" 1683129300 56799 20d4c14e1c84092b9f6cd5e71c85d92e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1136768653 1536 b3387106d9afecbfe14bde2de6eadf47 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -189,10 +189,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1682972014 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1682972112 2801781 a87b432f408234be12d9b414458b7af2 ""
-  "Notes.aux" 1683084668 4615 125088f65ddd983c5bb68b5acc6e6530 "pdflatex"
-  "Notes.out" 1683084668 4071 df8599c7cb8b6870ef7d596946a644bb "pdflatex"
-  "Notes.tex" 1683084667 55841 31abf93704e5690fd4a64475236520ea ""
-  "Notes.toc" 1683084668 1846 79ea953a9b15ad2e69c6e93b041f532c "pdflatex"
+  "Notes.aux" 1683129303 4768 4c0cd7cdff4773ac466232e53a9718ff "pdflatex"
+  "Notes.out" 1683129303 4324 6df78511987c93d25b79991b0c73d498 "pdflatex"
+  "Notes.tex" 1683129300 56799 20d4c14e1c84092b9f6cd5e71c85d92e ""
+  "Notes.toc" 1683129303 1958 1f9f55ee6249fea3174d1fdf6cb78c09 "pdflatex"
   "imgs/2d_tens.png" 1683080547 24469 641f25062e021f408f60992adf946ff7 ""
   "imgs/barra_eg.png" 1683080547 17254 58dc401d97ff60da82cb0f5ae29a0fe8 ""
   "imgs/cir_mohr.png" 1683080547 127605 3fdda2cfa79c1e29017a0b90f7b4c3c1 ""
@@ -207,6 +207,7 @@
   "imgs/func_singul_0.jpeg" 1683080547 40029 71d1e3780f1092d483ace48d1a90bec3 ""
   "imgs/func_singul_1.jpeg" 1683080547 62771 4593d6f728a179d6caf0716c1bb25319 ""
   "imgs/func_singul_2.jpeg" 1683080547 66422 824771fe7b7c88f3ad92f418633b644d ""
+  "imgs/lei_de_hook.png" 1683128816 81486 890a42842f8b3d696a15e0dd3c070853 ""
   "imgs/pino_dcl.png" 1682904229 12301 93dfd9bad2644cf1741b047f2dfdd64c ""
   "imgs/pino_eg.png" 1682904229 21085 16c145f649cc38e029bd6b042fad4df5 ""
   "imgs/pino_rep.png" 1682904229 10798 3d9dd04ac400099a40dd15adbcd8ad97 ""

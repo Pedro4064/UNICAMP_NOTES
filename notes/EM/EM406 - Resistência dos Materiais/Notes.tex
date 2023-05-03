@@ -935,6 +935,7 @@ Para facilitar a solução de problemas através do circulo de Morh temos o segu
     \item \textbf{Calculo de Centro}: Calcular o centro do circulo a partir das tensões normais.
     \item \textbf{Calculo de Raio}: Calcular o raio do circulo.
     \item \textbf{Desenhar o Circulo}: Desenhar com os eixos corretos, com o centro e valores máximos e mínimos corretos.
+    \item \textbf{Localizar Ponto Conhecido}: A partir do tensor nós podemos representar a face $x$ (utilizando a primeira linha do tensor) ou a face $y$ (utilizando a segunda linha). A melhor escolha é aquela que facilita encontrar o ângulo alvo de análise.
     \item \textbf{Desenhar Corpo a ser Analisado}: Nós fazemos o circulo a partir de uma posição conhecida (consideramos essa posição $\theta=0$), e é necessário desenhar o corpo na nova posição a ser analisado para facilitar a identificação do ângulo do plano $\theta_{target}$
     \item \textbf{Análise do Circulo}: Analisar o ponto $\theta_{circ} = -2 \theta_{target}$
 \end{enumerate}
@@ -1133,13 +1134,31 @@ $\\$
 
 $\\$
 
-Além disso, a partir desse gráfico somos capazes de classificar um material como sendo \textbf{Ductil} ou \textbf{Frágeis}, além dos conceitos de \textbf{resiliência} e  \textbf{tenacidade}, ilustrados abaixo:
+Além disso, a partir desse gráfico somos capazes de classificar um material como sendo \textbf{Ductil} ou \textbf{Frágeis} (aqueles que possuem $T/R\approx 1$), além dos conceitos de \textbf{resiliência} e  \textbf{tenacidade}, ilustrados abaixo:
 \begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{imgs/res_ten.png}
 \end{figure}
 
+Outra propriedade que pode ser utilizada para caracterizar o material é a chamada \textbf{Razão de Poisson}, que é dada por:
+\begin{align*}
+    \upsilon = - \frac{\varepsilon_{XX}}{\varepsilon_{YY}}
+\end{align*}
 
+Que possui a seguinte relação com o módulo de elasticidade $E$ do material:
+\begin{align*}
+    E = 2G(1+\upsilon),  \ \ -1 \ge \upsilon \ge 0.5
+\end{align*}
+Onde $G$ é o módulo de cisalhamento.
+
+\newpage
+\subsubsection{Lei de Hook: Materiais Isotrópicos}
+Para materiais isotrópicos, somos capazes usar a seguinte lei de hook:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\textwidth]{imgs/lei_de_hook.png}
+\end{figure}
 
 
 

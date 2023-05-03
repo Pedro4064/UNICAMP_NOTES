@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  2 MAY 2023 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  3 MAY 2023 00:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,17 +561,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `Notes.toc'.
 
  [2]
-<imgs/rolete_eg.png, id=107, 292.09125pt x 166.6225pt>
+<imgs/rolete_eg.png, id=117, 292.09125pt x 166.6225pt>
 File: imgs/rolete_eg.png Graphic file (type png)
 <use imgs/rolete_eg.png>
 Package pdftex.def Info: imgs/rolete_eg.png  used on input line 82.
 (pdftex.def)             Requested size: 99.73099pt x 56.88988pt.
-<imgs/rolete_rep.png, id=109, 272.01625pt x 106.3975pt>
+<imgs/rolete_rep.png, id=119, 272.01625pt x 106.3975pt>
 File: imgs/rolete_rep.png Graphic file (type png)
 <use imgs/rolete_rep.png>
 Package pdftex.def Info: imgs/rolete_rep.png  used on input line 87.
 (pdftex.def)             Requested size: 99.73099pt x 39.00928pt.
-<imgs/rolete_dcl.png, id=110, 282.05376pt x 139.52126pt>
+<imgs/rolete_dcl.png, id=120, 282.05376pt x 139.52126pt>
 File: imgs/rolete_dcl.png Graphic file (type png)
 <use imgs/rolete_dcl.png>
 Package pdftex.def Info: imgs/rolete_dcl.png  used on input line 92.
@@ -626,17 +626,17 @@ Underfull \hbox (badness 4805) in paragraph at lines 105--107
 \OT1/cmr/m/n/5 tais abaixo do
  []
 
-<imgs/pino_eg.png, id=111, 412.54124pt x 206.7725pt>
+<imgs/pino_eg.png, id=121, 412.54124pt x 206.7725pt>
 File: imgs/pino_eg.png Graphic file (type png)
 <use imgs/pino_eg.png>
 Package pdftex.def Info: imgs/pino_eg.png  used on input line 113.
 (pdftex.def)             Requested size: 99.73099pt x 49.98608pt.
-<imgs/pino_rep.png, id=112, 257.96375pt x 96.36pt>
+<imgs/pino_rep.png, id=122, 257.96375pt x 96.36pt>
 File: imgs/pino_rep.png Graphic file (type png)
 <use imgs/pino_rep.png>
 Package pdftex.def Info: imgs/pino_rep.png  used on input line 118.
 (pdftex.def)             Requested size: 99.73099pt x 37.25381pt.
-<imgs/pino_dcl.png, id=113, 310.15875pt x 140.525pt>
+<imgs/pino_dcl.png, id=123, 310.15875pt x 140.525pt>
 File: imgs/pino_dcl.png Graphic file (type png)
 <use imgs/pino_dcl.png>
 Package pdftex.def Info: imgs/pino_dcl.png  used on input line 123.
@@ -686,7 +686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--138
 \OT1/cmr/bx/n/5 UMA \OT1/cmr/m/n/5 linha
  []
 
-<imgs/engaste_rep.png, id=114, 263.98625pt x 122.4575pt>
+<imgs/engaste_rep.png, id=124, 263.98625pt x 122.4575pt>
 File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
 Package pdftex.def Info: imgs/engaste_rep.png  used on input line 145.
@@ -695,7 +695,7 @@ File: imgs/engaste_rep.png Graphic file (type png)
 <use imgs/engaste_rep.png>
 Package pdftex.def Info: imgs/engaste_rep.png  used on input line 150.
 (pdftex.def)             Requested size: 99.73099pt x 46.2615pt.
-<imgs/engaste_dcl.png, id=115, 340.27126pt x 173.64874pt>
+<imgs/engaste_dcl.png, id=125, 340.27126pt x 173.64874pt>
 File: imgs/engaste_dcl.png Graphic file (type png)
 <use imgs/engaste_dcl.png>
 Package pdftex.def Info: imgs/engaste_dcl.png  used on input line 155.
@@ -721,7 +721,7 @@ Overfull \hbox (14.99998pt too wide) in paragraph at lines 192--210
  []
 
 [3 <./imgs/rolete_eg.png> <./imgs/rolete_rep.png> <./imgs/rolete_dcl.png> <./imgs/pino_eg.png> <./imgs/pino_rep.png> <./imgs/pino_dcl.png> <./imgs/engaste_rep.png> <./imgs/engaste_dcl.png>]
-<imgs/sis_plano.png, id=138, 264.99pt x 212.795pt>
+<imgs/sis_plano.png, id=148, 264.99pt x 212.795pt>
 File: imgs/sis_plano.png Graphic file (type png)
 <use imgs/sis_plano.png>
 Package pdftex.def Info: imgs/sis_plano.png  used on input line 220.
@@ -732,28 +732,28 @@ Overfull \hbox (14.99998pt too wide) in paragraph at lines 218--229
  []
 
 [4 <./imgs/sis_plano.png>]
-<imgs/barra_eg.png, id=148, 508.90125pt x 123.46124pt>
+<imgs/barra_eg.png, id=158, 508.90125pt x 123.46124pt>
 File: imgs/barra_eg.png Graphic file (type png)
 <use imgs/barra_eg.png>
 Package pdftex.def Info: imgs/barra_eg.png  used on input line 261.
 (pdftex.def)             Requested size: 199.46198pt x 48.39081pt.
-<imgs/eixo_eg.png, id=149, 460.72125pt x 120.45pt>
+<imgs/eixo_eg.png, id=159, 460.72125pt x 120.45pt>
 File: imgs/eixo_eg.png Graphic file (type png)
 <use imgs/eixo_eg.png>
 Package pdftex.def Info: imgs/eixo_eg.png  used on input line 274.
 (pdftex.def)             Requested size: 179.51456pt x 46.93118pt.
-<imgs/viga_eg.png, id=150, 452.69125pt x 132.495pt>
+<imgs/viga_eg.png, id=160, 452.69125pt x 132.495pt>
 File: imgs/viga_eg.png Graphic file (type png)
 <use imgs/viga_eg.png>
 Package pdftex.def Info: imgs/viga_eg.png  used on input line 286.
 (pdftex.def)             Requested size: 179.51456pt x 52.54015pt.
  [5 <./imgs/barra_eg.png> <./imgs/eixo_eg.png> <./imgs/viga_eg.png>]
-<imgs/conv_sinais.png, id=159, 355.3275pt x 210.7875pt>
+<imgs/conv_sinais.png, id=169, 355.3275pt x 210.7875pt>
 File: imgs/conv_sinais.png Graphic file (type png)
 <use imgs/conv_sinais.png>
 Package pdftex.def Info: imgs/conv_sinais.png  used on input line 313.
 (pdftex.def)             Requested size: 149.6003pt x 88.74886pt.
-<imgs/conv_sinais_eg.png, id=160, 625.33624pt x 635.37375pt>
+<imgs/conv_sinais_eg.png, id=170, 625.33624pt x 635.37375pt>
 File: imgs/conv_sinais_eg.png Graphic file (type png)
 <use imgs/conv_sinais_eg.png>
 Package pdftex.def Info: imgs/conv_sinais_eg.png  used on input line 323.
@@ -956,22 +956,22 @@ Overfull \hbox (19.86157pt too wide) in paragraph at lines 560--600
  []
 
 [9]
-<imgs/func_singul_0.jpeg, id=205, 905.3825pt x 619.31375pt>
+<imgs/func_singul_0.jpeg, id=215, 905.3825pt x 619.31375pt>
 File: imgs/func_singul_0.jpeg Graphic file (type jpg)
 <use imgs/func_singul_0.jpeg>
 Package pdftex.def Info: imgs/func_singul_0.jpeg  used on input line 631.
 (pdftex.def)             Requested size: 119.68068pt x 81.86494pt.
-<imgs/func_singul_1.jpeg, id=206, 1279.78125pt x 714.67pt>
+<imgs/func_singul_1.jpeg, id=216, 1279.78125pt x 714.67pt>
 File: imgs/func_singul_1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_1.jpeg>
 Package pdftex.def Info: imgs/func_singul_1.jpeg  used on input line 641.
 (pdftex.def)             Requested size: 104.71974pt x 58.47246pt.
-<imgs/func_singul_2.jpeg, id=207, 1257.69875pt x 758.835pt>
+<imgs/func_singul_2.jpeg, id=217, 1257.69875pt x 758.835pt>
 File: imgs/func_singul_2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_2.jpeg>
 Package pdftex.def Info: imgs/func_singul_2.jpeg  used on input line 650.
 (pdftex.def)             Requested size: 104.71974pt x 63.17433pt.
-<imgs/func_singul_-1.jpeg, id=208, 1076.02pt x 608.2725pt>
+<imgs/func_singul_-1.jpeg, id=218, 1076.02pt x 608.2725pt>
 File: imgs/func_singul_-1.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-1.jpeg>
 Package pdftex.def Info: imgs/func_singul_-1.jpeg  used on input line 659.
@@ -981,7 +981,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 662--663
 \OT1/cmr/m/n/10 us-ada para rep-re-sen-tar mo-men-tos du-rante
  []
 
-<imgs/func_singul_-2.jpeg, id=209, 1239.63126pt x 762.85pt>
+<imgs/func_singul_-2.jpeg, id=219, 1239.63126pt x 762.85pt>
 File: imgs/func_singul_-2.jpeg Graphic file (type jpg)
 <use imgs/func_singul_-2.jpeg>
 Package pdftex.def Info: imgs/func_singul_-2.jpeg  used on input line 668.
@@ -1043,7 +1043,7 @@ Overfull \hbox (14.99998pt too wide) in paragraph at lines 843--864
  []
 
 [12]
-<imgs/tensões.png.png, id=247, 417.56pt x 340.27126pt>
+<imgs/tensões.png.png, id=257, 417.56pt x 340.27126pt>
 File: imgs/tensões.png.png Graphic file (type png)
 <use imgs/tensões.png.png>
 Package pdftex.def Info: imgs/tensões.png.png  used on input line 886.
@@ -1053,7 +1053,7 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 875--888
 $[]$ $[]$ 
  []
 
-<imgs/2d_tens.png, id=248, 417.56pt x 340.27126pt>
+<imgs/2d_tens.png, id=258, 417.56pt x 340.27126pt>
 File: imgs/2d_tens.png Graphic file (type png)
 <use imgs/2d_tens.png>
 Package pdftex.def Info: imgs/2d_tens.png  used on input line 904.
@@ -1064,28 +1064,71 @@ $[]$ $[]$
  []
 
 [13 <./imgs/tensões.png.png> <./imgs/2d_tens.png>]
-<imgs/cir_mohr.png, id=259, 1050.92625pt x 508.90125pt>
+<imgs/cir_mohr.png, id=269, 1050.92625pt x 508.90125pt>
 File: imgs/cir_mohr.png Graphic file (type png)
 <use imgs/cir_mohr.png>
 Package pdftex.def Info: imgs/cir_mohr.png  used on input line 927.
 (pdftex.def)             Requested size: 398.93158pt x 193.17482pt.
- [14 <./imgs/cir_mohr.png>] [15] (./Notes.aux)
+ [14 <./imgs/cir_mohr.png>]
+<imgs/sim_plane_1.png, id=282, 351.3125pt x 253.94875pt>
+File: imgs/sim_plane_1.png Graphic file (type png)
+<use imgs/sim_plane_1.png>
+Package pdftex.def Info: imgs/sim_plane_1.png  used on input line 1044.
+(pdftex.def)             Requested size: 99.73099pt x 72.08939pt.
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 1014--1046
+[]$[]$ $[]$ 
+ []
+
+[15]
+<imgs/sim_plane_2.png, id=288, 351.3125pt x 253.94875pt>
+File: imgs/sim_plane_2.png Graphic file (type png)
+<use imgs/sim_plane_2.png>
+Package pdftex.def Info: imgs/sim_plane_2.png  used on input line 1080.
+(pdftex.def)             Requested size: 99.73099pt x 72.08939pt.
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 1050--1082
+[]$[]$ $[]$ 
+ []
+
+[16 <./imgs/sim_plane_1.png> <./imgs/sim_plane_2.png>]
+<imgs/dia_tens_def.png, id=298, 584.1825pt x 469.755pt>
+File: imgs/dia_tens_def.png Graphic file (type png)
+<use imgs/dia_tens_def.png>
+Package pdftex.def Info: imgs/dia_tens_def.png  used on input line 1120.
+(pdftex.def)             Requested size: 199.46577pt x 160.39554pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 1117--1133
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
+
+ []
+
+<imgs/res_ten.png, id=299, 991.705pt x 241.90375pt>
+File: imgs/res_ten.png Graphic file (type png)
+<use imgs/res_ten.png>
+Package pdftex.def Info: imgs/res_ten.png  used on input line 1139.
+(pdftex.def)             Requested size: 398.93158pt x 97.30975pt.
+[17 <./imgs/dia_tens_def.png> <./imgs/res_ten.png>] (./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 201ED83A7E7AB5A8989A8C1D0B049396;3693.
+(rerunfilecheck)             Checksum: DF8599C7CB8B6870EF7D596946A644BB;4071.
  ) 
 Here is how much of TeX's memory you used:
- 20775 strings out of 478287
- 382567 string characters out of 5849290
- 680167 words of memory out of 5000000
- 38534 multiletter control sequences out of 15000+600000
+ 20813 strings out of 478287
+ 383344 string characters out of 5849290
+ 680173 words of memory out of 5000000
+ 38560 multiletter control sequences out of 15000+600000
  480697 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,104p,823b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Notes.pdf (15 pages, 1009920 bytes).
+Output written on Notes.pdf (17 pages, 1215521 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 

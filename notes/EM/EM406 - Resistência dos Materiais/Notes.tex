@@ -963,6 +963,8 @@ Onde temos $\alpha$ como o calor específico e $\Delta T$ a variação de temper
 \end{align*}
 
 \subsection{Equação Constitutiva}
+
+\subsubsection{Modelagem}
 A partir de agora iremos ligar as partes anteriores desse capitulo e investigar a relação entre as tensões sofridas por um corpo e sua deformação.
 
 Tal relação, após inúmeros testes, foi descoberta ser dependente do material. De forma geral, a relação entre tensão e deformação é dada por:
@@ -996,6 +998,147 @@ Tal relação, após inúmeros testes, foi descoberta ser dependente do material
 Onde a matriz $C\Rightarrow c_{ij}$ é composta por 36 propriedades do material em questão. Sendo que a depender do material e do seu tipo esse número pode ser menor devido a simetria entre outras coisas.
 
 A partir disso, podemos classificar os diferentes materiais a depender do seu grau de simetria:
+\begin{itemize}
+    \item Material Ansiotropico Geral
+    \item Material Ortotrópico
+    \item Material Transversalmente Isotrópico
+    \item Material Isotrópico
+\end{itemize}
+
+\subsubsection*{Ansiotropia Geral}
+Materias que possuem propriedades diferentes em todas as direções, mas que devido a existência de uma função de energia potencial tense que $c_{ij} = c_{ji}$
+
+\subsubsection*{Material Ortotrópico}
+Materiais que possuem 3 eixos ortogonais de simetria, resultando na necessidade de 9 constantes independentes $(c_{11}, c_{12}, c_{12}, c_{23}, $ $c_{22}, c_{33}, c_{44}, c_{55}, c_{66})$ para relacionar tensão e deformação. São descritos por:
+
+\begin{minipage}{.5\textwidth}
+    \begin{align*}
+        \begin{Bmatrix}
+            \sigma_{XX} \\
+            \sigma_{YY} \\
+            \sigma_{ZZ} \\
+            \sigma_{YZ} \\
+            \sigma_{XZ} \\
+            \sigma_{XY} \\
+        \end{Bmatrix} =
+        \begin{bmatrix}
+            c_{11} & c_{12} & c_{13} & 0      & 0      & 0      \\
+            c_{12} & c_{22} & c_{23} & 0      & 0      & 0      \\
+            c_{13} & c_{23} & c_{33} & 0      & 0      & 0      \\
+            0      & 0      & 0      & c_{44} & 0      & 0      \\
+            0      & 0      & 0      & 0      & c_{55} & 0      \\
+            0      & 0      & 0      & 0      & 0      & c_{66} \\
+        \end{bmatrix}
+        \begin{Bmatrix}
+            \varepsilon_{XX}  \\
+            \varepsilon_{YY}  \\
+            \varepsilon_{ZZ}  \\
+            2\varepsilon_{YZ} \\
+            2\varepsilon_{XZ} \\
+            2\varepsilon_{XY} \\
+        \end{Bmatrix}
+    \end{align*}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=.4\textwidth]{imgs/sim_plane_1.png}
+\end{minipage}
+
+\subsubsection*{Material Transversalmente Isotrópicos}
+Materiais que possuem 1 plano de isotropoia, com a relação tensão-deformação sendo dada por $5$ constantes independentes $(c_{11}, c_{12}, c_{13},  $ $ c_{33}, c_{44})$, com $c_{66} = (1/2)(c_{11} - c_{12})$. São descritos por:
+
+\begin{minipage}{.5\textwidth}
+    \begin{align*}
+        \begin{Bmatrix}
+            \sigma_{XX} \\
+            \sigma_{YY} \\
+            \sigma_{ZZ} \\
+            \sigma_{YZ} \\
+            \sigma_{XZ} \\
+            \sigma_{XY} \\
+        \end{Bmatrix} =
+        \begin{bmatrix}
+            c_{11} & c_{12} & c_{13} & 0      & 0      & 0      \\
+            c_{12} & c_{11} & c_{13} & 0      & 0      & 0      \\
+            c_{13} & c_{13} & c_{33} & 0      & 0      & 0      \\
+            0      & 0      & 0      & c_{44} & 0      & 0      \\
+            0      & 0      & 0      & 0      & c_{44} & 0      \\
+            0      & 0      & 0      & 0      & 0      & c_{66} \\
+        \end{bmatrix}
+        \begin{Bmatrix}
+            \varepsilon_{XX}  \\
+            \varepsilon_{YY}  \\
+            \varepsilon_{ZZ}  \\
+            2\varepsilon_{YZ} \\
+            2\varepsilon_{XZ} \\
+            2\varepsilon_{XY} \\
+        \end{Bmatrix}
+    \end{align*}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=.4\textwidth]{imgs/sim_plane_2.png}
+\end{minipage}
+
+\subsubsection*{Material Isotrópico}
+Materiais que possuem as mesmas propriedades em todas as relações, com a relação tensão-deformação sendo dada por $2$ constantes independentes $(c_{11}, c_{12})$, com $c_{44} = (1/2)(c_{11} - c_{12})$. São descritos por:
+
+\begin{align*}
+    \begin{Bmatrix}
+        \sigma_{XX} \\
+        \sigma_{YY} \\
+        \sigma_{ZZ} \\
+        \sigma_{YZ} \\
+        \sigma_{XZ} \\
+        \sigma_{XY} \\
+    \end{Bmatrix} =
+    \begin{bmatrix}
+        c_{11} & c_{12} & c_{12} & 0      & 0      & 0      \\
+        c_{12} & c_{11} & c_{12} & 0      & 0      & 0      \\
+        c_{12} & c_{12} & c_{11} & 0      & 0      & 0      \\
+        0      & 0      & 0      & c_{44} & 0      & 0      \\
+        0      & 0      & 0      & 0      & c_{44} & 0      \\
+        0      & 0      & 0      & 0      & 0      & c_{44} \\
+    \end{bmatrix}
+    \begin{Bmatrix}
+        \varepsilon_{XX}  \\
+        \varepsilon_{YY}  \\
+        \varepsilon_{ZZ}  \\
+        2\varepsilon_{YZ} \\
+        2\varepsilon_{XZ} \\
+        2\varepsilon_{XY} \\
+    \end{Bmatrix}
+\end{align*}
+
+\newpage
+\subsubsection{Propriedade dos Materiais Isotrópicos}
+Os Materiais Isotrópicos (os quais a grande parte dos materiais de engenharia se enquadram) possuem um gráfico Tensão $\times$ deformação característico, como mostrado abaixo:
+
+$\\$
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=.8\textwidth]{imgs/dia_tens_def.png}
+    \end{minipage}
+    \begin{minipage}{.5\textwidth}
+        Que possui os seguintes pontos importantes:
+        \begin{itemize}
+            \item  \textbf{Modulo de Elasticidade - $E$}: inclinação da reta na parte elástica e primeira de duas propriedades indep. que definem materiais isotrópicos.
+            \item  \textbf{Limite de propocionalidade - $\sigma_P$}: limite de tensão da parte linear da relação tensão e deformação.
+            \item  \textbf{Limite de Escoamento - $\sigma_Y$}: tensão a partir da qual ocorre deformação permanente.
+            \item  \textbf{Limite de Resistência - $\sigma_U$}: Tensão a partir que ocorre necking.
+            \item  \textbf{Tensão limite de ruptura - $\sigma_{rup}$}: Tensão de Ruptura do material.
+        \end{itemize}
+
+    \end{minipage}
+
+$\\$
+
+Além disso, a partir desse gráfico somos capazes de classificar um material como sendo \textbf{Ductil} ou \textbf{Frágeis}, além dos conceitos de \textbf{resiliência} e  \textbf{tenacidade}, ilustrados abaixo:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{imgs/res_ten.png}
+\end{figure}
+
 
 
 

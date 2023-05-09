@@ -779,8 +779,13 @@ $ \\ $
 \end{align}
 
 
-\section{Introdução à Análise Modal}
-É dividido entre o processo teórico e o processo experimental de análise de vibrações.
+\newpage
+\section{Análise Modal}
+
+\subsection{Introdução}
+A análise modal é uma forma diferente de abordar o estudo dos modos de vibração para grandes sistemas e grandes máquinas, pois nos permite (como veremos mais para frente) analisar certas partes do sistema de forma mais direta e específica do que é possível para o método usado até agora.
+
+É dividido entre o processo teórico (no qual é dividido entre análise no domínio do tempo e análise no domínio da frequência, \emph{FRF}) e o processo experimental de análise de vibrações. A partir daqui iremos revisitar sistemas conhecidos, mas dessa vez utilizando a análise modal  e RFR.
 
 \subsubsection*{Processo de Análise Teórico}
 \begin{align*}
@@ -793,7 +798,8 @@ $ \\ $
 \end{align*}
 
 
-\subsection*{Sistema de 1DOF sem amortecimento}
+\subsection{Sistema de 1DOF sem amortecimento}
+\subsubsection*{Modelo Modal:}
 \begin{align*}
     m \ddot x + kx = 0; x(t) = e^{i\omega t}
 \end{align*}
@@ -803,22 +809,23 @@ Substituindo na equação diferencial temos:
     m(-\omega^2 X e^{i \omega t}) + k X e^{i \omega t} = 0 \Rightarrow k-\omega^2 m= 0
 \end{align*}
 
-Modelo Modal:
 \begin{itemize}
     \item Uma frequência natural $\omega_n = \sqrt{k/m}$
     \item Um modo de vibrar
 \end{itemize}
 
-Análise de Resposta em Frequência:
+\subsubsection*{Análise de Resposta em Frequência:}
 \begin{itemize}
     \item Excitação do tipo $f(t) = Fe^{i\Omega t}$, com uma solução do tipo $x(t) = Xe^{i\Omega t}$,  resultando em:
 \end{itemize}
 
-\begin{align*}
-    (k - \Omega^2m)Xe^{i\Omega t} = Fe^{i\Omega t} \Rightarrow \underbrace{\frac{X}{T} = \frac{1}{k - \Omega^2m} = \alpha(\Omega)}_{Receptancia do Sistema}
-\end{align*}
+\begin{align}
+    (k - \Omega^2m)Xe^{i\Omega t} = Fe^{i\Omega t} \Rightarrow  \underbrace{\alpha(\Omega) =\frac{X}{F} = \frac{1}{k - \Omega^2m}}_{Receptancia\ do\ Sistema}
+\end{align}
 
-\subsection*{Sistem com 1DOF Amortecido}
+\subsection{Sistema com 1DOF Amortecido}
+
+\subsubsection*{Modelo Modal:}
 Para o movimento livre temos a seguinte EDO:
 \begin{align*}
     m\ddot x + x\dot x + kx = 0, x(t) = Xe^{\lambda t} \Rightarrow m\lambda^2 + c\lambda + k = 0 \therefore \begin{cases}
@@ -837,17 +844,17 @@ Como estamos analisando a resposta em frequência, logo estamos interessado some
 \end{align*}
 
 Resultando na seguinte receptância:
-\begin{align*}
+\begin{align}
     \alpha(\Omega) = \frac{X}{F} = \frac{1}{(k - \Omega^2 m) + i \Omega c}
-\end{align*}
+\end{align}
 
 O qual podemos observar que é complexo e possui o seguinte módulo e fáse:
-\begin{align*}
+\begin{align}
     |\alpha(\Omega) = \frac{1}{\sqrt{(k - \Omega^2)^2 + (\Omega c)^2}}| \\
     \theta_\alpha = -tg^{-1} \left[\frac{-\Omega c}{k - \Omega^2 m}\right]
-\end{align*}
+\end{align}
 
-Tendo ainda as seguintes formas alternativas para resposta em frequência:
+Tendo ainda as seguintes \textbf{formas alternativas para resposta em frequência}:
 \begin{itemize}
     \item $\alpha(\Omega)$: Receptância (deslocamento/força)
     \item $Y(\Omega)$: Mobilidade\footnote{Como a mobilidade só é a derivada da receptância, podemos ver que no domínio da frequência derivar (i.e passar do deslocamento para a velocidade) basta multiplicar por $i\Omega$, análogo a como no plano $s$ de Laplace bastava multiplicar por $s$} (velocidade/força), onde $Y(\Omega) = i \Omega \alpha(\Omega)$, $|Y(\Omega)| = \Omega |\alpha(\Omega)|$ e $\theta_y = \theta_\alpha - 90^\circ$
@@ -861,13 +868,57 @@ Podemos usar, também, as relações inversas para análise de resposta em frequ
     \item Massa Aparente (força/aceleração)
 \end{itemize}
 
-\subsubsection*{Representação Gráfica das FRF}
+\subsection{Representação Gráfica da FRF}
 Como a FRF é uma função complexa, sua representação não é trivial, sendo as formas de visualização mais comuns sendo:
 \begin{itemize}
     \item Bode Plot: Que possui 2 gráficos, sendo eles Módulo x $\Omega$ e fase x $\Omega$
     \item Diagrama de Nyquist: Parte real x Parte imaginária, frequência não explicita em um eixo
     \item Genérico: também com dois gráficos, sendo eles Parte Real x $\Omega$ e Parte Imaginária x $\Omega$
 \end{itemize}
+
+\newpage
+\subsection{Análise de Assíntotas da FRF}
+A fim de estudarmos o comportamento da resposta em frequência de sistemas, principalmente nos casos onde a frequência de excitação é próxima da frequência natural do sistema, iremos analisar a receptância, mobilidade e inertância para um sistema de 1 DOF não amortecido:
+
+\subsubsection*{Receptância}
+Como a receptância de um sistema de 1DOF não amortecido é dado por:
+\begin{align*}
+    \alpha(\Omega) = \frac{1}{k - \Omega^2m}
+\end{align*}
+
+Temos os seguintes casos:
+\begin{itemize}
+    \item \textbf{Para Baixas Frequências ($\Omega \rightarrow 0$)}: $\alpha(\Omega) \approx 1/k$
+    \item \textbf{Para Altas Frequências ($\Omega \rightarrow +\infty$)}: $\alpha(\Omega) \approx 1/(-\Omega^2 m)$
+\end{itemize}
+
+Que, ao plotarmos, tem o seguinte comportamento:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/receptancia.png}
+    \caption{Receptância $\alpha$ em função de $\Omega$ para  sistemas com diferentes frequências naturais}
+\end{figure}
+
+\newpage
+\subsubsection*{Mobilidade}
+Como a mobilidade é dada por:
+\begin{align*}
+    y(\Omega) = \frac{i\Omega}{k - \Omega^2m}
+\end{align*}
+
+Temos:
+\begin{itemize}
+    \item \textbf{Para Baixas Frequências ($\Omega \rightarrow 0$)}: $y(\Omega) \approx i\Omega/k$
+    \item \textbf{Para Altas Frequências ($\Omega \rightarrow +\infty$)}: $y(\Omega) \approx -i/(\Omega m)$
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/mobilidade.png}
+    \caption{Mobilidade $|y(\Omega)|$ em função de $\Omega$ para  sistemas com diferentes frequências naturais}
+\end{figure}
+
 
 
 

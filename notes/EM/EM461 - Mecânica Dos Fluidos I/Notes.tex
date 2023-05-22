@@ -477,5 +477,62 @@ Outra equação que é muito útil é a \emph{Equação de Bernoulli}, que nos p
     \frac{P_1}{\rho_1} + \frac{V^2_1}{2} + gz_1 = \frac{P_2}{\rho_2} + \frac{V^2_2}{2} + gz_2
 \end{align}
 
+\newpage
+\section{Escoamento Interno e Viscoso}
+Até o momento, sempre desprezamos os efeito da visdosidade e, por conseguinte, quaisquer perdas de energia devido a ela. A partir de agora, entretanto, iremos estudar a forma de modelar tais perdas, tanto para fluxos laminares quanto turbulentos.
+
+\subsection{Perdas de Carga - Formulação Geral}
+A perda de carga, de forma geral dada devido à viscosidade do fluido, pode ser dividida em dois tipos:
+\begin{itemize}
+    \item Perdas Localizadas: Em decorrência da mudança (a partir de certo ponto) da área da tubulação, da presença de válvula, entre outras coisas.
+    \item Perdas Distribuídas: Em decorrência de atritos em trechos de área constante.
+\end{itemize}
+
+Mas, independente de tais perdas, a seguinte lei de conservação de energia é aplicável (e usaremos muito ela para a solução de problemas com perda de carga):
+\begin{align}
+    \left(\frac{p_1}{\rho} + \alpha_1 \frac{\bar{V}^2_1}{2} + gz_1\right) - \left(\frac{p_2}{\rho} + \alpha_2 \frac{\bar{V}^2_2}{2} + gz_2\right) = h_{l_{T}} = h_{l_{Local}} + h_{l_{Dis}}
+\end{align}
+
+Onde:
+\begin{itemize}
+    \item $\alpha$: Representa um coeficiente de energia cinética, que para problemas de escoamento laminar $\alpha_{lam} = 2$ e para problemas de escoamento turbulento (e sempre aplicável para escoamento em tubos) $\alpha_{turb} = 1$
+    \item $h_{l_{T}}$: Representa a perda total de carga.
+    \item $h_{l_{Local}}$: Representa a soma de todas as perda de carga localizadas.
+    \item $h_{l_{Dis}}$: Representa a soma de todas as Distribuídas de carga.
+\end{itemize}
+
+\newpage
+\subsection{Perdas Distribuídas}
+
+De forma geral, temos que a perda de carga distribuida é dada pela seguinte equação:
+\begin{align}
+    h_{l} = f \frac{L}{D}\frac{\bar{V}^2}{2}
+    \label{eq:carg_dis_laminar}
+\end{align}
+
+Onde podemos ver que a carga perdida $h_l$ é em função de $f$, que é chamado de \textbf{Fator de Atrito}, sendo esse dependente tanto do tipo de fluxo (laminar ou turbulento) mas também do tipo de tubo no qual o escoamento ocorre, sua rugosidade, ferrugem, etc.
+
+Para acharmos tal fator de atrito, podemos utilizar tanto o diagrama de Moody (imagem ...) ou ainda por algumas equações (mostradas na tabela \ref{tab:fator_atrito}), onde cada uma é aplicável para um cenário específico (\emph{i.e} um Reynalds Específico).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{imgs/moody_chart.jpg}
+    \caption{Diagrama de Moody - Fator de Atrito parametrizado}
+\end{figure}
+
+
+\begin{table}[h]
+    \begin{tabularx}{\textwidth}{|X|X|X|}\hline
+        \textbf{Nome}           & \textbf{Equação}                                                               & \textbf{Descrição e Uso}                                                                                                                         \\ \hline
+        Fator de Atrito Laminar & $f_{laminar} = 64/Re$                                                          & Fator de Atrito a ser usado quando o escoamento se enquadra em laminar.                                                                          \\ \hline
+        Fórmula de Colenbrook   & $f^{-0.5} = -2 \log\left(\frac{eD^{-1}}{3.7} + \frac{2.51}{Re f^{0.5}}\right)$ & Usado para escoamentos turbulentos, e é preciso resolver de forma iterativa, tendo em vista que a variável $f$ está em ambos os lados da equação \\ \hline
+        Fórmula de Blausius     & $f = 0.316/(Re^{0.25})$                                                        & Usando para Escoamentos Turbulentos, com $Re<10^5$                                                                                               \\ \hline
+    \end{tabularx}
+    \caption{Tabela de Fórmulas do Fator de Atrito}
+    \label{tab:fator_atrito}
+\end{table}
+
+
+
 
 \end{document}

@@ -901,6 +901,11 @@ INPUT ./imgs/conv_tens.png
 INPUT ./imgs/conv_tens.png
 INPUT imgs/conv_tens.png
 INPUT ./imgs/conv_tens.png
+INPUT ./imgs/moody_chart.jpg
+INPUT ./imgs/moody_chart.jpg
+INPUT imgs/moody_chart.jpg
+INPUT ./imgs/moody_chart.jpg
+INPUT ./imgs/moody_chart.jpg
 INPUT Notes.aux
 INPUT ./Notes.out
 INPUT ./Notes.out

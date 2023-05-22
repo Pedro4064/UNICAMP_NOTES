@@ -17,3 +17,6 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Caso com Aceleração Constante}{11}{subsubsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.4}Conservação de Energia}{12}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Equação de Bernoulli}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Escoamento Interno e Viscoso}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Perdas de Carga - Formulação Geral}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Perdas Distribuídas}{14}{subsection.4.2}%

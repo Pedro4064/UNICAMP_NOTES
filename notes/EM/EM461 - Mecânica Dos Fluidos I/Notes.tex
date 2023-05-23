@@ -504,10 +504,10 @@ Onde:
 \newpage
 \subsection{Perdas Distribuídas}
 
-De forma geral, temos que a perda de carga distribuida é dada pela seguinte equação:
+De forma geral, temos que a perda de carga distribuída é dada pela seguinte equação:
 \begin{align}
     h_{l} = f \frac{L}{D}\frac{\bar{V}^2}{2}
-    \label{eq:carg_dis_laminar}
+    \label{eq:perda_carga_distribuida}
 \end{align}
 
 Onde podemos ver que a carga perdida $h_l$ é em função de $f$, que é chamado de \textbf{Fator de Atrito}, sendo esse dependente tanto do tipo de fluxo (laminar ou turbulento) mas também do tipo de tubo no qual o escoamento ocorre, sua rugosidade, ferrugem, etc.
@@ -532,6 +532,28 @@ Para acharmos tal fator de atrito, podemos utilizar tanto o diagrama de Moody (i
     \label{tab:fator_atrito}
 \end{table}
 
+\subsection{Perdas Localizadas}
+Podemos representar o calculo de perdas localizadas das duas formas abaixo:
+
+\begin{minipage}{.4\textwidth}
+    \begin{align}
+        h_{l_m} = K \frac{\bar{V}^2}{2}
+        \label{eq:perda_carga_local_forma_1}
+    \end{align}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+    \begin{align}
+        h_{l_m} = f \frac{L_e}{D} \frac{\bar{V}^2}{2}
+        \label{eq:perda_carga_local_forma_2}
+    \end{align}
+\end{minipage}
+
+$\\$
+
+    A equação mais utiliza é a forma da equação \ref{eq:perda_carga_local_forma_1}, onde $K$ representa uma constante dependente do tipo de restrição do fluxo que resulta na perda de carga.
+
+Podemos, entretanto, usar a forma da equação \ref{eq:perda_carga_local_forma_2} pois faz uma referência à formulação da carga distribuída (eq. \ref{eq:perda_carga_distribuida}), possibilitando fazer um paralelo de "Quantos Metros A mais de Perda Distribuída essa perda localizada equivale", tendo em
+vista que ambas as formulações distribuídas e localizadas ficam em função um comprimento, sendo no caso da formulação distribuída a distância real e no caso da formulação localizada uma distância "Equivalente".
 
 
 

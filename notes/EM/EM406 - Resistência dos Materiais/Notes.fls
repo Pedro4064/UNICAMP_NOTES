@@ -1265,6 +1265,11 @@ INPUT ./imgs/conv_sinais.png
 INPUT ./imgs/conv_sinais.png
 INPUT imgs/conv_sinais.png
 INPUT ./imgs/conv_sinais.png
+INPUT ./imgs/eixo_def.png
+INPUT ./imgs/eixo_def.png
+INPUT imgs/eixo_def.png
+INPUT ./imgs/eixo_def.png
+INPUT ./imgs/eixo_def.png
 INPUT Notes.aux
 INPUT ./Notes.out
 INPUT ./Notes.out

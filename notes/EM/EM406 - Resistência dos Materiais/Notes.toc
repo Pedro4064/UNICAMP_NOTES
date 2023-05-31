@@ -20,3 +20,4 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Lei de Hook: Materiais Isotrópicos}{18}{subsubsection.3.3.3}%
 \contentsline {section}{\numberline {4}Tensões e Deformações - Geometrias e Cargas Complexas}{19}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Momento de Inércia}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Teoria Técnica: Barras}{20}{subsection.4.2}%

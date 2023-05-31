@@ -610,7 +610,7 @@ externos que o corpo está sofrendo (que seriam os membros do lado direito das E
 
 Para casos em que os carregamentos são contínuos tal tarefa é extremamente fácil, só igualar a EDO ao valor (ou equação contínua) para todo $x$. Para os casos em que os carregamentos não são contínuos, entretanto, isso não é tão simples.
 
-Para casos onde o carregamento não é contínuo, nós usaremos uma notação que simplifica toda a matemática complexa chamada de \textbf{Função de Singularidade}, onde:
+Para tais cenários, nós usaremos as \textbf{Funções de Singularidade}, dados por:
 
 \begin{align}
     \langle x - a\rangle^m = \begin{cases}
@@ -620,7 +620,7 @@ Para casos onde o carregamento não é contínuo, nós usaremos uma notação qu
     \label{eq:func_singularidade}
 \end{align}
 
-Onde a porção $\langle x - a \rangle$ rege a partir de qual ponto para de ser zero e o expoente $m$ rege o comportamento da curva a partir desse ponto, como mostra a figura abaixo:
+Que apresenta os sequintes comportamentos, a depender do expoente $m$:
 
 \begin{table}[h]
     \centering
@@ -672,6 +672,8 @@ Onde a porção $\langle x - a \rangle$ rege a partir de qual ponto para de ser 
             Usado bastante durante análise de vigas para representar momentos fletores.
         \end{minipage}                                                                                         \\ \hline
     \end{tabular}
+    \caption{Tabela de Função de singularidade}
+    \label{tb:tab_func_sing}
 \end{table}
 
 Além disso, é importante entendermos o comportamento das funções de singularidade em relação a integração:
@@ -1216,35 +1218,109 @@ $\\$
 Outros momentos, entretanto, é interessante calcularmos o momento de inércia em relação a outro sistema de eixos. Para tal nós utilizamos o \textbf{Teorema de Eixos Paralelos}, dado por:
 
 $\\$
-\begin{minipage}{.4\textwidth}
-    \centering
-    \includegraphics[width=.6\textwidth]{imgs/eixos_paralelos.png}
-\end{minipage}
-\begin{minipage}{.5\textwidth}
-    $$I''_{XX} = I'_{XX} + A\delta^2 \ \ e \ \ I_{XX} = I'_{XX} + Ad^2$$
-\end{minipage}
+    \begin{minipage}{.4\textwidth}
+        \centering
+        \includegraphics[width=.6\textwidth]{imgs/eixos_paralelos.png}
+    \end{minipage}
+    \begin{minipage}{.5\textwidth}
+        $$I''_{XX} = I'_{XX} + A\delta^2 \ \ e \ \ I_{XX} = I'_{XX} + Ad^2$$
+    \end{minipage}
 
-\newpage
-Como certas figuras são recorrentes, seus momentos de inércia são tabelados:
+    \newpage
+    Como certas figuras são recorrentes, seus momentos de inércia são tabelados:
 
-\begin{table}[h]
-    \begin{tabularx}{\textwidth}{XXX}
-        \begin{minipage}{\columnwidth}
-            \includegraphics[width=.25\textwidth]{imgs/mom_inter_ret.png}
-        \end{minipage}   &
-        \begin{minipage}{\columnwidth}
-            \includegraphics[width=.25\textwidth]{imgs/mom_iner_triang.png}
-        \end{minipage} &
-        \begin{minipage}{\columnwidth}
-            \includegraphics[width=.25\textwidth]{imgs/mom_iner_circ.png}
-        \end{minipage}                                                                                                    \\
+    \begin{table}[h]
+        \begin{tabularx}{\textwidth}{XXX}
+            \begin{minipage}{\columnwidth}
+                \includegraphics[width=.25\textwidth]{imgs/mom_inter_ret.png}
+            \end{minipage}   &
+            \begin{minipage}{\columnwidth}
+                \includegraphics[width=.25\textwidth]{imgs/mom_iner_triang.png}
+            \end{minipage} &
+            \begin{minipage}{\columnwidth}
+                \includegraphics[width=.25\textwidth]{imgs/mom_iner_circ.png}
+            \end{minipage}                                                                                                    \\
 
-        $I'_{XX} = \frac{1}{12}bh^3$                                    & $I'_{XX} = \frac{1}{36}bh^3$ & $J_p = \frac{1}{2} \pi \left(r_2^4 - r_1^4 \right)$            \\
-        $I'_{YY} = \frac{1}{12}hb^3$                                    & $I'_{YY}=\frac{1}{36}hb^3$   & $I'_{XX} = I'_{YY} = \frac{1}{4}\pi\left(r_2^4 - r_1^4\right)$
-    \end{tabularx}
-\end{table}
+            $I'_{XX} = \frac{1}{12}bh^3$                                    & $I'_{XX} = \frac{1}{36}bh^3$ & $J_p = \frac{1}{2} \pi \left(r_2^4 - r_1^4 \right)$            \\
+            $I'_{YY} = \frac{1}{12}hb^3$                                    & $I'_{YY}=\frac{1}{36}hb^3$   & $I'_{XX} = I'_{YY} = \frac{1}{4}\pi\left(r_2^4 - r_1^4\right)$
+        \end{tabularx}
+    \end{table}
 
-Onde podemos observar que, para a maioria dos casos (tirando o polar), o momento de inercia cresce ao cubo da "altura", isso é, ao quadrado da medida perpendicular ao eixo sob análise. Exatamente por
-esse motivo que em construções, as vigas que sofrem contração (e por conseguinte são suscetíveis a "dobrar") são feitas com vigas em formato de I, pois ela diminui a massa mas aumenta o momento de inércia pois afasta massa do eixo em questão.
+    Onde podemos observar que, para a maioria dos casos (tirando o polar), o momento de inercia cresce ao cubo da "altura", isso é, ao quadrado da medida perpendicular ao eixo sob análise. Exatamente por
+    esse motivo que em construções, as vigas que sofrem contração (e por conseguinte são suscetíveis a "dobrar") são feitas com vigas em formato de I, pois ela diminui a massa mas aumenta o momento de inércia pois afasta massa do eixo em questão.
+
+    \subsection{Teoria Técnica: Barras}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=.6\textwidth]{imgs/barra_hiper.png}
+    \end{figure}
+
+
+    O primeiro tipo de corpo mais complexo que iremos estudar a relação entre Tensão e Deformação será a Barra, que é um corpo esbelto que sofre somente carregamentos logitudinais (como exemplificado pela imagem acima). Para tais corpos a relação entre deformação e tensão é dada por:
+
+    \begin{align*}
+        \frac{d}{dx}N_X(x) = -p(x) = \frac{d}{dx}\left[E(X) A(X) \frac{d}{dx}u(x)\right]; \ \ \sigma_{XX} = \frac{N(x)}{A(x)}
+    \end{align*}
+
+    Ou ainda, para os casos de área e constante de elasticidade constantes:
+    \begin{align*}
+        \frac{d}{dx}N_X(x) = -p(x) = EA \frac{d^2}{dx^2}u(x)
+    \end{align*}
+
+    Onde:
+    \begin{itemize}
+        \item $N_X(x)$: Esforço Axial na direção $\hat x$, em função da distância $x$.
+        \item $p(x)$: Carregamento externo.
+        \item $A$: Área da barra.
+        \item $E$: Constante de elasticidade.
+        \item $u(x)$: Deformação.
+    \end{itemize}
+
+
+    Conseguir analisar a deformação em barras é importante pois, até o momento, nós só conseguíamos analisar barras somente eram isoestática (i.e que não haviam vinculos de restrição a mais do que o necessário para manter o equilíbrio estático). Agora, entretanto, nós \textbf{conseguimos analisar até problemas hiperestáticos} (i.e que possuem vínculos de restrição a mais do que necessário), pois os \textbf{dados de deformação são considerados mais informação de contorno} para o problema diferencial.
+
+    Para a resolução de tais problemas deve ser feito os seguintes passos:
+
+    \newpage
+    \subsubsection*{Passo 1 - Convenção de Sinais}
+    A mesma convenção de sinais usada durante a análise de equilíbrio interno de corpos (fig \ref{fig:conv_de_sinais_esf_intern}) deve ser usada:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=.3\textwidth]{imgs/conv_sinais.png}
+    \end{figure}
+
+    \subsubsection*{Passo 2 - Equação Diferencial}
+    O próximo passo é determinar qual equação diferencial será usada como base para o problema em questão. De modo geral, quando estamos falando de \textbf{barra hiperestáticas}, ou quando queremos \textbf{analisar sua deformação} usamos a equação abaixo \footnote{Lembrando que a equação a seguir pode ser usada somente quado o coeficiente de elasticidade e a área da barra forem constantes durante todo seu cumprimento}:
+
+    \begin{align*}
+        EA\frac{d^2}{dx^2}u(x) = -p(x)
+    \end{align*}
+
+    \subsubsection*{Passo 3 - Condições de Contorno}
+    Todas as condições de contorno pela tabela \ref{tb:cond_contorno} ainda são válidas, mas agora com a adição das condições de contorno referente ao deslocamento, sendo o mais notório deles:
+
+    \begin{center}
+        Barras Engastadas possuem \textbf{deformação zero na expremidade $x'$ engastada}, $u(x') = 0$
+    \end{center}
+
+
+    \subsubsection*{Passo 4 - Equação do Carregamento}
+    Descrever o carregamento esterno através de funções de singularidade, como descrito pela tabela \ref{tb:tab_func_sing}.
+
+
+    \subsubsection*{Passo 5 - Integração da Equação Diferencial}
+    A partir da equação diferencial, nós integramos até chegar na sua forma mais simples:
+
+    \begin{align*}
+        EA \frac{d^2}{dx^2}u(x) = -p(x) \xrightarrow{\ \ \ \int \ \ \ } EA \frac{d}{dx} u(x) = N_X \xrightarrow{\ \ \ \int \ \ \ } EA u(x)
+    \end{align*}
+
+    Onde é importante sempre lembrar de \textbf{botar as constantes de integração} a cada integral calculada.
+
+    \subsubsection*{Passo 6 - Constantes de Integração}
+    A partir dos valores de contorno condições iniciais, calcular as constantes de integração achadas anteriormente.
+
+    \subsubsection*{Passo 7 - Equações Finais}
+    Obtendo as constantes, é preciso somente substituir elas nas equações para o $N_X(x)$ e $u(x)$ obtidas no passo 5 através das integrações.
 
 \end{document}

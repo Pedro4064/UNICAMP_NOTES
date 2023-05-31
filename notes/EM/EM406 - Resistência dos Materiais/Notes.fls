@@ -1256,6 +1256,15 @@ INPUT ./imgs/mom_iner_circ.png
 INPUT ./imgs/mom_iner_circ.png
 INPUT imgs/mom_iner_circ.png
 INPUT ./imgs/mom_iner_circ.png
+INPUT ./imgs/barra_hiper.png
+INPUT ./imgs/barra_hiper.png
+INPUT imgs/barra_hiper.png
+INPUT ./imgs/barra_hiper.png
+INPUT ./imgs/barra_hiper.png
+INPUT ./imgs/conv_sinais.png
+INPUT ./imgs/conv_sinais.png
+INPUT imgs/conv_sinais.png
+INPUT ./imgs/conv_sinais.png
 INPUT Notes.aux
 INPUT ./Notes.out
 INPUT ./Notes.out

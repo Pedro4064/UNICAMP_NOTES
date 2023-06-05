@@ -22,3 +22,4 @@
 \contentsline {subsection}{\numberline {4.1}Momento de Inércia}{19}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Teoria Técnica: Barras}{20}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Teoria Técnica: Eixos}{22}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}One Pager - Tensões e Deformações, Geometrias e Cargas Complexas}{23}{subsection.4.4}%

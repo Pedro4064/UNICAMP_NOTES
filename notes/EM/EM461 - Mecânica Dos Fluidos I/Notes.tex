@@ -14,6 +14,7 @@
 \usepackage{subcaption}
 \usepackage{float}
 \usepackage{array}
+\usepackage{wrapfig}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -478,8 +479,44 @@ Outra equação que é muito útil é a \emph{Equação de Bernoulli}, que nos p
 \end{align}
 
 \newpage
+\section{Análise Dimensional e Semelhança}
+\subsection{Análise Dimensional - Introdução}
+
+
+Como podemos ver com os tópicos vistos até agora, a mecânica de fluidos é uma matéria que para seu entendimento e sua modelagem são necessários inúmeros parâmetros diferentes, desde aqueles referentes
+ao fluido (como $\rho$ e $\mu$) até aqueles referentes aos objetos sendo afetados pelo fluxo e geometria das tubulações, etc.
+
+Além disso, temos que por ser uma área tão complexa muitas das vezes a derivação dos modelos matemáticos puramente pela teoria e analiticamente são inviáveis, resultando na necessidade recorrente de se fazer experimentos
+em laboratórios tanto para pequenos modelos quanto para grandes protótipos.
+
+Esses dois fatores juntos resultam em uma combinação extremamente cara, pois experimentos são necessários de serem refeitos para cada pequena alteração dos inúmeros parâmetros envolvidos, a fim de tentar entender a contribuição de cada um para o sistema como um todo.
+
+\begin{wrapfigure}{r}{.5\textwidth}
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/adm_analysis.png}
+\end{wrapfigure}
+
+A fim de facilitar entender a relação dos vários parâmetros com o sistema, são desenvolvidos \textbf{Números/ Parâmetros Adimensionais}, a fim de agrupar a maior quantidade desses fatores juntos de uma forma
+a se obter fatores sem dimensão de unidade, facilitando a modelagem dos sistemas. Um exemplo disso é a junção, no caso de uma esfera submetida a escoamento de ar, das influências do diâmetro e rugosidade da bola, velocidade que viaja e seu spin em um único fator adimensional, para que possamos então vermos a relação da força de arrasto em função de somente uma variável, ao invés de várias, fazendo com que
+o curve-fitting para achar o modelo seja de uma dimensão só (como \emph{ilustrado} pela figura ao lado).
+
+O método utilizado para acharmos tais fatores adimensionais é chamado de \textbf{Teorema de $\Pi$ Buckingham}, que veremos a seguir.
+
+\subsection{Teorema de $\Pi$ Buckingham}
+
+A partir de um problema físico, onde queremos modelar uma variável $q_1$ \textbf{dependente} de outras $n-1$ variáveis \emph{independentes} $\{q_2, q_3, q_4, ..., q_{n}\}$ assumindo a forma $q_1 = f(q_2, q_2, ..., q_n)$ somos capazes modelar a relação de todas as variáveis também em forma funcional como sendo $g(q_1, q_2, ..., q_n) = 0$ onde $f$ e $g$ são funções distintas.
+
+É a partir dessa capacidade de relacionar \textbf{todas} as variáveis em uma função que o teorema de $\Pi$ se pauta para dizer que:
+
+\begin{center}
+    \textbf{Dada uma relação entre $n$ parâmetros na forma $g(...)=0$ os $n$ parâmetros podem ser agrupados em $n-m$ parâmetros/razões adimensionais independentes, chamadas de parâmetros $\Pi$}
+\end{center}
+
+Onde $m$ representa\footnote{Isso nem sempre é verdade, mas para os nossos estudos iremos assumir que $m=r$ sempre.} o número $r$ de dimensões independentes mínimas para expressar todas as dimensões/unidades das variáveis $\{q_1, ..., q_n\}$.
+
+\newpage
 \section{Escoamento Interno e Viscoso}
-Até o momento, sempre desprezamos os efeito da visdosidade e, por conseguinte, quaisquer perdas de energia devido a ela. A partir de agora, entretanto, iremos estudar a forma de modelar tais perdas, tanto para fluxos laminares quanto turbulentos.
+Até o momento, sempre desprezamos os efeito da viscosidade e, por conseguinte, quaisquer perdas de energia devido a ela. A partir de agora, entretanto, iremos estudar a forma de modelar tais perdas, tanto para fluxos laminares quanto turbulentos.
 
 \subsection{Perdas de Carga - Formulação Geral}
 A perda de carga, de forma geral dada devido à viscosidade do fluido, pode ser dividida em dois tipos:
@@ -552,9 +589,29 @@ $\\$
 
     A equação mais utiliza é a forma da equação \ref{eq:perda_carga_local_forma_1}, onde $K$ representa uma constante dependente do tipo de restrição do fluxo que resulta na perda de carga.
 
-Podemos, entretanto, usar a forma da equação \ref{eq:perda_carga_local_forma_2} pois faz uma referência à formulação da carga distribuída (eq. \ref{eq:perda_carga_distribuida}), possibilitando fazer um paralelo de "Quantos Metros A mais de Perda Distribuída essa perda localizada equivale", tendo em
-vista que ambas as formulações distribuídas e localizadas ficam em função um comprimento, sendo no caso da formulação distribuída a distância real e no caso da formulação localizada uma distância "Equivalente".
+    Podemos, entretanto, usar a forma da equação \ref{eq:perda_carga_local_forma_2} pois faz uma referência à formulação da carga distribuída (eq. \ref{eq:perda_carga_distribuida}), possibilitando fazer um paralelo de "Quantos Metros A mais de Perda Distribuída essa perda localizada equivale", tendo em
+    vista que ambas as formulações distribuídas e localizadas ficam em função um comprimento, sendo no caso da formulação distribuída a distância real e no caso da formulação localizada uma distância "Equivalente".
 
+    Ocorrerá a perda localizada sempre que no sistema sob análise houver:
+    \begin{itemize}
+        \item Entradas e Saídas
+        \item Expansões e Contrações
+        \item Curvas em tubos
+        \item Válvulas e Acessórios
+    \end{itemize}
 
+    \subsection{Ganho de Cargas}
+    Até o momento vimos as diferentes topologias e suas modelagens que geram a \emph{perda} de carga para um fluido submetido a escoamento viscoso interno. Há, entretanto,
+    também o cenário onde carga é injetada em um fluido, através de \textbf{bombas, ventiladores e sopradores}.
+
+    Para tais casos, temos a seguinte formulação:
+    \begin{align}
+        \left(\frac{p_1}{\rho} + \alpha_1 \frac{\bar{V}^2_1}{2} + gz_1\right) - \left(\frac{p_2}{\rho} + \alpha_2 \frac{\bar{V}^2_2}{2} + gz_2\right) = h_{l_{T}} = h_{l_{total}} - \Delta h_{bomba}
+    \end{align}
+
+    Onde vale re-lembrar que, pela segunda lei da termo dinâmica, podemos encontrar a potência da bomba $\dot W$ em função da vazão volumétrica $Q$ e diferencial de pressão $\Delta P$ (ou vice-versa):
+\begin{align}
+    \dot W_{Bomba} = Q\Delta P
+\end{align}
 
 \end{document}

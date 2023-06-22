@@ -500,7 +500,7 @@ A fim de facilitar entender a relação dos vários parâmetros com o sistema, s
 a se obter fatores sem dimensão de unidade, facilitando a modelagem dos sistemas. Um exemplo disso é a junção, no caso de uma esfera submetida a escoamento de ar, das influências do diâmetro e rugosidade da bola, velocidade que viaja e seu spin em um único fator adimensional, para que possamos então vermos a relação da força de arrasto em função de somente uma variável, ao invés de várias, fazendo com que
 o curve-fitting para achar o modelo seja de uma dimensão só (como \emph{ilustrado} pela figura ao lado).
 
-O método utilizado para acharmos tais fatores adimensionais é chamado de \textbf{Teorema de $\Pi$ Buckingham}, que veremos a seguir.
+O método utilizado para acharmos tais fatores adimensionais é chamado de \textbf{Teorema de $\Pi$ Buckingham}.
 
 \subsection{Teorema de $\Pi$ Buckingham}
 
@@ -513,6 +513,29 @@ A partir de um problema físico, onde queremos modelar uma variável $q_1$ \text
 \end{center}
 
 Onde $m$ representa\footnote{Isso nem sempre é verdade, mas para os nossos estudos iremos assumir que $m=r$ sempre.} o número $r$ de dimensões independentes mínimas para expressar todas as dimensões/unidades das variáveis $\{q_1, ..., q_n\}$.
+
+Para achar os $\Pi$ valores temos que seguir os seguintes passos:
+\begin{enumerate}
+    \item Liste todas as $n$ unidades das $n$ variáveis (tanto a independente quanto as dependentes).
+    \item Selecione um conjunto de dimensões fundamentais (o mais comum sendo $M$: Massa, $L$: Distância e $t$: Tempo).
+    \item Liste todas as $n$ unidades em função das unidades fundamentais ($MLt$)
+    \item Selecione, a partir das lista de $n$ unidades das variáveis, um conjunto que inclua todas as dimensões primárias. Essa lista será chamada de \emph{parâmetros repetentes} e normalmente são escolhidos $(\rho, V, D)$, ou então uma do fluido, uma de velocidade do corpo e uma da geometria do corpo.
+    \item Forme as equações dimensionais, combinando os parâmetros repetentes escolhidos acima, cada um elevado a uma potência, com as outras unidades restante, uma equação para cada parâmetro restante.
+    \item Ache as potências supracitadas para que cada equação seja adimensional.
+\end{enumerate}
+
+\subsection{Modelos e Semelhança}
+Como dito anteriormente, grande parte de mecânica dos fluidos é oriunda de experimentos laboratoriais. Muitas das vezes, entretanto, estamos lidando com grandes construção (\emph{e.g} navius, aviões, etc) e isso significa que ter que construir toda a estrutura para saber como que ela irá se comportar
+não é viável. Para tal, precisamos criar modelos em escala para que possamos testa-los e somente depois construir os protótipos em si.
+
+Para que tais modelos gerem resultados cabiveis de serem usados, é necessário garantir a sua \textbf{semelhança} com sua contraparte de escala maior. Para tal é encessário garantir:
+\begin{itemize}
+    \item \textbf{Semelhança Geométrica}: As relações entre as dimensões do modelo e do protótipo precisam ser mantidas.
+    \item \textbf{Semelhança Cinemática}: Velocidades em pontos correspondentes precisam ter mesma direção e sentido, diferindo apenas pelo módulo, por um fator de escala constante.
+    \item \textbf{Semelhança Dinâmica}: A distribuição de forças precisa ter mesma direção e sentido, diferindo apenas pelo módulo, por um fator de escala constante.
+\end{itemize}
+
+Isso implica, também, que os números adimensionais do modelo são iguais ao do protótipo.
 
 \newpage
 \section{Escoamento Interno e Viscoso}
@@ -549,12 +572,13 @@ De forma geral, temos que a perda de carga distribuída é dada pela seguinte eq
 
 Onde podemos ver que a carga perdida $h_l$ é em função de $f$, que é chamado de \textbf{Fator de Atrito}, sendo esse dependente tanto do tipo de fluxo (laminar ou turbulento) mas também do tipo de tubo no qual o escoamento ocorre, sua rugosidade, ferrugem, etc.
 
-Para acharmos tal fator de atrito, podemos utilizar tanto o diagrama de Moody (imagem ...) ou ainda por algumas equações (mostradas na tabela \ref{tab:fator_atrito}), onde cada uma é aplicável para um cenário específico (\emph{i.e} um Reynalds Específico).
+Para acharmos tal fator de atrito, podemos utilizar tanto o diagrama de Moody (imagem \ref{img:moody_chart}) ou ainda por algumas equações (mostradas na tabela \ref{tab:fator_atrito}), onde cada uma é aplicável para um cenário específico (\emph{i.e} um Reynalds Específico).
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{imgs/moody_chart.jpg}
     \caption{Diagrama de Moody - Fator de Atrito parametrizado}
+    \label{img:moody_chart}
 \end{figure}
 
 
@@ -585,33 +609,76 @@ Podemos representar o calculo de perdas localizadas das duas formas abaixo:
     \end{align}
 \end{minipage}
 
-$\\$
+$$ $$
 
-    A equação mais utiliza é a forma da equação \ref{eq:perda_carga_local_forma_1}, onde $K$ representa uma constante dependente do tipo de restrição do fluxo que resulta na perda de carga.
+A equação mais utiliza é a forma da equação \ref{eq:perda_carga_local_forma_1}, onde $K$ representa uma constante dependente do tipo de restrição do fluxo que resulta na perda de carga.
 
-    Podemos, entretanto, usar a forma da equação \ref{eq:perda_carga_local_forma_2} pois faz uma referência à formulação da carga distribuída (eq. \ref{eq:perda_carga_distribuida}), possibilitando fazer um paralelo de "Quantos Metros A mais de Perda Distribuída essa perda localizada equivale", tendo em
-    vista que ambas as formulações distribuídas e localizadas ficam em função um comprimento, sendo no caso da formulação distribuída a distância real e no caso da formulação localizada uma distância "Equivalente".
+Podemos, entretanto, usar a forma da equação \ref{eq:perda_carga_local_forma_2} pois faz uma referência à formulação da carga distribuída (eq. \ref{eq:perda_carga_distribuida}), possibilitando fazer um paralelo de "Quantos Metros A mais de Perda Distribuída essa perda localizada equivale", tendo em
+vista que ambas as formulações distribuídas e localizadas ficam em função um comprimento, sendo no caso da formulação distribuída a distância real e no caso da formulação localizada uma distância "Equivalente".
 
-    Ocorrerá a perda localizada sempre que no sistema sob análise houver:
-    \begin{itemize}
-        \item Entradas e Saídas
-        \item Expansões e Contrações
-        \item Curvas em tubos
-        \item Válvulas e Acessórios
-    \end{itemize}
+Ocorrerá a perda localizada sempre que no sistema sob análise houver:
+\begin{itemize}
+    \item Entradas e Saídas
+    \item Expansões e Contrações
+    \item Curvas em tubos
+    \item Válvulas e Acessórios
+\end{itemize}
 
-    \subsection{Ganho de Cargas}
-    Até o momento vimos as diferentes topologias e suas modelagens que geram a \emph{perda} de carga para um fluido submetido a escoamento viscoso interno. Há, entretanto,
-    também o cenário onde carga é injetada em um fluido, através de \textbf{bombas, ventiladores e sopradores}.
+\subsection{Ganho de Cargas}
+Até o momento vimos as diferentes topologias e suas modelagens que geram a \emph{perda} de carga para um fluido submetido a escoamento viscoso interno. Há, entretanto,
+também o cenário onde carga é injetada em um fluido, através de \textbf{bombas, ventiladores e sopradores}.
 
-    Para tais casos, temos a seguinte formulação:
-    \begin{align}
-        \left(\frac{p_1}{\rho} + \alpha_1 \frac{\bar{V}^2_1}{2} + gz_1\right) - \left(\frac{p_2}{\rho} + \alpha_2 \frac{\bar{V}^2_2}{2} + gz_2\right) = h_{l_{T}} = h_{l_{total}} - \Delta h_{bomba}
-    \end{align}
+Para tais casos, temos a seguinte formulação:
+\begin{align}
+    \left(\frac{p_1}{\rho} + \alpha_1 \frac{\bar{V}^2_1}{2} + gz_1\right) - \left(\frac{p_2}{\rho} + \alpha_2 \frac{\bar{V}^2_2}{2} + gz_2\right) = h_{l_{T}} = h_{l_{total}} - \Delta h_{bomba}
+\end{align}
 
-    Onde vale re-lembrar que, pela segunda lei da termo dinâmica, podemos encontrar a potência da bomba $\dot W$ em função da vazão volumétrica $Q$ e diferencial de pressão $\Delta P$ (ou vice-versa):
+Onde vale re-lembrar que, pela segunda lei da termo dinâmica, podemos encontrar a potência da bomba $\dot W$ em função da vazão volumétrica $Q$ e diferencial de pressão $\Delta P$ (ou vice-versa):
 \begin{align}
     \dot W_{Bomba} = Q\Delta P
+\end{align}
+
+\newpage
+\section{Escoamento Externo e Viscoso}
+\subsection{Introdução}
+
+Quando ocorre o escoamento de fluido ao redor de um corpo, chamamos de escoamento externo. Nesses casos, na maior parte das vezes o que mais nos interessa é saber as forças sofridas pelo corpo devido à esse movimento
+relativo (como por exemplo a força de lift e a força de drag sofrida por uma asa de avião).
+
+Tais forças são originadas a partir das forças de pressão e forças de cisalhamento. A distinção entre a componente de uma e outra, entretanto, é extremamente difícil (se não impossível) a depender do fluxo e da geometria.
+Levando isso em consideração, juntamente com os objetivos das modelagens de escoamentos externos, nós dividimos as forças não devido a suas origens, mas sim devido a sua \emph{direção relativa ao escoamento}, obtendo então:
+\begin{itemize}
+    \item \textbf{Força de Drag $F_D$}: uma força na direção do escoamento, parametrizada por $C_D$.
+    \item \textbf{Força de Lift $F_L$}: uma força perpendicular ao escoamento, parametrizada por $C_L$.
+\end{itemize}
+
+\subsection{Força de Drag}
+Como dito anteriormente, a força de drag é a força gera perpendicularmente ao escoamento do fluido em relação a um corpo. Por ser um problema que envolve muitas variáveis
+(como geometria do objeto, velocidade, viscosidade do fluido, etc) a análise da força de arrasto (força de drag) é muito mais fácil de ser feita aplicando análise dimensional e achando um parâmetro adimensional (utilizando o teorema de Pi Buckingham).
+
+Parametrizando então a força de drag foi desenvolvida o coeficiente de arrasto (ou coeficiente de drag) $C_D$:
+\begin{align}
+    C_D = \frac{F_D}{\frac{1}{2}\rho V^2 A} = f(Re)
+\end{align}
+
+Existem diferentes valores para $C_D$, a depender principalmente do tipo de fluxo (se é laminar ou turbulento) e da geometria, que são tabulados.
+
+A partir desses valores conhecidos de $C_D$, somos capazes de aplicar a equação acima e isolarmos a força:
+\begin{align}
+    F_D = C_D \left(\frac{1}{2} \rho V^2 A\right)
+\end{align}
+
+\subsection{Força de Lift}
+
+De forma análoga a como a força de drag é parametrizada por um parâmetro adimensional a fim de facilitar seu estudo, a força de Lift (também chamada de força de sustentação), que é a parcela da força perpendicular ao movimento do fluido em relação ao corpo,
+também é parametrizado pelo chamado \textbf{Coeficiente de Sustentaçõa}, dado por:
+\begin{align}
+    C_L = \frac{F_L}{\frac{1}{2}\rho V^2 A} = f(Re)
+\end{align}
+
+Onde podemos, também, isolar a força e deixa-la em função do coeficiente:
+\begin{align}
+    F_L = C_L \left(\frac{1}{2} \rho V^2 A\right)
 \end{align}
 
 \end{document}

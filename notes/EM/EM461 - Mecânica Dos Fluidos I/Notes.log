@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  13 JUN 2023 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  17 JUN 2023 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -590,12 +590,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `Notes.toc'.
 
  [2] [3] [4] [5] [6]
-<imgs/tens_cisa.png, id=205, 297.11pt x 220.825pt>
+<imgs/tens_cisa.png, id=230, 297.11pt x 220.825pt>
 File: imgs/tens_cisa.png Graphic file (type png)
 <use imgs/tens_cisa.png>
 Package pdftex.def Info: imgs/tens_cisa.png  used on input line 244.
 (pdftex.def)             Requested size: 149.60028pt x 111.19394pt.
-<imgs/conv_tens.png, id=207, 665.48625pt x 578.16pt>
+<imgs/conv_tens.png, id=232, 665.48625pt x 578.16pt>
 File: imgs/conv_tens.png Graphic file (type png)
 <use imgs/conv_tens.png>
 Package pdftex.def Info: imgs/conv_tens.png  used on input line 249.
@@ -647,7 +647,7 @@ Overfull \hbox (17.2222pt too wide) in paragraph at lines 456--466
  []
 
 [12]
-<imgs/adm_analysis.png, id=267, 948.54375pt x 498.86375pt>
+<imgs/adm_analysis.png, id=292, 948.54375pt x 498.86375pt>
 File: imgs/adm_analysis.png Graphic file (type png)
 <use imgs/adm_analysis.png>
 Package pdftex.def Info: imgs/adm_analysis.png  used on input line 496.
@@ -674,39 +674,34 @@ Overfull \hbox (3.83826pt too wide) in paragraph at lines 515--516
 []\OT1/cmr/m/n/10 Onde $\OML/cmm/m/it/10 m$ \OT1/cmr/m/n/10 rep-re-senta[][][][][] o n^^Sumero $\OML/cmm/m/it/10 r$ \OT1/cmr/m/n/10 de di-mens~oes in-de-pen-dentes m^^S^^Pnimas para ex-pres-sar to-das as di-mens~oes/unidades
  []
 
-[13 <./imgs/adm_analysis.png>] [14]
-<imgs/moody_chart.jpg, id=284, 144.54pt x 90.69885pt>
+[13 <./imgs/adm_analysis.png>] [14] [15]
+<imgs/moody_chart.jpg, id=321, 144.54pt x 90.69885pt>
 File: imgs/moody_chart.jpg Graphic file (type jpg)
 <use imgs/moody_chart.jpg>
-Package pdftex.def Info: imgs/moody_chart.jpg  used on input line 556.
+Package pdftex.def Info: imgs/moody_chart.jpg  used on input line 579.
 (pdftex.def)             Requested size: 498.66258pt x 312.9279pt.
 
-Underfull \hbox (badness 1092) in paragraph at lines 567--567
+Underfull \hbox (badness 1092) in paragraph at lines 591--591
 \OT1/cmr/m/n/10 it-er-a-tiva, tendo em vista que a
  []
 
-[15 <./imgs/moody_chart.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
-
- []
-
-[16] (./Notes.aux)
+[16 <./imgs/moody_chart.jpg>] [17] [18] (./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: D8548378276A4685CAB8A38B6028DAA9;5941.
+(rerunfilecheck)             Checksum: C255A56610820E0221A796B9D9DC6225;6679.
  ) 
 Here is how much of TeX's memory you used:
- 21771 strings out of 478287
- 402665 string characters out of 5849290
- 681139 words of memory out of 5000000
- 39529 multiletter control sequences out of 15000+600000
+ 21794 strings out of 478287
+ 402924 string characters out of 5849290
+ 681221 words of memory out of 5000000
+ 39535 multiletter control sequences out of 15000+600000
  478750 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,104p,610b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Notes.pdf (16 pages, 678443 bytes).
+Output written on Notes.pdf (18 pages, 687055 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 346 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

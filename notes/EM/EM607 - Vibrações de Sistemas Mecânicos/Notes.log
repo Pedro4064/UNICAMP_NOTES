@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  9 MAY 2023 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.1)  22 JUN 2023 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,24 +449,24 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (./Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -524,7 +524,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 36.
+Package hyperref Info: Link coloring ON on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -534,147 +534,152 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
  (./Notes.out) (./Notes.out)
 \@outlinefile=\write4
 \openout4 = `Notes.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<imgs/sis_mass_mola_1.png, id=185, 927.465pt x 421.575pt>
+<imgs/sis_mass_mola_1.png, id=189, 927.465pt x 421.575pt>
 File: imgs/sis_mass_mola_1.png Graphic file (type png)
 <use imgs/sis_mass_mola_1.png>
-Package pdftex.def Info: imgs/sis_mass_mola_1.png  used on input line 203.
+Package pdftex.def Info: imgs/sis_mass_mola_1.png  used on input line 207.
 (pdftex.def)             Requested size: 349.06227pt x 158.66273pt.
  [4 <./imgs/sis_mass_mola_1.png>]
-<imgs/sis_mass_mola_1_dcl.png, id=201, 306.14375pt x 276.03125pt>
+<imgs/sis_mass_mola_1_dcl.png, id=205, 306.14375pt x 276.03125pt>
 File: imgs/sis_mass_mola_1_dcl.png Graphic file (type png)
 <use imgs/sis_mass_mola_1_dcl.png>
-Package pdftex.def Info: imgs/sis_mass_mola_1_dcl.png  used on input line 217.
+Package pdftex.def Info: imgs/sis_mass_mola_1_dcl.png  used on input line 221.
 (pdftex.def)             Requested size: 149.6003pt x 134.88583pt.
  [5 <./imgs/sis_mass_mola_1_dcl.png>]
-<imgs/mola_eq_1.png, id=219, 548.0475pt x 153.57375pt>
+<imgs/mola_eq_1.png, id=223, 548.0475pt x 153.57375pt>
 File: imgs/mola_eq_1.png Graphic file (type png)
 <use imgs/mola_eq_1.png>
-Package pdftex.def Info: imgs/mola_eq_1.png  used on input line 276.
+Package pdftex.def Info: imgs/mola_eq_1.png  used on input line 280.
 (pdftex.def)             Requested size: 224.39664pt x 62.88127pt.
-<imgs/mola_eq_2.png, id=220, 710.655pt x 238.8925pt>
+<imgs/mola_eq_2.png, id=224, 710.655pt x 238.8925pt>
 File: imgs/mola_eq_2.png Graphic file (type png)
 <use imgs/mola_eq_2.png>
-Package pdftex.def Info: imgs/mola_eq_2.png  used on input line 284.
+Package pdftex.def Info: imgs/mola_eq_2.png  used on input line 288.
 (pdftex.def)             Requested size: 224.39664pt x 75.43379pt.
-<imgs/mola_eq_3.png, id=221, 396.48125pt x 297.11pt>
+<imgs/mola_eq_3.png, id=225, 396.48125pt x 297.11pt>
 File: imgs/mola_eq_3.png Graphic file (type png)
 <use imgs/mola_eq_3.png>
-Package pdftex.def Info: imgs/mola_eq_3.png  used on input line 293.
+Package pdftex.def Info: imgs/mola_eq_3.png  used on input line 297.
 (pdftex.def)             Requested size: 112.19832pt x 84.07426pt.
 
-Overfull \hbox (5.13506pt too wide) in paragraph at lines 271--301
+Overfull \hbox (5.13506pt too wide) in paragraph at lines 275--305
  [][] 
  []
 
 [6 <./imgs/mola_eq_1.png> <./imgs/mola_eq_2.png> <./imgs/mola_eq_3.png>]
-<imgs/mola_eq_5.png, id=232, 405.515pt x 190.7125pt>
+<imgs/mola_eq_5.png, id=236, 405.515pt x 190.7125pt>
 File: imgs/mola_eq_5.png Graphic file (type png)
 <use imgs/mola_eq_5.png>
-Package pdftex.def Info: imgs/mola_eq_5.png  used on input line 324.
+Package pdftex.def Info: imgs/mola_eq_5.png  used on input line 328.
 (pdftex.def)             Requested size: 119.68068pt x 56.28587pt.
-<imgs/mola_eq_6.png, id=233, 152.57pt x 479.7925pt>
+<imgs/mola_eq_6.png, id=237, 152.57pt x 479.7925pt>
 File: imgs/mola_eq_6.png Graphic file (type png)
 <use imgs/mola_eq_6.png>
-Package pdftex.def Info: imgs/mola_eq_6.png  used on input line 336.
+Package pdftex.def Info: imgs/mola_eq_6.png  used on input line 340.
 (pdftex.def)             Requested size: 29.9196pt x 94.08992pt.
-<imgs/sis_torcional.png, id=234, 507.8975pt x 258.9675pt>
+<imgs/sis_torcional.png, id=238, 507.8975pt x 258.9675pt>
 File: imgs/sis_torcional.png Graphic file (type png)
 <use imgs/sis_torcional.png>
-Package pdftex.def Info: imgs/sis_torcional.png  used on input line 353.
+Package pdftex.def Info: imgs/sis_torcional.png  used on input line 357.
 (pdftex.def)             Requested size: 249.33128pt x 127.12831pt.
  [7 <./imgs/mola_eq_5.png> <./imgs/mola_eq_6.png> <./imgs/sis_torcional.png>]
-<imgs/sis_massa_mola_amortecedor.png, id=251, 647.41875pt x 265.99374pt>
+<imgs/sis_massa_mola_amortecedor.png, id=255, 647.41875pt x 265.99374pt>
 File: imgs/sis_massa_mola_amortecedor.png Graphic file (type png)
 <use imgs/sis_massa_mola_amortecedor.png>
-Package pdftex.def Info: imgs/sis_massa_mola_amortecedor.png  used on input line 397.
+Package pdftex.def Info: imgs/sis_massa_mola_amortecedor.png  used on input line 401.
 (pdftex.def)             Requested size: 199.46198pt x 81.94986pt.
  [8 <./imgs/sis_massa_mola_amortecedor.png>] [9]
-<imgs/sis_massa_mola_harmo.png, id=277, 811.03pt x 430.60875pt>
+<imgs/sis_massa_mola_harmo.png, id=281, 811.03pt x 430.60875pt>
 File: imgs/sis_massa_mola_harmo.png Graphic file (type png)
 <use imgs/sis_massa_mola_harmo.png>
-Package pdftex.def Info: imgs/sis_massa_mola_harmo.png  used on input line 490.
+Package pdftex.def Info: imgs/sis_massa_mola_harmo.png  used on input line 494.
 (pdftex.def)             Requested size: 249.33128pt x 132.37689pt.
  [10 <./imgs/sis_massa_mola_harmo.png>]
-<imgs/batimento.png, id=286, 592.2125pt x 461.725pt>
+<imgs/batimento.png, id=290, 592.2125pt x 461.725pt>
 File: imgs/batimento.png Graphic file (type png)
 <use imgs/batimento.png>
-Package pdftex.def Info: imgs/batimento.png  used on input line 558.
+Package pdftex.def Info: imgs/batimento.png  used on input line 562.
 (pdftex.def)             Requested size: 249.33128pt x 194.39522pt.
-<imgs/reso.png, id=287, 596.2275pt x 433.62pt>
+<imgs/reso.png, id=291, 596.2275pt x 433.62pt>
 File: imgs/reso.png Graphic file (type png)
 <use imgs/reso.png>
-Package pdftex.def Info: imgs/reso.png  used on input line 563.
+Package pdftex.def Info: imgs/reso.png  used on input line 567.
 (pdftex.def)             Requested size: 249.33128pt x 181.33179pt.
  [11 <./imgs/batimento.png> <./imgs/reso.png>] [12]
-<imgs/fator_ampl.png, id=309, 562.1pt x 421.575pt>
+<imgs/fator_ampl.png, id=314, 562.1pt x 421.575pt>
 File: imgs/fator_ampl.png Graphic file (type png)
 <use imgs/fator_ampl.png>
-Package pdftex.def Info: imgs/fator_ampl.png  used on input line 639.
+Package pdftex.def Info: imgs/fator_ampl.png  used on input line 643.
 (pdftex.def)             Requested size: 249.33128pt x 186.99881pt.
  [13 <./imgs/fator_ampl.png (PNG copy)>]
-<imgs/desb_rotativo.png, id=318, 718.685pt x 385.44pt>
+<imgs/desb_rotativo.png, id=322, 718.685pt x 385.44pt>
 File: imgs/desb_rotativo.png Graphic file (type png)
 <use imgs/desb_rotativo.png>
-Package pdftex.def Info: imgs/desb_rotativo.png  used on input line 653.
+Package pdftex.def Info: imgs/desb_rotativo.png  used on input line 657.
 (pdftex.def)             Requested size: 249.33128pt x 133.71799pt.
  [14 <./imgs/desb_rotativo.png>]
-<imgs/trans.png, id=332, 348.30125pt x 403.5075pt>
+<imgs/trans.png, id=336, 348.30125pt x 403.5075pt>
 File: imgs/trans.png Graphic file (type png)
 <use imgs/trans.png>
-Package pdftex.def Info: imgs/trans.png  used on input line 695.
+Package pdftex.def Info: imgs/trans.png  used on input line 699.
 (pdftex.def)             Requested size: 99.73099pt x 115.53648pt.
  [15 <./imgs/trans.png>]
-<imgs/osci_suporte.png, id=347, 684.5575pt x 335.2525pt>
+<imgs/osci_suporte.png, id=351, 684.5575pt x 335.2525pt>
 File: imgs/osci_suporte.png Graphic file (type png)
 <use imgs/osci_suporte.png>
-Package pdftex.def Info: imgs/osci_suporte.png  used on input line 749.
+Package pdftex.def Info: imgs/osci_suporte.png  used on input line 753.
 (pdftex.def)             Requested size: 249.33128pt x 122.1078pt.
  [16 <./imgs/osci_suporte.png>] [17] [18]
-<imgs/receptancia.png, id=379, 418.40526pt x 324.83463pt>
+<imgs/receptancia.png, id=383, 418.40526pt x 324.83463pt>
 File: imgs/receptancia.png Graphic file (type png)
 <use imgs/receptancia.png>
-Package pdftex.def Info: imgs/receptancia.png  used on input line 899.
+Package pdftex.def Info: imgs/receptancia.png  used on input line 903.
 (pdftex.def)             Requested size: 249.33128pt x 193.5739pt.
  [19 <./imgs/receptancia.png (PNG copy)>]
-<imgs/mobilidade.png, id=387, 426.01263pt x 319.50948pt>
+<imgs/mobilidade.png, id=391, 426.01263pt x 319.50948pt>
 File: imgs/mobilidade.png Graphic file (type png)
 <use imgs/mobilidade.png>
-Package pdftex.def Info: imgs/mobilidade.png  used on input line 918.
-(pdftex.def)             Requested size: 249.33128pt x 187.00249pt.
- [20 <./imgs/mobilidade.png (PNG copy)>] (./Notes.aux)
+Package pdftex.def Info: imgs/mobilidade.png  used on input line 922.
+(pdftex.def)             Requested size: 199.46198pt x 149.59906pt.
+<imgs/inertancia.png, id=392, 418.40526pt x 324.83463pt>
+File: imgs/inertancia.png Graphic file (type png)
+<use imgs/inertancia.png>
+Package pdftex.def Info: imgs/inertancia.png  used on input line 940.
+(pdftex.def)             Requested size: 199.46198pt x 154.85812pt.
+ [20 <./imgs/mobilidade.png (PNG copy)> <./imgs/inertancia.png (PNG copy)>] [21] (./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: F4B43BCE7A1B9A2DF68F2008E28F40EC;6194.
+(rerunfilecheck)             Checksum: B984E34A59FA59B51E8F45DFE7E8D5F4;6431.
  ) 
 Here is how much of TeX's memory you used:
- 21675 strings out of 478287
- 401714 string characters out of 5849290
- 678405 words of memory out of 5000000
- 39374 multiletter control sequences out of 15000+600000
+ 21689 strings out of 478287
+ 401955 string characters out of 5849290
+ 678433 words of memory out of 5000000
+ 39383 multiletter control sequences out of 15000+600000
  479512 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,104p,620b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,21n,104p,620b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Notes.pdf (20 pages, 697001 bytes).
+Output written on Notes.pdf (21 pages, 712672 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 144 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 364 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,155 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{Resistência dos Materiais - I}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{tabularx} % in the preamble
+
+
+% Create a Todo list
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+% Begin the Document 
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+% Add the image inside a figure in as the first page
+% \begin{figure}[h]
+%     \begin{center}
+%         \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+%     \end{center}
+% \end{figure}
+
+% Change to the Next page 
+\newpage
+\tableofcontents
+\newpage
+
+\section{Computer Abstractions and Technology}
+\subsection*{Abstraction}
+Abstraction helps us deal with complexity, by hiding lower-lever implementation details. An example of that is the ISA (instruction set architecture), which is the abstraction from the hardware to the software, or like an API (commom on OS, web, etc).
+
+\subsection*{Memory}
+Memory, which is a place to store data, can be divided into two different large types:
+\begin{enumerate}
+    \item \emph{Volatile memory}: Needs power to maintain stored data, like RAM.
+    \item \emph{Non-volatile memory}: Persistent data storage, like magnetic disk, DVD, etc.
+\end{enumerate}
+
+Although it might seem like better to always have non-volatile memory, it comes with a change in both paradigma (it may impact safety, configuration, etc) and pricing (it is cheaper to have large quantities of non-volitile memory, or at least it was that way).
+
+\subsection*{Networks}
+In today's day and age, networking has become an integral part on the world of computing. It is resposible fo the communication between devices, resource sharing, non local access, etc.
+
+Can be divided into three general areas:
+\begin{enumerate}
+    \item Local Area Network (LAN): Ethernet
+    \item Wide Area Network (WAN): The internet
+    \item Wireless network: WiFi, Bluetooth, ...
+\end{enumerate}
+
+\subsection*{Technology Trends}
+In general, since the instruction of computers, the evolution of the processing power of the CPUs have basically grown exponentialy. Th speed of the memories, however, have grown at a much slower rate (almos linear in comparision). That results in what its called \emph{the memory wall}, which is the name given to the discrepancy between the speeds of the processors and memories.
+
+[INSERT IMAGES OF BOTH HERE]
+
+\subsection*{Performance}
+\subsubsection*{Indicators}
+Although when we talk about performance, we always associate it with speed, that might not give the whole picture. A clear example of that is the bellow chart, describing different types of performance metrics that might be used to characterize an airplane, which gives a general idea that there are different ways of measuring how a system behaves, and that each might be interesting to a different stakeholder.
+
+When it comes down to processor/computer systems, the two main indicators are:
+\begin{enumerate}
+    \item Reponse Time: How long it tkes to do a task, which might be important for the processor that runs the flight controller of an airplane.
+    \item Throughput: Total work done per unit time, which might be important for a server being requested hundreds of times a second.
+\end{enumerate}
+
+The impact in each of these matrics are directly impacted by processor architecture, which a desition might impact one or both.
+
+\subsubsection*{Relative Performance}
+When choosing the right hardware/system for your problem, it is important to be able to have metrics to compare the two. Taking into account \emph{Execution Time}, we might have:
+\begin{itemize}
+    \item \emph{Performance}: Defined as $1/Execution \ Time$
+    \item \emph{Speed Up/Down}: We say "X is $n$ times faster the Y", where $n = Execution \ Time_y / Execution \ time_x$ \footnote{It is important to notice that the order inverts, to say there was a \emph{speed up}, the lowest value should be in the denominator}
+\end{itemize}
+
+\subsubsection*{Measuring Execution Time}
+We just saw that it is important to be able to measure relative performance, but for that we need to be able to measure time. To do so, there are a couple of ways of doing so, each with their draw backs:
+\begin{itemize}
+    \item Elapsed Time: Total response time, including all external factors, that might not be related to the task at hand (e.g I/O). Used a lot when referring to user experience.
+    \item CPU Time: Time spent processing a given job, without considering other job's share, used heavily when analyzing scientific computing.
+\end{itemize}
+
+To check elapsed time, we can simply use an external timer, or the one on the OS. For CPU time, on the other hand, it is calculated based on the number of clock cycles and its period, show bellow (where CLK Rate refers to the Clocks frequency):
+\begin{align}
+    CPU \ Time &= CPU \ CLK\ Cycles \times CLK \ Cycle \ Time \\
+               &= \frac{CPU CLK Cycle}{CLK Rate}
+\end{align}
+
+There is, however, a direct relationship between CLK frequency and cycle count, where, if the frequency gets too high, the cycle count must also increase, for the time per cycle is not enough for the tasks to be finished.
+
+It is also important to note that the execution time is strictly intertwined with the environment which the code was generated (compiler, architecture, ...).
+
+$\\$
+\textbf{CPU TIME EXAMPLE} $\rightarrow$ A computer A has a 2GHz clock, and a CPU Time of 10s. The target is to develop a computer B, that aims to have a 6s CPU time and a faster clock, which results in a clock count of $1.2 \times clock \ cycles$. How fast must computer B's clock be?
+
+$\\$
+
+$\circ$ When he asks about "fast" he actually means the clock rate, which is give by:
+\begin{align*}
+    CLK \ Rate_B = \frac{CLK \ Cycle_B}{CPU \ Time_B} = \frac{1.2 \times CLK\ Cycles_A}{6s}
+\end{align*}
+
+$\circ$ As we can see, we need to calculate the clock cycles of A, which is described by:
+\begin{align*}
+    CLK\ Cycles_A &= CPU \ Time_A \times CLK\ Rate_A \\ 
+                  &= 10s \times 2GHz = 20 \times 10^9
+\end{align*}
+
+$\circ$ Therefore we have the following clock rate for B:
+\begin{align*}
+    CLK\ Rate_B = 4GHz
+\end{align*}
+
+There is, however, another way of calculating the CPU time, using the \emph{Cycles per instruction}, which is an average number of clock cycles needed for instructions. The CPU time is given by:
+\begin{align}
+    CPU\ Time = \frac{Instruction\ Count \times CPI}{CLK \ Rate}
+\end{align}
+
+If different instruction classes existis, however, the CPI becomes a weighted average:
+\begin{align}
+    CPI = \frac{CLK \ Cycles}{Instruction \ Count} = \sum_{i = 1} \left(CPI_i \times \underbrace{\frac{Instruction\ Count_i}{Instruction\ Count}}_{Relative\ Frequency}\right)
+\end{align}
+\end{document}

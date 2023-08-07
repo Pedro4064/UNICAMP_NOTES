@@ -11,3 +11,6 @@
 \contentsline {subsection}{\numberline {1.7}Multiprocessors}{6}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}SPEC CPU Benchmark}{6}{subsection.1.8}%
 \contentsline {subsection}{\numberline {1.9}Optimization Pitfall: Amdahl's Law}{6}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Instruction Set Architecture - ISA}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Instruction Set}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Arithmetic Operations}{6}{subsection.2.2}%

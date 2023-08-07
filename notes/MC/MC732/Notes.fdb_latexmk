@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1691437560 "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" "Notes.pdf" "Notes" 1691437563 0
-  "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" 1691437559 10555 1c9fc6ec9053f81233196aca95f9988d ""
+["pdflatex"] 1691440910 "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" "Notes.pdf" "Notes" 1691440913 0
+  "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" 1691440909 12721 a5a540ebc7be0352cce2480f50f0e0e6 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -165,10 +165,10 @@
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1678549815 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1690505680 40748 4081c8bc921e56c865f975bd762e388c ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884135 0c05592719e595eed17ae4713704508d ""
-  "Notes.aux" 1691437562 2506 6a2986016bc9b7f04efa2b1fcd47d773 "pdflatex"
-  "Notes.out" 1691437562 1935 c667d2e9b8a9fba819260c4f31537d78 "pdflatex"
-  "Notes.tex" 1691437559 10555 1c9fc6ec9053f81233196aca95f9988d ""
-  "Notes.toc" 1691437562 1105 112714961fb73527ac9aae809afce2e1 "pdflatex"
+  "Notes.aux" 1691440913 2887 aa33d578fb268f78639c0cd39a7d683f "pdflatex"
+  "Notes.out" 1691440913 2463 9582a5ddd7b859dfde0dc62a65ef5462 "pdflatex"
+  "Notes.tex" 1691440909 12721 a5a540ebc7be0352cce2480f50f0e0e6 ""
+  "Notes.toc" 1691440913 1363 8655009f0ba3734530ab5a9d6e51bb40 "pdflatex"
   "imgs/Memory-Access-vs-CPU-Speed.png" 1691429009 20219 bf703f9eb36cc6b602b7de9f302573e9 ""
   "imgs/performance_eg.png" 1691429311 61117 91a888facd5799c4f528b26427ecf503 ""
   (generated)

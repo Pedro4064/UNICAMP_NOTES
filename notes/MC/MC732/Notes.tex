@@ -197,4 +197,33 @@ An example is that, if you improve the multiplication computing, which is respon
     T_{improved} = \frac{T_{affected}}{improvement \ factor} + T_{unaffected}
 \end{align}
 
+\section{Instruction Set Architecture - ISA}
+\subsection{Instruction Set}
+The instruction set is just the name given to the group/repertoire of instructions that the processor is capable of handling. Therefore, it is important to note that the ISA is strictly related to the computer/architecture. 
+
+In the very beigining, computers had very simple instruction sets, but as the processors became more powerfull, they became more complex. In recent years, however, the industry went back to simpler instruction sets, since they result in simpler chips and, therefore, lower power consumption, hence the proliferation of \textbf{RISC architectures} (Reduced Instruction Set Computers), having RISC-V (open source) and AMR as the big players.
+
+\subsection{Arithmetic Operations}
+The base of any ISA, and therefore presente in the RISC-V ISA, are arithmetic operations, all which have the following form:
+
+% Make this code block
+\begin{center}
+    add t0, t1, t2 // t0 gets t1 + t2
+\end{center}
+
+This decision (having all arithmetic operations follow the above structure), and only being able to access registers for operands reflects the first and second design principles used, respectively:
+
+\textbf{Design Principle 1 $\rightarrow$} Simplicity favours regularity, which makes implementation simples and enables higher performance ar lower cost.
+
+\textbf{Design Principle 2 $\rightarrow$} Smaller is faster (\emph{e.g} main memory has millions of locations, registers are very limited and directly coupled to data bus).
 \end{document}
+
+\subsection{Memory Operands}
+In the RISC-V ISA, main memory is used for composite data, such as arrays, structures, and dynamic data. As said before, however, apply any arithmetic operation, first you need to load values from memory into registers, and then stores the resulting values from the registers to memory. 
+    
+Furthermore:
+\begin{itemize}
+    \item Memory is byte addressed, but most of the times you align the values to the word (32 bits $\therefore$ 4 bytes)
+    \item RISC-V is Little Endian, which meas that the least-significant byte at least address of a word
+    \item RISC-V does not require words to be aligned
+\end{itemize}

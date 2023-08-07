@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1691008332 "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" "Notes.pdf" "Notes" 1691008334 0
-  "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" 1691008331 7477 f6be6c12e33497bbfa1f8e64dcfca892 ""
+["pdflatex"] 1691431929 "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" "Notes.pdf" "Notes" 1691431933 0
+  "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" 1691431928 7884 bfe9f22724aec0209ec13bc671fda590 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -164,10 +164,12 @@
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1678549815 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1690505680 40748 4081c8bc921e56c865f975bd762e388c ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884135 0c05592719e595eed17ae4713704508d ""
-  "Notes.aux" 1691008334 687 960ee43d000a8129e571bdfe57d60961 "pdflatex"
-  "Notes.out" 1691008334 232 2b25a1ed98b2a7beda1777417a91810c "pdflatex"
-  "Notes.tex" 1691008331 7477 f6be6c12e33497bbfa1f8e64dcfca892 ""
-  "Notes.toc" 1691008334 92 b30e42f88295b5fb7f90806101fa3d2c "pdflatex"
+  "Notes.aux" 1691431932 1994 44d6f65c317c858deca38ccf1daa46e9 "pdflatex"
+  "Notes.out" 1691431932 1265 f9eb79bb9e44661267406aa7e0c9b29c "pdflatex"
+  "Notes.tex" 1691431928 7884 bfe9f22724aec0209ec13bc671fda590 ""
+  "Notes.toc" 1691431932 757 4a4f7b93a62736bd678c32b9a2cc1ba9 "pdflatex"
+  "imgs/Memory-Access-vs-CPU-Speed.png" 1691429009 20219 bf703f9eb36cc6b602b7de9f302573e9 ""
+  "imgs/performance_eg.png" 1691429311 61117 91a888facd5799c4f528b26427ecf503 ""
   (generated)
   "Notes.aux"
   "Notes.log"

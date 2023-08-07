@@ -872,4 +872,5 @@ INPUT /usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/a
 INPUT /usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
+INPUT /usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb

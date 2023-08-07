@@ -216,7 +216,6 @@ This decision (having all arithmetic operations follow the above structure), and
 \textbf{Design Principle 1 $\rightarrow$} Simplicity favours regularity, which makes implementation simples and enables higher performance ar lower cost.
 
 \textbf{Design Principle 2 $\rightarrow$} Smaller is faster (\emph{e.g} main memory has millions of locations, registers are very limited and directly coupled to data bus).
-\end{document}
 
 \subsection{Memory Operands}
 In the RISC-V ISA, main memory is used for composite data, such as arrays, structures, and dynamic data. As said before, however, apply any arithmetic operation, first you need to load values from memory into registers, and then stores the resulting values from the registers to memory. 
@@ -225,5 +224,11 @@ Furthermore:
 \begin{itemize}
     \item Memory is byte addressed, but most of the times you align the values to the word (32 bits $\therefore$ 4 bytes)
     \item RISC-V is Little Endian, which meas that the least-significant byte at least address of a word
-    \item RISC-V does not require words to be aligned
+    \item RISC-V does not require words to be aligned.
 \end{itemize}
+
+
+
+
+
+\end{document}

@@ -7,3 +7,7 @@
 \contentsline {subsubsection}{\numberline {1.5.1}Indicators}{4}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Relative Performance}{4}{subsubsection.1.5.2}%
 \contentsline {subsubsection}{\numberline {1.5.3}Measuring Execution Time}{4}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.6}Power Consumption}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Multiprocessors}{6}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}SPEC CPU Benchmark}{6}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Optimization Pitfall: Amdahl's Law}{6}{subsection.1.9}%

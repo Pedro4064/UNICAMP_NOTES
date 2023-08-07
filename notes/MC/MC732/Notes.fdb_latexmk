@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1691431929 "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" "Notes.pdf" "Notes" 1691431933 0
-  "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" 1691431928 7884 bfe9f22724aec0209ec13bc671fda590 ""
+["pdflatex"] 1691437560 "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" "Notes.pdf" "Notes" 1691437563 0
+  "/Users/pedrohlcruz/Documents/Unicamp/UNICAMP_NOTES/notes/MC/MC732/Notes.tex" 1691437559 10555 1c9fc6ec9053f81233196aca95f9988d ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -32,6 +32,7 @@
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1678549815 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1678549815 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1678549815 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1678549815 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1678549815 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1678549815 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1678549815 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -164,10 +165,10 @@
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1678549815 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1690505680 40748 4081c8bc921e56c865f975bd762e388c ""
   "/usr/local/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884135 0c05592719e595eed17ae4713704508d ""
-  "Notes.aux" 1691431932 1994 44d6f65c317c858deca38ccf1daa46e9 "pdflatex"
-  "Notes.out" 1691431932 1265 f9eb79bb9e44661267406aa7e0c9b29c "pdflatex"
-  "Notes.tex" 1691431928 7884 bfe9f22724aec0209ec13bc671fda590 ""
-  "Notes.toc" 1691431932 757 4a4f7b93a62736bd678c32b9a2cc1ba9 "pdflatex"
+  "Notes.aux" 1691437562 2506 6a2986016bc9b7f04efa2b1fcd47d773 "pdflatex"
+  "Notes.out" 1691437562 1935 c667d2e9b8a9fba819260c4f31537d78 "pdflatex"
+  "Notes.tex" 1691437559 10555 1c9fc6ec9053f81233196aca95f9988d ""
+  "Notes.toc" 1691437562 1105 112714961fb73527ac9aae809afce2e1 "pdflatex"
   "imgs/Memory-Access-vs-CPU-Speed.png" 1691429009 20219 bf703f9eb36cc6b602b7de9f302573e9 ""
   "imgs/performance_eg.png" 1691429311 61117 91a888facd5799c4f528b26427ecf503 ""
   (generated)

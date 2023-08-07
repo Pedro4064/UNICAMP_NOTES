@@ -162,4 +162,39 @@ $\circ$ Therefore we have the following clock rate for B:
     CLK\ Rate_B = 4GHz
 \end{align*}
 
+\subsection{Power Consumption}
+All modern computers use the CMOS IC technology, which consumes the following amount of power:
+\begin{align}
+    Power = Capacitive \ load \times Voltage^2 \times Frequency
+\end{align}
+
+The most important thing to keep in mind is that the power is proportional to the square of the voltage used in the processor. That voltage has seen a drastic drop in modern computing, reaching a physical limit, where we cannot go any lower, but because of the incredible high clock speeds, the power generate is also big, to a point where we also cannot remove more heat.
+
+The solution to having more processing power but not worrying about temperature dissipation in one die (one silicon chip), we moved from single core to multi-core architectures.
+
+\subsection{Multiprocessors}
+As state previously, a multiprocessor architecture s comprised of multiple processors per chip (as in a quad-core, octa-core CPU), which is very differente from a single core architecture. That shift in paradigma creates a series of difficulties, since there is a need for explicit parallel programing, which by it self is hard because:
+\begin{itemize}
+    \item It is harder to program for performance in a multi-core architecture
+    \item The need for a load balancing strategy rises
+    \item Optimizing communication and synchronization
+\end{itemize}
+
+\subsection{SPEC CPU Benchmark}
+
+When we talked about performance, we were talking about the performance measured based on a program/ algorithm. In order to standerdize which tests/algorithms are run to compare the results between CPU architectures, we run a \emph{Benchmark}, which is a specialized program made to emulate a typical workload and measure the performance.
+
+Furthermore, in order to have more statistical relevance, the performance is measured and normalized against a reference machine, and summarized as geometric mean of performance rations, following the formula bellow:
+\begin{align}
+    \sqrt[n]{\Pi ^n _i Execution\ time\ ration_i}
+\end{align}
+
+\subsection{Optimization Pitfall: Amdahl's Law}
+Im a lot of cases, when people optimize a certain aspect of the computing, they expect an overall improvement on performance. That, however, is not possible, since the improvement is applicable only to the time spent by such operation. 
+
+An example is that, if you improve the multiplication computing, which is responsible for 80s out of the 100s of the whole computation, $5\times$ faster, we wont have a $5\times$ boost in overall performance, but rather the improved final time is given by:
+\begin{align}
+    T_{improved} = \frac{T_{affected}}{improvement \ factor} + T_{unaffected}
+\end{align}
+
 \end{document}

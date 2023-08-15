@@ -1,0 +1,84 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{EM335 - Tecnologia Mecânica}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{tabularx} % in the preamble
+
+
+% Create a Todo list
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+% Begin the Document 
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+% Add the image inside a figure in as the first page
+% \begin{figure}[h]
+%     \begin{center}
+%         \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+%     \end{center}
+% \end{figure}
+
+% Change to the Next page 
+\newpage
+\tableofcontents
+\newpage
+
+\section{Sistema de Tolerâncias e ajustes}
+Em empresas muito grandes, e em projetos multidiciplinares, é normal que diferentes peças de um mesmo sistemas sejam fabricadas por empresas diferentes. Para que tais peças sejam compatíveis umas
+com as outras, é muito importante a padronização do sistemas de tolerâncias e ajustes, e que todas os stakeholders as sigam. 
+
+De forma geral, o sitema de tolerâncias e ajustes prevê 18 graus de tolerâncias-padrão, 
+
+\subsections{Calibradores}
+Em uma linha de produção, é importante sermos capazes de verificar se uma peça fabricada está dentro das especificação do projeto. Isso, entretanto, não pode demorar muito e não pode 
+se tornar um bottle-neck. Para tal, é muito usado um calibrador "passa, não passa", onde um lado representa uma dimenção dentro das especificações e o outro não, se passar no lado repreesntativo da dimenção fora do padrão, a peça é rejeitada.
+
+Ha, também, outros tipos, como:
+\begin{itemize}
+    \item Calibrador de bica ajustável
+    \item Calibrador de rosca
+\end{itemize}
+
+Como os próprios calibradores precisam ser manufaturados, eles seguem graus de tolerânica padrão entre IT4 até IT11. Já entre a IT5 até IT 11 para peças que são acoplados.
+
+\subsection{Série de Renard}
+Quando estamos falando de sistemas de tolerâncias, estamos falando nada mais do que um grupo de valores aceitáveis a depender do tamanho nominal de uma peça VS tamanho real fabricado. 
+Essa relação, entretanto, não faz sentido ser constante ou até mesmo linear (i.e o limite das dimenções aceitáveis para uma peça de 10mm é bem menor do que o limite das dimenções de peças de 1m). Para desenvolvermos um sistema que padroniza, em intervalos fáceis de calcular, mas que seguem a ideia das tolerâncias crescerem conforme as dimenções nomiais crescem, nós usamos a série de Renard, que calcula a série geométrica para que haja $n$ intervalos entre 10 e 100, como por exemplo:
+
+
+\end{document}

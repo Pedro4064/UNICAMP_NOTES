@@ -1,0 +1,234 @@
+\documentclass{article}
+
+\author{Pedro Henrique Limeira da Cruz}
+\title{MC732 - Computer Organization and Design}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{tabularx} % in the preamble
+
+
+% Create a Todo list
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+% Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
+\newcommand{\n}{\nonumber \\ }
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+% Set the style of the page 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Pedro Henrique L. da Cruz}
+\lhead{\inserttitle}
+\rfoot{Page \thepage}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+% Begin the Document 
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+% Add the image inside a figure in as the first page
+% \begin{figure}[h]
+%     \begin{center}
+%         \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+%     \end{center}
+% \end{figure}
+
+% Change to the Next page 
+\newpage
+\tableofcontents
+\newpage
+
+\section{Computer Abstractions and Technology}
+\subsection{Abstraction}
+Abstraction helps us deal with complexity, by hiding lower-lever implementation details. An example of that is the ISA (instruction set architecture), which is the abstraction from the hardware to the software, or like an API (commom on OS, web, etc).
+
+\subsection{Memory}
+Memory, which is a place to store data, can be divided into two different large types:
+\begin{enumerate}
+    \item \emph{Volatile memory}: Needs power to maintain stored data, like RAM.
+    \item \emph{Non-volatile memory}: Persistent data storage, like magnetic disk, DVD, etc.
+\end{enumerate}
+
+Although it might seem like better to always have non-volatile memory, it comes with a change in both paradigma (it may impact safety, configuration, etc) and pricing (it is cheaper to have large quantities of non-volitile memory, or at least it was that way).
+
+\subsection{Networks}
+In today's day and age, networking has become an integral part on the world of computing. It is resposible fo the communication between devices, resource sharing, non local access, etc.
+
+Can be divided into three general areas:
+\begin{enumerate}
+    \item Local Area Network (LAN): Ethernet
+    \item Wide Area Network (WAN): The internet
+    \item Wireless network: WiFi, Bluetooth, ...
+\end{enumerate}
+
+\subsection{Technology Trends}
+In general, since the instruction of computers, the evolution of the processing power of the CPUs have basically grown exponentialy. Th speed of the memories, however, have grown at a much slower rate (almos linear in comparision). That results in what its called \emph{the memory wall}, which is the name given to the discrepancy between the speeds of the processors and memories.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{imgs/Memory-Access-vs-CPU-Speed.png}
+    \caption{Performance of Memory vs Processor over the years}
+\end{figure}
+
+\subsection{Performance}
+\subsubsection{Indicators}
+Although when we talk about performance, we always associate it with speed, that might not give the whole picture. A clear example of that is the bellow chart, describing different types of performance metrics that might be used to characterize an airplane, which gives a general idea that there are different ways of measuring how a system behaves, and that each might be interesting to a different stakeholder.
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=.7\textwidth]{imgs/performance_eg.png}
+    \end{center}
+    \caption{Different Performance Metrics for Airplanes}
+\end{figure}
+When it comes down to processor/computer systems, the two main indicators are:
+\begin{enumerate}
+    \item Response Time: How long it takes to do a task, which might be important for the processor that runs the flight controller of an airplane.
+    \item Throughput: Total work done per unit time, which might be important for a server being requested hundreds of times a second.
+\end{enumerate}
+
+\subsubsection{Relative Performance}
+When choosing the right hardware/system for your problem, it is important to be able to have metrics to compare the two. Taking into account \emph{Execution Time}, we might have:
+\begin{itemize}
+    \item \emph{Performance}: Defined as $1/Execution \ Time$
+    \item \emph{Speed Up/Down}: We say "X is $n$ times faster the Y", where $n = Execution \ Time_y / Execution \ time_x$ \footnote{It is important to notice that the order inverts, to say there was a \emph{speed up}, the lowest value should be in the denominator}
+\end{itemize}
+
+\subsubsection{Measuring Execution Time}
+We just saw that it is important to be able to measure relative performance, but for that we need to be able to measure the time required to run a determined application or bench mark. To do so, there are a couple of ways, each with their draw backs:
+\begin{itemize}
+    \item Elapsed Time: Total response time, including all external factors, that might not be related to the task at hand (e.g I/O). Used a lot when referring to user experience.
+    \item CPU Time: Time spent processing a given job, without considering other job's share, used heavily when analyzing scientific computing.
+\end{itemize}
+
+To check elapsed time, we can simply use an external timer, or the one on the OS. For CPU time, on the other hand, it is calculated based on the number of clock cycles and its period, shown bellow (where CLK Rate refers to the Clocks frequency, and CLK Cycles refers to the number of cycles required for the application, which some times it's refered to as \emph{CLK Count}):
+\begin{align}
+    CPU \ Time &= CPU \ CLK\ Cycles \times CLK \ Cycle \ Time \\
+               &= \frac{CPU\ CLK\ Cycle}{CLK\ Rate}
+\end{align}
+
+There is, however, a \textbf{direct relationship between CLK frequency and cycle count}, where, if the frequency gets too high, the cycle count must also increase, for the time per cycle is not enough for the tasks to be finished.
+
+It is also important to note that the execution time is strictly intertwined with the environment which the code was generated (compiler, architecture, ...).
+
+Another way of calculating the CPU time is by using the \emph{Cycles per instruction}, which is an average number of clock cycles needed for instructions. The CPU time is given by:
+\begin{align}
+    CPU\ Time = \frac{Instruction\ Count \times CPI}{CLK \ Rate}
+\end{align}
+
+If different instruction classes existis, however, the CPI becomes a weighted average:
+\begin{align}
+    CPI = \frac{CLK \ Cycles}{Instruction \ Count} = \sum_{i = 1} \left(CPI_i \times \underbrace{\frac{Instruction\ Count_i}{Instruction\ Count}}_{Relative\ Frequency}\right)
+\end{align}
+
+
+$\\$
+\textbf{CPU TIME EXAMPLE} $\rightarrow$ A computer A has a 2GHz clock, and a CPU Time of 10s. The target is to develop a computer B, that aims to have a 6s CPU time and a faster clock, which results in a clock count of $1.2 \times clock \ cycles$. How fast must computer B's clock be?
+
+$\\$
+
+$\circ$ When he asks about "fast" he actually means the clock rate, which is give by:
+\begin{align*}
+    CLK \ Rate_B = \frac{CLK \ Cycle_B}{CPU \ Time_B} = \frac{1.2 \times CLK\ Cycles_A}{6s}
+\end{align*}
+
+$\circ$ As we can see, we need to calculate the clock cycles of A, which is described by:
+\begin{align*}
+    CLK\ Cycles_A &= CPU \ Time_A \times CLK\ Rate_A \\ 
+                  &= 10s \times 2GHz = 20 \times 10^9
+\end{align*}
+
+$\circ$ Therefore we have the following clock rate for B:
+\begin{align*}
+    CLK\ Rate_B = 4GHz
+\end{align*}
+
+\subsection{Power Consumption}
+All modern computers use the CMOS IC technology, which consumes the following amount of power:
+\begin{align}
+    Power = Capacitive \ load \times Voltage^2 \times Frequency
+\end{align}
+
+The most important thing to keep in mind is that the power is proportional to the square of the voltage used in the processor. That voltage has seen a drastic drop in modern computing, reaching a physical limit, where we cannot go any lower, but because of the incredible high clock speeds, the power generate is also big, to a point where we also cannot remove more heat.
+
+The solution to having more processing power but not worrying about temperature dissipation in one die (one silicon chip), we moved from single core to multi-core architectures.
+
+\subsection{Multiprocessors}
+As state previously, a multiprocessor architecture s comprised of multiple processors per chip (as in a quad-core, octa-core CPU), which is very differente from a single core architecture. That shift in paradigma creates a series of difficulties, since there is a need for explicit parallel programing, which by it self is hard because:
+\begin{itemize}
+    \item It is harder to program for performance in a multi-core architecture
+    \item The need for a load balancing strategy rises
+    \item Optimizing communication and synchronization
+\end{itemize}
+
+\subsection{SPEC CPU Benchmark}
+
+When we talked about performance, we were talking about the performance measured based on a program/ algorithm. In order to standerdize which tests/algorithms are run to compare the results between CPU architectures, we run a \emph{Benchmark}, which is a specialized program made to emulate a typical workload and measure the performance.
+
+Furthermore, in order to have more statistical relevance, the performance is measured and normalized against a reference machine, and summarized as geometric mean of performance rations, following the formula bellow:
+\begin{align}
+    \sqrt[n]{\Pi ^n _i Execution\ time\ ration_i}
+\end{align}
+
+\subsection{Optimization Pitfall: Amdahl's Law}
+Im a lot of cases, when people optimize a certain aspect of the computing, they expect an overall improvement on performance. That, however, is not possible, since the improvement is applicable only to the time spent by such operation. 
+
+An example is that, if you improve the multiplication computing, which is responsible for 80s out of the 100s of the whole computation, $5\times$ faster, we wont have a $5\times$ boost in overall performance, but rather the improved final time is given by:
+\begin{align}
+    T_{improved} = \frac{T_{affected}}{improvement \ factor} + T_{unaffected}
+\end{align}
+
+\section{Instruction Set Architecture - ISA}
+\subsection{Instruction Set}
+The instruction set is just the name given to the group/repertoire of instructions that the processor is capable of handling. Therefore, it is important to note that the ISA is strictly related to the computer/architecture. 
+
+In the very beigining, computers had very simple instruction sets, but as the processors became more powerfull, they became more complex. In recent years, however, the industry went back to simpler instruction sets, since they result in simpler chips and, therefore, lower power consumption, hence the proliferation of \textbf{RISC architectures} (Reduced Instruction Set Computers), having RISC-V (open source) and AMR as the big players.
+
+\subsection{Arithmetic Operations}
+The base of any ISA, and therefore presente in the RISC-V ISA, are arithmetic operations, all which have the following form:
+
+% Make this code block
+\begin{center}
+    add t0, t1, t2 // t0 gets t1 + t2
+\end{center}
+
+This decision (having all arithmetic operations follow the above structure), and only being able to access registers for operands reflects the first and second design principles used, respectively:
+
+\textbf{Design Principle 1 $\rightarrow$} Simplicity favours regularity, which makes implementation simples and enables higher performance ar lower cost.
+
+\textbf{Design Principle 2 $\rightarrow$} Smaller is faster (\emph{e.g} main memory has millions of locations, registers are very limited and directly coupled to data bus).
+
+\subsection{Memory Operands}
+In the RISC-V ISA, main memory is used for composite data, such as arrays, structures, and dynamic data. As said before, however, apply any arithmetic operation, first you need to load values from memory into registers, and then stores the resulting values from the registers to memory. 
+    
+Furthermore:
+\begin{itemize}
+    \item Memory is byte addressed, but most of the times you align the values to the word (32 bits $\therefore$ 4 bytes)
+    \item RISC-V is Little Endian, which meas that the least-significant byte at least address of a word
+    \item RISC-V does not require words to be aligned.
+\end{itemize}
+
+
+
+
+
+\end{document}

@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Computer Abstractions and Technology}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Abstraction}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Memory}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Networks}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Technology Trends}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Performance}{4}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Indicators}{4}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Relative Performance}{4}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Measuring Execution Time}{4}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.6}Power Consumption}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Multiprocessors}{6}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}SPEC CPU Benchmark}{6}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Optimization Pitfall: Amdahl's Law}{6}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Instruction Set Architecture - ISA}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Instruction Set}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Arithmetic Operations}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Memory Operands}{7}{subsection.2.3}%

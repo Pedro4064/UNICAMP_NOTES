@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{subcaption}
 
 % Create a new command to be used in the align environment in multiple line equations do only the last equation is numbered  
 \newcommand{\n}{\nonumber \\ }
@@ -31,457 +32,947 @@
     urlcolor=black,
 }
 
+\newenvironment{rcases}
+  {\left.\begin{aligned}}
+  {\end{aligned}\right\rbrace}
+
 % Begin the Document 
 \begin{document}
 
-    \maketitle
-    \thispagestyle{empty}
-
-    % Add the image inside a figure in as the first page
-    \begin{figure}[h]
-        \begin{center}
-            \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
-        \end{center}
-    \end{figure}
+\maketitle
+\thispagestyle{empty}
 
-    % Change to the Next page 
-    \newpage
+% Add the image inside a figure in as the first page
+% \begin{figure}[h]
+%     \begin{center}
+%         \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+%     \end{center}
+% \end{figure}
 
-    \section[Rev. Dinâmica]{Revisão de Dinâmica}
+% Change to the Next page 
+\newpage
 
-        \subsection{Cinética Plana de Corpos Rígidos}
+\section[Rev. Dinâmica]{Revisão de Dinâmica}
 
-            \subsubsection[Intro]{Introdução}
-                A cinética de corpos rígidos trata das relações entre as forças externas sobre um corpo e seu movimento resultante (que é composto pela rotação e translação). Para a abordagem a seguir, o
-                corpo apresenta um \textbf{CG} (Centro de Massa / Centro de gravidade), de maneira que todas as forças que atuam sobre o corpo atuam sobre ele.
+\subsection{Cinética Plana de Corpos Rígidos}
 
-                No Total, para caracterizar totalmente o movimento de um corpo em um plano são necessárias 3 equações, sendo elas:
-                \begin{enumerate}
-                    \item Somatório de Forças no Eixo $X$
-                    \item Somatório de Forças no Eixo $Y$
-                    \item Somatório de Momentos Gerais
-                \end{enumerate}
+\subsubsection[Intro]{Introdução}
+A cinética de corpos rígidos trata das relações entre as forças externas sobre um corpo e seu movimento resultante (que é composto pela rotação e translação). Para a abordagem a seguir, o
+corpo apresenta um \textbf{CG} (Centro de Massa / Centro de gravidade), de maneira que todas as forças que atuam sobre o corpo atuam sobre ele.
 
-                Além disso, para analisarmos as formas e momentos supracitados, também é necessário (em primeiro lugar) a análise de \emph{DCL} (Diagrama de Corpo Livre).
+No Total, para caracterizar totalmente o movimento de um corpo em um plano são necessárias 3 equações, sendo elas:
+\begin{enumerate}
+    \item Somatório de Forças no Eixo $X$
+    \item Somatório de Forças no Eixo $Y$
+    \item Somatório de Momentos Gerais
+\end{enumerate}
 
-            \subsubsection[Eq. Gerais do Mov.]{Equações Gerais do Movimento}
+Além disso, para analisarmos as formas e momentos supracitados, também é necessário (em primeiro lugar) a análise de \emph{DCL} (Diagrama de Corpo Livre).
 
-                Como havia sido dito anteriormente, para descrevermos por completo o movimento de um corpo em um plano é necessário 3 equações, sendo duas de forças e uma de momento. Sendo elas:
-                \begin{align}
-                    \sum \vec F = m \cdot \vec{\bar a} = \dot{\vec{G}}_{CG} \label{eq:SomaDasForcasCg} \\
-                    \sum \vec M_G =  I \cdot \vec{\bar\alpha} = \dot{\vec{H}}_{CG} \label{eq:soma_dos_momentos_cg}
-                \end{align}
+\subsubsection[Eq. Gerais do Mov.]{Equações Gerais do Movimento}
 
-                Explorando mais as equações acima, temos que:
-                \begin{itemize}
-                    \item $\bar a$: Aceleração linear do centro de massa;
-                    \item $\alpha$: Aceleração angular do centro de massa;
-                    \item $\bar I$: Momento de inércia do corpo (i.e a medida de resistência à variação na velocidade de rotação devido à distribuição de massa em torno do CG)
-                    \item $\dot{\vec{G}}$: A variação no tempo da \emph{Quantidade de Movimento Linear} no \emph{CG}
-                    \item $\dot{\vec{H}}$: A variação no tempo da \emph{Quantidade de Movimento Angular} no \emph{CG}
-                \end{itemize}
+Como havia sido dito anteriormente, para descrevermos por completo o movimento de um corpo em um plano é necessário 3 equações, sendo duas de forças e uma de momento. Sendo elas:
+\begin{align}
+    \sum \vec F = m \cdot \vec{\bar a} = \dot{\vec{G}}_{CG} \label{eq:SomaDasForcasCg} \\
+    \sum \vec M_G =  I \cdot \vec{\bar\alpha} = \dot{\vec{H}}_{CG} \label{eq:soma_dos_momentos_cg}
+\end{align}
 
-                É válido ressaltar, ainda, que a \emph{Quantidade de Movimento Linear} e a \emph{Quantidade de Movimento Angular} são grandezas vetoriais que é definida pelo produto entre a velocidade (linear e angular)
-                com a inércia (i.e a massa e a momento de inércia). E são de suma importância pois tem relação direta com força e momento (como visto anteriormente).
+Explorando mais as equações acima, temos que:
+\begin{itemize}
+    \item $\bar a$: Aceleração linear do centro de massa;
+    \item $\alpha$: Aceleração angular do centro de massa;
+    \item $\bar I$: Momento de inércia do corpo (i.e a medida de resistência à variação na velocidade de rotação devido à distribuição de massa em torno do CG)
+    \item $\dot{\vec{G}}$: A variação no tempo da \emph{Quantidade de Movimento Linear} no \emph{CG}
+    \item $\dot{\vec{H}}$: A variação no tempo da \emph{Quantidade de Movimento Angular} no \emph{CG}
+\end{itemize}
 
+É válido ressaltar, ainda, que a \emph{Quantidade de Movimento Linear} e a \emph{Quantidade de Movimento Angular} são grandezas vetoriais que é definida pelo produto entre a velocidade (linear e angular)
+com a inércia (i.e a massa e a momento de inércia). E são de suma importância pois tem relação direta com força e momento (como visto anteriormente).
 
-            \subsubsection[Eq. Alternativa do Momento]{Equação Alternativa do Momento}
 
-                A fórmula \ref{eq:SomaDasForcasCg} modela a soma de momentos somente quando estamos analisando o sistema tomando como referencial o centro de gravidade \emph{CG}. Isso,
-                entretanto, nem sempre é possível, tendo em vista a complexidade que algumas topologias assumem, o que tornaria inviável fazer sua análise. Há, todavia, uma forma alternativa de
-                modelarmos o sistema, considerando um ponto $P$ arbitrário, a uma distância $d$ conhecida:
-                \begin{align}
-                    \sum \vec M_P = \bar I \cdot \alpha + m \bar a d \label{eq:soma_dos_momentos_ponto_p}
-                \end{align}
+\subsubsection[Eq. Alternativa do Momento]{Equação Alternativa do Momento}
 
-                Onde $a$ é a aceleração linear no centro de gravidade. 
-                
-                Ao analisarmos bem a equação, podemos observar que ela nada mais é do que o momento no próprio centro de gravidade, dado pela parcela $\bar I \alpha$, somado ao momento (também
-                chamado de torque) que a força resultante ($\sum F = m \bar a$) gera no ponto $P$ a uma distância $d$ do CG em análise.
+A fórmula \ref{eq:SomaDasForcasCg} modela a soma de momentos somente quando estamos analisando o sistema tomando como referencial o centro de gravidade \emph{CG}. Isso,
+entretanto, nem sempre é possível, tendo em vista a complexidade que algumas topologias assumem, o que tornaria inviável fazer sua análise. Há, todavia, uma forma alternativa de
+modelarmos o sistema, considerando um ponto $P$ arbitrário, a uma distância $d$ conhecida:
+\begin{align}
+    \sum \vec M_P = \bar I \cdot \alpha + m \bar a d \label{eq:soma_dos_momentos_ponto_p}
+\end{align}
 
-            \subsubsection[Sis. de Corps. Interligados]{Sistemas de Corpos Interligados}
-                
-                Em casos mais complexos, a principal topologia que encontramos é a de corpos extensos interligados. Um clássico exemplo disso é o problema do carro com pêndulo, onde temos um carro
-                (primeiro corpo) conectado a uma mola e a uma parede, que possui um pêndulo (segundo corpo) com seu  pivô de rotação localizado no \emph{CG} do carrinho.
-
-                Para problemas assim, temos a generalização das fórmulas, como sendo:
-
-                \begin{align}
-                    \sum \vec F = \sum m \vec{\bar a} \label{eq:soma_das_forcas_corps_interligados} \\
-                    \sum \vec{M}_P = \sum \bar I  \alpha + \sum m \vec{\bar a} d \label{eq:soma_dos_momentos_corps_interloigados}
-                \end{align}
+Onde $a$ é a aceleração linear no centro de gravidade.
 
-                A equação \ref{eq:soma_dos_momentos_corps_interloigados} pode, ainda, ser reescrita considerando a notação da \emph{Teoria dos Eixos Paralelos}, que é dada por:
-                
-                \begin{align}
-                    \begin{cases}
-                        \sum \vec{M}_P &= I_P \alpha \\ 
-                        I_P &= \bar I + m \bar r^2
-                    \end{cases}
-            \end{align}
-
-            Isso é verdade pois $m \alpha \bar r^2 = m (\alpha \bar r) \bar r = m \bar a \bar r $, que podemos ver ser igual à equação \ref{eq:soma_dos_momentos_ponto_p}
-
-        \subsubsection[Aplicação]{Aplicação}
-
-            \textbf{EXEMPLO 1 - } O exemplo mais clássico para a aplicação de todos os conceitos vistos é o problema do carro com pêndulo, que é o que veremos agora:
-
-
-            No geral, iremos seguir os seguintes passos:
-            \begin{enumerate}
-                \item Diagrama de corpo livre: A primeira coisa que devemos fazer em qualquer problema de dinâmica e Vibrações é desenhar o \emph{DCL}(Diagrama de corpo livre).
-                \item Listagem dos Dados conhecidos: Em seguida, é de suma importância listarmos todos os dados que possuímos sobre o problema.
-                \item Equações do Movimento: Nesse passo precisamos primeiramente identificar se estamos lidando com corpos interligados (e por conseguinte utilizaremos as equação 
-                \ref{eq:soma_das_forcas_corps_interligados} e \ref{eq:soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações 
-                \ref{eq:SomaDasForcasCg}, \ref{eq:soma_dos_momentos_cg} e \ref{eq:soma_dos_momentos_ponto_p})
-            \end{enumerate}
-
+Ao analisarmos bem a equação, podemos observar que ela nada mais é do que o momento no próprio centro de gravidade, dado pela parcela $\bar I \alpha$, somado ao momento (também
+chamado de torque) que a força resultante ($\sum F = m \bar a$) gera no ponto $P$ a uma distância $d$ do CG em análise.
 
+\subsubsection[Sis. de Corps. Interligados]{Sistemas de Corpos Interligados}
 
-    \section{Introdução à Vibrações}
-
-            Vibração é o movimento repetitivo, que pode ser:
-            \begin{itemize}
-                \item Desejado
-                \item Não Desejado
-            \end{itemize}
+Em casos mais complexos, a principal topologia que encontramos é a de corpos extensos interligados. Um clássico exemplo disso é o problema do carro com pêndulo, onde temos um carro
+(primeiro corpo) conectado a uma mola e a uma parede, que possui um pêndulo (segundo corpo) com seu  pivô de rotação localizado no \emph{CG} do carrinho.
 
-            Além disso, a vibração pode ser vista não somente como um movimento, mas também como a troca entre \emph{energia potencial} (e.g potencial elástico, potencial gravitacional, etc) e
-            \emph{energia mecânica}.
-
-    \section{Vibrações livres não Amortecidas - 1 DOF}
+Para problemas assim, temos a generalização das fórmulas, como sendo:
 
-            Primeiramente, é importante entendermos que definimos os tipos de vibrações de acordo com certas características, sendo elas:
-            \begin{enumerate}
-                \item Graus de Liberdade: A depender do número de coordenadas que são necessários para a modelagem completa do movimento.
-                \item Amortecimento: A depender se há o amortecimento, i.e a dissipação de energia de alguma forma (e.g um amortecedor de fluidos, atrito, ...). E pode ser classificado como:
-                    \subitem Amortecido: Quando ocorre a dissipação de energia;
-                    \subitem Não-Amortecido: Quando não ocorre a dissipação de energia e, por conseguinte, o movimento não para.
+\begin{align}
+    \sum \vec F = \sum m \vec{\bar a} \label{eq:soma_das_forcas_corps_interligados} \\
+    \sum \vec{M}_P = \sum \bar I  \alpha + \sum m \vec{\bar a} d \label{eq:soma_dos_momentos_corps_interloigados}
+\end{align}
 
-                \item Liberdade de Vibração: Que se refere à presença ou não de forças externas atuando no \emph{sistema} \footnote{Importante ressaltar que a definição do sistema implica na sua classificação}.
-                    \subitem Vibração Livre: Não há forças externas atuando no sistema;
-                    \subitem Vibrações Não-Livres: Há forças externas.
+A equação \ref{eq:soma_dos_momentos_corps_interloigados} pode, ainda, ser reescrita considerando a notação da \emph{Teoria dos Eixos Paralelos}, que é dada por:
 
-                \item Parâmetros Concentrados: Um sistema é dito de parâmetros concentrados quando os corpos que o integra são representados por corpos concentrados, e.g massas e molas.
-            \end{enumerate}
+\begin{align}
+    \begin{cases}
+        \sum \vec{M}_P & = I_P \alpha          \\
+        I_P            & = \bar I + m \bar r^2
+    \end{cases}
+\end{align}
 
+Isso é verdade pois $m \alpha \bar r^2 = m (\alpha \bar r) \bar r = m \bar a \bar r $, que podemos ver ser igual à equação \ref{eq:soma_dos_momentos_ponto_p}
 
-            \subsection{Sistema Massa-Mola}
+\subsubsection[Aplicação]{Aplicação}
 
-                Um sistema massa mola, como descrito na imagem abaixo, assim como o nome sugere, é composto por:
-                \begin{itemize}
-                    \item Massa  de valor $m$
-                    \item Mola de rigidez $k$
-                    \item Gravidade \footnote{Importante ressaltar que nesse sistema estamos incluindo a terra (e por conseguinte suas ações na massa, e por isso continua sendo um problema de
-                    \emph{Vibração Livre})} $g$
-                \end{itemize}
-
-                Agora, para realizarmos a análise de vibrações desse problema, iremos seguir as seguintes etapas:
-                \begin{enumerate}
-                    \item Definição de Coordenadas
-                    \item Diagrama de Corpo Livre
-                    \item Equações de Movimento
-                \end{enumerate}
-
-                \subsubsection*{1º Passo - Definição de Coordenadas}
-
-                    Algo muito importante de se perceber quando estamos lidando com problemas com molas (principalmente aqueles de massa-mola na vertical) é que existem dois principais pontos de
-                    interesse de serem definidos no espaço, sendo eles:
-                    \begin{itemize}
-                        \item Posição sem deformação da mola: Isso é, posição no espaço onde a mola não exerce força alguma, devido ao fato de que a força elástica $F_e$ é dada por $F_e = k \delta$
-                        \item Posição onde há equilíbrio entre a força elástica e as demais (principalmente força peso $F_p$)
-                    \end{itemize}
-
-                    Levando isso em consideração, o jeito mais fácil de lidar com esse dois pontos é criando dois eixos de coordenadas, cada um contendo seus respective zeros nesses ponto. 
-                    Portanto, o primeiro passo que precisamos fazer é definir uma coordenada $y$ a qual possui zero zero no ponto onde a mola
-                    \textbf{NÃO} está deformada, \emph{i.e} ela está com seu tamanho normal.
-                    Em seguida, definimos nosso segundo eixo de coordenadas $x$ contendo seu $x_0$ no ponto onde as forças peso e elástica se anulam.
-
-                    \begin{figure}[h]
-                        \centering
-                        \includegraphics[width=.7\linewidth]{imgs/sis_mass_mola_1.png}
-                        \caption{Coordenadas para o Problema Massa-Mola na Vertical}
-                    \end{figure}
-
-                    Esses dois eixos de coordenadas distintos, como veremos mais para frente, facilitam bastante os nosso cálculos de equação de movimento.
-                    A partir disso, já temos definidos todos os pontos de interesse, e podemos prosseguir para o diagrama de corpo livre \emph{DCL}.
-
-                \subsubsection*{2º Passo - Diagrama de Corpo Livre \emph{(DCL)}}
-
-                    Para fazermos o DLC, precisamos primeiro considerar o bloco em uma posição arbitrária. Como já definimos os dois eixos de referência para baixo, iremos considerar o bloco em um
-                    ponto tal que $x,y>0$, para facilitar os cálculos.
-
-                    \begin{figure}[h]
-                        \centering
-                        \includegraphics[width=.3\linewidth]{imgs/sis_mass_mola_1_dcl.png}
-                        \caption{\emph{DCL} básico do sistema massa-mola}
-                    \end{figure}
-
-                    A partir disso, podemos fazer o DCL, que possui algumas características, que possuem o acronym (em inglês) \emph{B.R.E.A.D}:
-                    \begin{itemize}
-                        \item \emph{Body} : Precisa representar o corpo que está sendo estudado, sem nenhuma outra coisa a sua volta (e.g sem paredes, pilastra, etc).
-                        \item \emph{Reações}: A segunda etapa de um DCL é a representação das forças de reação (como no nossa caso a força elástica)
-                        \item \emph{External / Body Forces}: A terceira etapa é a representação das forças externas ou do próprio corpo (como no nosso caso a força peso $F_p$).
-                        \item \emph{Axis}: A quarta coisa que seu $D.C.L$ precisa ter são os eixos de coordenadas.
-                        \item \emph{Dimension}: A útlima coisa que precisa ser colocada é, quando de interesse, as dimensões do do corpo.
-                    \end{itemize}
-
-                    É importante ressaltar que a força elástica $F_e$ é dada por $k\cdot y$, tendo em vista que o eixo de coordenadas $\vec y$ tem
-                    seu zero (i.e sua origem) no ponto em que a mola não possui deformação. Poderíamos ficar escrevendo que a mola está com uma deformação $y_\alpha$ ou qualquer outro nome, mas para
-                    termos menos trabalho usamos $y$ como sendo o ponto na coordenada $\vec y$, e usaremos ainda mais para frente $x$ para um ponto qualquer no eixo $\vec x$.
-
-                \subsubsection*{3º Passo - Equações de Movimento}
-
-                    Como já temos o diagrama de corpo livre, podemos modelar o movimento do bloco a partir das equações de movimento que vimos em dinâmica (eqs. \ref{eq:SomaDasForcasCg}, 
-                    \ref{eq:soma_dos_momentos_cg}).
-                    Como o corpo não apresenta rotação (e nem momentos) iremos descrever somente a soma de forças do problema:
-
-                    \begin{align}
-                        \sum \vec F &= m \cdot \vec a \n
-                        mg - k y    &= m \cdot \ddot y \n
-                        0 &= m \ddot y + ky - mg \label{eq:mov_massa_mola_temp}
-                    \end{align}
-
-                    Com isso temos a equação \ref{eq:mov_massa_mola_temp}, que descreve o movimento da massa como uma Equação Diferencial Ordinária de Segundo grau Ordinária de Segundo grau.
-                    podemos, entretanto, simplificar essa equação considerando a relação entre a coordenada $x$, a coordenada $y$ e a deformação da mola, como mostramos abaixo: 
-
-                    \begin{align}
-                        k \Delta &= m g\\
-                        y &= \Delta + x \therefore \dot y = \dot x, \ddot y = \ddot x
-                    \end{align}
-
-                    Substituindo as equações acima na equação \ref{eq:mov_massa_mola_temp} temos:
-
-                    \begin{align}
-                        m\ddot x + kx = 0
-                    \end{align}
-
-                    E isso facilita as contas pois torna uma equação diferencial não homogênea em uma homogênea. 
-                    Além disso, podemos verificar que o \textbf{peso oscila em torno do ponto de equilíbrio estático}. Ao sabermos disso, nós temos então a possibilidade de, nos próximos exercícios,
-                    partimos dessa última equação, considerando como nosso eixo de coordenadas tendo início no ponto de equilíbrio estático.
-
-            \subsection{Molas Equivalentes}
-
-                O exemplo da massa mola acima pode parecer irrealista, mas na realidade nós podemos simplificar diversos problemas do mundo real descrevendo certas estruturas através de sistemas de
-                molas, como veremos a seguir.
-
-                \begin{table}[h]
-                    \centering
-                    \begin{tabular}{|c|c|c|c|}
-                        \hline
-                        Sistema & Diagrama & Deformação & $k$ Equivalente \\ \hline
-                        Viga Engastada &
-                        \begin{minipage}{.45\textwidth}
-                                \includegraphics[width=\linewidth]{imgs/mola_eq_1.png}
-                        \end{minipage}
-                        &
-                        $    \Delta = \frac{Pl^3}{3EI}$ 
-                        &
-                        $   k = \frac{P}{\Delta} = \frac{3EI}{l^3}$ \\ \hline
-                        Viga Bi-Apoiada & 
-                        \begin{minipage}{.45\textwidth}
-                            \includegraphics[width=\linewidth]{imgs/mola_eq_2.png}
-                        \end{minipage}
-                        &
-                        $\Delta = \frac{Pl^3}{48EI}$
-                        &
-                        $k = \frac{P}{\Delta} = \frac{48EI}{l^3}$ \\ \hline 
-                        Barra em Solicitação Axial & 
-                        \begin{minipage}{.45\textwidth}
-                            \centering
-                            \includegraphics[width=.5\linewidth]{imgs/mola_eq_3.png}
-                        \end{minipage}
-                        &
-                        $\Delta = \frac{Pl}{AE}$
-                        &
-                        $k = \frac{P}{\Delta} = \frac{AE}{l}$ \\ \hline
-                    \end{tabular}
-                    \label{tab:molas_equivalentes}
-                    \caption{Molas Equivalentes}
-                \end{table}
-
-                Onde: 
-                \begin{itemize}
-                    \item $P$: Força peso, $P = m\cdot g$
-                    \item $\Delta$: Deflexão
-                    \item $E$: Módulo de Elasticidade
-                    \item $I$: Inércia da seção transversal
-                \end{itemize}
-
-                \newpage
-
-                Além disso podemos, ainda, ter a associação de molas:
-                \begin{table}[h]
-                    \centering
-                    \begin{tabular}{|c|c|c|c|}
-                        \hline
-                        Topologia & Diagrama & Equação & Observação \\ \hline
-                        Molas em Paralelos
-                        &
-                        \begin{minipage}{.3\textwidth}
-                            \centering
-                            \includegraphics[width=.8\textwidth]{imgs/mola_eq_5.png}
-                        \end{minipage}
-                        &
-                        $k = \sum_{i = 1}^n k_i$
-                        &
-                        \begin{minipage}{.3\columnwidth}
-                            Temos que para molas em paralelo, todas tem o mesmo deslocamento%
-                        \end{minipage} \\ \hline
-
-                        Molas Em Série &
-                        \begin{minipage}{.3\linewidth}
-                            \centering
-                            \includegraphics[width=.2\linewidth]{imgs/mola_eq_6.png}
-                        \end{minipage}
-                        &
-                        $k^{-1} = \sum_{i = 1}^n \frac{1}{k_i}$
-                        &
-                        \begin{minipage}{0.3\columnwidth}
-                        Temos que para molas em série, cada uma delas sofre a mesma força. 
-                        \end{minipage}\\ \hline
-                    \end{tabular}
-                    \caption{$k$ Resultante de associação de molas}
-                \end{table}
-
-                    
-            \subsection{Sistema Torcional}
-
-                \begin{figure}[h]
-                    \centering
-                    \includegraphics[width=.5\textwidth]{imgs/sis_torcional.png}
-                    \caption{Sistema Torcional e $DCL$}
-                \end{figure}
-
-                Para introduzirmos um sistema torcinal de vibrações, iremos considerando um sistema de um disco, com um momento de inércia $J$, conectado a um eixo engastado (fixo e sem rotação livre) em uma das suas extremidades, com uma rigidez torcional
-                \footnote{Similar à propriedade $k$ de molas normais, mas representa a resistência à torção da mola equivalente, que nesse caso refere-se à viga engastada}
-                $k_t$, como mostrado pela figura acima. 
-
-                Quando lidamos com problemas relacionados com rotação, a maioria esmagadora de vezes iremos usar o momento para equacionar o movimento vibracional. Após a análise de corpo livre e
-                determinação da coordenada $\theta$ (necessária somente uma pois sistema apresenta somente um grau de liberdade), podemos aplicar a Lei de Newton no que tange momento e temos:
-
-                \begin{align*}
-                    \sum M = J \ddot \theta \Rightarrow -k_t\theta = J \ddot \theta
-                \end{align*}
-
-                Que pode ser escrita da seguinte forma:
-
-                \begin{align}
-                    \ddot\theta + \frac{k_t}{J}\theta = 0 \label{eq:som_moments_sis_torcional}
-                \end{align}
-
-                Podemos, então, verificar que, mesmo com uma topologia diferente, o sistema apresenta o mesmo comportamento (e mesma modelagem) do sistema massa mola, com a frequência natura sendo 
-                $\omega_n = \sqrt{k_t/J}$
-
-        \section{Vibrações Livres de Sistemas de 1 \emph{DOF} com Amortecimento}
-
-            \subsection{Introdução}
-                Até o momento nós vimos situações onde não haviam forças dissipativas atuando sobre o sistema e, por conseguinte, o movimento de vibração continuava eternamente. Isso, entretanto, não
-                condiz com a realidade, levando em consideração que há inúmeros mecanismos pelos quais um sistema perde energia. Vários deles, entretanto, podem ser modelados por um 
-                \textbf{amortecedor viscoso}, que é regido pela seguinte equação:
-
-                \begin{align}
-                    f_d = -c \dot x \label{eq:forca_amortecedor_viscoso}
-                \end{align}
-
-                Onde:
-                \begin{itemize}
-                    \item $c$: Constante do amortecedor
-                    \item $\dot x$: A velocidade
-                \end{itemize}
-
-                O exemplo mais comum disso é uma massa-mola-amortecedor, como mostrado na figura abaixo:
-                \begin{figure}[h]
-                    \centering
-                    \includegraphics[width=.4\textwidth]{imgs/sis_massa_mola_amortecedor.png}
-                    \caption{Sistema Massa-Mola-Amortecedor}
-                \end{figure}
-
-                Aplicando a Lei de Newton chegamos em:
-
-                \begin{align}
-                    \ddot x + \frac{c}{m}\dot x + \frac{k}{m}x = 0 \label{eq:massa_mola_amortecedor_base}
-                \end{align}
-
-                Rotineiramente, entretanto, quando temos um problema com amortecimento nós utilizamos a equação diferencial (que no nosso caso é a equação \ref{eq:massa_mola_amortecedor_base}) da seguinte
-                forma:
-                \begin{align}
-                    \ddot x + 2\zeta \omega_n\dot x + \omega_n^2 x = 0 \label{eq:massa_mola_amortecedor_classica}
-                \end{align}
-
-                Onde:
-                \begin{itemize}
-                    \item $\zeta$: \textbf{Fator de Amortecimento}, parâmetro adimencional que fornece uma medida do amortecimento do sistema (que veremos de forma mais detalhada mais para frente) 
-                    \item $\omega_n$: Frequência Natural do sistema, dada por $\sqrt{k/m}$
-                \end{itemize}
-
-                \textbf{IMPORTANTE:} Em um sistema amortecido, o sistema \textbf{\emph{NÃO}} oscila com a frequência natural $\omega_n$, mas sim com uma frequência amortecida (também chamada de
-                \emph{damped frequency} $\omega_d$, que iremos averiguar mais para frente como é calculada).
-                \newpage
-
-            \subsection{Classificação de Sistemas Amortecidos}
-                Como vimos anteriormente, podemos modelar um sistema de 1 grau de liberdade amortecido pela equação \ref{eq:massa_mola_amortecedor_classica}, que tem como principal componente que
-                descreve o seu amortecimento como sendo o $\zeta$, chamado de fator de amortecimento.
-                
-                Somos capazes de ver e entender a influência do fator de amortecimento ao analisarmos a equação diferencial característica \ref{eq:massa_mola_amortecedor_classica}, onde, 
-                durante a sua resolução (para o qual supomos o sistema com uma resposta $x=Ae^{\lambda t}$), seu polinômio característico\footnote{Importante rever essa parte de Calc III ou Anal, mas o
-                polinômio característico é usado para achar o $\lambda$ da exponencial que supomos ser a resposta do sistema} e suas raízes (que regem o comportamento exponencial da resposta) são dadas por:
-
-                \begin{align*}
-                    \lambda^2 + 2\zeta \omega_n \lambda + \omega_n^2 = 0 \Rightarrow
-                    \lambda_{1,2} = -\zeta \omega_n \pm \omega_n \sqrt{\zeta^2 - 1}
-                \end{align*}
-
-                A depender do valor de $\zeta$ temos que o sistema pode ser:
-                \begin{itemize}
-                    \item $\zeta < 1$: Sub-amortecido
-                    \item $\zeta=1$: Criticamente amortecido
-                    \item $\zeta > 1$: Super-amortecido
-                \end{itemize}
-
-                \subsubsection{Sistema Sub-Amortecido}
-                    Dizemos que um sistema é sub-amortecido quando $\zeta < 1$, o que resulta na equação característica ter duas raízes imaginárias tal que:
-                    \begin{align}
-                        \lambda_{1,2} = \sigma \pm  j \omega_d \Rightarrow \begin{cases}\sigma = -\zeta \omega_n \\ \omega_d = \omega_n \sqrt{1 - \zeta^2}\end{cases}\label{eq:raizes_caso_sub_amortecido}
-                    \end{align}
-                    
-                    Onde a parte imaginária da raiz é chamada de \emph{frequência amortecida} $\omega_d$. 
-
-                    Por fim, teremos como resposta do sistema:
-                    \begin{align}
-                        x(t) = A_1 e^{\lambda_1 t} + A_2 e^{\lambda_2 t} = e^{-\zeta \omega_n t}(A_1e^{j\omega_dt} + A_2^{-j\omega_d t}) \label{eq:resp_sis_sub_amortecido}
-                    \end{align}
-
-                    Onde $A_{1,2}$ são constantes que somos capazes de achar a partir das duas condições iniciais.
-
-                \subsubsection{Sistema Criticamente-Amortecido}
-                    Já para quando $\zeta=1$, nós chamamos o sistema de criticamente amortecido, e sua equação característica tem duas raízes reais iguais:
-                    \begin{align}
-                        \lambda_1 = \lambda_2 = -\zeta \omega_n = -\omega_n \label{eq:raizes_caso_criticamente_amortecido}
-                    \end{align}
-
-                     Resultando em uma resposta que \textbf{não oscila} e que é descrita por:
-                     \begin{align}
-                        x(t) = A_1 e^{-\omega_n t}  + A_2 e^{-\omega_n t}
-                     \end{align}
-
-                \subsubsection{Sistema Super-Amortecido}
-                     E para o último caso, chamamos de super-amortecido quando $\zeta > 1$, resultando em:
-                     \begin{align}
-                        \lambda_{1,2} = \omega_n\left(-\zeta\pm \sqrt{\zeta^2 - 1}\right) = \frac{-1}{\tau_{1,2}}
-                     \end{align}
-
-                     Resultando em uma resposta, que também não oscila, que é descrita por:
-                     \begin{align}
-                        x(t) = A_1e^{\frac{-t}{\tau_1}} + A_2e^{\frac{-t}{\tau_2}}
-                     \end{align}
-
-
-
-
-
-
-
-
-            
+\textbf{EXEMPLO 1 - } O exemplo mais clássico para a aplicação de todos os conceitos vistos é o problema do carro com pêndulo, que é o que veremos agora:
+
+
+No geral, iremos seguir os seguintes passos:
+\begin{enumerate}
+    \item Diagrama de corpo livre: A primeira coisa que devemos fazer em qualquer problema de dinâmica e Vibrações é desenhar o \emph{DCL}(Diagrama de corpo livre).
+    \item Listagem dos Dados conhecidos: Em seguida, é de suma importância listarmos todos os dados que possuímos sobre o problema.
+    \item Equações do Movimento: Nesse passo precisamos primeiramente identificar se estamos lidando com corpos interligados (e por conseguinte utilizaremos as equação
+          \ref{eq:soma_das_forcas_corps_interligados} e \ref{eq:soma_dos_momentos_corps_interloigados}), ou se estamos lidando com corpos simples (e então usaremos as equações
+          \ref{eq:SomaDasForcasCg}, \ref{eq:soma_dos_momentos_cg} e \ref{eq:soma_dos_momentos_ponto_p})
+\end{enumerate}
+
+
+
+\section{Introdução à Vibrações}
+
+Vibração é o movimento repetitivo, que pode ser:
+\begin{itemize}
+    \item Desejado
+    \item Não Desejado
+\end{itemize}
+
+Além disso, a vibração pode ser vista não somente como um movimento, mas também como a troca entre \emph{energia potencial} (e.g potencial elástico, potencial gravitacional, etc) e
+\emph{energia mecânica}.
+
+\section{Vibrações livres não Amortecidas - 1 DOF}
+
+Primeiramente, é importante entendermos que definimos os tipos de vibrações de acordo com certas características, sendo elas:
+\begin{enumerate}
+    \item Graus de Liberdade: A depender do número de coordenadas que são necessários para a modelagem completa do movimento.
+    \item Amortecimento: A depender se há o amortecimento, i.e a dissipação de energia de alguma forma (e.g um amortecedor de fluidos, atrito, ...). E pode ser classificado como:
+          \subitem Amortecido: Quando ocorre a dissipação de energia;
+          \subitem Não-Amortecido: Quando não ocorre a dissipação de energia e, por conseguinte, o movimento não para.
+
+    \item Liberdade de Vibração: Que se refere à presença ou não de forças externas atuando no \emph{sistema} \footnote{Importante ressaltar que a definição do sistema implica na sua classificação}.
+          \subitem Vibração Livre: Não há forças externas atuando no sistema;
+          \subitem Vibrações Não-Livres: Há forças externas.
+
+    \item Parâmetros Concentrados: Um sistema é dito de parâmetros concentrados quando os corpos que o integra são representados por corpos concentrados, e.g massas e molas.
+\end{enumerate}
+
+
+\subsection{Sistema Massa-Mola}
+
+Um sistema massa mola, como descrito na imagem abaixo, assim como o nome sugere, é composto por:
+\begin{itemize}
+    \item Massa  de valor $m$
+    \item Mola de rigidez $k$
+    \item Gravidade \footnote{Importante ressaltar que nesse sistema estamos incluindo a terra (e por conseguinte suas ações na massa, e por isso continua sendo um problema de
+              \emph{Vibração Livre})} $g$
+\end{itemize}
+
+Agora, para realizarmos a análise de vibrações desse problema, iremos seguir as seguintes etapas:
+\begin{enumerate}
+    \item Definição de Coordenadas
+    \item Diagrama de Corpo Livre
+    \item Equações de Movimento
+\end{enumerate}
+
+\subsubsection*{1º Passo - Definição de Coordenadas}
+
+Algo muito importante de se perceber quando estamos lidando com problemas com molas (principalmente aqueles de massa-mola na vertical) é que existem dois principais pontos de
+interesse de serem definidos no espaço, sendo eles:
+\begin{itemize}
+    \item Posição sem deformação da mola: Isso é, posição no espaço onde a mola não exerce força alguma, devido ao fato de que a força elástica $F_e$ é dada por $F_e = k \delta$
+    \item Posição onde há equilíbrio entre a força elástica e as demais (principalmente força peso $F_p$)
+\end{itemize}
+
+Levando isso em consideração, o jeito mais fácil de lidar com esse dois pontos é criando dois eixos de coordenadas, cada um contendo seus respective zeros nesses ponto.
+Portanto, o primeiro passo que precisamos fazer é definir uma coordenada $y$ a qual possui zero zero no ponto onde a mola
+\textbf{NÃO} está deformada, \emph{i.e} ela está com seu tamanho normal.
+Em seguida, definimos nosso segundo eixo de coordenadas $x$ contendo seu $x_0$ no ponto onde as forças peso e elástica se anulam.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\linewidth]{imgs/sis_mass_mola_1.png}
+    \caption{Coordenadas para o Problema Massa-Mola na Vertical}
+\end{figure}
+
+Esses dois eixos de coordenadas distintos, como veremos mais para frente, facilitam bastante os nosso cálculos de equação de movimento.
+A partir disso, já temos definidos todos os pontos de interesse, e podemos prosseguir para o diagrama de corpo livre \emph{DCL}.
+
+\subsubsection*{2º Passo - Diagrama de Corpo Livre \emph{(DCL)}}
+
+Para fazermos o DLC, precisamos primeiro considerar o bloco em uma posição arbitrária. Como já definimos os dois eixos de referência para baixo, iremos considerar o bloco em um
+ponto tal que $x,y>0$, para facilitar os cálculos.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.3\linewidth]{imgs/sis_mass_mola_1_dcl.png}
+    \caption{\emph{DCL} básico do sistema massa-mola}
+\end{figure}
+
+A partir disso, podemos fazer o DCL, que possui algumas características, que possuem o acronym (em inglês) \emph{B.R.E.A.D}:
+\begin{itemize}
+    \item \emph{Body} : Precisa representar o corpo que está sendo estudado, sem nenhuma outra coisa a sua volta (e.g sem paredes, pilastra, etc).
+    \item \emph{Reações}: A segunda etapa de um DCL é a representação das forças de reação (como no nossa caso a força elástica)
+    \item \emph{External / Body Forces}: A terceira etapa é a representação das forças externas ou do próprio corpo (como no nosso caso a força peso $F_p$).
+    \item \emph{Axis}: A quarta coisa que seu $D.C.L$ precisa ter são os eixos de coordenadas.
+    \item \emph{Dimension}: A útlima coisa que precisa ser colocada é, quando de interesse, as dimensões do do corpo.
+\end{itemize}
+
+É importante ressaltar que a força elástica $F_e$ é dada por $k\cdot y$, tendo em vista que o eixo de coordenadas $\vec y$ tem
+seu zero (i.e sua origem) no ponto em que a mola não possui deformação. Poderíamos ficar escrevendo que a mola está com uma deformação $y_\alpha$ ou qualquer outro nome, mas para
+termos menos trabalho usamos $y$ como sendo o ponto na coordenada $\vec y$, e usaremos ainda mais para frente $x$ para um ponto qualquer no eixo $\vec x$.
+
+\subsubsection*{3º Passo - Equações de Movimento}
+
+Como já temos o diagrama de corpo livre, podemos modelar o movimento do bloco a partir das equações de movimento que vimos em dinâmica (eqs. \ref{eq:SomaDasForcasCg},
+\ref{eq:soma_dos_momentos_cg}).
+Como o corpo não apresenta rotação (e nem momentos) iremos descrever somente a soma de forças do problema:
+
+\begin{align}
+    \sum \vec F & = m \cdot \vec a \n
+    mg - k y    & = m \cdot \ddot y \n
+    0           & = m \ddot y + ky - mg \label{eq:mov_massa_mola_temp}
+\end{align}
+
+Com isso temos a equação \ref{eq:mov_massa_mola_temp}, que descreve o movimento da massa como uma Equação Diferencial Ordinária de Segundo grau Ordinária de Segundo grau.
+podemos, entretanto, simplificar essa equação considerando a relação entre a coordenada $x$, a coordenada $y$ e a deformação da mola, como mostramos abaixo:
+
+\begin{align}
+    k \Delta & = m g                                                      \\
+    y        & = \Delta + x \therefore \dot y = \dot x, \ddot y = \ddot x
+\end{align}
+
+Substituindo as equações acima na equação \ref{eq:mov_massa_mola_temp} temos:
+
+\begin{align}
+    m\ddot x + kx = 0
+\end{align}
+
+E isso facilita as contas pois torna uma equação diferencial não homogênea em uma homogênea.
+Além disso, podemos verificar que o \textbf{peso oscila em torno do ponto de equilíbrio estático}. Ao sabermos disso, nós temos então a possibilidade de, nos próximos exercícios,
+partimos dessa última equação, considerando como nosso eixo de coordenadas tendo início no ponto de equilíbrio estático.
+
+\subsection{Molas Equivalentes}
+
+O exemplo da massa mola acima pode parecer irrealista, mas na realidade nós podemos simplificar diversos problemas do mundo real descrevendo certas estruturas através de sistemas de
+molas, como veremos a seguir.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Sistema                    & Diagrama & Deformação & $k$ Equivalente \\ \hline
+        Viga Engastada             &
+        \begin{minipage}{.45\textwidth}
+            \includegraphics[width=\linewidth]{imgs/mola_eq_1.png}
+        \end{minipage}
+                                   &
+        $    \Delta = \frac{Pl^3}{3EI}$
+                                   &
+        $   k = \frac{P}{\Delta} = \frac{3EI}{l^3}$                          \\ \hline
+        Viga Bi-Apoiada            &
+        \begin{minipage}{.45\textwidth}
+            \includegraphics[width=\linewidth]{imgs/mola_eq_2.png}
+        \end{minipage}
+                                   &
+        $\Delta = \frac{Pl^3}{48EI}$
+                                   &
+        $k = \frac{P}{\Delta} = \frac{48EI}{l^3}$                            \\ \hline
+        Barra em Solicitação Axial &
+        \begin{minipage}{.45\textwidth}
+            \centering
+            \includegraphics[width=.5\linewidth]{imgs/mola_eq_3.png}
+        \end{minipage}
+                                   &
+        $\Delta = \frac{Pl}{AE}$
+                                   &
+        $k = \frac{P}{\Delta} = \frac{AE}{l}$                                \\ \hline
+    \end{tabular}
+    \label{tab:molas_equivalentes}
+    \caption{Molas Equivalentes}
+\end{table}
+
+Onde:
+\begin{itemize}
+    \item $P$: Força peso, $P = m\cdot g$
+    \item $\Delta$: Deflexão
+    \item $E$: Módulo de Elasticidade
+    \item $I$: Inércia da seção transversal
+\end{itemize}
+
+\newpage
+
+Além disso podemos, ainda, ter a associação de molas:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Topologia      & Diagrama & Equação & Observação                                                 \\ \hline
+        Molas em Paralelos
+                       &
+        \begin{minipage}{.3\textwidth}
+            \centering
+            \includegraphics[width=.8\textwidth]{imgs/mola_eq_5.png}
+        \end{minipage}
+                       &
+        $k = \sum_{i = 1}^n k_i$
+                       &
+        \begin{minipage}{.3\columnwidth}
+            Temos que para molas em paralelo, todas tem o mesmo deslocamento%
+        \end{minipage} \\ \hline
+
+        Molas Em Série &
+        \begin{minipage}{.3\linewidth}
+            \centering
+            \includegraphics[width=.2\linewidth]{imgs/mola_eq_6.png}
+        \end{minipage}
+                       &
+        $k^{-1} = \sum_{i = 1}^n \frac{1}{k_i}$
+                       &
+        \begin{minipage}{0.3\columnwidth}
+            Temos que para molas em série, cada uma delas sofre a mesma força.
+        \end{minipage}                                \\ \hline
+    \end{tabular}
+    \caption{$k$ Resultante de associação de molas}
+\end{table}
+
+
+\subsection{Sistema Torcional}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/sis_torcional.png}
+    \caption{Sistema Torcional e $DCL$}
+\end{figure}
+
+Para introduzirmos um sistema torcinal de vibrações, iremos considerando um sistema de um disco, com um momento de inércia $J$, conectado a um eixo engastado (fixo e sem rotação livre) em uma das suas extremidades, com uma rigidez torcional
+\footnote{Similar à propriedade $k$ de molas normais, mas representa a resistência à torção da mola equivalente, que nesse caso refere-se à viga engastada}
+$k_t$, como mostrado pela figura acima.
+
+Quando lidamos com problemas relacionados com rotação, a maioria esmagadora de vezes iremos usar o momento para equacionar o movimento vibracional. Após a análise de corpo livre e
+determinação da coordenada $\theta$ (necessária somente uma pois sistema apresenta somente um grau de liberdade), podemos aplicar a Lei de Newton no que tange momento e temos:
+
+\begin{align*}
+    \sum M = J \ddot \theta \Rightarrow -k_t\theta = J \ddot \theta
+\end{align*}
+
+Que pode ser escrita da seguinte forma:
+
+\begin{align}
+    \ddot\theta + \frac{k_t}{J}\theta = 0 \label{eq:som_moments_sis_torcional}
+\end{align}
+
+Podemos, então, verificar que, mesmo com uma topologia diferente, o sistema apresenta o mesmo comportamento (e mesma modelagem) do sistema massa mola, com a frequência natura sendo
+$\omega_n = \sqrt{k_t/J}$
+
+\section{Vibrações Livres de Sistemas de 1 \emph{DOF} com Amortecimento}
+
+\subsection{Introdução}
+Até o momento nós vimos situações onde não haviam forças dissipativas atuando sobre o sistema e, por conseguinte, o movimento de vibração continuava eternamente. Isso, entretanto, não
+condiz com a realidade, levando em consideração que há inúmeros mecanismos pelos quais um sistema perde energia. Vários deles, entretanto, podem ser modelados por um
+\textbf{amortecedor viscoso}, que é regido pela seguinte equação:
+
+\begin{align}
+    f_d = -c \dot x \label{eq:forca_amortecedor_viscoso}
+\end{align}
+
+Onde:
+\begin{itemize}
+    \item $c$: Constante do amortecedor
+    \item $\dot x$: A velocidade
+\end{itemize}
+
+O exemplo mais comum disso é uma massa-mola-amortecedor, como mostrado na figura abaixo:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{imgs/sis_massa_mola_amortecedor.png}
+    \caption{Sistema Massa-Mola-Amortecedor}
+\end{figure}
+
+Aplicando a Lei de Newton chegamos em:
+
+\begin{align}
+    \ddot x + \frac{c}{m}\dot x + \frac{k}{m}x = 0 \label{eq:massa_mola_amortecedor_base}
+\end{align}
+
+Rotineiramente, entretanto, quando temos um problema com amortecimento nós utilizamos a equação diferencial (que no nosso caso é a equação \ref{eq:massa_mola_amortecedor_base}) da seguinte
+forma:
+\begin{align}
+    \ddot x + 2\zeta \omega_n\dot x + \omega_n^2 x = 0 \label{eq:massa_mola_amortecedor_classica}
+\end{align}
+
+Onde:
+\begin{itemize}
+    \item $\zeta$: \textbf{Fator de Amortecimento}, parâmetro adimencional que fornece uma medida do amortecimento do sistema (que veremos de forma mais detalhada mais para frente)
+    \item $\omega_n$: Frequência Natural do sistema, dada por $\sqrt{k/m}$
+\end{itemize}
+
+\textbf{IMPORTANTE:} Em um sistema amortecido, o sistema \textbf{\emph{NÃO}} oscila com a frequência natural $\omega_n$, mas sim com uma frequência amortecida (também chamada de
+\emph{damped frequency} $\omega_d$, que iremos averiguar mais para frente como é calculada).
+\newpage
+
+\subsection{Classificação de Sistemas Amortecidos}
+Como vimos anteriormente, podemos modelar um sistema de 1 grau de liberdade amortecido pela equação \ref{eq:massa_mola_amortecedor_classica}, que tem como principal componente que
+descreve o seu amortecimento como sendo o $\zeta$, chamado de fator de amortecimento.
+
+Somos capazes de ver e entender a influência do fator de amortecimento ao analisarmos a equação diferencial característica \ref{eq:massa_mola_amortecedor_classica}, onde,
+durante a sua resolução (para o qual supomos o sistema com uma resposta $x=Ae^{\lambda t}$), seu polinômio característico\footnote{Importante rever essa parte de Calc III ou Anal, mas o
+    polinômio característico é usado para achar o $\lambda$ da exponencial que supomos ser a resposta do sistema} e suas raízes (que regem o comportamento exponencial da resposta) são dadas por:
+
+\begin{align*}
+    \lambda^2 + 2\zeta \omega_n \lambda + \omega_n^2 = 0 \Rightarrow
+    \lambda_{1,2} = -\zeta \omega_n \pm \omega_n \sqrt{\zeta^2 - 1}
+\end{align*}
+
+A depender do valor de $\zeta$ temos que o sistema pode ser:
+\begin{itemize}
+    \item $\zeta < 1$: Sub-amortecido
+    \item $\zeta=1$: Criticamente amortecido
+    \item $\zeta > 1$: Super-amortecido
+\end{itemize}
+
+\subsubsection{Sistema Sub-Amortecido}
+Dizemos que um sistema é sub-amortecido quando $\zeta < 1$, o que resulta na equação característica ter duas raízes imaginárias tal que:
+\begin{align}
+    \lambda_{1,2} = \sigma \pm  j \omega_d \Rightarrow \begin{cases}\sigma = -\zeta \omega_n \\ \omega_d = \omega_n \sqrt{1 - \zeta^2}\end{cases}\label{eq:raizes_caso_sub_amortecido}
+\end{align}
+
+Onde a parte imaginária da raiz é chamada de \emph{frequência amortecida} $\omega_d$.
+
+Por fim, teremos como resposta do sistema:
+\begin{align}
+    x(t) = A_1 e^{\lambda_1 t} + A_2 e^{\lambda_2 t} = e^{-\zeta \omega_n t}(A_1e^{j\omega_dt} + A_2^{-j\omega_d t}) \label{eq:resp_sis_sub_amortecido}
+\end{align}
+
+Onde $A_{1,2}$ são constantes que somos capazes de achar a partir das duas condições iniciais.
+
+\subsubsection{Sistema Criticamente-Amortecido}
+Já para quando $\zeta=1$, nós chamamos o sistema de criticamente amortecido, e sua equação característica tem duas raízes reais iguais:
+\begin{align}
+    \lambda_1 = \lambda_2 = -\zeta \omega_n = -\omega_n \label{eq:raizes_caso_criticamente_amortecido}
+\end{align}
+
+Resultando em uma resposta que \textbf{não oscila} e que é descrita por:
+\begin{align}
+    x(t) = A_1 e^{-\omega_n t}  + A_2 e^{-\omega_n t}
+\end{align}
+
+\subsubsection{Sistema Super-Amortecido}
+E para o último caso, chamamos de super-amortecido quando $\zeta > 1$, resultando em:
+\begin{align}
+    \lambda_{1,2} = \omega_n\left(-\zeta\pm \sqrt{\zeta^2 - 1}\right) = \frac{-1}{\tau_{1,2}}
+\end{align}
+
+Resultando em uma resposta, que também não oscila, que é descrita por:
+\begin{align}
+    x(t) = A_1e^{\frac{-t}{\tau_1}} + A_2e^{\frac{-t}{\tau_2}}
+\end{align}
+
+\section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} sem Amortecimento - Excitação Harmônica}
+
+\subsection{Equacionamento}
+Até o momento vimos sistemas onde não haviam excitações externas (i.e não havia uma força externa ao sistema agindo sobre ele), o que resultava em uma modelagem por \emph{Equações
+    Diferenciais Homogêneas}. Agora, entretanto, iremos estudar sistemas sem amortecimento que sofrem a ação de uma força periódica externa, chamada de excitação harmônica, que resultará em uma
+\emph{Equação Diferencial Não Homogênea}, onde a resposta do sistema será composta por uma parte chamada de \emph{resposta forçada} e outra chamada de \emph{resposta homogênea}.
+
+Para exemplificarmos, iremos analisar desde o começo o sistema abaixo:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/sis_massa_mola_harmo.png}
+    \caption{Sistema Massa Mola com Excitação Harmônica}
+    \label{fig:sis_massa_mola_exci_armonica}
+\end{figure}
+
+
+Como sempre, iremos começar por determinar o sistema de coordenadas mais aplicável nesse problema. Pela figura \ref{fig:sis_massa_mola_exci_armonica} podemos ver que a coordenada maisé
+aplicávelé a \textbf{Coordenada X}, tendo como origem o \emph{ponto de equilíbrio estático do sistema}. A escolha de tal origem facilita muito nossas contas pois podemos considerar a força
+elástica como sendo simplesmente $kx$ e desconsiderar a força peso (pois o $\delta$ inicial de deformação serve para anular a força peso).
+
+Depois disso, precisamos fazer o $DLC$, como mostrado no diagrama da esquerda da figura \ref{fig:sis_massa_mola_exci_armonica}. Ressaltando novamente que a força peso é "accounted
+for" pela escolha da origem do sistema como sendo o ponto de equilíbrio estático.
+
+Agora o que nos resta é fazer a equação de movimento. Como o problema é unidirecional e não apresenta momentos, poderemos usar somente o somatório de forças em $x$ sendo igual a aceleração
+do corpo, como descrito pela equação abaixo:
+
+\begin{align*}
+    \sum F_x = m \cdot \ddot x
+\end{align*}
+
+Onde as forças que atuam em $x$ são a força elástica e a força de excitação, resultando em:
+\begin{align*}
+    m \ddot x  = + F_0 \cos(\Omega t) - kx                 \\
+    \ddot x + \frac{k}{m}x = \frac{F_0}{m} \cos (\Omega t) \\
+    \ddot x + \omega_n ^2 x = f_0 \cos (\Omega t)          \\
+\end{align*}
+
+Que é uma equação Diferencial Ordinária não Homogênea, e portanto terá uma solução composta por duas partes:
+\begin{align*}
+    x = x_p + x_p
+\end{align*}
+
+A partir daqui o objetivo é a solução dessa EDO. Se lembrarmos bem de Calculo 3, o primeiro passo é a solução da parte homogênea, que nada mais é do que pegar a EDO, consiera-lá homogênea
+(i.e desconsiderar que possui a força externa e iguala-la a zero) e resolver a EDO, supondo primeiramente que $x(t) = A e^{\lambda t}$.
+
+Após as contas, veremos que a solução fica sendo:
+\begin{align*}
+    x_h(t) = B_1 \cos(\omega_n t) + B_2 \sin (\omega_n t), \begin{cases}
+                                                               B_1 = A_1 + A_2 \\
+                                                               B_2 = j(A_1 + A_2)
+                                                           \end{cases}
+\end{align*}
+
+Para facilitarmos a visualização da resposta não forçada, podemos utilsar a lei de seno da soma para botar a solução acima em um formato de seno com um shift :
+$$X \cdot sin(\omega_n t + \phi)\Rightarrow X\big[\sin(\omega_n t)\cos(\phi) + \cos(\omega_n t)\sin(\phi)\big] \therefore \begin{cases}
+        B_1 = X\sin(\phi) \\
+        B_2 = X\cos(\phi)
+    \end{cases}$$
+
+Igual dito anteriormente, isso facilita a visualização e análise da resposta, e a demonstração acima foi para provar matematicamente que se pode representar como sendo um seno com
+frequência natural mais shift. Mas \textbf{NÃO} é necessário voltar e achar $B_{1,2}$ nem $A_{1,2}$, se acharmos $X$ e $\phi$ já descrevemos o problema.
+
+
+Agora, então, só precisamos achar $x_p$, supondo uma solução no formato da entrada (logo iremos supor uma solução $x_p = C \cos(\Omega t)$), onde $C$ é uma constante qualquer. Depois
+de supor essa solução e botar na EDO, iremos descobrir o valor de $C$ e então o que nos resta é jutar as duas soluções $x_h + x_p$ e utilizar os valores inicias dados para achar as
+constantes $X$ e $\phi$ (da parte homogênea da resposta).
+
+\subsection{Análise da Resposta}
+Ao analisarmos a resposta, vemos que existem dois cenários importantes de serem ressaltados, sendo eles:
+\begin{itemize}
+    \item Fenômeno de Batimento
+    \item Fenômeno de Ressonância
+\end{itemize}
+
+
+\begin{figure}[h]
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/batimento.png}
+        \caption{Fenômeno de Batimento}
+    \end{subfigure}% Really important to have this comment here and no black line
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{imgs/reso.png}
+        \caption{Fenômeno de Ressonância}
+    \end{subfigure}
+    \caption{Fenômenos em Sistemas com Excitações Harmônicas}
+\end{figure}
+
+O Fenômeno de Batimento, como ilustrado na imagem acima, ocorre quando $\Omega \approx \omega_n$, \emph{i.e}, quando a frequência da excitação externa é próxima da frequência natural
+do sistema.
+
+Já o Fenômeno de Ressonância ocorre quando $\Omega \rightarrow \omega_n$, \emph{i.e}, quando a  frequência da excitação externa tende ao mesmo valor da frequência natural do sistema.
+
+
+
+
+\newpage
+\section{Vibrações Forçadas de Sistemas de 1 \emph{DOF} com Amortecimento - Excitação Harmônica}
+Vimos, anteriormente, a resposta de um sistema sem amortecimento para uma entrada forçada (\emph{i.e} que possui uma força externa agindo sobre o sistema). Iremos, agora, verificar a modelagem
+da resposta de um sistema que também possui \textbf{amortecimento viscoso}, dada por:
+\begin{align}
+    m\ddot x + c\dot x + kx = F_0\sin(\Omega t) \Rightarrow \ddot x + 2 \zeta \omega_n \dot x + \omega_n^2 x = f_0 \sin(\Omega t) \label{eq:vib_forcada_amortecida_1dof}
+\end{align}
+
+Onde:
+\begin{itemize}
+    \item $\omega_n = \sqrt{k/m}$
+    \item $\zeta = c/(2m\omega_n)$
+    \item $f_0=F_0/m$
+\end{itemize}
+
+Como estamos lidando com uma \emph{equação diferencial não homogene} por ter o termo forçante. Para esse caso, temos que a resposta do sistema $x = x_p + x_h$, \emph{i.e} ela divida em solução
+homogênea (também chamada de resposta não forçada do sistema) e da solução particular (também chamada de resposta forçada), que são dadas por:
+\begin{align}
+    x = x_h + x_p\begin{cases}x_h(t) = Ae^{-\zeta \omega_n t} \sin(\omega_d t + \phi) \\ x_p(t) = M\sin(\Omega t) + N \cos{(\Omega t)}\end{cases}
+\end{align}
+
+A partir disso, para descobrirmos os valores de $M$ e $N$ basta nós substituirmos $x_p$ na equação diferencial dada pela equação \ref{eq:vib_forcada_amortecida_1dof} resultando em:
+\begin{align}
+    M & = \frac{(\omega_n^2 - \Omega^2)f_0}{(\omega_n^2 - \Omega^2)^2 + (2\zeta \omega_n\Omega)^2} = \frac{(1 - r^2) f_0/\omega_n^2}{(1 - r^2)^2 + (2 \zeta r)^2} \n
+    N & = \frac{-2\zeta \omega_n \Omega f_0}{(\omega_n^2 - \omega^2)^2 + (2\zeta\omega_n\Omega)^2} = \frac{-2\zeta r f_0/\omega_n^2}{(1 - r^2)^2 + (2\zeta r)^2}
+\end{align}
+
+Onde temos que $r = \Omega / \omega_n$ é chamado de razão das frequências.
+
+A partir disso, podemos, ainda, reescrever a resposta forçada ($x_p$) como sendo:
+\begin{align}
+    x_p(t) = X\sin(\Omega t - \theta)
+\end{align}
+
+Tal que:
+\begin{itemize}
+    \item $X = \sqrt{M^2 + N^2}$
+    \item $\tan{\theta} = (2\zeta r)/(1-r^2)$
+\end{itemize}
+
+Tal forma é mais intuitiva de ser utilizada para visualizarmos (sem plotar) a resposta forçada do sistema. Ela nada mais é do que uma senoide (com uma certa amplitude $X$), com a mesma
+frequência $\Omega$ da força harmônica de entrada mas com um delay (\emph{i.e} um shift $\theta$).
+
+Além disso, essa re-escrita nos ajuda a analisar algo chamado de \textbf{Fator de Amplificação}, denotado por \textbf{$MF$}, que é dado por\footnote{É importante apontar que $MF$ é
+    adimensional propositalmente, pois facilita a análize. A partir disso, se houver um outro sistema o qual você queira identificar o $MF$ nós pegamos a equação que define $X$ (a amplitude da
+    resposta) e tentamos isolar (em função de $X$ e outras coisas) o resto da função que dependa somente de $r$ e $\zeta$, que interferem na amplitude da oscilação e que também são adimencionais.}:
+\begin{align}
+    MF = \frac{Xk}{F_0} = \frac{X\omega_n^2}{f_0} = \frac{1}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}}\label{eq:fator_de_amplificacao}
+\end{align}
+
+De tal forma que nós conseguimos analisar e determinar o comportamento da amplitude de saída em relação à razão entre $\Omega/\omega_n$ e ainda, por conseguinte, o pico de resposta em frequência (dada pelo valor máximo de $MF$) que corresponde a \textbf{Resonância de um Sistema Forçado de 1DOF
+    Amortecido}. Tal ponto de resonância pode ser obtido via experimentação ou ainda analiticamente, se tivermos o modelo matemático que rege nosso sistema, de tal forma que é obtido pela análise
+dos pontos críticos da função $MF$, dada pelos pontos onde a sua derivada é zero. Ao aplicarmos isso no exemplo em questão temos que:
+\begin{align}
+    MF_{max} = \frac{1}{2\zeta\sqrt{1-\zeta^2}}, \ \ \ r_{pico} = \sqrt{1 - 2\zeta^2} < 1
+\end{align}
+
+Podemos, ainda, estudar graficamente o comportamento do Fator de Amplificação em relação a razão de frequências e coeficiente de amortecimento ao plotarmos a equação \ref{eq:fator_de_amplificacao} em função de $r$, como
+mostrado na imagem abaixo:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/fator_ampl.png}
+\end{figure}
+
+Onde Observamos que o ponto de máxima ocorre para $r < 1 \Rightarrow \Omega < \omega_n$.
+Além disso, em um cenário onde estamos analizando um \emph{Bode Plot} da resposta em frequência é importante ressaltar que o momento onde ocorre a inversão da frequência de resposta,
+\emph{i.e} ocorre um shift de $90^\circ$ entre a frequência de excitação e de resposta, representa o ponto de $r=1$, ou seja, $\Omega = \omega_n$. Isso nos ajuda a identificar o sistema
+quando temos somente a resposta em frequência do sistema em questão.
+
+\newpage
+\section{Desbalanceamento Rotativo}
+Como um exemplo de vibração forçada com amortecimento viscoso ecxitação harmônica  é um problema de desbalanceamento rotativo, como modelado pelo sistema abaixo:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/desb_rotativo.png}
+    \caption{Modelagem de um Desbalanceamento Rotativo Com Amortecimento Viscoso}
+\end{figure}
+
+Esse sistema nós temos a seguinte modelagem\footnote{É importante ressaltar que $m$ é a massa que está desbalanceada, então se tiver 3 massas, mas duas delas estiverem radialmente opostas
+    elas estariam balanceadas e teria somente uma das massas como desbalanceada. Além disso é importante ressaltar que $M$ é a soma de TODAS as massas, menos a desbalanceada}, feita a partir
+do conceito de \emph{Sistemas de Corpos Interligados}:
+
+\begin{align}
+    \sum F = \sum M \ddot x \Rightarrow M\ddot x + c \dot x + kx = me\Omega^2 \sin(\Omega t)
+\end{align}
+
+Onde teremos uma resposta senoidal para a solução particular também como sendo $X \sin{(\Omega t - \theta)}$ com a amplitude $X$ dada por:
+\begin{align}
+    X = \frac{(me/M) r^2}{\sqrt{(1-r^2)^2 + (2\zeta r)^2}}
+\end{align}
+
+E o ângulo de fase sendo:
+\begin{align}
+    \tan{(\theta)} = \frac{2\zeta r}{ 1 - r^2}
+\end{align}
+
+Assim como vimos no capítulo anterior, podemos estudar a amplitude da resposta pela análise do \emph{Fator De amplificação}, que para esse caso é dado por:
+\begin{align}
+    MF = \frac{X}{(me/M)} = \frac{r^2}{\sqrt{(1-r^2)^2 + (2\zeta r )^2}}
+\end{align}
+
+A partir do qual podemos ver que o ponto máximo do Fator De Amplificação ocorre quando:
+\begin{align}
+    r = r_{pico} = \frac{1}{\sqrt{1 - 2\zeta^2}} > 1
+\end{align}
+
+O que implica que, diferente do sistema com excitação harmônica amortecido simples visto na seção anterior, quando estamos lidando com um \textbf{desbalanceamento rotativo temos que a frequência da
+    entrada forçante é maior que a frequência natural do sistema no ponto de ressonância}. O que é um indicativo de qual modelo usar quando estamos fazendo a identificação do sistema e temos a sua resposta em
+frequência (como um Bode Plot).
+\newpage
+
+\section{Transmissibilidade}
+Considerando o sistema descrito abaixo, nosso objeto de estudo agora será determinar a força que chega ao suporte do sistema no cenário de \textbf{Regime Permanente}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.2\textwidth]{imgs/trans.png}
+\end{figure}
+
+Ao fazermos o DCL e  a soma das forças em $x$(que tem origem no ponto de eq. estático logo desconsideramos o peso) vemos que a força $F$ aplicada sobre o suporte é:
+\begin{align}
+    F = \sum F_x = kx + c\dot x
+\end{align}
+
+
+Analisando em regime permanente (e por conseguinte analisando a resposta forçada do sistema) teremos:
+\begin{align}
+    F = kX\sin(\Omega t - \theta) + c \Omega X \cos(\Omega t - \theta) ,   x(t) = X\sin(\Omega t -\theta)
+\end{align}
+
+Como estamos lidando com soma de cossenos e senos, podemos representar como sendo somente um seno e uma amplitude, o que facilitará nossas contas e nossas análises (principalmente de
+amplitude). Reescrevendo a função acima temos:
+\begin{align}
+    F & = \sqrt{(kX)^2 + (x\Omega X)^2} \sin(\Omega t - \theta - \beta) \n
+      & = \sqrt{(kX)^2 + (x\Omega X)^2}  X \sin(\Omega t - \sigma)
+\end{align}
+
+A partir disso, podemos analisar que a amplitude máxima (e por conseguinte a força máxima) sofrida pelo suporte do sistema é:
+\begin{align}
+    F_T = X\sqrt{k^2 + (c \Omega)^2}
+\end{align}
+
+Com isso, somos capazes de introduzir o conceito de \textbf{TRANSMISSIBILIDADE} $TR$, que é uma relação entre a amplitude da força máxima que chega no suporte do sistema e a amplitude da força aplicada no sistema
+como um todo:
+\begin{align}
+    TR = \frac{F_T}{F_0} = \frac{\sqrt{1 + (2 \zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2 \zeta r)^2}}
+\end{align}
+
+Podemos, por fim, analisar o impacto da constante de amortecimento $\zeta$ e da razão das frequências $r$ tal que, para o caso $r=0$ temos o caso estático.
+
+E podemos, então, observar que quanto menos amortecido, mais força chega no suporte pois gera uma \textbf{amplificação} da força de entrada, podendo quebrar o suporte se não projetado
+propriamente. Além disso, para qualquer configuração há uma frequência de excitação que resultará em uma Transmissiblidade máxima, que ocorre quando:
+\begin{align}
+    r_{pico} = \frac{\sqrt{-1 + \sqrt{1 + 0 \zeta ^2}}}{2 \zeta} < 1
+\end{align}
+
+Uma análise de transmissibilidade também pode ser feita para o caso de um desbalanceamento rotativo, dado por:
+\begin{align}
+    TR = \frac{F_T}{me\omega_n^2} = \frac{r^2\sqrt{1 + (2\zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}}
+\end{align}
+
+Que analogamente ao fator de amplificação,  possui $r_{pico} > 1$, isso é, valor máximo de transmissibilidade rotativa para frequências de rotação maiores que a frequência natural de
+vibração do sistema.
+
+\section{Oscilação do Suporte}
+Até o momento vimos casos onde há excitação harmônica no formato de uma força sendo aplicada no sistema. Uma forma que também é extremamente comum de gerar vibrações em sistemas é onde
+ocorre a \textbf{Oscilação} do suporte no qual o sistema está fixado. Para tais casos, modelamos o sistema como demonstrado na figura \ref{fig:osci_suporte}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/osci_suporte.png}
+    \caption{Modelo de um sistema com oscilação do suporte}
+    \label{fig:osci_suporte}
+\end{figure}
+
+
+Para casos como esse, é mais fácil estabelecermos duas coordenadas distintas, mas modelarmos (como veremos abaixo) com uma cordenada que representa a diferença entre as duas (como se fosse
+uma "coordenada relativa"). Ao fazermos isso temos:
+\begin{align}
+    m\ddot x + c \dot x + kx = y_0\sqrt{k^2 + (c\Omega)^2}\sin{(\Omega t - \beta)}, \beta = \tan^{-1}-(c\Omega)/k = -2\zeta r
+\end{align}
+
+Cujo possui, como podemos ver acima, uma amplitude da força excitante sendo $F_0 = y_0 \sqrt{k^2 + (c\Omega)^2}$. A partir do que podemos resolver a EDO e achar:
+
+$ \\ $
+\textbf{SOLUÇÃO EM REGIME:}
+\begin{align}
+    x(t) & = X \sin(\Omega t - \gamma) \begin{cases}
+                                           X = \frac{y_0\sqrt{1 + (2\zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2 \zeta r)^2}} \\
+                                           \gamma = \beta + \phi                                                     \\
+                                           \beta = \tan^{-1} (-c\Omega)/k = -2\zeta r                                \\
+                                           \phi = \tan^{-1} 2\zeta r / (1 - r^2)
+                                       \end{cases} \\
+    MF   & = X / y_0
+\end{align}
+
+\textbf{FORÇA TRANSMITIDA}
+\begin{align}
+    F_T = y_0 k \frac{r^2 \sqrt{1 + (2\zeta r)^2}}{\sqrt{(1 - r^2)^2 + (2\zeta r)^2}} \\
+    TR = F_T / y_0 k
+\end{align}
+
+
+\newpage
+\section{Análise Modal}
+
+\subsection{Introdução}
+A análise modal é uma forma diferente de abordar o estudo dos modos de vibração para grandes sistemas e grandes máquinas, pois nos permite (como veremos mais para frente) analisar certas partes do sistema de forma mais direta e específica do que é possível para o método usado até agora.
+
+É dividido entre o processo teórico (no qual é dividido entre análise no domínio do tempo e análise no domínio da frequência, \emph{FRF}) e o processo experimental de análise de vibrações. A partir daqui iremos revisitar sistemas conhecidos, mas dessa vez utilizando a análise modal  e RFR.
+
+\subsubsection*{Processo de Análise Teórico}
+\begin{align*}
+    \overbrace{Modelo\ Espacial }^{[M], [C], [K]}\rightarrow \underbrace{Modos\ de\ Vib.}_{"Modelo\ Modal", \omega_n, \zeta, modos\ de \ vibrar} \rightarrow \overbrace{Niveis\ de\ resposta}^{Resposta\ em\ Freq.\ e\ Resposta\ ao\ impulso}
+\end{align*}
+
+\subsubsection*{Processo de Análise Experimental}
+\begin{align*}
+    Propriedades\ e\ caracteristicas\ da\ resposta \rightarrow modos\ de\ vib. \rightarrow modelo\ estrutura
+\end{align*}
+
+
+\subsection{Sistema de 1DOF sem amortecimento}
+\subsubsection*{Modelo Modal:}
+\begin{align*}
+    m \ddot x + kx = 0; x(t) = e^{i\omega t}
+\end{align*}
+
+Substituindo na equação diferencial temos:
+\begin{align*}
+    m(-\omega^2 X e^{i \omega t}) + k X e^{i \omega t} = 0 \Rightarrow k-\omega^2 m= 0
+\end{align*}
+
+\begin{itemize}
+    \item Uma frequência natural $\omega_n = \sqrt{k/m}$
+    \item Um modo de vibrar
+\end{itemize}
+
+\subsubsection*{Análise de Resposta em Frequência:}
+\begin{itemize}
+    \item Excitação do tipo $f(t) = Fe^{i\Omega t}$, com uma solução do tipo $x(t) = Xe^{i\Omega t}$,  resultando em:
+\end{itemize}
+
+\begin{align}
+    (k - \Omega^2m)Xe^{i\Omega t} = Fe^{i\Omega t} \Rightarrow  \underbrace{\alpha(\Omega) =\frac{X}{F} = \frac{1}{k - \Omega^2m}}_{Receptancia\ do\ Sistema}
+\end{align}
+
+\subsection{Sistema com 1DOF Amortecido}
+
+\subsubsection*{Modelo Modal:}
+Para o movimento livre temos a seguinte EDO:
+\begin{align*}
+    m\ddot x + x\dot x + kx = 0, x(t) = Xe^{\lambda t} \Rightarrow m\lambda^2 + c\lambda + k = 0 \therefore \begin{cases}
+                                                                                                                \lambda_{1,2} = -\zeta \omega_n \pm i \omega_n \sqrt{1-\zeta^2} \\ \omega_n = \sqrt{\frac{k}{m}} \\ \zeta = \frac{c}{2\sqrt{km}}
+                                                                                                            \end{cases}
+\end{align*}
+
+\subsubsection*{Análise de Resposta em Frequência}
+\begin{align*}
+    m\ddot x + c\dot x + kx = f(t) = Fe^{i\Omega t}
+\end{align*}
+
+Como estamos analisando a resposta em frequência, logo estamos interessado somente na resposta em regime permanente, temos que:
+\begin{align*}
+    x(t) = Xe^{i\Omega t} \Rightarrow (-\Omega^2m + i\Omega c + k)Xe^{i\Omega t} = Fe^{i\Omega t}
+\end{align*}
+
+Resultando na seguinte receptância:
+\begin{align}
+    \alpha(\Omega) = \frac{X}{F} = \frac{1}{(k - \Omega^2 m) + i \Omega c}
+\end{align}
+
+O qual podemos observar que é complexo e possui o seguinte módulo e fáse:
+\begin{align}
+    |\alpha(\Omega) = \frac{1}{\sqrt{(k - \Omega^2)^2 + (\Omega c)^2}}| \\
+    \theta_\alpha = -tg^{-1} \left[\frac{-\Omega c}{k - \Omega^2 m}\right]
+\end{align}
+
+Tendo ainda as seguintes \textbf{formas alternativas para resposta em frequência}:
+\begin{itemize}
+    \item $\alpha(\Omega)$: Receptância (deslocamento/força)
+    \item $Y(\Omega)$: Mobilidade\footnote{Como a mobilidade só é a derivada da receptância, podemos ver que no domínio da frequência derivar (i.e passar do deslocamento para a velocidade) basta multiplicar por $i\Omega$, análogo a como no plano $s$ de Laplace bastava multiplicar por $s$} (velocidade/força), onde $Y(\Omega) = i \Omega \alpha(\Omega)$, $|Y(\Omega)| = \Omega |\alpha(\Omega)|$ e $\theta_y = \theta_\alpha - 90^\circ$
+    \item $A(\Omega)$: Inertância (aceleração/força), onde $A(\Omega) = -\Omega^2 \alpha(\omega)$
+\end{itemize}
+
+Podemos usar, também, as relações inversas para análise de resposta em frequência:
+\begin{itemize}
+    \item Dynamic Stiffness (força/deslocamento)
+    \item Impedância Mecânica (força/velocidade)
+    \item Massa Aparente (força/aceleração)
+\end{itemize}
+
+\subsection{Representação Gráfica da FRF}
+Como a FRF é uma função complexa, sua representação não é trivial, sendo as formas de visualização mais comuns sendo:
+\begin{itemize}
+    \item Bode Plot: Que possui 2 gráficos, sendo eles Módulo x $\Omega$ e fase x $\Omega$
+    \item Diagrama de Nyquist: Parte real x Parte imaginária, frequência não explicita em um eixo
+    \item Genérico: também com dois gráficos, sendo eles Parte Real x $\Omega$ e Parte Imaginária x $\Omega$
+\end{itemize}
+
+\newpage
+\subsection{Análise de Assíntotas da FRF}
+A fim de estudarmos o comportamento da resposta em frequência de sistemas, principalmente nos casos onde a frequência de excitação é próxima da frequência natural do sistema, iremos analisar a receptância, mobilidade e inertância para um sistema de 1 DOF não amortecido:
+
+\subsubsection*{Receptância}
+Como a receptância de um sistema de 1DOF não amortecido é dado por:
+\begin{align*}
+    \alpha(\Omega) = \frac{1}{k - \Omega^2m}
+\end{align*}
+
+Temos os seguintes casos:
+\begin{itemize}
+    \item \textbf{Para Baixas Frequências ($\Omega \rightarrow 0$)}: $\alpha(\Omega) \approx 1/k$
+    \item \textbf{Para Altas Frequências ($\Omega \rightarrow +\infty$)}: $\alpha(\Omega) \approx 1/(-\Omega^2 m)$
+\end{itemize}
+
+Que, ao plotarmos, tem o seguinte comportamento:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\textwidth]{imgs/receptancia.png}
+    \caption{Receptância $\alpha$ em função de $\Omega$ para  sistemas com diferentes frequências naturais}
+\end{figure}
+
+\newpage
+\subsubsection*{Mobilidade}
+Como a mobilidade é dada por:
+\begin{align*}
+    y(\Omega) = \frac{i\Omega}{k - \Omega^2m}
+\end{align*}
+
+Temos:
+\begin{itemize}
+    \item \textbf{Para Baixas Frequências ($\Omega \rightarrow 0$)}: $y(\Omega) \approx i\Omega/k$
+    \item \textbf{Para Altas Frequências ($\Omega \rightarrow +\infty$)}: $y(\Omega) \approx -i/(\Omega m)$
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{imgs/mobilidade.png}
+    \caption{Mobilidade $|y(\Omega)|$ em função de $\Omega$ para  sistemas com diferentes frequências naturais}
+\end{figure}
+
+\subsubsection*{Inertância}
+Como a inertância é dada por:
+\begin{align*}
+    A(\Omega) = \frac{-\Omega^2}{k - \Omega^2m}
+\end{align*}
+
+Temos:
+\begin{itemize}
+    \item \textbf{Para Baixas Frequências ($\Omega \rightarrow 0$)}: $A(\Omega) \approx -\Omega^2 / m$
+    \item \textbf{Para Altas Frequências ($\Omega \rightarrow +\infty$)}: $A(\Omega) \approx 1/m$
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{imgs/inertancia.png}
+    \caption{Inertância $|A(\Omega)|$ em função de $\Omega$ para  sistemas com diferentes frequências naturais}
+\end{figure}
+
+\newpage
+\subsection{Sistema de nDOF sem Amortecimento}
+A fim de exemplificarmos o método de análise modal para $n$ graus de liberdade, iremos utilizar o modelo de $n=2$ graus de liberdade, representado por dois carros, com uma mola entre eles, e com molas nas extremidades conectando as paredes, sendo submetidos a forças $f_1$ no primeiro carrinho e $f_2$ no segundo.
+
+Para esse caso, iremos ter o seguinte sistema de EDOs que regem as leis de movimento, e sua respectiva forma matricial:
+\begin{align*}
+    \begin{rcases}
+        m_1\ddot x_1 + (k_1 + k_2)x_1 - k_2x_2 = f_1 \\
+        m_2\ddot x_2 + (k_2 + k_3)x_2 - k_2x_1 = f_2
+    \end{rcases} \Rightarrow \underbrace{\begin{bmatrix}
+                                                 m_1 & 0   \\
+                                                 0   & m_2
+                                             \end{bmatrix}}_{[M]} \left\{\begin{matrix}
+                                                                         \ddot x_1 \\ \ddot x_2
+                                                                     \end{matrix}\right\}+
+    \underbrace{\begin{bmatrix}
+                        k_1 + k_2 & -k_2    \\
+                        -k_2      & k_2+k_3
+                    \end{bmatrix}}_{[K]}\left\{\begin{matrix}
+                                               x_1 \\  x_2
+                                           \end{matrix}\right\} = \left\{\begin{matrix}
+                                                                             f_1 \\ f_2
+                                                                         \end{matrix}\right\}
+\end{align*}
+
+
+
+
+
+
+
+
+
+
 \end{document}

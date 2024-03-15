@@ -1,0 +1,101 @@
+\documentclass{article}
+
+    \author{Pedro Henrique Limeira da Cruz}
+    \title{ES827 – Robótca Industrial}
+    \input{preamble}
+    % Begin the Document 
+    \begin{document}
+    
+    \maketitle
+    \thispagestyle{empty}
+    
+    % Add the image inside a figure in as the first page
+    % \begin{figure}[h]
+    %     \begin{center}
+    %         \includegraphics[scale = 0.15]{/Users/pedrocruz/Documents/UNICAMP/ES101/ES101 - Robotic Arm/img/unicamp.png}
+    %     \end{center}
+    % \end{figure}
+    
+    % Change to the Next page 
+    \newpage
+    \tableofcontents
+    \newpage
+    \section{Conceitos Iniciais}
+        De forma geral, os Robos podem vir de diferentes formas, tamanho, natureza, etc. A fim de facilitar o estudo dos diferentes tipos de robos existentes, algumas categorias foram criadas, cada uma baseando-se em um aspecto distinto, sendo as duas principais baseadas em:
+        \begin{itemize}
+            \item Método de controle: Levando em consderação qual o tipo de controle empregado no robo, nós podemos qualifica-los em "servo robos", aqueles que utilizam uma malha fechada, e os chamados "não servo", que utilzam malha aberta, através de limtadores físicos somente, e que são utilizados muito mas em transferênca de matéria do que processo refinados.
+            \item Geometria: Os robos também podem ser dvididos e estuados no que diz respeito a quantidade e ao tipo de juntas (joints) que o robô possui, tópicos que iremos nos aprofundar a seguir.
+        \end{itemize}
+
+        \subsection{Classficação: Geometria}
+        De forma geral, os robos podem ser caracterizados pela quantidade de artculações que ele tem (por sua estreita relação com a quantdade de Graus de liberdade que isso lhe proporciona). Essa questão de quantidade de graus de liberdade, entretanto, vai ser abrodada mais para frente, e iremos focar, no momento, nos \emph{tipo} de juntas que podem existir em um robô, sendo elas:
+
+        \begin{table}[h]
+            \centering
+            \begin{tabular}{lcl} 
+                 Nome & Representação & Descrição  \\ \hline
+                 Junta Rotacional & \begin{minipage}{0.5\linewidth}
+                     \centering
+                     \includegraphics[width=0.5\linewidth]{imgs/rotacional.jpg}
+                 \end{minipage} & \begin{minipage}{0.3\linewidth}Vetorialmente representada pelo vetor normal à face de rotação (análogo ao vetor que representa torque/momento). \end{minipage} \\ 
+                 Junta Prismática & \begin{minipage}{0.5\linewidth}
+                     \centering
+                     \includegraphics[width=0.25\linewidth]{imgs/prismática.png}
+                 \end{minipage} & \begin{minipage}{0.3\linewidth}Representada por uma face uma projetada e seta bi-drecional para representar o movimento de ida e volta. \end{minipage} \\ 
+            \end{tabular}
+            \caption{Tipos de Juntas}
+        \end{table}
+
+        A partir do conhecimento dos tipos de articulações possíves, um robô/manipulador é geralmente classificado cinematicamente a partir das três primeiras articulações que possui, sendo as principais topologias:
+        \begin{itemize}
+            \item RRR
+            \item RRP
+            \item RPP
+            \item PPP
+        \end{itemize}
+        
+    \newpage
+    \section{Movimentação de Corpos Rigidos e Transformações Homogêneas}
+        \subsection{Introdução}
+            De modo geral, posições, deslocamentos e pontos de interesse, no campo de Robótica, são representados atrvés de vetores e diferentes sistemas de coordenadas (e.g path planning, localização, entre outros).
+
+            Levando isso em consideração, saber utilizar, interpretar e operar com vetores e sistemas de coordenadas é de suma importância, e veremos diversos tópicos sobre.
+
+        \subsection{Representação de Posição}
+            O elemento mais básico em um sistemas de coordendas é um ponto (representado por um vetor indo da origem do sistema de coordenadas até o ponto de interesse), que no nosso caso representa uma posição. Em um sistema de 3 dimensões ($x, y, z$), o ponto será representado através de um vetor $3\times 1$, como o exemplo abaixo:
+            \begin{align}
+                p^0 = \begin{bmatrix}
+                    5 \\ 
+                    6 \\
+                    0
+                \end{bmatrix}
+            \end{align}
+
+            No exemplo acima, nós podemos observar a primeira notação que nos auxilia na interpretação e análise de problemas que possui vários pontos e, mais importante, vários sistemas de coordenadas:
+            \begin{note}
+                A fim de evitar a confusão durante a análise de problemas com vários referenciais, é utilizado a notação de sobrescrito no nome do vetor (no caso abaixo $p^\alpha$ e $p^\beta$) a fim de explicitar em relação a qual sistemas de coordenadas aquele ponto/vetor se refere.
+                \begin{align*}
+                    \underbrace{p^\alpha = \begin{bmatrix}
+                        5 \\ 
+                        6 \\
+                        0
+                    \end{bmatrix}}_{Ponto \ \ p \ \ no \ \ Referencial \ \  \alpha} \ \ \ \ \ \ \ \ \ 
+                    \underbrace{p^\beta = \begin{bmatrix}
+                        -2.8 \\ 
+                        4.2 \\
+                        0
+                    \end{bmatrix}}_{Mesmo \ \ Ponto \ \ p \ \ , \ \ mas \ \ no \ \ Referencial \ \  \beta}
+            \end{align*}            \end{note}
+
+        \subsection{Representação de Rotação}
+            Em problemas de robótica, é comum lidarmos com vários corpos rigidos (por exemplo várias partes de um braço robótico), e para fazermos isso, nós fixamos diferentes sistemas de coordenadas em cada um (todos tendo origens definidas a partir de um sistemas de coordenadas "universal"), e resolvemos o problema de descrever a orientação dos diferentes sistemas de coordendas em relação uns aos outros através de transformações, sendo a primeira delas a rotação.
+
+            A forma na qual nós representamos 
+    \newpage
+    \begin{note}
+        potato
+    \end{note}
+    \ex{potatopudim}{a}
+
+
+\end{document}

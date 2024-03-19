@@ -85,12 +85,40 @@
                         4.2 \\
                         0
                     \end{bmatrix}}_{Mesmo \ \ Ponto \ \ p \ \ , \ \ mas \ \ no \ \ Referencial \ \  \beta}
-            \end{align*}            \end{note}
+            \end{align*}            
+        
+                Além disso, é importante ressaltar que para qualquer tipo de operação envolvendo vetores, é necessário que todos estejam no mesmo sistema cartesiano, por isso a notação acima é útil, pois todos os vetores precisam ter o sobrescrito igual (\emph{e.g.} $p^\alpha$ e $r^\alpha$).
+            \end{note}
 
         \subsection{Representação de Rotação}
-            Em problemas de robótica, é comum lidarmos com vários corpos rigidos (por exemplo várias partes de um braço robótico), e para fazermos isso, nós fixamos diferentes sistemas de coordenadas em cada um (todos tendo origens definidas a partir de um sistemas de coordenadas "universal"), e resolvemos o problema de descrever a orientação dos diferentes sistemas de coordendas em relação uns aos outros através de transformações, sendo a primeira delas a rotação.
+            Em problemas de robótica, é comum lidarmos com vários corpos rigidos (por exemplo várias partes de um braço robótico), e para fazermos isso, nós fixamos diferentes sistemas de coordenadas em cada um (todos tendo origens definidas a partir de um sistemas de coordenadas "universal"). Isso nos possibilita estudar cada membro de forma independente, resultando em problemas menores de serem analisados.
 
-            A forma na qual nós representamos 
+            Tais corpos rígidos (que nada mais são do que vetores em seus respectivos sitemas de coordendas) podem sofrer movimentações, sendo a mais simples delas a rotação. Quando nós dizemos que um dos corpos rotacionou, nós podemos pensar tanto que ele rotacionou em relação ao seu próprio sistemas de coordendas, ou que todo o sistema de coordendas rotacionou em relação a outro sistema de coordendads, mas que o vetor que representa o corpo rígido, em relação ao seu sistema de coordendas, continuou fixo (como podemos ver pela imagem abaixo). 
+
+            A fim de padronizar e facilitar o entendimento, nós iremos interpretar que a rotação é do sistema de coordenadas como um todo, em um ângulo $\theta$ em relação a outro sistema de coordenadas (podendo ser ou não em relação ao sistema de coordendadas fixo).
+
+            A forma na qual nós representamos isso é através da \textbf{Matriz de Rotação}. Existem 3 matrizes de rotação, cada uma considerando um dos eixos principais do sistemas de coordenadas $j$ como o eixo de rotação, sendo elas:
+            
+            \begin{align}
+                R_i^j|_{z, \theta} = \begin{bmatrix}
+                                \cos \theta & -\sin \theta & 0 \\ 
+                                \sin \theta & \cos \theta  & 0 \\ 
+                                0           &        0     & 1
+                                \end{bmatrix} \ \ 
+                \vspace*{15px}
+                R_i^j|_{x, \theta} = \begin{bmatrix}
+                                1           &        0    & 0 \\
+                                0           & \cos \theta & -\sin \theta  \\ 
+                                0           & \sin \theta & \cos \theta   
+                                \end{bmatrix} \ \
+                R_i^j{y, \theta} = \begin{bmatrix}
+                                \cos \theta & 0 & \sin \theta  \\ 
+                                0           &        1     & 0 \\
+                                -\sin \theta & 0 & \cos \theta \\ 
+                                \end{bmatrix} 
+            \end{align}
+
+            De forma análoga a representação utilizada para vetores em diferentes sistemas de coordendadas, para a rotação nós representamos o sistema que sofreu a rotação no subscrito e o sistema de referência para a rotação no superscript. 
     \newpage
     \begin{note}
         potato
